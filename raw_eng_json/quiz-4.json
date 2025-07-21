@@ -1,0 +1,392 @@
+[
+  {
+    "question_id": "q-46",
+    "question_text": "Which component of AWS Global Infrastructure does Amazon CloudFront use to ensure low-latency delivery?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "46-0",
+        "answer_text": "AWS Regions",
+        "is_correct": false
+      },
+      {
+        "answer_id": "46-1",
+        "answer_text": "AWS edge locations",
+        "is_correct": true
+      },
+      {
+        "answer_id": "46-2",
+        "answer_text": "AWS Availability Zones",
+        "is_correct": false
+      },
+      {
+        "answer_id": "46-3",
+        "answer_text": "Amazon Virtual Private Cloud (Amazon VPC)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-47",
+    "question_text": "Which of the following is an optional security control that can be applied at the subnet layer of a VPC?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "47-0",
+        "answer_text": "Web application firewall",
+        "is_correct": false
+      },
+      {
+        "answer_id": "47-1",
+        "answer_text": "Security group",
+        "is_correct": false
+      },
+      {
+        "answer_id": "47-2",
+        "answer_text": "Firewall",
+        "is_correct": false
+      },
+      {
+        "answer_id": "47-3",
+        "answer_text": "Network ACL",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-48",
+    "question_text": "What happens when you use Amazon VPC to create a new VPC?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "48-0",
+        "answer_text": "A main route table is created by default.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "48-1",
+        "answer_text": "Three subnets are created by default: one for each Availability Zone.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "48-2",
+        "answer_text": "Three subnets are created by default in one Availability Zone.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "48-3",
+        "answer_text": "An internet gateway is created by default.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-49",
+    "question_text": "Which of the following can be used to protect Amazon EC2 instances hosted in AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "49-0",
+        "answer_text": "Security group",
+        "is_correct": true
+      },
+      {
+        "answer_id": "49-1",
+        "answer_text": "Internet Gateway",
+        "is_correct": false
+      },
+      {
+        "answer_id": "49-2",
+        "answer_text": "AMI",
+        "is_correct": false
+      },
+      {
+        "answer_id": "49-3",
+        "answer_text": "All of the above",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-50",
+    "question_text": "You are a solutions architect... When you create a VPC, you assign it to an IPv4 CIDR block of 10.0.1.0/24 (which has 256 total IP addresses). How many IP addresses are available?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "50-0",
+        "answer_text": "250",
+        "is_correct": false
+      },
+      {
+        "answer_id": "50-1",
+        "answer_text": "246",
+        "is_correct": false
+      },
+      {
+        "answer_id": "50-2",
+        "answer_text": "251",
+        "is_correct": true
+      },
+      {
+        "answer_id": "50-3",
+        "answer_text": "256",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-51",
+    "question_text": "Why is AWS more economical than traditional data centers for applications with varying compute workloads?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "51-0",
+        "answer_text": "Amazon EC2 costs are billed on a monthly basis.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "51-1",
+        "answer_text": "Customers retain full administrative access to their Amazon EC2 instances.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "51-2",
+        "answer_text": "Customers can permanently run enough instances to handle peak workloads.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "51-3",
+        "answer_text": "Amazon EC2 instances can be launched on-demand when needed.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-52",
+    "question_text": "If your project requires monthly reports that iterate through very large amounts of data, which Amazon EC2 purchasing option should you consider?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "52-0",
+        "answer_text": "Spot Instances",
+        "is_correct": false
+      },
+      {
+        "answer_id": "52-1",
+        "answer_text": "Scheduled Reserved Instances",
+        "is_correct": true
+      },
+      {
+        "answer_id": "52-2",
+        "answer_text": "Dedicated Hosts",
+        "is_correct": false
+      },
+      {
+        "answer_id": "52-3",
+        "answer_text": "On-Demand Instances",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-53",
+    "question_text": "What is included in an Amazon Machine Image (AMI)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "53-0",
+        "answer_text": "A template for the root volume for the instance",
+        "is_correct": false
+      },
+      {
+        "answer_id": "53-1",
+        "answer_text": "Launch permissions that control which AWS accounts can use the AMI",
+        "is_correct": false
+      },
+      {
+        "answer_id": "53-2",
+        "answer_text": "A block device mapping that specifies the volumes to attach to the instance",
+        "is_correct": false
+      },
+      {
+        "answer_id": "53-3",
+        "answer_text": "All of the above",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-54",
+    "question_text": "Which Amazon EC2 feature ensures your instances will not share a physical host with instances from any other AWS customer?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "54-0",
+        "answer_text": "Amazon VPC",
+        "is_correct": false
+      },
+      {
+        "answer_id": "54-1",
+        "answer_text": "Placement groups",
+        "is_correct": false
+      },
+      {
+        "answer_id": "54-2",
+        "answer_text": "Dedicated Instances",
+        "is_correct": true
+      },
+      {
+        "answer_id": "54-3",
+        "answer_text": "Reserved Instances",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-55",
+    "question_text": "Which of the following services is a serverless compute service in AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "55-0",
+        "answer_text": "AWS Config",
+        "is_correct": false
+      },
+      {
+        "answer_id": "55-1",
+        "answer_text": "AWS Lambda",
+        "is_correct": true
+      },
+      {
+        "answer_id": "55-2",
+        "answer_text": "AWS OpsWorks",
+        "is_correct": false
+      },
+      {
+        "answer_id": "55-3",
+        "answer_text": "Amazon EC2",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-56",
+    "question_text": "What is the service provided by AWS that enables developers to easily deploy and manage applications in the cloud?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "56-0",
+        "answer_text": "Amazon Elastic Container Service",
+        "is_correct": false
+      },
+      {
+        "answer_id": "56-1",
+        "answer_text": "AWS Elastic Beanstalk",
+        "is_correct": true
+      },
+      {
+        "answer_id": "56-2",
+        "answer_text": "AWS Opswork",
+        "is_correct": false
+      },
+      {
+        "answer_id": "56-3",
+        "answer_text": "AWS CloudFormation",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-57",
+    "question_text": "Your web application needs four instances to support steady traffic all of the time. On the last day of the month, the traffic triples. What is the most cost-effective way to handle this pattern?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "57-0",
+        "answer_text": "Run 12 Reserved Instances all of the time.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "57-1",
+        "answer_text": "Run four On-Demand Instances constantly, then add eight more On-Demand Instances on the last day of each month.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "57-2",
+        "answer_text": "Run four Reserved Instances constantly, then add eight On-Demand Instances on the last day of each month.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "57-3",
+        "answer_text": "Run four On-Demand Instances constantly, then add eight Reserved Instances on the last day of each month.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-58",
+    "question_text": "True or False? Containers contain an entire operating system.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "58-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "58-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-59",
+    "question_text": "Which Amazon EC2 option is best for long-term workloads with predictable usage patterns?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "59-0",
+        "answer_text": "Spot Instances",
+        "is_correct": false
+      },
+      {
+        "answer_id": "59-1",
+        "answer_text": "On-Demand Instances",
+        "is_correct": false
+      },
+      {
+        "answer_id": "59-2",
+        "answer_text": "Reserved Instances",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-60",
+    "question_text": "Which of the following must be specified when launching a new Amazon EC2 Windows instance? (Choose two)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "60-0",
+        "answer_text": "Password for the administrator account",
+        "is_correct": false
+      },
+      {
+        "answer_id": "60-1",
+        "answer_text": "Amazon Machine Image (AMI)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "60-2",
+        "answer_text": "The Amazon EC2 instance ID",
+        "is_correct": false
+      },
+      {
+        "answer_id": "60-3",
+        "answer_text": "Amazon EC2 instance type",
+        "is_correct": true
+      }
+    ]
+  }
+]

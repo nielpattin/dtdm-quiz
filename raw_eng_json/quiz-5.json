@@ -1,0 +1,377 @@
+[
+  {
+    "question_id": "q-61",
+    "question_text": "True or False? Amazon S3 is an object storage suitable for the storage of flat files like Microsoft Word documents, photos, etc.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "61-0",
+        "answer_text": "TRUE",
+        "is_correct": true
+      },
+      {
+        "answer_id": "61-1",
+        "answer_text": "FALSE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-62",
+    "question_text": "Amazon S3 replicates all objects ______.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "62-0",
+        "answer_text": "on multiple volumes within an Availability Zone",
+        "is_correct": false
+      },
+      {
+        "answer_id": "62-1",
+        "answer_text": "in multiple Availability Zones within the same Region",
+        "is_correct": true
+      },
+      {
+        "answer_id": "62-2",
+        "answer_text": "across multiple Regions for higher durability",
+        "is_correct": false
+      },
+      {
+        "answer_id": "62-3",
+        "answer_text": "on multiple S3 buckets",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-63",
+    "question_text": "Which of the following can be used as a storage class for an S3 object lifecycle policy? (Choose three)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "63-0",
+        "answer_text": "S3 - Standard Access",
+        "is_correct": true
+      },
+      {
+        "answer_id": "63-1",
+        "answer_text": "AWS Storage Gateway",
+        "is_correct": false
+      },
+      {
+        "answer_id": "63-2",
+        "answer_text": "S3 - Infrequent Access",
+        "is_correct": true
+      },
+      {
+        "answer_id": "63-3",
+        "answer_text": "Simple Storage Service Glacier",
+        "is_correct": true
+      },
+      {
+        "answer_id": "63-4",
+        "answer_text": "S3 - Reduced Redundancy Storage",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-64",
+    "question_text": "The name of an S3 bucket must be unique ______.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "64-0",
+        "answer_text": "worldwide across all AWS accounts",
+        "is_correct": true
+      },
+      {
+        "answer_id": "64-1",
+        "answer_text": "within a Region",
+        "is_correct": false
+      },
+      {
+        "answer_id": "64-2",
+        "answer_text": "across all your AWS accounts",
+        "is_correct": false
+      },
+      {
+        "answer_id": "64-3",
+        "answer_text": "within your AWS account",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-65",
+    "question_text": "You can use Amazon Elastic File System (Amazon EFS) to:",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "65-0",
+        "answer_text": "provide simple, scalable, elastic file storage for use only within AWS.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "65-1",
+        "answer_text": "implement storage for Amazon EC2 instances that multiple virtual machines can access at the same time.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "65-2",
+        "answer_text": "host a robust CDN to deliver entire web sites with dynamic, static, and streaming content.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "65-3",
+        "answer_text": "generate user-specific content.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-66",
+    "question_text": "Amazon EBS is recommended when data ______ and ______. (Choose two)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "66-0",
+        "answer_text": "requires object-level storage",
+        "is_correct": false
+      },
+      {
+        "answer_id": "66-1",
+        "answer_text": "must be quickly accessible, requiring long-term persistence",
+        "is_correct": true
+      },
+      {
+        "answer_id": "66-2",
+        "answer_text": "requires an encryption solution",
+        "is_correct": true
+      },
+      {
+        "answer_id": "66-3",
+        "answer_text": "needs to be stored in a different Availability Zone than the one the EC2 instance is in",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-67",
+    "question_text": "True or False? By default, all data stored in Amazon S3 is viewable by the public.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "67-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "67-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-68",
+    "question_text": "Regarding Amazon S3 Glacier, what is a Vault?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "68-0",
+        "answer_text": "The rules that determine who may (or may not) access archives",
+        "is_correct": false
+      },
+      {
+        "answer_id": "68-1",
+        "answer_text": "An object (photos, videos, files, or documents)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "68-2",
+        "answer_text": "A container for storing archives",
+        "is_correct": true
+      },
+      {
+        "answer_id": "68-3",
+        "answer_text": "A policy that identifies who can access content stored in Glacier",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-69",
+    "question_text": "True or False? When you create a bucket in Amazon S3, it is associated with a specific AWS Region.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "69-0",
+        "answer_text": "TRUE",
+        "is_correct": true
+      },
+      {
+        "answer_id": "69-1",
+        "answer_text": "FALSE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-70",
+    "question_text": "Which of the following are features of Amazon EBS? (Choose two)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "70-0",
+        "answer_text": "Amazon EBS data is automatically backed up to tape.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "70-1",
+        "answer_text": "Data on an Amazon EBS volume is lost when the attached instance is stopped.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "70-2",
+        "answer_text": "Amazon EBS volumes can be encrypted transparently to workloads on the attached instance.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "70-3",
+        "answer_text": "Data stored on Amazon EBS is automatically replicated within an Availability Zone.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-71",
+    "question_text": "You are designing an ecommerce web application that will scale to hundreds of thousands of concurrent users. Which database technology is best suited to hold the session state in this example?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "71-0",
+        "answer_text": "Amazon RDS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "71-1",
+        "answer_text": "Amazon DynamoDB",
+        "is_correct": true
+      },
+      {
+        "answer_id": "71-2",
+        "answer_text": "Amazon Redshift",
+        "is_correct": false
+      },
+      {
+        "answer_id": "71-3",
+        "answer_text": "Amazon S3",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-72",
+    "question_text": "You need to find an item in an Amazon DynamoDB table using an attribute other than the item's primary key. Which of the following operations should you use?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "72-0",
+        "answer_text": "PutItem",
+        "is_correct": false
+      },
+      {
+        "answer_id": "72-1",
+        "answer_text": "Scan",
+        "is_correct": true
+      },
+      {
+        "answer_id": "72-2",
+        "answer_text": "Query",
+        "is_correct": false
+      },
+      {
+        "answer_id": "72-3",
+        "answer_text": "GetItem",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-73",
+    "question_text": "In Amazon DynamoDB, what does the query operation enable you to do?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "73-0",
+        "answer_text": "Query a table using the partition key and an optional sort key filter",
+        "is_correct": false
+      },
+      {
+        "answer_id": "73-1",
+        "answer_text": "Query any secondary indexes that exist for a table",
+        "is_correct": false
+      },
+      {
+        "answer_id": "73-2",
+        "answer_text": "Efficiently retrieve items from a table or secondary index",
+        "is_correct": false
+      },
+      {
+        "answer_id": "73-3",
+        "answer_text": "All of the above",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-74",
+    "question_text": "Which AWS Cloud service is best suited for analyzing your data by using standard SQL and your existing BI tools?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "74-0",
+        "answer_text": "Amazon RDS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "74-1",
+        "answer_text": "Amazon S3 Glacier",
+        "is_correct": false
+      },
+      {
+        "answer_id": "74-2",
+        "answer_text": "Amazon DynamoDB",
+        "is_correct": false
+      },
+      {
+        "answer_id": "74-3",
+        "answer_text": "Amazon Redshift",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-75",
+    "question_text": "In Amazon DynamoDB, an attribute is ______.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "75-0",
+        "answer_text": "a fundamental data element",
+        "is_correct": true
+      },
+      {
+        "answer_id": "75-1",
+        "answer_text": "a collection of items",
+        "is_correct": false
+      },
+      {
+        "answer_id": "75-2",
+        "answer_text": "a collection of attributes",
+        "is_correct": false
+      }
+    ]
+  }
+]

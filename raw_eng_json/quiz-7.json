@@ -1,0 +1,442 @@
+[
+  {
+    "question_id": "q-91",
+    "question_text": "Which of the following AWS tools help your application scale up or down based on demand? (Choose two)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "91-0",
+        "answer_text": "Availability Zones",
+        "is_correct": false
+      },
+      {
+        "answer_id": "91-1",
+        "answer_text": "Amazon EC2 Auto Scaling",
+        "is_correct": true
+      },
+      {
+        "answer_id": "91-2",
+        "answer_text": "AWS CloudFormation",
+        "is_correct": false
+      },
+      {
+        "answer_id": "91-3",
+        "answer_text": "Elastic Load Balancing",
+        "is_correct": true
+      },
+      {
+        "answer_id": "91-4",
+        "answer_text": "AWS Config",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-92",
+    "question_text": "Which service would you use to send alerts based on Amazon CloudWatch alarms?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "92-0",
+        "answer_text": "Amazon Simple Notification Service (Amazon SNS)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "92-1",
+        "answer_text": "AWS CloudTrail",
+        "is_correct": false
+      },
+      {
+        "answer_id": "92-2",
+        "answer_text": "AWS Trusted Advisor",
+        "is_correct": false
+      },
+      {
+        "answer_id": "92-3",
+        "answer_text": "Amazon Route 53",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-93",
+    "question_text": "Which of the following are characteristics of Amazon EC2 Auto Scaling? (Choose three)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "93-0",
+        "answer_text": "Only supports dynamic scaling",
+        "is_correct": false
+      },
+      {
+        "answer_id": "93-1",
+        "answer_text": "Responds to changing conditions by adding or terminating instances",
+        "is_correct": true
+      },
+      {
+        "answer_id": "93-2",
+        "answer_text": "Delivers push notifications",
+        "is_correct": false
+      },
+      {
+        "answer_id": "93-3",
+        "answer_text": "Launches instances from a specified Amazon Machine Image (AMI)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "93-4",
+        "answer_text": "Enforces a minimum number of running Amazon EC2 instances",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-94",
+    "question_text": "Which of the following must be configured on an Elastic Load Balancing load balancer to expect incoming traffic?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "94-0",
+        "answer_text": "A port",
+        "is_correct": false
+      },
+      {
+        "answer_id": "94-1",
+        "answer_text": "A network interface",
+        "is_correct": false
+      },
+      {
+        "answer_id": "94-2",
+        "answer_text": "A listener",
+        "is_correct": true
+      },
+      {
+        "answer_id": "94-3",
+        "answer_text": "An instance",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-95",
+    "question_text": "Which of the following elements are used to create an Amazon EC2 Auto Scaling launch configuration? (Choose three)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "95-0",
+        "answer_text": "Amazon Machine Image (AMI)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "95-1",
+        "answer_text": "Load balancer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "95-2",
+        "answer_text": "Instance type",
+        "is_correct": true
+      },
+      {
+        "answer_id": "95-3",
+        "answer_text": "Virtual private cloud (VPC) and subnets",
+        "is_correct": false
+      },
+      {
+        "answer_id": "95-4",
+        "answer_text": "Amazon Elastic Block Store (Amazon EBS) volumes",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-96",
+    "question_text": "Which of the following services can help you collect important metrics from Amazon RDS and Amazon EC2 instances?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "96-0",
+        "answer_text": "Amazon CloudFront",
+        "is_correct": false
+      },
+      {
+        "answer_id": "96-1",
+        "answer_text": "Amazon CloudSearch",
+        "is_correct": false
+      },
+      {
+        "answer_id": "96-2",
+        "answer_text": "Amazon CloudWatch",
+        "is_correct": true
+      },
+      {
+        "answer_id": "96-3",
+        "answer_text": "AWS CloudTrail",
+        "is_correct": false
+      },
+      {
+        "answer_id": "96-4",
+        "answer_text": "Amazon EC2 Auto Scaling",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-97",
+    "question_text": "Which of the following are elements of an Auto Scaling group? (Choose three)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "97-0",
+        "answer_text": "Minimum size",
+        "is_correct": true
+      },
+      {
+        "answer_id": "97-1",
+        "answer_text": "Health checks",
+        "is_correct": false
+      },
+      {
+        "answer_id": "97-2",
+        "answer_text": "Desired capacity",
+        "is_correct": true
+      },
+      {
+        "answer_id": "97-3",
+        "answer_text": "Maximum size",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-98",
+    "question_text": "There is an audit at your company and they need to have a log of all access to AWS resources in the account. Which of the following services can assist in providing these details?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "98-0",
+        "answer_text": "Amazon CloudWatch",
+        "is_correct": false
+      },
+      {
+        "answer_id": "98-1",
+        "answer_text": "AWS CloudTrail",
+        "is_correct": true
+      },
+      {
+        "answer_id": "98-2",
+        "answer_text": "Amazon Elastic Compute Cloud (Amazon EC2)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "98-3",
+        "answer_text": "Amazon Simple Notification Service (Amazon SNS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-99",
+    "question_text": "In Elastic Load Balancing, when the load balancer detects an unhealthy target, which of the following are true? (Choose three)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "99-0",
+        "answer_text": "Stops routing traffic to that target",
+        "is_correct": true
+      },
+      {
+        "answer_id": "99-1",
+        "answer_text": "Triggers an alarm",
+        "is_correct": false
+      },
+      {
+        "answer_id": "99-2",
+        "answer_text": "Resumes routing traffic when it detects that the target is healthy again",
+        "is_correct": true
+      },
+      {
+        "answer_id": "99-3",
+        "answer_text": "Resumes routing traffic when manually restarted",
+        "is_correct": false
+      },
+      {
+        "answer_id": "99-4",
+        "answer_text": "Routes traffic to a healthy target",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-100",
+    "question_text": "What are the three types of load balancers that Elastic Load Balancing offers?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "100-0",
+        "answer_text": "Internet Load Balancer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "100-1",
+        "answer_text": "Application Load Balancer",
+        "is_correct": true
+      },
+      {
+        "answer_id": "100-2",
+        "answer_text": "Network Load Balancer",
+        "is_correct": true
+      },
+      {
+        "answer_id": "100-3",
+        "answer_text": "Compute Load Balancer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "100-4",
+        "answer_text": "Classic Load Balancer",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-101",
+    "question_text": "What are advantages of cloud computing for a company moving from a traditional on-premises computing model? (Select TWO.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "101-0",
+        "answer_text": "Resources can be created, scaled up, scaled down, or destroyed based on demand.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "101-1",
+        "answer_text": "All on-premises server licenses can be easily transferred and managed centrally in the cloud.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "101-2",
+        "answer_text": "The company can invest in more fixed (capital) expenses and reduce their variable expenses.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "101-3",
+        "answer_text": "IT teams can make capacity decisions before deploying applications so that they always have excess capacity.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "101-4",
+        "answer_text": "The company can focus less on infrastructure and focus more on differentiating the business.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-102",
+    "question_text": "How do economies of scale help customers moving to cloud computing from on-premises computing?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "102-0",
+        "answer_text": "Customers can deploy resources globally.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "102-1",
+        "answer_text": "Customers have full control of their infrastructure.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "102-2",
+        "answer_text": "Customers can achieve lower variable costs and scale infrastructure beyond what is possible on premises.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "102-3",
+        "answer_text": "Customers can scale servers horizontally.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-103",
+    "question_text": "Which statement accurately describes how customers can use AWS Support?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "103-0",
+        "answer_text": "Customers can get AWS Support for both experimental non-production accounts and for business-critical production accounts.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "103-1",
+        "answer_text": "Customers should contact their Support Concierge to provide quick and efficient technical support.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "103-2",
+        "answer_text": "Customers are assigned a Technical Account Manager (TAM) for all AWS Support plans.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "103-3",
+        "answer_text": "Customers must choose one of three support plans: Basic Support, Business Support, and Enterprise Support.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-104",
+    "question_text": "How does the AWS Billing Dashboard help companies analyze their AWS usage to find potential cost-saving opportunities?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "104-0",
+        "answer_text": "The billing dashboard lists the costs that were incurred over the past month by service, by AWS Region, and by linked accounts.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "104-1",
+        "answer_text": "The billing dashboard lists all AWS accounts with activity in the previous 6 months and a summary of spending for each account.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "104-2",
+        "answer_text": "The billing dashboard shows the pricing models for all the AWS services that are used in your account and where your usage falls in the AWS Free Tier.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "104-3",
+        "answer_text": "The billing dashboard shows the status of the month-to-date AWS expenditure and the AWS services that account for the majority of the overall expenditure.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-105",
+    "question_text": "Which statement about AWS Regions is true?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "105-0",
+        "answer_text": "Using a Region as close as possible to users can reduce latency.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "105-1",
+        "answer_text": "All AWS accounts can access all AWS Regions.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "105-2",
+        "answer_text": "All available Regions are enabled by default in an AWS account.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "105-3",
+        "answer_text": "Data stored in an AWS Region isn't subject to geographical compliance requirements.",
+        "is_correct": false
+      }
+    ]
+  }
+]

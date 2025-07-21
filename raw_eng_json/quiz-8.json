@@ -1,0 +1,353 @@
+[
+  {
+    "question_id": "q-106",
+    "question_text": "An AWS account administrator wants to grant temporary cross-account access that allows external users to access specific resources within their own account. Which action would align with the best practice of using temporary sessions?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "106-0",
+        "answer_text": "Create an AWS Identity and Access Management (IAM) role that can be assumed by external users and grant it permissions to the specific resources.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "106-1",
+        "answer_text": "Create an AWS Identity and Access Management (IAM) policy that allows external users to access the specific resources.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "106-2",
+        "answer_text": "Create an AWS Identity and Access Management (IAM) group, grant resource permissions to the group, then add IAM users to the group.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "106-3",
+        "answer_text": "Create a new AWS Identity and Access Management (IAM) user account for each user that needs access.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-107",
+    "question_text": "A company must produce reports of any changes to its Amazon EC2 instance settings. Which AWS service should they use?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "107-0",
+        "answer_text": "AWS Artifact",
+        "is_correct": false
+      },
+      {
+        "answer_id": "107-1",
+        "answer_text": "AWS CloudTrail",
+        "is_correct": false
+      },
+      {
+        "answer_id": "107-2",
+        "answer_text": "AWS Config",
+        "is_correct": true
+      },
+      {
+        "answer_id": "107-3",
+        "answer_text": "Amazon CloudWatch",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-108",
+    "question_text": "A network administrator wants to configure a public subnet and route incoming and outgoing traffic to and from an Amazon EC2 instance in the public subnet to the public internet. Which virtual private cloud (VPC) feature should they use?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "108-0",
+        "answer_text": "An internet gateway",
+        "is_correct": true
+      },
+      {
+        "answer_id": "108-1",
+        "answer_text": "VPC sharing",
+        "is_correct": false
+      },
+      {
+        "answer_id": "108-2",
+        "answer_text": "A network address translation (NAT) gateway",
+        "is_correct": false
+      },
+      {
+        "answer_id": "108-3",
+        "answer_text": "A network access control list (ACL)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-109",
+    "question_text": "What role do security groups play in managing access to Amazon EC2 instances?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "109-0",
+        "answer_text": "Security groups define the AWS Identity and Access Management (IAM) roles that can access an instance.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "109-1",
+        "answer_text": "Security groups provide a set of of rules to control traffic to or from an instance.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "109-2",
+        "answer_text": "Security groups control inbound access to the subnet that an Amazon EC2 is associated with.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "109-3",
+        "answer_text": "Security groups identify the public and private keys required to connect to an Amazon EC2 instance.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-110",
+    "question_text": "Which scenario is a good fit for Amazon Elastic File System (Amazon EFS) storage?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "110-0",
+        "answer_text": "A company wants to host a website.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "110-1",
+        "answer_text": "A company needs temporary file storage for its application running on Amazon EC2.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "110-2",
+        "answer_text": "A company needs to give all Amazon EC2 instances in its virtual private cloud (VPC) read and write access to a network file system (NFS).",
+        "is_correct": true
+      },
+      {
+        "answer_id": "110-3",
+        "answer_text": "A company wants to build a petabyte-sized data lake for analytics.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-111",
+    "question_text": "Which statement about AWS storage services is accurate?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "111-0",
+        "answer_text": "Amazon EC2 instance store provides durable storage for the Amazon EC2 instance that it's attached to, but it isn't available to other EC2 instances.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "111-1",
+        "answer_text": "To access an Amazon Elastic File System (Amazon EFS), the file system must be mounted on an Amazon EC2 instance in your virtual private cloud (VPC).",
+        "is_correct": true
+      },
+      {
+        "answer_id": "111-2",
+        "answer_text": "Amazon EC2 instance store is a good choice for running big data processing and analytics.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "111-3",
+        "answer_text": "Amazon Elastic Block Store (Amazon EBS) volumes provide temporary block storage to Amazon EC2, but they don't persist when the EC2 instance is stopped.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-112",
+    "question_text": "Which scenario describes a good use case for Amazon S3 Standard storage?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "112-0",
+        "answer_text": "Hosting website images",
+        "is_correct": true
+      },
+      {
+        "answer_id": "112-1",
+        "answer_text": "Sharing an NFS file system",
+        "is_correct": false
+      },
+      {
+        "answer_id": "112-2",
+        "answer_text": "Act as an EC2 instance store.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "112-3",
+        "answer_text": "Running a relational database",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-113",
+    "question_text": "Which option is a company's responsibility when running Amazon RDS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "113-0",
+        "answer_text": "Database software patching",
+        "is_correct": false
+      },
+      {
+        "answer_id": "113-1",
+        "answer_text": "Application optimization",
+        "is_correct": true
+      },
+      {
+        "answer_id": "113-2",
+        "answer_text": "Operating system patching",
+        "is_correct": false
+      },
+      {
+        "answer_id": "113-3",
+        "answer_text": "Operating system installation",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-114",
+    "question_text": "Which scenario is a good fit for Amazon Redshift?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "114-0",
+        "answer_text": "A company needs a database for managing unstructured data.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "114-1",
+        "answer_text": "A company needs to store large volumes of mixed media image and video files.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "114-2",
+        "answer_text": "A company needs a data warehouse to support analytics applications.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "114-3",
+        "answer_text": "A company needs a relational database for a line-of-business transactional database.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-115",
+    "question_text": "How does AWS Trusted Advisor assist a company getting started with AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "115-0",
+        "answer_text": "AWS Trusted Advisor provides recommendations on configuring your AWS resources.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "115-1",
+        "answer_text": "AWS Trusted Advisor prevents access to resources that have overly broad permissions.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "115-2",
+        "answer_text": "AWS Trusted Advisor provides recommendations for migrating on-premises resources to the cloud.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "115-3",
+        "answer_text": "AWS Trusted Advisor automatically increases service limits (quotas) if you're near the limit.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-116",
+    "question_text": "What type of alert might be provided by AWS Trusted Advisor?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "116-0",
+        "answer_text": "An alert that multi-factor authentication (MFA) isn't activated on an AWS account",
+        "is_correct": true
+      },
+      {
+        "answer_id": "116-1",
+        "answer_text": "An alert that an AWS Identity and Access Management (IAM) user has requested service quota changes",
+        "is_correct": false
+      },
+      {
+        "answer_id": "116-2",
+        "answer_text": "An alert of unusual API calls made in an AWS account",
+        "is_correct": false
+      },
+      {
+        "answer_id": "116-3",
+        "answer_text": "An alert of unauthorized access in an AWS account",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-117",
+    "question_text": "Which scenario should be addressed with a Network Load Balancer?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "117-0",
+        "answer_text": "A solution must route traffic at the Open Systems Interconnection (OSI) model layer 7.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "117-1",
+        "answer_text": "A solution must support routing traffic to a containerized application based on the contents of incoming requests.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "117-2",
+        "answer_text": "A solution must load balance millions of requests per second while maintaining low latency.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "117-3",
+        "answer_text": "A solution must load balance incoming gRPC requests.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-118",
+    "question_text": "Which statement about AWS Auto Scaling is true?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "118-0",
+        "answer_text": "AWS Auto Scaling can be used to automatically scale Amazon DynamoDB tables and indexes.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "118-1",
+        "answer_text": "AWS Auto Scaling and Amazon EC2 Auto Scaling are synonymous.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "118-2",
+        "answer_text": "AWS Auto Scaling can be used to automatically scale Amazon RDS databases.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "118-3",
+        "answer_text": "You can use either Amazon EC2 Auto Scaling or AWS Auto Scaling, but not both.",
+        "is_correct": false
+      }
+    ]
+  }
+]

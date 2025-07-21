@@ -1,0 +1,407 @@
+[
+  {
+    "question_id": "q-76",
+    "question_text": "If you are developing an application that requires a database with extremely fast performance, fast scalability, and flexibility in the database schema, which service should you consider?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "76-0",
+        "answer_text": "Amazon RDS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "76-1",
+        "answer_text": "Amazon ElastiCache",
+        "is_correct": false
+      },
+      {
+        "answer_id": "76-2",
+        "answer_text": "Amazon DynamoDB",
+        "is_correct": true
+      },
+      {
+        "answer_id": "76-3",
+        "answer_text": "Amazon Redshift",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-77",
+    "question_text": "Which of the following use cases is appropriate for using Amazon RDS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "77-0",
+        "answer_text": "Massive read/write rates",
+        "is_correct": false
+      },
+      {
+        "answer_id": "77-1",
+        "answer_text": "Simple GET or PUT requests",
+        "is_correct": false
+      },
+      {
+        "answer_id": "77-2",
+        "answer_text": "Complex transactions",
+        "is_correct": true
+      },
+      {
+        "answer_id": "77-3",
+        "answer_text": "All of the above",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-78",
+    "question_text": "A company has an application, which consists of a .NET layer that connects to a MySQL database. They want to move this application to AWS and use features such as high availability and automated backups. Which of the following would be an ideal database for this use case?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "78-0",
+        "answer_text": "Amazon Redshift",
+        "is_correct": false
+      },
+      {
+        "answer_id": "78-1",
+        "answer_text": "Amazon RDS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "78-2",
+        "answer_text": "Amazon DynamoDB",
+        "is_correct": false
+      },
+      {
+        "answer_id": "78-3",
+        "answer_text": "Amazon Aurora",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-79",
+    "question_text": "True or false? Amazon RDS automatically patches the database software and backs up your database, storing the backups for a user-defined retention period and enabling point-in-time recovery.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "79-0",
+        "answer_text": "TRUE",
+        "is_correct": true
+      },
+      {
+        "answer_id": "79-1",
+        "answer_text": "FALSE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-80",
+    "question_text": "What should you consider when choosing a database type?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "80-0",
+        "answer_text": "Data size",
+        "is_correct": false
+      },
+      {
+        "answer_id": "80-1",
+        "answer_text": "Data access period",
+        "is_correct": false
+      },
+      {
+        "answer_id": "80-2",
+        "answer_text": "Query frequency",
+        "is_correct": false
+      },
+      {
+        "answer_id": "80-3",
+        "answer_text": "Highly available",
+        "is_correct": false
+      },
+      {
+        "answer_id": "80-4",
+        "answer_text": "All of the above",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-81",
+    "question_text": "Which of the following is not one of the four areas of the performance efficiency pillar of the AWS Well-Architected Framework?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "81-0",
+        "answer_text": "Tradeoffs",
+        "is_correct": false
+      },
+      {
+        "answer_id": "81-1",
+        "answer_text": "Selection",
+        "is_correct": false
+      },
+      {
+        "answer_id": "81-2",
+        "answer_text": "Traceability",
+        "is_correct": true
+      },
+      {
+        "answer_id": "81-3",
+        "answer_text": "Monitoring",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-82",
+    "question_text": "Which of the following is a principle when designing cloud-based systems?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "82-0",
+        "answer_text": "Build tightly-coupled components",
+        "is_correct": false
+      },
+      {
+        "answer_id": "82-1",
+        "answer_text": "Make infrequent, large batch changes",
+        "is_correct": false
+      },
+      {
+        "answer_id": "82-2",
+        "answer_text": "Assume everything will fail",
+        "is_correct": true
+      },
+      {
+        "answer_id": "82-3",
+        "answer_text": "Use as many services as possible",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-83",
+    "question_text": "Which of the following are pillars of the AWS Well-Architected Framework? (Choose three)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "83-0",
+        "answer_text": "Security",
+        "is_correct": true
+      },
+      {
+        "answer_id": "83-1",
+        "answer_text": "Persistence",
+        "is_correct": false
+      },
+      {
+        "answer_id": "83-2",
+        "answer_text": "Operational Excellence",
+        "is_correct": true
+      },
+      {
+        "answer_id": "83-3",
+        "answer_text": "Cost Optimization",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-84",
+    "question_text": "Which design principles are recommended when considering performance efficiency? (Choose two)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "84-0",
+        "answer_text": "Analyze and attribute expenditure",
+        "is_correct": false
+      },
+      {
+        "answer_id": "84-1",
+        "answer_text": "Democratize advanced technologies",
+        "is_correct": true
+      },
+      {
+        "answer_id": "84-2",
+        "answer_text": "Match supply with demand",
+        "is_correct": false
+      },
+      {
+        "answer_id": "84-3",
+        "answer_text": "Enable traceability",
+        "is_correct": false
+      },
+      {
+        "answer_id": "84-4",
+        "answer_text": "Use serverless architectures",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-85",
+    "question_text": "AWS Trusted Advisor provides insight regarding which five categories of an AWS account?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "85-0",
+        "answer_text": "Performance, cost optimization, security, fault tolerance, service limits",
+        "is_correct": true
+      },
+      {
+        "answer_id": "85-1",
+        "answer_text": "Security, access control, high availability, performance, service limits",
+        "is_correct": false
+      },
+      {
+        "answer_id": "85-2",
+        "answer_text": "Security, fault tolerance, high availability, connectivity, service limits",
+        "is_correct": false
+      },
+      {
+        "answer_id": "85-3",
+        "answer_text": "Performance, cost optimization, access control, connectivity, security",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-86",
+    "question_text": "What is the focus of the sustainability pillar of the Well-Architected Framework?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "86-0",
+        "answer_text": "Designing workloads that recover quickly from failures",
+        "is_correct": false
+      },
+      {
+        "answer_id": "86-1",
+        "answer_text": "Minimizing the environmental impacts of running cloud workloads",
+        "is_correct": true
+      },
+      {
+        "answer_id": "86-2",
+        "answer_text": "Avoiding unnecessary costs in cloud workloads",
+        "is_correct": false
+      },
+      {
+        "answer_id": "86-3",
+        "answer_text": "Automating updates to cloud workloads",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-87",
+    "question_text": "After you move to the AWS Cloud, you want to ensure that the right security settings are put in place. Which online tool can assist in security compliance?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "87-0",
+        "answer_text": "Amazon Kinesis",
+        "is_correct": false
+      },
+      {
+        "answer_id": "87-1",
+        "answer_text": "AWS Support",
+        "is_correct": false
+      },
+      {
+        "answer_id": "87-2",
+        "answer_text": "AWS Trusted Advisor",
+        "is_correct": true
+      },
+      {
+        "answer_id": "87-3",
+        "answer_text": "Amazon CloudWatch",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-88",
+    "question_text": "Which of the following is a measure of your system's ability to provide functionality when desired by the user?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "88-0",
+        "answer_text": "Availability",
+        "is_correct": false
+      },
+      {
+        "answer_id": "88-1",
+        "answer_text": "Fault Tolerance",
+        "is_correct": false
+      },
+      {
+        "answer_id": "88-2",
+        "answer_text": "Reliability",
+        "is_correct": true
+      },
+      {
+        "answer_id": "88-3",
+        "answer_text": "Performance efficiency",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-89",
+    "question_text": "What is defined as the ability for a system to remain operational even if some of the components of that system fail?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "89-0",
+        "answer_text": "High durability",
+        "is_correct": false
+      },
+      {
+        "answer_id": "89-1",
+        "answer_text": "Fault tolerance",
+        "is_correct": true
+      },
+      {
+        "answer_id": "89-2",
+        "answer_text": "High availability",
+        "is_correct": false
+      },
+      {
+        "answer_id": "89-3",
+        "answer_text": "High durability",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-90",
+    "question_text": "Which of the following best describes a system that can withstand some measures of degradation, experiences minimal downtime, and requires minimal human intervention?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "90-0",
+        "answer_text": "Scalable",
+        "is_correct": false
+      },
+      {
+        "answer_id": "90-1",
+        "answer_text": "Fault-tolerant",
+        "is_correct": false
+      },
+      {
+        "answer_id": "90-2",
+        "answer_text": "Elastic",
+        "is_correct": false
+      },
+      {
+        "answer_id": "90-3",
+        "answer_text": "Highly available",
+        "is_correct": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "question_id": "q-31",
+    "question_text": "In the shared responsibility model, AWS is responsible for providing what?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "31-0",
+        "answer_text": "Security of the cloud",
+        "is_correct": true
+      },
+      {
+        "answer_id": "31-1",
+        "answer_text": "Security to the cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "31-2",
+        "answer_text": "Security for the cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "31-3",
+        "answer_text": "Security in the cloud",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-32",
+    "question_text": "In the shared responsibility model, which of the following are examples of \"security in the cloud\"? (Choose two)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "32-0",
+        "answer_text": "Compliance with compute security standards and regulations",
+        "is_correct": false
+      },
+      {
+        "answer_id": "32-1",
+        "answer_text": "Physical security of the facilities in which the services operate",
+        "is_correct": false
+      },
+      {
+        "answer_id": "32-2",
+        "answer_text": "Security group configurations",
+        "is_correct": true
+      },
+      {
+        "answer_id": "32-3",
+        "answer_text": "Encryption of data at rest and data in transit",
+        "is_correct": true
+      },
+      {
+        "answer_id": "32-4",
+        "answer_text": "Protecting the global infrastructure",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-33",
+    "question_text": "Which of the following is the responsibility of AWS under the AWS shared responsibility model?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "33-0",
+        "answer_text": "Configuring third-party applications",
+        "is_correct": false
+      },
+      {
+        "answer_id": "33-1",
+        "answer_text": "Maintaining physical hardware",
+        "is_correct": true
+      },
+      {
+        "answer_id": "33-2",
+        "answer_text": "Security application access and data",
+        "is_correct": false
+      },
+      {
+        "answer_id": "33-3",
+        "answer_text": "Managing custom Amazon Machine Images (AMIs)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-34",
+    "question_text": "When creating an AWS Identity and Access Management (IAM) policy, what are the two types of access that can be granted to a user? (Choose two)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "34-0",
+        "answer_text": "Institutional access",
+        "is_correct": false
+      },
+      {
+        "answer_id": "34-1",
+        "answer_text": "Authorized access",
+        "is_correct": false
+      },
+      {
+        "answer_id": "34-2",
+        "answer_text": "Programmatic access",
+        "is_correct": true
+      },
+      {
+        "answer_id": "34-3",
+        "answer_text": "AWS Management Console access",
+        "is_correct": true
+      },
+      {
+        "answer_id": "34-4",
+        "answer_text": "Administrative root access",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-35",
+    "question_text": "True or False? AWS Organizations enables you to consolidate multiple AWS accounts so that you centrally manage them.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "35-0",
+        "answer_text": "TRUE",
+        "is_correct": true
+      },
+      {
+        "answer_id": "35-1",
+        "answer_text": "FALSE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-36",
+    "question_text": "Which of the following are best practices to secure your account using AWS IAM? (Choose two)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "36-0",
+        "answer_text": "Provide users with default administrative privileges.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "36-1",
+        "answer_text": "Leave unused and unnecessary users and credentials in place.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "36-2",
+        "answer_text": "Manage access to AWS resources.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "36-3",
+        "answer_text": "Avoid using IAM groups to grant the same access permissions to multiple users.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "36-4",
+        "answer_text": "Define fine-grained access rights.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-37",
+    "question_text": "Which of the following should be done by the AWS account root user?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "37-0",
+        "answer_text": "Secure access for applications",
+        "is_correct": false
+      },
+      {
+        "answer_id": "37-1",
+        "answer_text": "Integrate with other AWS services",
+        "is_correct": false
+      },
+      {
+        "answer_id": "37-2",
+        "answer_text": "Change granular permissions",
+        "is_correct": false
+      },
+      {
+        "answer_id": "37-3",
+        "answer_text": "Change the AWS support plan",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-38",
+    "question_text": "After initial login, what does AWS recommend as the best practice for the AWS account root user?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "38-0",
+        "answer_text": "Delete the AWS account root user",
+        "is_correct": false
+      },
+      {
+        "answer_id": "38-1",
+        "answer_text": "Revoke all permissions on the AWS account root user",
+        "is_correct": false
+      },
+      {
+        "answer_id": "38-2",
+        "answer_text": "Restrict permission on the AWS account root user",
+        "is_correct": false
+      },
+      {
+        "answer_id": "38-3",
+        "answer_text": "Delete the access keys of the AWS account root user",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-39",
+    "question_text": "How would a system administrator add an additional layer of login security to a user's AWS Management Console?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "39-0",
+        "answer_text": "Use Amazon Cloud Directory",
+        "is_correct": false
+      },
+      {
+        "answer_id": "39-1",
+        "answer_text": "Audit AWS Identity and Access Management (IAM) roles",
+        "is_correct": false
+      },
+      {
+        "answer_id": "39-2",
+        "answer_text": "Enable multi-factor authentication",
+        "is_correct": true
+      },
+      {
+        "answer_id": "39-3",
+        "answer_text": "Enable AWS CloudTrail",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-40",
+    "question_text": "True or False? AWS Key Management Service (AWS KMS) enables you to assess, audit, and evaluate the configurations of your AWS resources.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "40-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "40-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-41",
+    "question_text": "With Amazon VPC, what is the smallest size subnet you can have in a VPC?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "41-0",
+        "answer_text": "/28",
+        "is_correct": true
+      },
+      {
+        "answer_id": "41-1",
+        "answer_text": "/24",
+        "is_correct": false
+      },
+      {
+        "answer_id": "41-2",
+        "answer_text": "/26",
+        "is_correct": false
+      },
+      {
+        "answer_id": "41-3",
+        "answer_text": "/30",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-42",
+    "question_text": "With Amazon VPC, what is the maximum size IP address range you can have in a VPC?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "42-0",
+        "answer_text": "/16",
+        "is_correct": true
+      },
+      {
+        "answer_id": "42-1",
+        "answer_text": "/28",
+        "is_correct": false
+      },
+      {
+        "answer_id": "42-2",
+        "answer_text": "/24",
+        "is_correct": false
+      },
+      {
+        "answer_id": "42-3",
+        "answer_text": "/30",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-43",
+    "question_text": "You need to allow resources in a private subnet to access the internet. Which of the following must be present to enable this access?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "43-0",
+        "answer_text": "Network access control lists",
+        "is_correct": false
+      },
+      {
+        "answer_id": "43-1",
+        "answer_text": "Route tables",
+        "is_correct": false
+      },
+      {
+        "answer_id": "43-2",
+        "answer_text": "NAT gateway",
+        "is_correct": true
+      },
+      {
+        "answer_id": "43-3",
+        "answer_text": "Security groups",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-44",
+    "question_text": "Which AWS networking service enables a company to create a virtual network within AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "44-0",
+        "answer_text": "AWS Direct Connect",
+        "is_correct": false
+      },
+      {
+        "answer_id": "44-1",
+        "answer_text": "AWS Config",
+        "is_correct": false
+      },
+      {
+        "answer_id": "44-2",
+        "answer_text": "Amazon Virtual Private Cloud (Amazon VPC)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "44-3",
+        "answer_text": "Amazon Route 53",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-45",
+    "question_text": "True or False? Private subnets have direct access to the internet.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "45-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "45-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  }
+]

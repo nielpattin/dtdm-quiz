@@ -1,0 +1,407 @@
+[
+  {
+    "question_id": "q-1",
+    "question_text": "What are the advantages of cloud computing over computing on-premises?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "Avoid large capital purchases",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Use on-demand capacity",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Go global in minutes",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "Increase speed and agility",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-4",
+        "answer_text": "All of the above",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-2",
+    "question_text": "What is the pricing model that enables AWS customers to pay for resources on an as-needed basis?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Pay as you decommission",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Pay as you go",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Pay as you buy",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Pay as you reserve",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-3",
+    "question_text": "Which of these is NOT a cloud computing model?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Platform as a service",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Infrastructure as a service",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "System administration as a service",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Software as a service",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-4",
+    "question_text": "True or False? AWS owns and maintains the network-connected hardware required for application services, while you provision and use what you need.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "TRUE",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "FALSE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-5",
+    "question_text": "Which of these is NOT a benefit of cloud computing over on-premises computing?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "5-0",
+        "answer_text": "Increase speed and agility",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-1",
+        "answer_text": "Pay for racking, stacking, and powering servers",
+        "is_correct": true
+      },
+      {
+        "answer_id": "5-2",
+        "answer_text": "Eliminate guessing on your infrastructure capacity needs",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-3",
+        "answer_text": "Trade capital expense for variable expense",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-4",
+        "answer_text": "Benefit from massive economies of scale",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-6",
+    "question_text": "Which of the following are NOT benefits of AWS Cloud computing? (Choose two)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "6-0",
+        "answer_text": "Multiple procurement cycles",
+        "is_correct": true
+      },
+      {
+        "answer_id": "6-1",
+        "answer_text": "High availability",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-2",
+        "answer_text": "High latency",
+        "is_correct": true
+      },
+      {
+        "answer_id": "6-3",
+        "answer_text": "Temporary and disposable resources",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-4",
+        "answer_text": "Fault-tolerant databases",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-7",
+    "question_text": "Which of the following is a compute service?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "7-0",
+        "answer_text": "Amazon VPC",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-1",
+        "answer_text": "Amazon S3",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-2",
+        "answer_text": "Amazon EC2",
+        "is_correct": true
+      },
+      {
+        "answer_id": "7-3",
+        "answer_text": "Amazon CloudFront",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-4",
+        "answer_text": "Amazon Redshift",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-8",
+    "question_text": "True or False? Cloud computing provides a simple way to access servers, storage, databases, and a broad set of application services over the internet. You own the network-connected hardware required for these services and Amazon Web Services provisions what you need.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "8-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-9",
+    "question_text": "Economies of scale result from ______.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "9-0",
+        "answer_text": "having many different cloud providers",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-1",
+        "answer_text": "having hundreds of thousands of customers aggregated in the cloud",
+        "is_correct": true
+      },
+      {
+        "answer_id": "9-2",
+        "answer_text": "having hundreds of cloud services available over the internet",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-3",
+        "answer_text": "having to invest heavily in data centers and servers",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-10",
+    "question_text": "Which of these are ways to access AWS core services? (Choose three)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "10-0",
+        "answer_text": "Technical support calls",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-1",
+        "answer_text": "AWS Marketplace",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-2",
+        "answer_text": "AWS Management Console",
+        "is_correct": true
+      },
+      {
+        "answer_id": "10-3",
+        "answer_text": "AWS Command Line Interface (AWS CLI)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "10-4",
+        "answer_text": "Software Development Kits (SDKs)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-11",
+    "question_text": "For certain services like Amazon EC2 and Amazon RDS, you can invest in reserved capacity. What options are available for Reserved Instances? (Choose three)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "11-0",
+        "answer_text": "AURI",
+        "is_correct": true
+      },
+      {
+        "answer_id": "11-1",
+        "answer_text": "MURI",
+        "is_correct": false
+      },
+      {
+        "answer_id": "11-2",
+        "answer_text": "NURI",
+        "is_correct": true
+      },
+      {
+        "answer_id": "11-3",
+        "answer_text": "PURI",
+        "is_correct": true
+      },
+      {
+        "answer_id": "11-4",
+        "answer_text": "DURI",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-12",
+    "question_text": "Where can a customer go to get more details about Amazon EC2 billing activity that took place 3 months ago?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "12-0",
+        "answer_text": "Amazon EC2 dashboard",
+        "is_correct": false
+      },
+      {
+        "answer_id": "12-1",
+        "answer_text": "AWS Cost Explorer",
+        "is_correct": true
+      },
+      {
+        "answer_id": "12-2",
+        "answer_text": "AWS Trusted Advisor dashboard",
+        "is_correct": false
+      },
+      {
+        "answer_id": "12-3",
+        "answer_text": "AWS CloudTrail logs stored in Amazon S3",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-13",
+    "question_text": "True or false? To receive the discounted rate associated with Reserved Instances, you must make a full, upfront payment for the term of the agreement.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "13-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "13-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-14",
+    "question_text": "Which statement is true about the pricing model on AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "14-0",
+        "answer_text": "In most cases, there is a per gigabyte charge for inbound data transfer.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "14-1",
+        "answer_text": "Storage is typically charged per gigabyte.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "14-2",
+        "answer_text": "Compute is typically charged as a monthly fee based on instance type.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "14-3",
+        "answer_text": "Outbound charges are free up to a per account limit.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-15",
+    "question_text": "What are the four support plans offered by AWS Support?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "15-0",
+        "answer_text": "Basic, Developer, Business, Enterprise",
+        "is_correct": true
+      },
+      {
+        "answer_id": "15-1",
+        "answer_text": "Basic, Startup, Business, Enterprise",
+        "is_correct": false
+      },
+      {
+        "answer_id": "15-2",
+        "answer_text": "Free, Bronze, Silver, Gold",
+        "is_correct": false
+      },
+      {
+        "answer_id": "15-3",
+        "answer_text": "All support is free",
+        "is_correct": false
+      }
+    ]
+  }
+]

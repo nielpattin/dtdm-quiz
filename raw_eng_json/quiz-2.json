@@ -1,0 +1,357 @@
+[
+  {
+    "question_id": "q-16",
+    "question_text": "What AWS tool lets you explore AWS services and create an estimate for the cost of your use cases on AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "16-0",
+        "answer_text": "AWS Pricing Calculator",
+        "is_correct": true
+      },
+      {
+        "answer_id": "16-1",
+        "answer_text": "AWS Budgets",
+        "is_correct": false
+      },
+      {
+        "answer_id": "16-2",
+        "answer_text": "AWS Cost and Usage Report",
+        "is_correct": false
+      },
+      {
+        "answer_id": "16-3",
+        "answer_text": "AWS Billing Dashboard",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-17",
+    "question_text": "As AWS grows, the cost of doing business is reduced and savings are passed back to the customer with lower pricing. What is this optimization called?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "17-0",
+        "answer_text": "Expenditure awareness",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-1",
+        "answer_text": "Economies of scale",
+        "is_correct": true
+      },
+      {
+        "answer_id": "17-2",
+        "answer_text": "Matching supply and demand",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-3",
+        "answer_text": "EC2 Right Sizing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-18",
+    "question_text": "True or false? AWS offers some services at no charge, such as, Amazon VPC, AWS IAM, Consolidated Billing, AWS Elastic Beanstalk, auto scaling, and AWS CloudFormation. However, you might be charged for other AWS services that you use in conjunction with these services.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "18-0",
+        "answer_text": "TRUE",
+        "is_correct": true
+      },
+      {
+        "answer_id": "18-1",
+        "answer_text": "FALSE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-19",
+    "question_text": "What are benefits of using AWS Organizations? (Choose two)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "19-0",
+        "answer_text": "Replaces existing AWS IAM policies with SCPs, which are simpler to manage",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-1",
+        "answer_text": "Provides the ability to create groups of accounts and then attach policies to a group",
+        "is_correct": true
+      },
+      {
+        "answer_id": "19-2",
+        "answer_text": "Provides the ability to create an unlimited number of nested OUs",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-3",
+        "answer_text": "Simplifies automating account creation and management by using APIs",
+        "is_correct": true
+      },
+      {
+        "answer_id": "19-4",
+        "answer_text": "Prevents any restrictions from being put on the root user",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-20",
+    "question_text": "True or false? Unlimited services are available with the AWS Free Tier to new AWS customers for 12 months following their AWS sign-up date.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "20-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "20-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-21",
+    "question_text": "Which component of the AWS Global Infrastructure does Amazon CloudFront use to ensure low-latency delivery?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "21-0",
+        "answer_text": "AWS Regions",
+        "is_correct": false
+      },
+      {
+        "answer_id": "21-1",
+        "answer_text": "AWS edge locations",
+        "is_correct": true
+      },
+      {
+        "answer_id": "21-2",
+        "answer_text": "AWS Availability Zones",
+        "is_correct": false
+      },
+      {
+        "answer_id": "21-3",
+        "answer_text": "Amazon Virtual Private Cloud (Amazon VPC)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-22",
+    "question_text": "You can run applications and workloads from a Region closer to the end users to ______ latency.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "22-0",
+        "answer_text": "increase",
+        "is_correct": false
+      },
+      {
+        "answer_id": "22-1",
+        "answer_text": "decrease",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-23",
+    "question_text": "True or False? Networking, storage, compute, and databases are examples of service categories that AWS offers.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "23-0",
+        "answer_text": "TRUE",
+        "is_correct": true
+      },
+      {
+        "answer_id": "23-1",
+        "answer_text": "FALSE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-24",
+    "question_text": "Which of the following are geographic areas that host two or more Availability Zones?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "24-0",
+        "answer_text": "AWS Origins",
+        "is_correct": false
+      },
+      {
+        "answer_id": "24-1",
+        "answer_text": "AWS Regions",
+        "is_correct": true
+      },
+      {
+        "answer_id": "24-2",
+        "answer_text": "Compute zones",
+        "is_correct": false
+      },
+      {
+        "answer_id": "24-3",
+        "answer_text": "Edge locations",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-25",
+    "question_text": "______ means the infrastructure has built-in component redundancy and ______ means that resources dynamically adjust to increases or decreases in capacity requirements.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "25-0",
+        "answer_text": "No human intervention, fault tolerant",
+        "is_correct": false
+      },
+      {
+        "answer_id": "25-1",
+        "answer_text": "Elastic and scalable, no human intervention",
+        "is_correct": false
+      },
+      {
+        "answer_id": "25-2",
+        "answer_text": "Fault tolerant, elastic and scalable",
+        "is_correct": true
+      },
+      {
+        "answer_id": "25-3",
+        "answer_text": "Fault tolerant, no human intervention",
+        "is_correct": false
+      },
+      {
+        "answer_id": "25-4",
+        "answer_text": "Elastic and scalable, fault tolerant",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-26",
+    "question_text": "True or False? Availability Zones within a Region are connected through low-latency links.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "26-0",
+        "answer_text": "TRUE",
+        "is_correct": true
+      },
+      {
+        "answer_id": "26-1",
+        "answer_text": "FALSE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-27",
+    "question_text": "Which of these statements about Availability Zones is not true?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "27-0",
+        "answer_text": "Availability Zones are designed for fault isolation.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "27-1",
+        "answer_text": "Availability Zones are made up of one or more data centers.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "27-2",
+        "answer_text": "A data center can be used for more than one Availability Zone.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "27-3",
+        "answer_text": "Availability Zones are connected to each other using high-speed private links.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-28",
+    "question_text": "What is true about Regions? (Choose two)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "28-0",
+        "answer_text": "They are the physical locations of your customers.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "28-1",
+        "answer_text": "Each Region is located in a separate geographic area.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "28-2",
+        "answer_text": "A Region is a physical location that has multiple Availability Zones.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "28-3",
+        "answer_text": "All Regions are located in one specific geographic area.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-29",
+    "question_text": "AWS highly recommends provisioning your compute resources across ______ Availability Zones.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "29-0",
+        "answer_text": "single",
+        "is_correct": false
+      },
+      {
+        "answer_id": "29-1",
+        "answer_text": "no",
+        "is_correct": false
+      },
+      {
+        "answer_id": "29-2",
+        "answer_text": "all",
+        "is_correct": false
+      },
+      {
+        "answer_id": "29-3",
+        "answer_text": "multiple",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-30",
+    "question_text": "True or False? Edge locations are only located in the same general area as Regions.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "30-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "30-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  }
+]
