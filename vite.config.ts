@@ -8,7 +8,7 @@ export default defineConfig({
 	server: {
 		allowedHosts: [
 			'localhost',
-			'webadvanced.share.zrok.io' // Add your zrok share host here
+			'sveltekit.share.zrok.io' // Add your zrok share host here
 		]
 	}
 });

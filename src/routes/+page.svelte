@@ -294,7 +294,7 @@
 								{#if idx >= 0 && idx < quizData.length}
 									<div
 										class="carousel-card flex items-center justify-center"
-										style="width:90vw; max-width:90vw; height:90%; position: absolute; left:50%; top:50%; transform: translate(-50%, calc(-50% + {(idx -
+										style="width:95vw; height:90%; position: absolute; left:50%; top:50%; transform: translate(-50%, calc(-50% + {(idx -
 											current) *
 											110}%)); transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);"
 									>

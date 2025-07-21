@@ -8,7 +8,6 @@ html, body {
 
 body {
   background: #1D1B2C;
-
 }
 
 /* Sidebar scrollbar styling */
@@ -42,4 +41,5 @@ body {
 /* Prevent horizontal overflow */
 * {
   max-width: 100%;
+  font-family: 'Noto Sans Variable', sans-serif;
 }
