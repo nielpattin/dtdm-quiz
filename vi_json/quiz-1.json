@@ -1,0 +1,407 @@
+[
+  {
+    "question_id": "q-1",
+    "question_text": "Những lợi thế của điện toán đám mây so với điện toán tại chỗ là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "Tránh mua sắm vốn lớn",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Sử dụng dung lượng theo yêu cầu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Go global in minutes",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "Tăng tốc độ và sự linh hoạt",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-4",
+        "answer_text": "Tất cả những điều trên",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-2",
+    "question_text": "Mô hình định giá nào cho phép khách hàng AWS thanh toán cho các tài nguyên trên cơ sở khi cần thiết?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Pay as you decommission",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Pay as you go",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Pay as you buy",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Pay as you reserve",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-3",
+    "question_text": "Cái nào trong số này KHÔNG phải là mô hình điện toán đám mây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Platform as a service",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Infrastructure as a service",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "System administration as a service",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Software as a service",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-4",
+    "question_text": "Đúng hay sai? AWS sở hữu và bảo trì phần cứng được kết nối mạng cần thiết cho các dịch vụ ứng dụng, trong khi bạn cung cấp và sử dụng những gì bạn cần.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "TRUE",
+        "is_correct": true
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "FALSE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-5",
+    "question_text": "Cái nào trong số này KHÔNG phải là lợi ích của điện toán đám mây so với điện toán tại chỗ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "5-0",
+        "answer_text": "Tăng tốc độ và sự linh hoạt",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-1",
+        "answer_text": "Thanh toán cho việc lắp đặt, xếp chồng và cấp nguồn cho máy chủ",
+        "is_correct": true
+      },
+      {
+        "answer_id": "5-2",
+        "answer_text": "Loại bỏ việc phỏng đoán về nhu cầu năng lực cơ sở hạ tầng của bạn",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-3",
+        "answer_text": "Đổi chi phí vốn lấy chi phí biến đổi",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-4",
+        "answer_text": "Hưởng lợi từ quy mô kinh tế lớn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-6",
+    "question_text": "Những điều nào sau đây KHÔNG phải là lợi ích của điện toán đám mây AWS? (Chọn hai)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "6-0",
+        "answer_text": "Nhiều chu kỳ mua sắm",
+        "is_correct": true
+      },
+      {
+        "answer_id": "6-1",
+        "answer_text": "Tính sẵn sàng cao",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-2",
+        "answer_text": "Độ trễ cao",
+        "is_correct": true
+      },
+      {
+        "answer_id": "6-3",
+        "answer_text": "Tài nguyên tạm thời và dùng một lần",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-4",
+        "answer_text": "Cơ sở dữ liệu chịu lỗi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-7",
+    "question_text": "Dịch vụ nào sau đây là dịch vụ tính toán?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "7-0",
+        "answer_text": "Amazon VPC",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-1",
+        "answer_text": "Amazon S3",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-2",
+        "answer_text": "Amazon EC2",
+        "is_correct": true
+      },
+      {
+        "answer_id": "7-3",
+        "answer_text": "Amazon CloudFront",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-4",
+        "answer_text": "Amazon Redshift",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-8",
+    "question_text": "Đúng hay sai? Điện toán đám mây cung cấp một cách đơn giản để truy cập máy chủ, lưu trữ, cơ sở dữ liệu và một bộ rộng các dịch vụ ứng dụng qua internet. Bạn sở hữu phần cứng được kết nối mạng cần thiết cho các dịch vụ này và Amazon Web Services cung cấp những gì bạn cần.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "8-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-9",
+    "question_text": "Kinh tế theo quy mô là kết quả của ______.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "9-0",
+        "answer_text": "có nhiều nhà cung cấp đám mây khác nhau",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-1",
+        "answer_text": "có hàng trăm nghìn khách hàng được tổng hợp trên đám mây",
+        "is_correct": true
+      },
+      {
+        "answer_id": "9-2",
+        "answer_text": "có hàng trăm dịch vụ đám mây có sẵn qua internet",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-3",
+        "answer_text": "phải đầu tư nhiều vào các trung tâm dữ liệu và máy chủ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-10",
+    "question_text": "Những cách nào sau đây để truy cập các dịch vụ cốt lõi của AWS? (Chọn ba)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "10-0",
+        "answer_text": "Cuộc gọi hỗ trợ kỹ thuật",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-1",
+        "answer_text": "AWS Marketplace",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-2",
+        "answer_text": "AWS Management Console",
+        "is_correct": true
+      },
+      {
+        "answer_id": "10-3",
+        "answer_text": "AWS Command Line Interface (AWS CLI)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "10-4",
+        "answer_text": "Software Development Kits (SDKs)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-11",
+    "question_text": "Đối với một số dịch vụ nhất định như Amazon EC2 và Amazon RDS, bạn có thể đầu tư vào dung lượng dành riêng. Các tùy chọn nào có sẵn cho Reserved Instances? (Chọn ba)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "11-0",
+        "answer_text": "AURI",
+        "is_correct": true
+      },
+      {
+        "answer_id": "11-1",
+        "answer_text": "MURI",
+        "is_correct": false
+      },
+      {
+        "answer_id": "11-2",
+        "answer_text": "NURI",
+        "is_correct": true
+      },
+      {
+        "answer_id": "11-3",
+        "answer_text": "PURI",
+        "is_correct": true
+      },
+      {
+        "answer_id": "11-4",
+        "answer_text": "DURI",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-12",
+    "question_text": "Khách hàng có thể đến đâu để biết thêm chi tiết về hoạt động thanh toán Amazon EC2 đã diễn ra 3 tháng trước?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "12-0",
+        "answer_text": "Bảng điều khiển Amazon EC2",
+        "is_correct": false
+      },
+      {
+        "answer_id": "12-1",
+        "answer_text": "AWS Cost Explorer",
+        "is_correct": true
+      },
+      {
+        "answer_id": "12-2",
+        "answer_text": "Bảng điều khiển AWS Trusted Advisor",
+        "is_correct": false
+      },
+      {
+        "answer_id": "12-3",
+        "answer_text": "Nhật ký AWS CloudTrail được lưu trữ trong Amazon S3",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-13",
+    "question_text": "Đúng hay sai? Để nhận được mức giá chiết khấu liên quan đến Reserved Instances, bạn phải thanh toán đầy đủ, trả trước cho thời hạn của thỏa thuận.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "13-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "13-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-14",
+    "question_text": "Phát biểu nào là đúng về mô hình định giá trên AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "14-0",
+        "answer_text": "Trong hầu hết các trường hợp, có một khoản phí cho mỗi gigabyte cho việc truyền dữ liệu trong nước.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "14-1",
+        "answer_text": "Lưu trữ thường được tính phí cho mỗi gigabyte.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "14-2",
+        "answer_text": "Tính toán thường được tính phí hàng tháng dựa trên loại phiên bản.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "14-3",
+        "answer_text": "Các khoản phí gửi đi được miễn phí cho đến một giới hạn cho mỗi tài khoản.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-15",
+    "question_text": "Bốn gói hỗ trợ do AWS Support cung cấp là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "15-0",
+        "answer_text": "Basic, Developer, Business, Enterprise",
+        "is_correct": true
+      },
+      {
+        "answer_id": "15-1",
+        "answer_text": "Basic, Startup, Business, Enterprise",
+        "is_correct": false
+      },
+      {
+        "answer_id": "15-2",
+        "answer_text": "Free, Bronze, Silver, Gold",
+        "is_correct": false
+      },
+      {
+        "answer_id": "15-3",
+        "answer_text": "Tất cả hỗ trợ đều miễn phí",
+        "is_correct": false
+      }
+    ]
+  }
+]

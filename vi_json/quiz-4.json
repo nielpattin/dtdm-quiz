@@ -1,0 +1,392 @@
+[
+  {
+    "question_id": "q-46",
+    "question_text": "Thành phần nào của Cơ sở hạ tầng toàn cầu của AWS mà Amazon CloudFront sử dụng để đảm bảo phân phối có độ trễ thấp?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "46-0",
+        "answer_text": "AWS Regions",
+        "is_correct": false
+      },
+      {
+        "answer_id": "46-1",
+        "answer_text": "AWS edge locations",
+        "is_correct": true
+      },
+      {
+        "answer_id": "46-2",
+        "answer_text": "AWS Availability Zones",
+        "is_correct": false
+      },
+      {
+        "answer_id": "46-3",
+        "answer_text": "Amazon Virtual Private Cloud (Amazon VPC)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-47",
+    "question_text": "Điều nào sau đây là một kiểm soát bảo mật tùy chọn có thể được áp dụng ở lớp mạng con của VPC?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "47-0",
+        "answer_text": "Web application firewall",
+        "is_correct": false
+      },
+      {
+        "answer_id": "47-1",
+        "answer_text": "Security group",
+        "is_correct": false
+      },
+      {
+        "answer_id": "47-2",
+        "answer_text": "Firewall",
+        "is_correct": false
+      },
+      {
+        "answer_id": "47-3",
+        "answer_text": "Network ACL",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-48",
+    "question_text": "Điều gì xảy ra khi bạn sử dụng Amazon VPC để tạo một VPC mới?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "48-0",
+        "answer_text": "Một bảng định tuyến chính được tạo theo mặc định.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "48-1",
+        "answer_text": "Ba mạng con được tạo theo mặc định: một cho mỗi Availability Zone.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "48-2",
+        "answer_text": "Ba mạng con được tạo theo mặc định trong một Availability Zone.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "48-3",
+        "answer_text": "Một cổng internet được tạo theo mặc định.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-49",
+    "question_text": "Điều nào sau đây có thể được sử dụng để bảo vệ các phiên bản Amazon EC2 được lưu trữ trong AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "49-0",
+        "answer_text": "Security group",
+        "is_correct": true
+      },
+      {
+        "answer_id": "49-1",
+        "answer_text": "Internet Gateway",
+        "is_correct": false
+      },
+      {
+        "answer_id": "49-2",
+        "answer_text": "AMI",
+        "is_correct": false
+      },
+      {
+        "answer_id": "49-3",
+        "answer_text": "Tất cả những điều trên",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-50",
+    "question_text": "Bạn là một kiến trúc sư giải pháp... Khi bạn tạo một VPC, bạn gán cho nó một khối CIDR IPv4 là 10.0.1.0/24 (có tổng cộng 256 địa chỉ IP). Có bao nhiêu địa chỉ IP có sẵn?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "50-0",
+        "answer_text": "250",
+        "is_correct": false
+      },
+      {
+        "answer_id": "50-1",
+        "answer_text": "246",
+        "is_correct": false
+      },
+      {
+        "answer_id": "50-2",
+        "answer_text": "251",
+        "is_correct": true
+      },
+      {
+        "answer_id": "50-3",
+        "answer_text": "256",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-51",
+    "question_text": "Tại sao AWS lại kinh tế hơn các trung tâm dữ liệu truyền thống cho các ứng dụng có khối lượng công việc tính toán khác nhau?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "51-0",
+        "answer_text": "Chi phí Amazon EC2 được thanh toán hàng tháng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "51-1",
+        "answer_text": "Khách hàng giữ toàn quyền quản trị đối với các phiên bản Amazon EC2 của họ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "51-2",
+        "answer_text": "Khách hàng có thể chạy vĩnh viễn đủ số phiên bản để xử lý khối lượng công việc cao điểm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "51-3",
+        "answer_text": "Các phiên bản Amazon EC2 có thể được khởi chạy theo yêu cầu khi cần thiết.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-52",
+    "question_text": "Nếu dự án của bạn yêu cầu các báo cáo hàng tháng lặp lại qua một lượng lớn dữ liệu, bạn nên xem xét tùy chọn mua Amazon EC2 nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "52-0",
+        "answer_text": "Spot Instances",
+        "is_correct": false
+      },
+      {
+        "answer_id": "52-1",
+        "answer_text": "Scheduled Reserved Instances",
+        "is_correct": true
+      },
+      {
+        "answer_id": "52-2",
+        "answer_text": "Dedicated Hosts",
+        "is_correct": false
+      },
+      {
+        "answer_id": "52-3",
+        "answer_text": "On-Demand Instances",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-53",
+    "question_text": "Một Amazon Machine Image (AMI) bao gồm những gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "53-0",
+        "answer_text": "Một mẫu cho ổ đĩa gốc cho phiên bản",
+        "is_correct": false
+      },
+      {
+        "answer_id": "53-1",
+        "answer_text": "Quyền khởi chạy kiểm soát tài khoản AWS nào có thể sử dụng AMI",
+        "is_correct": false
+      },
+      {
+        "answer_id": "53-2",
+        "answer_text": "Một ánh xạ thiết bị khối chỉ định các ổ đĩa sẽ được gắn vào phiên bản",
+        "is_correct": false
+      },
+      {
+        "answer_id": "53-3",
+        "answer_text": "Tất cả những điều trên",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-54",
+    "question_text": "Tính năng Amazon EC2 nào đảm bảo các phiên bản của bạn sẽ không chia sẻ một máy chủ vật lý với các phiên bản từ bất kỳ khách hàng AWS nào khác?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "54-0",
+        "answer_text": "Amazon VPC",
+        "is_correct": false
+      },
+      {
+        "answer_id": "54-1",
+        "answer_text": "Placement groups",
+        "is_correct": false
+      },
+      {
+        "answer_id": "54-2",
+        "answer_text": "Dedicated Instances",
+        "is_correct": true
+      },
+      {
+        "answer_id": "54-3",
+        "answer_text": "Reserved Instances",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-55",
+    "question_text": "Dịch vụ nào sau đây là một dịch vụ tính toán không máy chủ trong AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "55-0",
+        "answer_text": "AWS Config",
+        "is_correct": false
+      },
+      {
+        "answer_id": "55-1",
+        "answer_text": "AWS Lambda",
+        "is_correct": true
+      },
+      {
+        "answer_id": "55-2",
+        "answer_text": "AWS OpsWorks",
+        "is_correct": false
+      },
+      {
+        "answer_id": "55-3",
+        "answer_text": "Amazon EC2",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-56",
+    "question_text": "Dịch vụ nào do AWS cung cấp cho phép các nhà phát triển dễ dàng triển khai và quản lý các ứng dụng trên đám mây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "56-0",
+        "answer_text": "Amazon Elastic Container Service",
+        "is_correct": false
+      },
+      {
+        "answer_id": "56-1",
+        "answer_text": "AWS Elastic Beanstalk",
+        "is_correct": true
+      },
+      {
+        "answer_id": "56-2",
+        "answer_text": "AWS Opswork",
+        "is_correct": false
+      },
+      {
+        "answer_id": "56-3",
+        "answer_text": "AWS CloudFormation",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-57",
+    "question_text": "Ứng dụng web của bạn cần bốn phiên bản để hỗ trợ lưu lượng truy cập ổn định mọi lúc. Vào ngày cuối cùng của tháng, lưu lượng truy cập tăng gấp ba lần. Cách tiết kiệm chi phí nhất để xử lý mô hình này là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "57-0",
+        "answer_text": "Chạy 12 phiên bản dành riêng mọi lúc.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "57-1",
+        "answer_text": "Chạy bốn phiên bản theo yêu cầu liên tục, sau đó thêm tám phiên bản theo yêu cầu khác vào ngày cuối cùng của mỗi tháng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "57-2",
+        "answer_text": "Chạy bốn phiên bản dành riêng liên tục, sau đó thêm tám phiên bản theo yêu cầu vào ngày cuối cùng của mỗi tháng.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "57-3",
+        "answer_text": "Chạy bốn phiên bản theo yêu cầu liên tục, sau đó thêm tám phiên bản dành riêng vào ngày cuối cùng của mỗi tháng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-58",
+    "question_text": "Đúng hay sai? Các vùng chứa chứa toàn bộ hệ điều hành.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "58-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "58-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-59",
+    "question_text": "Tùy chọn Amazon EC2 nào tốt nhất cho khối lượng công việc dài hạn với các mẫu sử dụng có thể dự đoán được?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "59-0",
+        "answer_text": "Spot Instances",
+        "is_correct": false
+      },
+      {
+        "answer_id": "59-1",
+        "answer_text": "On-Demand Instances",
+        "is_correct": false
+      },
+      {
+        "answer_id": "59-2",
+        "answer_text": "Reserved Instances",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-60",
+    "question_text": "Điều nào sau đây phải được chỉ định khi khởi chạy một phiên bản Windows Amazon EC2 mới? (Chọn hai)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "60-0",
+        "answer_text": "Mật khẩu cho tài khoản quản trị viên",
+        "is_correct": false
+      },
+      {
+        "answer_id": "60-1",
+        "answer_text": "Amazon Machine Image (AMI)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "60-2",
+        "answer_text": "ID phiên bản Amazon EC2",
+        "is_correct": false
+      },
+      {
+        "answer_id": "60-3",
+        "answer_text": "Loại phiên bản Amazon EC2",
+        "is_correct": true
+      }
+    ]
+  }
+]

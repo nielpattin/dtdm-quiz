@@ -1,0 +1,442 @@
+[
+  {
+    "question_id": "q-91",
+    "question_text": "Công cụ AWS nào sau đây giúp ứng dụng của bạn tăng hoặc giảm quy mô dựa trên nhu cầu? (Chọn hai)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "91-0",
+        "answer_text": "Availability Zones",
+        "is_correct": false
+      },
+      {
+        "answer_id": "91-1",
+        "answer_text": "Amazon EC2 Auto Scaling",
+        "is_correct": true
+      },
+      {
+        "answer_id": "91-2",
+        "answer_text": "AWS CloudFormation",
+        "is_correct": false
+      },
+      {
+        "answer_id": "91-3",
+        "answer_text": "Elastic Load Balancing",
+        "is_correct": true
+      },
+      {
+        "answer_id": "91-4",
+        "answer_text": "AWS Config",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-92",
+    "question_text": "Bạn sẽ sử dụng dịch vụ nào để gửi cảnh báo dựa trên báo động Amazon CloudWatch?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "92-0",
+        "answer_text": "Amazon Simple Notification Service (Amazon SNS)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "92-1",
+        "answer_text": "AWS CloudTrail",
+        "is_correct": false
+      },
+      {
+        "answer_id": "92-2",
+        "answer_text": "AWS Trusted Advisor",
+        "is_correct": false
+      },
+      {
+        "answer_id": "92-3",
+        "answer_text": "Amazon Route 53",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-93",
+    "question_text": "Các đặc điểm của Amazon EC2 Auto Scaling là gì? (Chọn ba)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "93-0",
+        "answer_text": "Chỉ hỗ trợ mở rộng quy mô động",
+        "is_correct": false
+      },
+      {
+        "answer_id": "93-1",
+        "answer_text": "Phản hồi các điều kiện thay đổi bằng cách thêm hoặc chấm dứt các phiên bản",
+        "is_correct": true
+      },
+      {
+        "answer_id": "93-2",
+        "answer_text": "Gửi thông báo đẩy",
+        "is_correct": false
+      },
+      {
+        "answer_id": "93-3",
+        "answer_text": "Khởi chạy các phiên bản từ một Amazon Machine Image (AMI) được chỉ định",
+        "is_correct": true
+      },
+      {
+        "answer_id": "93-4",
+        "answer_text": "Thực thi một số lượng tối thiểu các phiên bản Amazon EC2 đang chạy",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-94",
+    "question_text": "Điều nào sau đây phải được định cấu hình trên bộ cân bằng tải Elastic Load Balancing để mong đợi lưu lượng truy cập đến?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "94-0",
+        "answer_text": "A port",
+        "is_correct": false
+      },
+      {
+        "answer_id": "94-1",
+        "answer_text": "A network interface",
+        "is_correct": false
+      },
+      {
+        "answer_id": "94-2",
+        "answer_text": "A listener",
+        "is_correct": true
+      },
+      {
+        "answer_id": "94-3",
+        "answer_text": "An instance",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-95",
+    "question_text": "Các yếu tố nào sau đây được sử dụng để tạo cấu hình khởi chạy Amazon EC2 Auto Scaling? (Chọn ba)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "95-0",
+        "answer_text": "Amazon Machine Image (AMI)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "95-1",
+        "answer_text": "Load balancer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "95-2",
+        "answer_text": "Instance type",
+        "is_correct": true
+      },
+      {
+        "answer_id": "95-3",
+        "answer_text": "Virtual private cloud (VPC) and subnets",
+        "is_correct": false
+      },
+      {
+        "answer_id": "95-4",
+        "answer_text": "Amazon Elastic Block Store (Amazon EBS) volumes",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-96",
+    "question_text": "Dịch vụ nào sau đây có thể giúp bạn thu thập các chỉ số quan trọng từ các phiên bản Amazon RDS và Amazon EC2?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "96-0",
+        "answer_text": "Amazon CloudFront",
+        "is_correct": false
+      },
+      {
+        "answer_id": "96-1",
+        "answer_text": "Amazon CloudSearch",
+        "is_correct": false
+      },
+      {
+        "answer_id": "96-2",
+        "answer_text": "Amazon CloudWatch",
+        "is_correct": true
+      },
+      {
+        "answer_id": "96-3",
+        "answer_text": "AWS CloudTrail",
+        "is_correct": false
+      },
+      {
+        "answer_id": "96-4",
+        "answer_text": "Amazon EC2 Auto Scaling",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-97",
+    "question_text": "Các yếu tố nào sau đây là của một nhóm Auto Scaling? (Chọn ba)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "97-0",
+        "answer_text": "Minimum size",
+        "is_correct": true
+      },
+      {
+        "answer_id": "97-1",
+        "answer_text": "Health checks",
+        "is_correct": false
+      },
+      {
+        "answer_id": "97-2",
+        "answer_text": "Desired capacity",
+        "is_correct": true
+      },
+      {
+        "answer_id": "97-3",
+        "answer_text": "Maximum size",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-98",
+    "question_text": "Có một cuộc kiểm toán tại công ty của bạn và họ cần có một bản ghi nhật ký về tất cả các quyền truy cập vào tài nguyên AWS trong tài khoản. Dịch vụ nào sau đây có thể hỗ trợ cung cấp các chi tiết này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "98-0",
+        "answer_text": "Amazon CloudWatch",
+        "is_correct": false
+      },
+      {
+        "answer_id": "98-1",
+        "answer_text": "AWS CloudTrail",
+        "is_correct": true
+      },
+      {
+        "answer_id": "98-2",
+        "answer_text": "Amazon Elastic Compute Cloud (Amazon EC2)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "98-3",
+        "answer_text": "Amazon Simple Notification Service (Amazon SNS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-99",
+    "question_text": "Trong Elastic Load Balancing, khi bộ cân bằng tải phát hiện một mục tiêu không lành mạnh, điều nào sau đây là đúng? (Chọn ba)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "99-0",
+        "answer_text": "Ngừng định tuyến lưu lượng truy cập đến mục tiêu đó",
+        "is_correct": true
+      },
+      {
+        "answer_id": "99-1",
+        "answer_text": "Kích hoạt báo động",
+        "is_correct": false
+      },
+      {
+        "answer_id": "99-2",
+        "answer_text": "Tiếp tục định tuyến lưu lượng truy cập khi phát hiện mục tiêu đã lành mạnh trở lại",
+        "is_correct": true
+      },
+      {
+        "answer_id": "99-3",
+        "answer_text": "Tiếp tục định tuyến lưu lượng truy cập khi được khởi động lại theo cách thủ công",
+        "is_correct": false
+      },
+      {
+        "answer_id": "99-4",
+        "answer_text": "Định tuyến lưu lượng truy cập đến một mục tiêu lành mạnh",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-100",
+    "question_text": "Ba loại bộ cân bằng tải mà Elastic Load Balancing cung cấp là gì?",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "100-0",
+        "answer_text": "Internet Load Balancer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "100-1",
+        "answer_text": "Application Load Balancer",
+        "is_correct": true
+      },
+      {
+        "answer_id": "100-2",
+        "answer_text": "Network Load Balancer",
+        "is_correct": true
+      },
+      {
+        "answer_id": "100-3",
+        "answer_text": "Compute Load Balancer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "100-4",
+        "answer_text": "Classic Load Balancer",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-101",
+    "question_text": "Những lợi thế của điện toán đám mây đối với một công ty chuyển từ mô hình điện toán tại chỗ truyền thống là gì? (Chọn HAI.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "101-0",
+        "answer_text": "Tài nguyên có thể được tạo, tăng quy mô, giảm quy mô hoặc phá hủy dựa trên nhu cầu.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "101-1",
+        "answer_text": "Tất cả các giấy phép máy chủ tại chỗ có thể được chuyển dễ dàng và quản lý tập trung trên đám mây.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "101-2",
+        "answer_text": "Công ty có thể đầu tư nhiều hơn vào các chi phí cố định (vốn) và giảm chi phí biến đổi của họ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "101-3",
+        "answer_text": "Các nhóm CNTT có thể đưa ra quyết định về năng lực trước khi triển khai các ứng dụng để họ luôn có năng lực dư thừa.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "101-4",
+        "answer_text": "Công ty có thể tập trung ít hơn vào cơ sở hạ tầng và tập trung nhiều hơn vào việc tạo sự khác biệt cho doanh nghiệp.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-102",
+    "question_text": "Làm thế nào để kinh tế theo quy mô giúp khách hàng chuyển sang điện toán đám mây từ điện toán tại chỗ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "102-0",
+        "answer_text": "Khách hàng có thể triển khai tài nguyên trên toàn cầu.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "102-1",
+        "answer_text": "Khách hàng có toàn quyền kiểm soát cơ sở hạ tầng của họ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "102-2",
+        "answer_text": "Khách hàng có thể đạt được chi phí biến đổi thấp hơn và mở rộng cơ sở hạ tầng vượt quá những gì có thể có tại chỗ.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "102-3",
+        "answer_text": "Khách hàng có thể mở rộng quy mô máy chủ theo chiều ngang.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-103",
+    "question_text": "Phát biểu nào mô tả chính xác cách khách hàng có thể sử dụng AWS Support?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "103-0",
+        "answer_text": "Khách hàng có thể nhận được AWS Support cho cả tài khoản không sản xuất thử nghiệm và cho các tài khoản sản xuất quan trọng của doanh nghiệp.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "103-1",
+        "answer_text": "Khách hàng nên liên hệ với Support Concierge của họ để cung cấp hỗ trợ kỹ thuật nhanh chóng và hiệu quả.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "103-2",
+        "answer_text": "Khách hàng được chỉ định một Technical Account Manager (TAM) cho tất cả các gói AWS Support.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "103-3",
+        "answer_text": "Khách hàng phải chọn một trong ba gói hỗ trợ: Basic Support, Business Support và Enterprise Support.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-104",
+    "question_text": "Làm thế nào để AWS Billing Dashboard giúp các công ty phân tích việc sử dụng AWS của họ để tìm các cơ hội tiết kiệm chi phí tiềm năng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "104-0",
+        "answer_text": "Bảng điều khiển thanh toán liệt kê các chi phí đã phát sinh trong tháng qua theo dịch vụ, theo Khu vực AWS và theo các tài khoản được liên kết.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "104-1",
+        "answer_text": "Bảng điều khiển thanh toán liệt kê tất cả các tài khoản AWS có hoạt động trong 6 tháng trước và tóm tắt chi tiêu cho mỗi tài khoản.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "104-2",
+        "answer_text": "Bảng điều khiển thanh toán hiển thị các mô hình định giá cho tất cả các dịch vụ AWS được sử dụng trong tài khoản của bạn và nơi việc sử dụng của bạn thuộc AWS Free Tier.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "104-3",
+        "answer_text": "Bảng điều khiển thanh toán hiển thị trạng thái chi tiêu AWS từ đầu tháng đến nay và các dịch vụ AWS chiếm phần lớn chi tiêu tổng thể.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-105",
+    "question_text": "Phát biểu nào về các Khu vực AWS là đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "105-0",
+        "answer_text": "Sử dụng một Khu vực càng gần người dùng càng tốt có thể giảm độ trễ.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "105-1",
+        "answer_text": "Tất cả các tài khoản AWS có thể truy cập tất cả các Khu vực AWS.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "105-2",
+        "answer_text": "Tất cả các Khu vực có sẵn được bật theo mặc định trong một tài khoản AWS.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "105-3",
+        "answer_text": "Dữ liệu được lưu trữ trong một Khu vực AWS không tuân theo các yêu cầu tuân thủ về địa lý.",
+        "is_correct": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,353 @@
+[
+  {
+    "question_id": "q-106",
+    "question_text": "Quản trị viên tài khoản AWS muốn cấp quyền truy cập tạm thời giữa các tài khoản cho phép người dùng bên ngoài truy cập các tài nguyên cụ thể trong tài khoản của riêng họ. Hành động nào sau đây phù hợp với thực tiễn tốt nhất về việc sử dụng các phiên tạm thời?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "106-0",
+        "answer_text": "Tạo một vai trò AWS Identity and Access Management (IAM) có thể được đảm nhận bởi người dùng bên ngoài và cấp cho nó quyền đối với các tài nguyên cụ thể.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "106-1",
+        "answer_text": "Tạo một chính sách AWS Identity and Access Management (IAM) cho phép người dùng bên ngoài truy cập các tài nguyên cụ thể.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "106-2",
+        "answer_text": "Tạo một nhóm AWS Identity and Access Management (IAM), cấp quyền tài nguyên cho nhóm, sau đó thêm người dùng IAM vào nhóm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "106-3",
+        "answer_text": "Tạo một tài khoản người dùng AWS Identity and Access Management (IAM) mới cho mỗi người dùng cần truy cập.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-107",
+    "question_text": "Một công ty phải tạo báo cáo về bất kỳ thay đổi nào đối với cài đặt phiên bản Amazon EC2 của mình. Họ nên sử dụng dịch vụ AWS nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "107-0",
+        "answer_text": "AWS Artifact",
+        "is_correct": false
+      },
+      {
+        "answer_id": "107-1",
+        "answer_text": "AWS CloudTrail",
+        "is_correct": false
+      },
+      {
+        "answer_id": "107-2",
+        "answer_text": "AWS Config",
+        "is_correct": true
+      },
+      {
+        "answer_id": "107-3",
+        "answer_text": "Amazon CloudWatch",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-108",
+    "question_text": "Một quản trị viên mạng muốn định cấu hình một mạng con công cộng và định tuyến lưu lượng truy cập đến và đi từ một phiên bản Amazon EC2 trong mạng con công cộng đến internet công cộng. Họ nên sử dụng tính năng nào của đám mây riêng ảo (VPC)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "108-0",
+        "answer_text": "An internet gateway",
+        "is_correct": true
+      },
+      {
+        "answer_id": "108-1",
+        "answer_text": "VPC sharing",
+        "is_correct": false
+      },
+      {
+        "answer_id": "108-2",
+        "answer_text": "A network address translation (NAT) gateway",
+        "is_correct": false
+      },
+      {
+        "answer_id": "108-3",
+        "answer_text": "A network access control list (ACL)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-109",
+    "question_text": "Các nhóm bảo mật đóng vai trò gì trong việc quản lý quyền truy cập vào các phiên bản Amazon EC2?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "109-0",
+        "answer_text": "Các nhóm bảo mật xác định các vai trò AWS Identity and Access Management (IAM) có thể truy cập một phiên bản.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "109-1",
+        "answer_text": "Các nhóm bảo mật cung cấp một bộ quy tắc để kiểm soát lưu lượng truy cập đến hoặc từ một phiên bản.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "109-2",
+        "answer_text": "Các nhóm bảo mật kiểm soát quyền truy cập trong nước vào mạng con mà một Amazon EC2 được liên kết.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "109-3",
+        "answer_text": "Các nhóm bảo mật xác định các khóa công khai và riêng tư cần thiết để kết nối với một phiên bản Amazon EC2.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-110",
+    "question_text": "Kịch bản nào phù hợp với lưu trữ Amazon Elastic File System (Amazon EFS)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "110-0",
+        "answer_text": "Một công ty muốn lưu trữ một trang web.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "110-1",
+        "answer_text": "Một công ty cần lưu trữ tệp tạm thời cho ứng dụng của mình đang chạy trên Amazon EC2.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "110-2",
+        "answer_text": "Một công ty cần cấp cho tất cả các phiên bản Amazon EC2 trong đám mây riêng ảo (VPC) của mình quyền đọc và ghi vào hệ thống tệp mạng (NFS).",
+        "is_correct": true
+      },
+      {
+        "answer_id": "110-3",
+        "answer_text": "Một công ty muốn xây dựng một hồ dữ liệu có kích thước petabyte để phân tích.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-111",
+    "question_text": "Phát biểu nào về các dịch vụ lưu trữ của AWS là chính xác?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "111-0",
+        "answer_text": "Kho lưu trữ phiên bản Amazon EC2 cung cấp bộ nhớ bền vững cho phiên bản Amazon EC2 mà nó được gắn vào, nhưng nó không có sẵn cho các phiên bản EC2 khác.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "111-1",
+        "answer_text": "Để truy cập Amazon Elastic File System (Amazon EFS), hệ thống tệp phải được gắn trên một phiên bản Amazon EC2 trong đám mây riêng ảo (VPC) của bạn.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "111-2",
+        "answer_text": "Kho lưu trữ phiên bản Amazon EC2 là một lựa chọn tốt để chạy xử lý và phân tích dữ liệu lớn.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "111-3",
+        "answer_text": "Các ổ đĩa Amazon Elastic Block Store (Amazon EBS) cung cấp bộ nhớ khối tạm thời cho Amazon EC2, nhưng chúng không tồn tại khi phiên bản EC2 bị dừng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-112",
+    "question_text": "Kịch bản nào mô tả một trường hợp sử dụng tốt cho lưu trữ Amazon S3 Standard?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "112-0",
+        "answer_text": "Lưu trữ hình ảnh trang web",
+        "is_correct": true
+      },
+      {
+        "answer_id": "112-1",
+        "answer_text": "Chia sẻ hệ thống tệp NFS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "112-2",
+        "answer_text": "Hoạt động như một kho lưu trữ phiên bản EC2.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "112-3",
+        "answer_text": "Chạy cơ sở dữ liệu quan hệ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-113",
+    "question_text": "Tùy chọn nào là trách nhiệm của công ty khi chạy Amazon RDS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "113-0",
+        "answer_text": "Vá lỗi phần mềm cơ sở dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "113-1",
+        "answer_text": "Tối ưu hóa ứng dụng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "113-2",
+        "answer_text": "Vá lỗi hệ điều hành",
+        "is_correct": false
+      },
+      {
+        "answer_id": "113-3",
+        "answer_text": "Cài đặt hệ điều hành",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-114",
+    "question_text": "Kịch bản nào phù hợp với Amazon Redshift?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "114-0",
+        "answer_text": "Một công ty cần một cơ sở dữ liệu để quản lý dữ liệu phi cấu trúc.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "114-1",
+        "answer_text": "Một công ty cần lưu trữ khối lượng lớn các tệp hình ảnh và video đa phương tiện hỗn hợp.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "114-2",
+        "answer_text": "Một công ty cần một kho dữ liệu để hỗ trợ các ứng dụng phân tích.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "114-3",
+        "answer_text": "Một công ty cần một cơ sở dữ liệu quan hệ cho một cơ sở dữ liệu giao dịch theo ngành kinh doanh.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-115",
+    "question_text": "AWS Trusted Advisor hỗ trợ một công ty bắt đầu với AWS như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "115-0",
+        "answer_text": "AWS Trusted Advisor cung cấp các đề xuất về việc định cấu hình tài nguyên AWS của bạn.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "115-1",
+        "answer_text": "AWS Trusted Advisor ngăn chặn quyền truy cập vào các tài nguyên có quyền quá rộng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "115-2",
+        "answer_text": "AWS Trusted Advisor cung cấp các đề xuất để di chuyển tài nguyên tại chỗ lên đám mây.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "115-3",
+        "answer_text": "AWS Trusted Advisor tự động tăng giới hạn dịch vụ (hạn ngạch) nếu bạn sắp đạt đến giới hạn.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-116",
+    "question_text": "Loại cảnh báo nào có thể được cung cấp bởi AWS Trusted Advisor?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "116-0",
+        "answer_text": "Cảnh báo rằng xác thực đa yếu tố (MFA) không được kích hoạt trên tài khoản AWS",
+        "is_correct": true
+      },
+      {
+        "answer_id": "116-1",
+        "answer_text": "Cảnh báo rằng người dùng AWS Identity and Access Management (IAM) đã yêu cầu thay đổi hạn ngạch dịch vụ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "116-2",
+        "answer_text": "Cảnh báo về các lệnh gọi API bất thường được thực hiện trong tài khoản AWS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "116-3",
+        "answer_text": "Cảnh báo về quyền truy cập trái phép trong tài khoản AWS",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-117",
+    "question_text": "Kịch bản nào nên được giải quyết bằng Network Load Balancer?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "117-0",
+        "answer_text": "Một giải pháp phải định tuyến lưu lượng truy cập ở lớp 7 của mô hình Kết nối hệ thống mở (OSI).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "117-1",
+        "answer_text": "Một giải pháp phải hỗ trợ định tuyến lưu lượng truy cập đến một ứng dụng được đóng gói dựa trên nội dung của các yêu cầu đến.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "117-2",
+        "answer_text": "Một giải pháp phải cân bằng tải hàng triệu yêu cầu mỗi giây trong khi vẫn duy trì độ trễ thấp.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "117-3",
+        "answer_text": "Một giải pháp phải cân bằng tải các yêu cầu gRPC đến.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-118",
+    "question_text": "Phát biểu nào về AWS Auto Scaling là đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "118-0",
+        "answer_text": "AWS Auto Scaling có thể được sử dụng để tự động thay đổi quy mô các bảng và chỉ mục Amazon DynamoDB.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "118-1",
+        "answer_text": "AWS Auto Scaling và Amazon EC2 Auto Scaling là đồng nghĩa.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "118-2",
+        "answer_text": "AWS Auto Scaling có thể được sử dụng để tự động thay đổi quy mô cơ sở dữ liệu Amazon RDS.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "118-3",
+        "answer_text": "Bạn có thể sử dụng Amazon EC2 Auto Scaling hoặc AWS Auto Scaling, nhưng không thể sử dụng cả hai.",
+        "is_correct": false
+      }
+    ]
+  }
+]

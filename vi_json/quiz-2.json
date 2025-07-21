@@ -1,0 +1,357 @@
+[
+  {
+    "question_id": "q-16",
+    "question_text": "Công cụ AWS nào cho phép bạn khám phá các dịch vụ của AWS và tạo ước tính chi phí cho các trường hợp sử dụng của bạn trên AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "16-0",
+        "answer_text": "AWS Pricing Calculator",
+        "is_correct": true
+      },
+      {
+        "answer_id": "16-1",
+        "answer_text": "AWS Budgets",
+        "is_correct": false
+      },
+      {
+        "answer_id": "16-2",
+        "answer_text": "AWS Cost and Usage Report",
+        "is_correct": false
+      },
+      {
+        "answer_id": "16-3",
+        "answer_text": "AWS Billing Dashboard",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-17",
+    "question_text": "Khi AWS phát triển, chi phí kinh doanh giảm và các khoản tiết kiệm được chuyển lại cho khách hàng với giá thấp hơn. Tối ưu hóa này được gọi là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "17-0",
+        "answer_text": "Nhận thức về chi tiêu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-1",
+        "answer_text": "Kinh tế theo quy mô",
+        "is_correct": true
+      },
+      {
+        "answer_id": "17-2",
+        "answer_text": "Đối sánh cung và cầu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-3",
+        "answer_text": "EC2 Right Sizing",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-18",
+    "question_text": "Đúng hay sai? AWS cung cấp một số dịch vụ miễn phí, chẳng hạn như Amazon VPC, AWS IAM, Consolidated Billing, AWS Elastic Beanstalk, auto scaling và AWS CloudFormation. Tuy nhiên, bạn có thể bị tính phí cho các dịch vụ AWS khác mà bạn sử dụng cùng với các dịch vụ này.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "18-0",
+        "answer_text": "TRUE",
+        "is_correct": true
+      },
+      {
+        "answer_id": "18-1",
+        "answer_text": "FALSE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-19",
+    "question_text": "Lợi ích của việc sử dụng AWS Organizations là gì? (Chọn hai)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "19-0",
+        "answer_text": "Thay thế các chính sách AWS IAM hiện có bằng các SCP, đơn giản hơn để quản lý",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-1",
+        "answer_text": "Cung cấp khả năng tạo các nhóm tài khoản và sau đó đính kèm các chính sách vào một nhóm",
+        "is_correct": true
+      },
+      {
+        "answer_id": "19-2",
+        "answer_text": "Cung cấp khả năng tạo một số lượng không giới hạn các OU lồng nhau",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-3",
+        "answer_text": "Đơn giản hóa việc tự động hóa việc tạo và quản lý tài khoản bằng cách sử dụng các API",
+        "is_correct": true
+      },
+      {
+        "answer_id": "19-4",
+        "answer_text": "Ngăn chặn mọi hạn chế được đặt trên người dùng gốc",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-20",
+    "question_text": "Đúng hay sai? Các dịch vụ không giới hạn có sẵn với AWS Free Tier cho khách hàng AWS mới trong 12 tháng sau ngày đăng ký AWS của họ.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "20-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "20-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-21",
+    "question_text": "Thành phần nào của Cơ sở hạ tầng toàn cầu của AWS mà Amazon CloudFront sử dụng để đảm bảo phân phối có độ trễ thấp?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "21-0",
+        "answer_text": "AWS Regions",
+        "is_correct": false
+      },
+      {
+        "answer_id": "21-1",
+        "answer_text": "AWS edge locations",
+        "is_correct": true
+      },
+      {
+        "answer_id": "21-2",
+        "answer_text": "AWS Availability Zones",
+        "is_correct": false
+      },
+      {
+        "answer_id": "21-3",
+        "answer_text": "Amazon Virtual Private Cloud (Amazon VPC)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-22",
+    "question_text": "Bạn có thể chạy các ứng dụng và khối lượng công việc từ một Khu vực gần hơn với người dùng cuối để ______ độ trễ.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "22-0",
+        "answer_text": "tăng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "22-1",
+        "answer_text": "giảm",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-23",
+    "question_text": "Đúng hay sai? Mạng, lưu trữ, tính toán và cơ sở dữ liệu là các ví dụ về các danh mục dịch vụ mà AWS cung cấp.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "23-0",
+        "answer_text": "TRUE",
+        "is_correct": true
+      },
+      {
+        "answer_id": "23-1",
+        "answer_text": "FALSE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-24",
+    "question_text": "Điều nào sau đây là các khu vực địa lý lưu trữ hai hoặc nhiều Availability Zones?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "24-0",
+        "answer_text": "AWS Origins",
+        "is_correct": false
+      },
+      {
+        "answer_id": "24-1",
+        "answer_text": "AWS Regions",
+        "is_correct": true
+      },
+      {
+        "answer_id": "24-2",
+        "answer_text": "Compute zones",
+        "is_correct": false
+      },
+      {
+        "answer_id": "24-3",
+        "answer_text": "Edge locations",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-25",
+    "question_text": "______ có nghĩa là cơ sở hạ tầng có tính dự phòng thành phần tích hợp và ______ có nghĩa là các tài nguyên tự động điều chỉnh theo sự tăng hoặc giảm yêu cầu về năng lực.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "25-0",
+        "answer_text": "Không có sự can thiệp của con người, chịu lỗi",
+        "is_correct": false
+      },
+      {
+        "answer_id": "25-1",
+        "answer_text": "Đàn hồi và có thể mở rộng, không có sự can thiệp của con người",
+        "is_correct": false
+      },
+      {
+        "answer_id": "25-2",
+        "answer_text": "Chịu lỗi, đàn hồi và có thể mở rộng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "25-3",
+        "answer_text": "Chịu lỗi, không có sự can thiệp của con người",
+        "is_correct": false
+      },
+      {
+        "answer_id": "25-4",
+        "answer_text": "Đàn hồi và có thể mở rộng, chịu lỗi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-26",
+    "question_text": "Đúng hay sai? Các Availability Zones trong một Khu vực được kết nối thông qua các liên kết có độ trễ thấp.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "26-0",
+        "answer_text": "TRUE",
+        "is_correct": true
+      },
+      {
+        "answer_id": "26-1",
+        "answer_text": "FALSE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-27",
+    "question_text": "Phát biểu nào sau đây về Availability Zones là không đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "27-0",
+        "answer_text": "Các Availability Zones được thiết kế để cách ly lỗi.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "27-1",
+        "answer_text": "Các Availability Zones được tạo thành từ một hoặc nhiều trung tâm dữ liệu.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "27-2",
+        "answer_text": "Một trung tâm dữ liệu có thể được sử dụng cho nhiều hơn một Availability Zone.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "27-3",
+        "answer_text": "Các Availability Zones được kết nối với nhau bằng các liên kết riêng tốc độ cao.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-28",
+    "question_text": "Điều gì đúng về các Khu vực? (Chọn hai)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "28-0",
+        "answer_text": "Chúng là các vị trí thực tế của khách hàng của bạn.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "28-1",
+        "answer_text": "Mỗi Khu vực nằm ở một khu vực địa lý riêng biệt.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "28-2",
+        "answer_text": "Một Khu vực là một vị trí thực tế có nhiều Availability Zones.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "28-3",
+        "answer_text": "Tất cả các Khu vực đều nằm ở một khu vực địa lý cụ thể.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-29",
+    "question_text": "AWS thực sự khuyên bạn nên cung cấp tài nguyên tính toán của mình trên ______ Availability Zones.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "29-0",
+        "answer_text": "một",
+        "is_correct": false
+      },
+      {
+        "answer_id": "29-1",
+        "answer_text": "không",
+        "is_correct": false
+      },
+      {
+        "answer_id": "29-2",
+        "answer_text": "tất cả",
+        "is_correct": false
+      },
+      {
+        "answer_id": "29-3",
+        "answer_text": "nhiều",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-30",
+    "question_text": "Đúng hay sai? Các vị trí biên chỉ nằm trong cùng một khu vực chung với các Khu vực.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "30-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "30-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  }
+]

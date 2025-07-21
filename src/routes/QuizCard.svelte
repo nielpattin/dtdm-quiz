@@ -241,7 +241,7 @@
 
 <!-- Quiz Card -->
 <div
-	class="quiz-card main-scrollbar bg-[#29273F] text-[#CECDE0] rounded-2xl shadow-lg w-[95vw] h-[90%] max-w-[95vw] max-h-[90%] px-4 relative flex flex-col gap-2 touch-pan-y overflow-y-auto scrollbar-thin scrollbar-thumb-[#8582B0] scrollbar-track-[#29273F]"
+	class="quiz-card main-scrollbar bg-[#29273F] text-[#CECDE0] rounded-2xl shadow-lg w-[90vw] h-[90%] max-w-[90vw] max-h-[90%] md:w-[90%] md:max-w-[90%] px-4 relative flex flex-col gap-2 touch-pan-y overflow-y-auto scrollbar-thin scrollbar-thumb-[#8582B0] scrollbar-track-[#29273F]"
 	ontouchstart={handleTouchStart}
 	ontouchend={handleTouchEnd}
 	style="transform: translateY({isTouching && scrollAtEdgeOnce === true

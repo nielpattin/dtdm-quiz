@@ -1,0 +1,407 @@
+[
+  {
+    "question_id": "q-76",
+    "question_text": "Nếu bạn đang phát triển một ứng dụng yêu cầu cơ sở dữ liệu có hiệu suất cực nhanh, khả năng mở rộng nhanh và tính linh hoạt trong lược đồ cơ sở dữ liệu, bạn nên xem xét dịch vụ nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "76-0",
+        "answer_text": "Amazon RDS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "76-1",
+        "answer_text": "Amazon ElastiCache",
+        "is_correct": false
+      },
+      {
+        "answer_id": "76-2",
+        "answer_text": "Amazon DynamoDB",
+        "is_correct": true
+      },
+      {
+        "answer_id": "76-3",
+        "answer_text": "Amazon Redshift",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-77",
+    "question_text": "Trường hợp sử dụng nào sau đây phù hợp để sử dụng Amazon RDS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "77-0",
+        "answer_text": "Tốc độ đọc/ghi lớn",
+        "is_correct": false
+      },
+      {
+        "answer_id": "77-1",
+        "answer_text": "Yêu cầu GET hoặc PUT đơn giản",
+        "is_correct": false
+      },
+      {
+        "answer_id": "77-2",
+        "answer_text": "Giao dịch phức tạp",
+        "is_correct": true
+      },
+      {
+        "answer_id": "77-3",
+        "answer_text": "Tất cả những điều trên",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-78",
+    "question_text": "Một công ty có một ứng dụng, bao gồm một lớp .NET kết nối với cơ sở dữ liệu MySQL. Họ muốn chuyển ứng dụng này sang AWS và sử dụng các tính năng như tính sẵn sàng cao và sao lưu tự động. Cơ sở dữ liệu nào sau đây sẽ là lựa chọn lý tưởng cho trường hợp sử dụng này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "78-0",
+        "answer_text": "Amazon Redshift",
+        "is_correct": false
+      },
+      {
+        "answer_id": "78-1",
+        "answer_text": "Amazon RDS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "78-2",
+        "answer_text": "Amazon DynamoDB",
+        "is_correct": false
+      },
+      {
+        "answer_id": "78-3",
+        "answer_text": "Amazon Aurora",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-79",
+    "question_text": "Đúng hay sai? Amazon RDS tự động vá lỗi phần mềm cơ sở dữ liệu và sao lưu cơ sở dữ liệu của bạn, lưu trữ các bản sao lưu trong một khoảng thời gian lưu giữ do người dùng xác định và cho phép khôi phục tại một thời điểm.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "79-0",
+        "answer_text": "TRUE",
+        "is_correct": true
+      },
+      {
+        "answer_id": "79-1",
+        "answer_text": "FALSE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-80",
+    "question_text": "Bạn nên cân nhắc điều gì khi chọn loại cơ sở dữ liệu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "80-0",
+        "answer_text": "Kích thước dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "80-1",
+        "answer_text": "Thời gian truy cập dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "80-2",
+        "answer_text": "Tần suất truy vấn",
+        "is_correct": false
+      },
+      {
+        "answer_id": "80-3",
+        "answer_text": "Tính sẵn sàng cao",
+        "is_correct": false
+      },
+      {
+        "answer_id": "80-4",
+        "answer_text": "Tất cả những điều trên",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-81",
+    "question_text": "Điều nào sau đây không phải là một trong bốn lĩnh vực của trụ cột hiệu quả hoạt động của AWS Well-Architected Framework?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "81-0",
+        "answer_text": "Tradeoffs",
+        "is_correct": false
+      },
+      {
+        "answer_id": "81-1",
+        "answer_text": "Selection",
+        "is_correct": false
+      },
+      {
+        "answer_id": "81-2",
+        "answer_text": "Traceability",
+        "is_correct": true
+      },
+      {
+        "answer_id": "81-3",
+        "answer_text": "Monitoring",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-82",
+    "question_text": "Điều nào sau đây là một nguyên tắc khi thiết kế các hệ thống dựa trên đám mây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "82-0",
+        "answer_text": "Xây dựng các thành phần được kết nối chặt chẽ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "82-1",
+        "answer_text": "Thực hiện các thay đổi hàng loạt lớn, không thường xuyên",
+        "is_correct": false
+      },
+      {
+        "answer_id": "82-2",
+        "answer_text": "Giả sử mọi thứ sẽ thất bại",
+        "is_correct": true
+      },
+      {
+        "answer_id": "82-3",
+        "answer_text": "Sử dụng càng nhiều dịch vụ càng tốt",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-83",
+    "question_text": "Các trụ cột của AWS Well-Architected Framework là gì? (Chọn ba)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "83-0",
+        "answer_text": "Security",
+        "is_correct": true
+      },
+      {
+        "answer_id": "83-1",
+        "answer_text": "Persistence",
+        "is_correct": false
+      },
+      {
+        "answer_id": "83-2",
+        "answer_text": "Operational Excellence",
+        "is_correct": true
+      },
+      {
+        "answer_id": "83-3",
+        "answer_text": "Cost Optimization",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-84",
+    "question_text": "Các nguyên tắc thiết kế nào được khuyến nghị khi xem xét hiệu quả hoạt động? (Chọn hai)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "84-0",
+        "answer_text": "Phân tích và phân bổ chi tiêu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "84-1",
+        "answer_text": "Dân chủ hóa các công nghệ tiên tiến",
+        "is_correct": true
+      },
+      {
+        "answer_id": "84-2",
+        "answer_text": "Đối sánh cung và cầu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "84-3",
+        "answer_text": "Cho phép truy xuất nguồn gốc",
+        "is_correct": false
+      },
+      {
+        "answer_id": "84-4",
+        "answer_text": "Sử dụng kiến trúc không máy chủ",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-85",
+    "question_text": "AWS Trusted Advisor cung cấp thông tin chi tiết về năm loại nào của tài khoản AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "85-0",
+        "answer_text": "Hiệu suất, tối ưu hóa chi phí, bảo mật, khả năng chịu lỗi, giới hạn dịch vụ",
+        "is_correct": true
+      },
+      {
+        "answer_id": "85-1",
+        "answer_text": "Bảo mật, kiểm soát truy cập, tính sẵn sàng cao, hiệu suất, giới hạn dịch vụ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "85-2",
+        "answer_text": "Bảo mật, khả năng chịu lỗi, tính sẵn sàng cao, kết nối, giới hạn dịch vụ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "85-3",
+        "answer_text": "Hiệu suất, tối ưu hóa chi phí, kiểm soát truy cập, kết nối, bảo mật",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-86",
+    "question_text": "Trọng tâm của trụ cột bền vững của Well-Architected Framework là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "86-0",
+        "answer_text": "Thiết kế khối lượng công việc phục hồi nhanh chóng sau sự cố",
+        "is_correct": false
+      },
+      {
+        "answer_id": "86-1",
+        "answer_text": "Giảm thiểu tác động môi trường của việc chạy khối lượng công việc trên đám mây",
+        "is_correct": true
+      },
+      {
+        "answer_id": "86-2",
+        "answer_text": "Tránh các chi phí không cần thiết trong khối lượng công việc trên đám mây",
+        "is_correct": false
+      },
+      {
+        "answer_id": "86-3",
+        "answer_text": "Tự động hóa các bản cập nhật cho khối lượng công việc trên đám mây",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-87",
+    "question_text": "Sau khi bạn chuyển sang AWS Cloud, bạn muốn đảm bảo rằng các cài đặt bảo mật phù hợp được áp dụng. Công cụ trực tuyến nào có thể hỗ trợ tuân thủ bảo mật?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "87-0",
+        "answer_text": "Amazon Kinesis",
+        "is_correct": false
+      },
+      {
+        "answer_id": "87-1",
+        "answer_text": "AWS Support",
+        "is_correct": false
+      },
+      {
+        "answer_id": "87-2",
+        "answer_text": "AWS Trusted Advisor",
+        "is_correct": true
+      },
+      {
+        "answer_id": "87-3",
+        "answer_text": "Amazon CloudWatch",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-88",
+    "question_text": "Điều nào sau đây là thước đo khả năng của hệ thống của bạn để cung cấp chức năng khi người dùng mong muốn?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "88-0",
+        "answer_text": "Availability",
+        "is_correct": false
+      },
+      {
+        "answer_id": "88-1",
+        "answer_text": "Fault Tolerance",
+        "is_correct": false
+      },
+      {
+        "answer_id": "88-2",
+        "answer_text": "Reliability",
+        "is_correct": true
+      },
+      {
+        "answer_id": "88-3",
+        "answer_text": "Performance efficiency",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-89",
+    "question_text": "Điều gì được định nghĩa là khả năng của một hệ thống để duy trì hoạt động ngay cả khi một số thành phần của hệ thống đó bị lỗi?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "89-0",
+        "answer_text": "High durability",
+        "is_correct": false
+      },
+      {
+        "answer_id": "89-1",
+        "answer_text": "Fault tolerance",
+        "is_correct": true
+      },
+      {
+        "answer_id": "89-2",
+        "answer_text": "High availability",
+        "is_correct": false
+      },
+      {
+        "answer_id": "89-3",
+        "answer_text": "High durability",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-90",
+    "question_text": "Điều nào sau đây mô tả tốt nhất một hệ thống có thể chịu được một số biện pháp suy giảm, trải qua thời gian ngừng hoạt động tối thiểu và yêu cầu sự can thiệp tối thiểu của con người?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "90-0",
+        "answer_text": "Scalable",
+        "is_correct": false
+      },
+      {
+        "answer_id": "90-1",
+        "answer_text": "Fault-tolerant",
+        "is_correct": false
+      },
+      {
+        "answer_id": "90-2",
+        "answer_text": "Elastic",
+        "is_correct": false
+      },
+      {
+        "answer_id": "90-3",
+        "answer_text": "Highly available",
+        "is_correct": true
+      }
+    ]
+  }
+]
