@@ -431,7 +431,7 @@
 	<!-- Floating Favorites ID Button and Modal -->
 	<button
 		id="fav-id-fab"
-		class="fav-id-fab fixed bottom-6 right-6 z-[1000] bg-[#6c63ff] text-white rounded-full w-14 h-14 shadow-lg text-2xl flex items-center justify-center hover:bg-[#574fd6]"
+		class="cursor-pointer fav-id-fab fixed bottom-6 right-6 z-[1000] bg-[#6c63ff] text-white rounded-full w-14 h-14 shadow-lg text-2xl flex items-center justify-center hover:bg-[#574fd6]"
 		onclick={() => (showFavModal = true)}
 	>
 		★

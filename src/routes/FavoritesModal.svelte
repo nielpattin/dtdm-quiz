@@ -19,7 +19,7 @@
 
 {#if showFavModal}
 	<div
-		class="fav-id-modal-backdrop fixed inset-0 z-[1001] bg-black/50 backdrop-blur-sm backdrop-opacity-60 flex items-center justify-center"
+		class="fav-id-modal-backdrop fixed inset-0 z-[1001] bg-black/50 backdrop-opacity-60 flex items-center justify-center"
 	>
 		<div
 			class="fav-id-modal bg-white p-6 rounded-xl min-w-[320px] max-w-[95vw] shadow-xl border border-[#e0e0f0] text-[#23223a]"

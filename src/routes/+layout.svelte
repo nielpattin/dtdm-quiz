@@ -1,8 +1,34 @@
 <script lang="ts">
 	import '@fontsource-variable/noto-sans';
 	import '../app.css';
+	import { APP_VERSION } from '../lib/config';
+	import NewVersionModal from './NewVersionModal.svelte';
 
 	let { children } = $props();
+
+	let showVersionModal = $state(false);
+	let versionConfirmed = $state(false);
+
+	// Only run on client
+	if (typeof window !== 'undefined') {
+		const storedVersion = localStorage.getItem('app_version');
+		if (!storedVersion || storedVersion !== APP_VERSION) {
+			showVersionModal = true;
+		}
+	}
+
+	// This function should be called when the user confirms the modal (to be implemented in a later subtask)
+	function confirmVersionUpdate() {
+		localStorage.clear();
+		localStorage.setItem('app_version', APP_VERSION);
+		showVersionModal = false;
+		versionConfirmed = true;
+		location.reload();
+	}
 </script>
+
+{#if showVersionModal}
+	<NewVersionModal onReload={confirmVersionUpdate} />
+{/if}
 
 {@render children()}
