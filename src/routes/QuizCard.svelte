@@ -252,9 +252,23 @@
 >
 	<!-- Question number and Favorite Button row -->
 	<div class="flex items-center justify-between mb-2">
-		<span class="text-[#8582B0] text-base">
+		<span class="text-[#8582B0] text-base flex items-center gap-3">
 			{#if quizData.length}
 				Question {current + 1} / {quizData.length}
+				{#if currentQuestion?.module}
+					<span
+						class="inline-block px-2 py-0.5 rounded bg-[#35325A] text-[#C294FF] text-xs font-medium border border-[#C294FF] ml-2"
+					>
+						Module: {currentQuestion.module}
+					</span>
+				{/if}
+				{#if currentQuestion?.question_id}
+					<span
+						class="inline-block px-2 py-0.5 rounded bg-[#35325A] text-[#FFD700] text-xs font-medium border border-[#FFD700] ml-2"
+					>
+						ID: {currentQuestion.question_id}
+					</span>
+				{/if}
 			{/if}
 		</span>
 		<!-- This is the favorite button -->

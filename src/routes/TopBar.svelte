@@ -11,6 +11,7 @@
 		onClearFavorites: () => void;
 		sidebarOpen: boolean;
 		setSidebarOpen: (open: boolean) => void;
+		currentView: 'all' | 'favorites';
 	}
 
 	let {
@@ -21,20 +22,16 @@
 		onBackToAll,
 		onClearFavorites,
 		sidebarOpen,
-		setSidebarOpen
+		setSidebarOpen,
+		currentView
 	}: Props = $props();
 
-	let selectEl: HTMLSelectElement;
-
-	let favoritesMode = $state(false);
-	$effect(() => {
-		favoritesMode = page.url.pathname.startsWith('/favorites');
-	});
+	let selectEl = $state<HTMLSelectElement | null>(null);
 
 	function handleSelectMousedown(e: MouseEvent) {
 		if (document.activeElement === selectEl) {
 			e.preventDefault();
-			selectEl.blur();
+			selectEl?.blur();
 		}
 	}
 
@@ -81,25 +78,24 @@
 			<span class="block w-6 h-[3px] bg-[#222] my-1"></span>
 		</button>
 	{/if}
-	<!-- Module Selector -->
+	<!-- Module Selector always visible -->
 	<select
 		bind:value={moduleId}
 		bind:this={selectEl}
 		onmousedown={handleSelectMousedown}
 		oninput={(e) => {
 			setModuleId((e.target as HTMLSelectElement).value);
-			setTimeout(() => selectEl.blur(), 0);
+			setTimeout(() => selectEl?.blur(), 0);
 		}}
 		class="rounded-md px-3 py-2 bg-[#29273F] text-[#CECDE0] border border-[#33314E] mr-2 ml-0 md:ml-0 focus:outline-none focus:ring-0"
+		onkeydown={handleSelectKeydown}
 	>
 		{#each modules as mod}
 			<option value={mod.value}>{mod.label}</option>
 		{/each}
-		on:keydown={handleSelectKeydown}
-		></select
-	>
-	<!-- Favorites Button -->
-	{#if !favoritesMode && typeof showFavorites === 'function' && showFavorites.toString() !== '() => {}'}
+	</select>
+	{#if currentView === 'all'}
+		<!-- Favorites Button -->
 		<button
 			id="favorites-btn"
 			class="ml-3 rounded-md px-3 py-2 bg-[#C294FF] text-[#1D1B2C] font-semibold"
@@ -108,20 +104,22 @@
 			Favorites
 		</button>
 	{/if}
-	{#if favoritesMode || typeof showFavorites !== 'function' || showFavorites.toString() === '() => {}'}
+	{#if currentView === 'favorites'}
+		<!-- Back to All Button -->
 		<button
 			id="back-to-all-btn"
 			class="ml-3 rounded-md px-3 py-2 bg-[#C294FF] text-[#1D1B2C] font-semibold"
 			onclick={handleBackClick}
 		>
-			Go Back
+			Back to All
 		</button>
+		<!-- Clear Favorites Button -->
 		<button
 			id="clear-favorites-btn"
 			class="ml-3 rounded-md px-3 py-2 bg-[#C294FF] text-[#1D1B2C] font-semibold mt-2 md:mt-0"
 			onclick={handleClearFavorites}
 		>
-			Clear All Favorites
+			Clear Favorites
 		</button>
 	{/if}
 </div>

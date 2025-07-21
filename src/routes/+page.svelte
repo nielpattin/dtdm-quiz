@@ -16,12 +16,22 @@
 	let isLoading = $state(false);
 
 	async function showFavorites() {
-		const { goto } = await import('$app/navigation');
-		goto('/favorites');
+		if (typeof window !== 'undefined') {
+			localStorage.setItem('currentView', 'favorites');
+			appState.currentView = 'favorites';
+			loadAppState('favorites');
+			moduleId = appState.favorites.module || modules[0].value;
+			const restoredIndex =
+				typeof appState.favorites.questionIndex === 'number' ? appState.favorites.questionIndex : 0;
+			await loadQuizForModule(moduleId, restoredIndex);
+			current = restoredIndex;
+		}
 	}
 	function onBackToAll() {
 		if (typeof window !== 'undefined') {
+			localStorage.setItem('currentView', 'all');
 			appState.currentView = 'all';
+			loadAppState('all');
 			moduleId = appState.all.module;
 			loadQuizForModule(moduleId, appState.all.questionIndex);
 		}
@@ -58,27 +68,46 @@
 
 	let moduleQuizCache = new Map();
 	let favorites = $state(new Set<string>());
-	let appState = $state({
+	type AppState = {
+		currentView: 'all' | 'favorites';
+		all: { module: string; questionIndex: number };
+		favorites: { module: string; questionIndex: number };
+	};
+	let appState = $state<AppState>({
 		currentView: 'all',
 		all: { module: '', questionIndex: 0 },
-		favorites: { questionIndex: 0 }
+		favorites: { module: '', questionIndex: 0 }
 	});
+
+	function loadAppState(view: 'all' | 'favorites') {
+		const key = view === 'all' ? 'appState_all' : 'appState_favorites';
+		const loaded = JSON.parse(localStorage.getItem(key) || '{}') || {};
+		if (view === 'all') {
+			if (!loaded.module) loaded.module = '';
+			if (typeof loaded.questionIndex !== 'number') loaded.questionIndex = 0;
+			appState.all = { module: loaded.module, questionIndex: loaded.questionIndex };
+		} else {
+			if (!loaded.module) loaded.module = '';
+			if (typeof loaded.questionIndex !== 'number') loaded.questionIndex = 0;
+			appState.favorites = { module: loaded.module, questionIndex: loaded.questionIndex };
+		}
+	}
 
 	if (typeof window !== 'undefined') {
 		favorites = new Set<string>(JSON.parse(localStorage.getItem('favoriteQuestions') || '[]'));
-		{
-			const loaded = JSON.parse(localStorage.getItem('appState') || '{}') || {};
-			if (!loaded.all) loaded.all = { module: '', questionIndex: 0 };
-			if (!loaded.favorites) loaded.favorites = { questionIndex: 0 };
-			if (!loaded.currentView) loaded.currentView = 'all';
-			appState = loaded;
-		}
+		const currentView = (localStorage.getItem('currentView') as 'all' | 'favorites') || 'all';
+		appState.currentView = currentView;
+		loadAppState(currentView);
 	}
 
 	(() => {
 		if (!appState.all) appState.all = { module: '', questionIndex: 0 };
-		if (!appState.favorites) appState.favorites = { questionIndex: 0 };
-		if (!appState.currentView) appState.currentView = 'all';
+		if (!appState.favorites) appState.favorites = { module: '', questionIndex: 0 };
+		if (
+			!appState.currentView ||
+			(appState.currentView !== 'all' && appState.currentView !== 'favorites')
+		)
+			appState.currentView = 'all';
 	})();
 
 	let moduleId = $state('');
@@ -100,21 +129,34 @@
 			isLoading = false;
 			return;
 		}
+		let loadedQuizzes: Quiz[] = [];
 		if (moduleQuizCache.has(moduleId)) {
-			quizData = moduleQuizCache.get(moduleId);
-			isLoading = false;
+			loadedQuizzes = moduleQuizCache.get(moduleId);
 		} else {
 			let url = `/api/module?id=${moduleId}`;
 			const res = await fetch(url);
 			const data = await res.json();
-			const loadedQuizzes = Array.isArray(data.quizzes)
-				? data.quizzes.filter((q: any) => q.status !== 'all_false')
+			loadedQuizzes = Array.isArray(data.quizzes)
+				? data.quizzes.filter((q: Quiz) => q.status !== 'all_false')
 				: [];
 			moduleQuizCache.set(moduleId, loadedQuizzes);
-			quizData = loadedQuizzes;
-			isLoading = false;
 		}
 
+		// Filter for favorites view
+		if (appState.currentView === 'favorites') {
+			const favIds = favorites;
+			if (moduleId === 'all') {
+				quizData = loadedQuizzes.filter((q) => favIds.has(q.question_id));
+			} else {
+				quizData = loadedQuizzes.filter(
+					(q) => favIds.has(q.question_id) && q.quiz_number === `module_${moduleId}`
+				);
+			}
+		} else {
+			quizData = loadedQuizzes;
+		}
+
+		isLoading = false;
 		current = typeof startAt === 'number' ? Math.max(0, Math.min(startAt, quizData.length - 1)) : 0;
 		selectedAnswers = [];
 		questionLocked = false;
@@ -184,14 +226,25 @@
 	// Auto-save appState to localStorage when it changes
 	$effect(() => {
 		if (typeof window !== 'undefined') {
-			localStorage.setItem('appState', JSON.stringify(appState));
+			const key = appState.currentView === 'all' ? 'appState_all' : 'appState_favorites';
+			if (appState.currentView === 'all') {
+				localStorage.setItem(key, JSON.stringify(appState.all));
+			} else {
+				localStorage.setItem(key, JSON.stringify(appState.favorites));
+			}
 		}
 	});
 	// Auto-save current module and question index to appState
 	$effect(() => {
-		if (typeof window !== 'undefined' && moduleId !== undefined) {
+		if (typeof window !== 'undefined' && moduleId !== undefined && appState.currentView === 'all') {
 			appState.all.module = moduleId;
 			appState.all.questionIndex = current;
+			localStorage.setItem('appState_all', JSON.stringify(appState.all));
+		}
+		if (typeof window !== 'undefined' && appState.currentView === 'favorites') {
+			appState.favorites.module = moduleId;
+			appState.favorites.questionIndex = current;
+			localStorage.setItem('appState_favorites', JSON.stringify(appState.favorites));
 		}
 	});
 
@@ -262,6 +315,7 @@
 					{onClearFavorites}
 					{sidebarOpen}
 					setSidebarOpen={(open: boolean) => (sidebarOpen = open)}
+					currentView={appState.currentView}
 				/>
 			{/if}
 		</div>
