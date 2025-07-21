@@ -1,0 +1,670 @@
+[
+  {
+    "question_id": "q-122",
+    "question_text": "Cấu hình nào đại diện cho việc sử dụng hợp lệ các nhóm bảo mật trong một đám mây riêng ảo (VPC)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "122-0",
+        "answer_text": "Đặt một quy tắc từ chối ngăn chặn quyền truy cập vào mạng con từ internet công cộng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "122-1",
+        "answer_text": "Hạn chế lưu lượng truy cập ra ngoài từ một phiên bản Amazon EC2 trong VPC đến một máy chủ cơ sở dữ liệu cụ thể.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "122-2",
+        "answer_text": "Đặt một quy tắc từ chối ngăn chặn lưu lượng truy cập ra ngoài từ một phiên bản Amazon EC2 trong một VPC.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "122-3",
+        "answer_text": "Hạn chế quyền truy cập trong nước vào mạng con riêng tư của VPC.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-123",
+    "question_text": "Một công ty muốn kiểm soát hoàn toàn các cấu hình, hệ điều hành (OS) và ngăn xếp phần mềm ứng dụng của máy chủ của mình. Họ nên chọn dịch vụ tính toán AWS nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "123-0",
+        "answer_text": "Amazon EC2",
+        "is_correct": true
+      },
+      {
+        "answer_id": "123-1",
+        "answer_text": "AWS Lambda",
+        "is_correct": false
+      },
+      {
+        "answer_id": "123-2",
+        "answer_text": "Amazon Elastic Container Service (Amazon ECS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "123-3",
+        "answer_text": "Amazon RDS",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-124",
+    "question_text": "Các nhóm bảo mật đóng vai trò gì trong việc quản lý quyền truy cập vào các phiên bản Amazon EC2?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "124-0",
+        "answer_text": "Các nhóm bảo mật xác định các vai trò AWS Identity and Access Management (IAM) có thể truy cập một phiên bản.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "124-1",
+        "answer_text": "Các nhóm bảo mật xác định các khóa công khai và riêng tư cần thiết để kết nối với một phiên bản Amazon EC2.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "124-2",
+        "answer_text": "Các nhóm bảo mật kiểm soát quyền truy cập trong nước vào mạng con mà một Amazon EC2 được liên kết.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "124-3",
+        "answer_text": "Các nhóm bảo mật cung cấp một bộ quy tắc để kiểm soát lưu lượng truy cập đến hoặc từ một phiên bản.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-125",
+    "question_text": "Một nhà phát triển muốn sử dụng Amazon Elastic Block Store (Amazon EBS) cho ứng dụng của họ. Họ nên thực hiện hành động nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "125-0",
+        "answer_text": "Sao lưu ổ đĩa Amazon EBS bằng Snapshots.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "125-1",
+        "answer_text": "Đính kèm ổ đĩa Amazon EBS vào nhiều phiên bản Amazon EC2 trong nhiều Availability Zones.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "125-2",
+        "answer_text": "Đính kèm ổ đĩa Amazon EBS vào một phiên bản Amazon EC2.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "125-3",
+        "answer_text": "Sao chép ổ đĩa Amazon EBS trong một Availability Zone khác.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-126",
+    "question_text": "Một công ty cần lưu trữ hàng tỷ sự kiện hàng ngày có khối lượng thấp sẽ được sử dụng để phân tích. Tùy chọn lưu trữ nào phù hợp nhất với trường hợp sử dụng này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "126-0",
+        "answer_text": "Amazon S3",
+        "is_correct": true
+      },
+      {
+        "answer_id": "126-1",
+        "answer_text": "Amazon Elastic Container Service (Amazon ECS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "126-2",
+        "answer_text": "Amazon EC2 instance store",
+        "is_correct": false
+      },
+      {
+        "answer_id": "126-3",
+        "answer_text": "Amazon Elastic Block Store (Amazon EBS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-127",
+    "question_text": "Một công ty nên định cấu hình tính năng nào của Amazon RDS để cho phép tính sẵn sàng cao?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "127-0",
+        "answer_text": "Mã hóa bằng các khóa AWS Key Management Service (AWS KMS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "127-1",
+        "answer_text": "Multi-AZ deployment",
+        "is_correct": true
+      },
+      {
+        "answer_id": "127-2",
+        "answer_text": "Provisioned IOPS storage",
+        "is_correct": false
+      },
+      {
+        "answer_id": "127-3",
+        "answer_text": "Virtual private cloud (VPC) deployment",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-128",
+    "question_text": "Kịch bản nào mô tả tốt nhất một trường hợp sử dụng cho Amazon Aurora?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "128-0",
+        "answer_text": "Một công ty cần một cơ sở dữ liệu để lưu trữ dữ liệu bán cấu trúc.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "128-1",
+        "answer_text": "Một công ty cần một kho dữ liệu có thể được truy vấn bằng các công cụ kinh doanh thông minh tiêu chuẩn.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "128-2",
+        "answer_text": "Một công ty muốn chạy một cơ sở dữ liệu Oracle trên đám mây.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "128-3",
+        "answer_text": "Một công ty cần một cơ sở dữ liệu tương thích với PostgreSQL có tính sẵn sàng cao.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-129",
+    "question_text": "Phát biểu nào mô tả tính sẵn sàng cao?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "129-0",
+        "answer_text": "Một hệ thống có thể chịu được một số biện pháp suy giảm mà không bị sập.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "129-1",
+        "answer_text": "Một hệ thống có thể cung cấp chức năng mong đợi của nó khi người dùng mong muốn.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "129-2",
+        "answer_text": "Đó là thước đo tổng thời gian phục vụ chia cho số lần hỏng hóc.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "129-3",
+        "answer_text": "Đó là xác suất mà toàn bộ hệ thống của bạn sẽ hoạt động như dự định trong một khoảng thời gian xác định.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-130",
+    "question_text": "Một công ty có một ứng dụng đang chạy trên hai phiên bản Amazon EC2. Họ muốn giảm dung lượng EC2 nhàn rỗi. Tải ứng dụng khó dự báo và họ muốn giữ mức sử dụng CPU gần 40% trên tất cả các phiên bản. Họ nên định cấu hình loại Amazon EC2 Auto Scaling nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "130-0",
+        "answer_text": "Scheduled scaling",
+        "is_correct": false
+      },
+      {
+        "answer_id": "130-1",
+        "answer_text": "Dynamic scaling",
+        "is_correct": true
+      },
+      {
+        "answer_id": "130-2",
+        "answer_text": "Manual scaling",
+        "is_correct": false
+      },
+      {
+        "answer_id": "130-3",
+        "answer_text": "Predictive scaling",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-131",
+    "question_text": "Elastic Load Balancing (ELB) được sử dụng với Amazon EC2 Auto Scaling như thế nào? (Chọn HAI.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "131-0",
+        "answer_text": "ELB tự động thêm các phiên bản mới vào nhóm Amazon EC2 Auto Scaling khi tải đạt đến một giới hạn được xác định trước.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "131-1",
+        "answer_text": "ELB phân phối lưu lượng truy cập giữa các phiên bản Amazon EC2 trong một nhóm Amazon EC2 Auto Scaling.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "131-2",
+        "answer_text": "ELB thiết lập số lượng phiên bản tối thiểu và tối đa trong nhóm Amazon EC2 Auto Scaling.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "131-3",
+        "answer_text": "ELB thực hiện kiểm tra tình trạng trên các phiên bản Amazon EC2 mới được thêm vào nhóm Amazon EC2 Auto Scaling.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "131-4",
+        "answer_text": "ELB kích hoạt một sự kiện Amazon EC2 Auto Scaling khi đạt đến một ngưỡng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-132",
+    "question_text": "Phát biểu nào mô tả quan điểm kinh doanh của AWS Cloud Adoption Framework?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "132-0",
+        "answer_text": "Các bên liên quan có thể tạo ra một trường hợp kinh doanh mạnh mẽ cho việc áp dụng đám mây và ưu tiên các sáng kiến áp dụng đám mây.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "132-1",
+        "answer_text": "Các bên liên quan có thể sử dụng các kích thước và mô hình kiến trúc để hiểu và giao tiếp bản chất của các hệ thống CNTT và các mối quan hệ của chúng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "132-2",
+        "answer_text": "Các bên liên quan có thể đánh giá các cấu trúc và vai trò của tổ chức, các yêu cầu về kỹ năng và quy trình mới và xác định các khoảng trống.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "132-3",
+        "answer_text": "Các bên liên quan có thể tập trung vào các kỹ năng và quy trình cần thiết để điều chỉnh chiến lược và mục tiêu CNTT với chiến lược và mục tiêu kinh doanh.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-133",
+    "question_text": "Một người thực hành đám mây muốn trực quan hóa chi phí AWS của họ cho mỗi loại phiên bản EC2 trong 3 tháng qua. Họ nên sử dụng công cụ hoặc tính năng nào của AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "133-0",
+        "answer_text": "AWS Bills page",
+        "is_correct": false
+      },
+      {
+        "answer_id": "133-1",
+        "answer_text": "AWS Cost Explorer",
+        "is_correct": true
+      },
+      {
+        "answer_id": "133-2",
+        "answer_text": "AWS Pricing Calculator",
+        "is_correct": false
+      },
+      {
+        "answer_id": "133-3",
+        "answer_text": "AWS Budgets",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-134",
+    "question_text": "Phát biểu nào về các vị trí biên là đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "134-0",
+        "answer_text": "Mạng toàn cầu của AWS bao gồm một số lượng lớn các bộ đệm cạnh khu vực và một số lượng nhỏ hơn các vị trí biên để cung cấp nội dung cho người dùng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "134-1",
+        "answer_text": "Amazon CloudFront sử dụng các vị trí biên và bộ đệm cạnh khu vực để cung cấp nội dung có độ trễ thấp hơn.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "134-2",
+        "answer_text": "Các bộ đệm cạnh khu vực được sử dụng để lưu vào bộ đệm dữ liệu được cập nhật thường xuyên và phải được làm mới liên tục.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "134-3",
+        "answer_text": "Các điểm hiện diện của AWS cung cấp hai đến ba vị trí biên cho mỗi Khu vực.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-135",
+    "question_text": "Phát biểu nào về trách nhiệm là chính xác dựa trên mô hình trách nhiệm chung của AWS? (Chọn HAI.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "135-0",
+        "answer_text": "Khách hàng chịu trách nhiệm về việc cài đặt, bảo trì và ngừng hoạt động của phần cứng mà họ sử dụng trong trung tâm dữ liệu của AWS.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "135-1",
+        "answer_text": "AWS chịu trách nhiệm về an ninh vật lý của các trung tâm dữ liệu.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "135-2",
+        "answer_text": "AWS chịu trách nhiệm quyết định dữ liệu nào sẽ được mã hóa trong các bucket Amazon S3 của khách hàng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "135-3",
+        "answer_text": "Khách hàng chịu trách nhiệm quản lý dữ liệu người dùng của họ.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "135-4",
+        "answer_text": "AWS chịu trách nhiệm về việc định cấu hình các nhóm bảo mật.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-136",
+    "question_text": "Phát biểu nào về việc bảo mật dữ liệu đang truyền là đúng? (Chọn HAI.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "136-0",
+        "answer_text": "Lưu lượng truy cập web chạy qua HTTP được mã hóa bằng TLS.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "136-1",
+        "answer_text": "Các chứng chỉ TLS có thể được quản lý bằng AWS Certificate Manager (ACM).",
+        "is_correct": true
+      },
+      {
+        "answer_id": "136-2",
+        "answer_text": "Dữ liệu di chuyển giữa các dịch vụ AWS được mã hóa bằng TLS và AWS Key Management Service (AWS KMS).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "136-3",
+        "answer_text": "TLS là một giao thức độc quyền được sử dụng để bảo mật lưu lượng truy cập giữa các đám mây riêng ảo (VPC) của AWS.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "136-4",
+        "answer_text": "TLS cung cấp mã hóa dữ liệu đang truyền.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-137",
+    "question_text": "Một nhà phát triển cần bộ nhớ khối tạm thời cho dữ liệu bộ đệm trên một phiên bản Amazon EC2. Họ nên chọn tùy chọn nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "137-0",
+        "answer_text": "Amazon EC2 instance store",
+        "is_correct": true
+      },
+      {
+        "answer_id": "137-1",
+        "answer_text": "Amazon S3",
+        "is_correct": false
+      },
+      {
+        "answer_id": "137-2",
+        "answer_text": "Amazon Elastic Block Store (Amazon EBS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "137-3",
+        "answer_text": "Amazon Elastic File System (Amazon EFS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-138",
+    "question_text": "Một công ty có một trang web thương mại điện tử yêu cầu lưu trữ và truy xuất siêu dữ liệu khách hàng phi cấu trúc để hỗ trợ một trong các microservices của nó. Tùy chọn cơ sở dữ liệu nào phù hợp nhất để lưu trữ dữ liệu này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "138-0",
+        "answer_text": "Amazon RDS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "138-1",
+        "answer_text": "Amazon Redshift",
+        "is_correct": false
+      },
+      {
+        "answer_id": "138-2",
+        "answer_text": "Amazon Aurora",
+        "is_correct": false
+      },
+      {
+        "answer_id": "138-3",
+        "answer_text": "Amazon DynamoDB",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-139",
+    "question_text": "Phát biểu nào phản ánh một nguyên tắc thiết kế của Trụ cột bảo mật của AWS Well-Architected Framework?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "139-0",
+        "answer_text": "Không triển khai một giải pháp vào sản xuất cho đến khi bạn chắc chắn rằng không có rủi ro bảo mật nào.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "139-1",
+        "answer_text": "Đảm bảo rằng nhân viên đang tích cực theo dõi các rủi ro tiềm ẩn theo cách thủ công.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "139-2",
+        "answer_text": "Áp dụng bảo mật ở tất cả các lớp của một kiến trúc.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "139-3",
+        "answer_text": "Phi tập trung hóa việc quản lý quyền.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-140",
+    "question_text": "Mối quan hệ giữa các Khu vực AWS, Availability Zones và các trung tâm dữ liệu là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "140-0",
+        "answer_text": "Mỗi Khu vực có các vị trí được gọi là Availability Zones. Mỗi Availability Zone có các trung tâm dữ liệu.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "140-1",
+        "answer_text": "Mỗi Availability Zone bao gồm các trung tâm dữ liệu. Mỗi trung tâm dữ liệu trong một Availability Zone được đặt ở một Khu vực địa lý khác nhau.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "140-2",
+        "answer_text": "Một tập hợp các trung tâm dữ liệu trong một khu vực địa lý tạo ra một Khu vực. Availability Zones là các kết nối giữa các Khu vực.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "140-3",
+        "answer_text": "Mỗi Khu vực có một tập hợp các trung tâm dữ liệu. Mỗi trung tâm dữ liệu ánh xạ tới một Availability Zone.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-141",
+    "question_text": "Kịch bản nào mô tả một trường hợp sử dụng cho AWS CloudTrail?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "141-0",
+        "answer_text": "Một quản trị viên tài khoản muốn kiểm soát tập trung các quyền truy cập cho các nhóm tài khoản.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "141-1",
+        "answer_text": "Một quản trị viên hệ thống muốn bảo vệ ứng dụng web của họ khỏi các cuộc tấn công từ chối dịch vụ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "141-2",
+        "answer_text": "Một nhà phát triển muốn kiểm soát việc đăng nhập của người dùng vào trang web của họ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "141-3",
+        "answer_text": "Một quản trị viên tài khoản muốn có khả năng theo dõi hoạt động của người dùng trên tài khoản của họ.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-142",
+    "question_text": "Tùy chọn nào mô tả một khả năng của các đám mây riêng ảo (VPC) của Amazon?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "142-0",
+        "answer_text": "Chúng có thể được định cấu hình như một phần bị cô lập về mặt vật lý của Đám mây AWS.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "142-1",
+        "answer_text": "Phạm vi địa chỉ của chúng có thể được thay đổi theo ý muốn sau khi tạo.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "142-2",
+        "answer_text": "Chúng có thể mở rộng khắp các Availability Zones.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "142-3",
+        "answer_text": "Chúng có thể thuộc về nhiều Khu vực AWS.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-143",
+    "question_text": "Phát biểu nào mô tả chính xác một mạng phân phối nội dung (CDN)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "143-0",
+        "answer_text": "Một CDN lưu vào bộ đệm các tệp được yêu cầu thường xuyên.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "143-1",
+        "answer_text": "Một CDN tạo các kết nối nhanh giữa các máy chủ gốc.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "143-2",
+        "answer_text": "Một CDN tăng tốc độ phân giải tên miền cho các máy chủ ứng dụng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "143-3",
+        "answer_text": "Một CDN là một nhóm máy chủ theo Khu vực.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-144",
+    "question_text": "Phát biểu nào về Amazon Elastic Block Store (Amazon EBS) là đúng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "144-0",
+        "answer_text": "Các ổ đĩa Amazon EBS được tự động sao chép trên nhiều Availability Zones.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "144-1",
+        "answer_text": "Các ổ đĩa Amazon EBS không được khuyến nghị cho việc lưu trữ yêu cầu cập nhật thường xuyên.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "144-2",
+        "answer_text": "Các ổ đĩa Amazon EBS tồn tại độc lập với các phiên bản Amazon EC2 mà chúng được gắn vào.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "144-3",
+        "answer_text": "Không thể thay đổi kích thước các ổ đĩa Amazon EBS.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-145",
+    "question_text": "Những thông tin nào PHẢI được định cấu hình cho các phiên bản Amazon EC2 sẽ là một phần của nhóm Amazon EC2 Auto Scaling? (Chọn HAI).",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "145-0",
+        "answer_text": "ID của một Amazon Machine Image (AMI)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "145-1",
+        "answer_text": "Loại phiên bản Amazon EC2",
+        "is_correct": true
+      },
+      {
+        "answer_id": "145-2",
+        "answer_text": "Các chỉ số nhóm Amazon EC2 Auto Scaling",
+        "is_correct": false
+      },
+      {
+        "answer_id": "145-3",
+        "answer_text": "Network access control list (ACL)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "145-4",
+        "answer_text": "Storage volume",
+        "is_correct": false
+      }
+    ]
+  }
+]

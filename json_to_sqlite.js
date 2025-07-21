@@ -7,7 +7,7 @@ import { config } from 'dotenv';
 
 config();
 
-const rawDir = 'vi_json';
+const rawDir = 'vi_json_merged';
 
 if (!process.env.TURSO_URL || !process.env.TURSO_AUTH_TOKEN) {
 	console.error('Missing TURSO_URL or TURSO_AUTH_TOKEN environment variables');

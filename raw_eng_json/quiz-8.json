@@ -349,5 +349,91 @@
         "is_correct": false
       }
     ]
+  },
+  {
+    "question_id": "q-119",
+    "question_text": "Which statement is an advantage of the platform as a service (PaaS) cloud service model?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "119-0",
+        "answer_text": "PaaS is the most similar to traditional on-premises models for IT resources.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "119-1",
+        "answer_text": "PaaS reduces the need to handle application deployments.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "119-2",
+        "answer_text": "PaaS avoids the need to manage operating systems.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "119-3",
+        "answer_text": "PaaS provides the greatest level of control over IT resources.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-120",
+    "question_text": "Which statement accurately describes AWS pricing?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "120-0",
+        "answer_text": "Outbound data transfers aren't charged.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "120-1",
+        "answer_text": "Companies must sign a long-term contract to be able to pay only for what they use.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "120-2",
+        "answer_text": "Companies can reserve capacity for some services, but it doesn't impact the cost.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "120-3",
+        "answer_text": "Volume-based discounts are available when usage increases (on some services).",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-121",
+    "question_text": "A network administrator wants to run their ecommerce web application on a virtual private cloud (VPC). Which step is part of setting up the VPC? (Select TWO.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "121-0",
+        "answer_text": "Create the main route table.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "121-1",
+        "answer_text": "Delete the local route in the route table.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "121-2",
+        "answer_text": "Specify the range of IP addresses for the VPC.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "121-3",
+        "answer_text": "Create private and public subnets.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "121-4",
+        "answer_text": "Attach the VPC to a security group.",
+        "is_correct": false
+      }
+    ]
   }
 ]

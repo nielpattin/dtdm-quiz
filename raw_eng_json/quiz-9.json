@@ -1,0 +1,449 @@
+[
+  {
+    "question_id": "q-122",
+    "question_text": "Which configuration represents a valid use of security groups in a virtual private cloud (VPC)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "122-0",
+        "answer_text": "Set a deny rule that prevents access to the subnet from the public internet.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "122-1",
+        "answer_text": "Limit outbound traffic from an Amazon EC2 instance in the VPC to a specific database server.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "122-2",
+        "answer_text": "Set a deny rule that prevents outbound traffic from an Amazon EC2 instance in a VPC.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "122-3",
+        "answer_text": "Limit inbound access to the private subnet of the VPC.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-123",
+    "question_text": "A company wants complete control over its server's configurations, operating system (OS), and application software stack. Which AWS compute service should they choose?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "123-0",
+        "answer_text": "Amazon EC2",
+        "is_correct": true
+      },
+      {
+        "answer_id": "123-1",
+        "answer_text": "AWS Lambda",
+        "is_correct": false
+      },
+      {
+        "answer_id": "123-2",
+        "answer_text": "Amazon Elastic Container Service (Amazon ECS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "123-3",
+        "answer_text": "Amazon RDS",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-124",
+    "question_text": "What role do security groups play in managing access to Amazon EC2 instances?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "124-0",
+        "answer_text": "Security groups define the AWS Identity and Access Management (IAM) roles that can access an instance.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "124-1",
+        "answer_text": "Security groups identify the public and private keys required to connect to an Amazon EC2 instance.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "124-2",
+        "answer_text": "Security groups control inbound access to the subnet that an Amazon EC2 is associated with.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "124-3",
+        "answer_text": "Security groups provide a set of rules to control traffic to or from an instance.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-125",
+    "question_text": "A developer wants to use Amazon Elastic Block Store (Amazon EBS) for their application. What action should they take?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "125-0",
+        "answer_text": "Back up the Amazon EBS volume using Snapshots.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "125-1",
+        "answer_text": "Attach the Amazon EBS volume to multiple Amazon EC2 instances in multiple Availability Zones.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "125-2",
+        "answer_text": "Attach the Amazon EBS volume to an Amazon EC2 instance.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "125-3",
+        "answer_text": "Replicate the Amazon EBS volume in a different Availability Zone.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-126",
+    "question_text": "A company needs to store billions of low volume daily events that will be used for analytics. Which storage option best fits this use case?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "126-0",
+        "answer_text": "Amazon S3",
+        "is_correct": true
+      },
+      {
+        "answer_id": "126-1",
+        "answer_text": "Amazon Elastic Container Service (Amazon ECS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "126-2",
+        "answer_text": "Amazon EC2 instance store",
+        "is_correct": false
+      },
+      {
+        "answer_id": "126-3",
+        "answer_text": "Amazon Elastic Block Store (Amazon EBS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-127",
+    "question_text": "Which feature of Amazon RDS should a company configure to enable high availability?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "127-0",
+        "answer_text": "Encryption with AWS Key Management Service (AWS KMS) keys",
+        "is_correct": false
+      },
+      {
+        "answer_id": "127-1",
+        "answer_text": "Multi-AZ deployment",
+        "is_correct": true
+      },
+      {
+        "answer_id": "127-2",
+        "answer_text": "Provisioned IOPS storage",
+        "is_correct": false
+      },
+      {
+        "answer_id": "127-3",
+        "answer_text": "Virtual private cloud (VPC) deployment",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-128",
+    "question_text": "Which scenario best describes a use case for Amazon Aurora?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "128-0",
+        "answer_text": "A company needs a database to store semistructured data.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "128-1",
+        "answer_text": "A company needs a data warehouse that can be queried using standard business intelligence tools.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "128-2",
+        "answer_text": "A company wants to run an Oracle database in the cloud.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "128-3",
+        "answer_text": "A company needs a highly available PostgreSQL-compatible database.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-129",
+    "question_text": "Which statement describes high availability?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "129-0",
+        "answer_text": "A system can withstand some measure of degradation without going down.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "129-1",
+        "answer_text": "A system can provide its expected functionality when desired by a user.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "129-2",
+        "answer_text": "It's the measure of the total time in service divided by the number of failures.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "129-3",
+        "answer_text": "It's the probability that your entire system will function as intended for a specified period.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-130",
+    "question_text": "A company has an application running on two Amazon EC2 instances. They want to reduce idle EC2 capacity. The application load is difficult to forecast, and they want to keep the CPU utilization close to 40 percent on all instances. Which type of Amazon EC2 Auto Scaling should they configure?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "130-0",
+        "answer_text": "Scheduled scaling",
+        "is_correct": false
+      },
+      {
+        "answer_id": "130-1",
+        "answer_text": "Dynamic scaling",
+        "is_correct": true
+      },
+      {
+        "answer_id": "130-2",
+        "answer_text": "Manual scaling",
+        "is_correct": false
+      },
+      {
+        "answer_id": "130-3",
+        "answer_text": "Predictive scaling",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-131",
+    "question_text": "How is Elastic Load Balancing (ELB) used with Amazon EC2 Auto Scaling? (Select TWO.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "131-0",
+        "answer_text": "ELB automatically adds new instances to the Amazon EC2 Auto Scaling group when the load reaches a predetermined limit.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "131-1",
+        "answer_text": "ELB distributes traffic between Amazon EC2 instances in an Amazon EC2 Auto Scaling group.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "131-2",
+        "answer_text": "ELB establishes the minimum and maximum number of instances in the Amazon EC2 Auto Scaling group.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "131-3",
+        "answer_text": "ELB performs health checks on new Amazon EC2 instances that are added to the Amazon EC2 Auto Scaling group.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "131-4",
+        "answer_text": "ELB triggers an Amazon EC2 Auto Scaling event when a threshold is reached.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-132",
+    "question_text": "Which statement describes the business perspective of the AWS Cloud Adoption Framework?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "132-0",
+        "answer_text": "Stakeholders can create a strong business case for cloud adoption and prioritize cloud adoption initiatives.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "132-1",
+        "answer_text": "Stakeholders can use architectural dimensions and models to understand and communicate the nature of IT systems and their relationships.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "132-2",
+        "answer_text": "Stakeholders can evaluate organizational structures and roles, new skill and process requirements, and identify gaps.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "132-3",
+        "answer_text": "Stakeholders can focus on the skills and processes that are needed to align IT strategy and goals with business strategy and goals.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-133",
+    "question_text": "A cloud practitioner wants to visualize their AWS costs per EC2 instance type for the past 3 months. Which AWS tool or feature should they use?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "133-0",
+        "answer_text": "AWS Bills page",
+        "is_correct": false
+      },
+      {
+        "answer_id": "133-1",
+        "answer_text": "AWS Cost Explorer",
+        "is_correct": true
+      },
+      {
+        "answer_id": "133-2",
+        "answer_text": "AWS Pricing Calculator",
+        "is_correct": false
+      },
+      {
+        "answer_id": "133-3",
+        "answer_text": "AWS Budgets",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-134",
+    "question_text": "Which statement about edge locations is true?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "134-0",
+        "answer_text": "The AWS global network includes a large number of Regional edge caches and a smaller number of edge locations to deliver content to users.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "134-1",
+        "answer_text": "Amazon CloudFront uses edge locations and Regional edge caches to deliver content with lower latency.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "134-2",
+        "answer_text": "Regional edge caches are used to cache data that's frequently updated and must be refreshed continuously.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "134-3",
+        "answer_text": "AWS points of presence provide two to three edge locations per Region.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-135",
+    "question_text": "Which statements about responsibility are accurate based on the AWS shared responsibility model? (Select TWO.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "135-0",
+        "answer_text": "Customers are responsible for the installation, maintenance, and decommissioning of the hardware that they use in the AWS data center.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "135-1",
+        "answer_text": "AWS is responsible for the physical security of data centers.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "135-2",
+        "answer_text": "AWS is responsible for deciding what data to encrypt in customers' Amazon S3 buckets.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "135-3",
+        "answer_text": "Customers are responsible for managing their user data.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "135-4",
+        "answer_text": "AWS is responsible for the configuration of security groups.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-136",
+    "question_text": "Which statements about securing data in transit are true? (Select TWO.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "136-0",
+        "answer_text": "Web traffic that runs over HTTP is encrypted using TLS.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "136-1",
+        "answer_text": "TLS certificates can be managed using AWS Certificate Manager (ACM).",
+        "is_correct": true
+      },
+      {
+        "answer_id": "136-2",
+        "answer_text": "Data moving between AWS services is encrypted using TLS and AWS Key Management Service (AWS KMS).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "136-3",
+        "answer_text": "TLS is a proprietary protocol that’s used to secure traffic between AWS virtual private clouds (VPCs).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "136-4",
+        "answer_text": "TLS provides encryption of data in transit.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-137",
+    "question_text": "A developer needs temporary block storage for cache data on an Amazon EC2 instance. Which option should they choose?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "137-0",
+        "answer_text": "Amazon EC2 instance store",
+        "is_correct": true
+      },
+      {
+        "answer_id": "137-1",
+        "answer_text": "Amazon S3",
+        "is_correct": false
+      },
+      {
+        "answer_id": "137-2",
+        "answer_text": "Amazon Elastic Block Store (Amazon EBS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "137-3",
+        "answer_text": "Amazon Elastic File System (Amazon EFS)",
+        "is_correct": false
+      }
+    ]
+  }
+]

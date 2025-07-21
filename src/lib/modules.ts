@@ -5,8 +5,5 @@ export const modules = [
 	{ value: '3', label: 'Module 3' },
 	{ value: '4', label: 'Module 4' },
 	{ value: '5', label: 'Module 5' },
-	{ value: '6', label: 'Module 6' },
-	{ value: '7', label: 'Module 7' },
-	{ value: '8', label: 'Module 8' },
 	{ value: 'all', label: 'All Modules' }
 ];

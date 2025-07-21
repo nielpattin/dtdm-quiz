@@ -1,0 +1,782 @@
+[
+  {
+    "question_id": "q-31",
+    "question_text": "Trong mô hình trách nhiệm chung, AWS chịu trách nhiệm cung cấp những gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "31-0",
+        "answer_text": "Bảo mật của đám mây",
+        "is_correct": true
+      },
+      {
+        "answer_id": "31-1",
+        "answer_text": "Bảo mật cho đám mây",
+        "is_correct": false
+      },
+      {
+        "answer_id": "31-2",
+        "answer_text": "Bảo mật cho đám mây",
+        "is_correct": false
+      },
+      {
+        "answer_id": "31-3",
+        "answer_text": "Bảo mật trong đám mây",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-32",
+    "question_text": "Trong mô hình trách nhiệm chung, ví dụ nào sau đây là \"bảo mật trong đám mây\"? (Chọn hai)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "32-0",
+        "answer_text": "Tuân thủ các tiêu chuẩn và quy định bảo mật máy tính",
+        "is_correct": false
+      },
+      {
+        "answer_id": "32-1",
+        "answer_text": "Bảo mật vật lý của các cơ sở trong đó các dịch vụ hoạt động",
+        "is_correct": false
+      },
+      {
+        "answer_id": "32-2",
+        "answer_text": "Cấu hình nhóm bảo mật",
+        "is_correct": true
+      },
+      {
+        "answer_id": "32-3",
+        "answer_text": "Mã hóa dữ liệu ở trạng thái nghỉ và dữ liệu đang truyền",
+        "is_correct": true
+      },
+      {
+        "answer_id": "32-4",
+        "answer_text": "Bảo vệ cơ sở hạ tầng toàn cầu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-33",
+    "question_text": "Điều nào sau đây là trách nhiệm của AWS theo mô hình trách nhiệm chung của AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "33-0",
+        "answer_text": "Định cấu hình các ứng dụng của bên thứ ba",
+        "is_correct": false
+      },
+      {
+        "answer_id": "33-1",
+        "answer_text": "Bảo trì phần cứng vật lý",
+        "is_correct": true
+      },
+      {
+        "answer_id": "33-2",
+        "answer_text": "Bảo mật quyền truy cập ứng dụng và dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "33-3",
+        "answer_text": "Quản lý các Amazon Machine Images (AMI) tùy chỉnh",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-34",
+    "question_text": "Khi tạo chính sách AWS Identity and Access Management (IAM), hai loại quyền truy cập nào có thể được cấp cho người dùng? (Chọn hai)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "34-0",
+        "answer_text": "Quyền truy cập của tổ chức",
+        "is_correct": false
+      },
+      {
+        "answer_id": "34-1",
+        "answer_text": "Quyền truy cập được ủy quyền",
+        "is_correct": false
+      },
+      {
+        "answer_id": "34-2",
+        "answer_text": "Quyền truy cập có lập trình",
+        "is_correct": true
+      },
+      {
+        "answer_id": "34-3",
+        "answer_text": "Quyền truy cập AWS Management Console",
+        "is_correct": true
+      },
+      {
+        "answer_id": "34-4",
+        "answer_text": "Quyền truy cập gốc của quản trị viên",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-35",
+    "question_text": "Đúng hay sai? AWS Organizations cho phép bạn hợp nhất nhiều tài khoản AWS để bạn quản lý chúng một cách tập trung.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "35-0",
+        "answer_text": "TRUE",
+        "is_correct": true
+      },
+      {
+        "answer_id": "35-1",
+        "answer_text": "FALSE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-36",
+    "question_text": "Các phương pháp hay nhất để bảo mật tài khoản của bạn bằng AWS IAM là gì? (Chọn hai)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "36-0",
+        "answer_text": "Cung cấp cho người dùng các đặc quyền quản trị mặc định.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "36-1",
+        "answer_text": "Để lại những người dùng và thông tin đăng nhập không sử dụng và không cần thiết.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "36-2",
+        "answer_text": "Quản lý quyền truy cập vào tài nguyên AWS.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "36-3",
+        "answer_text": "Tránh sử dụng các nhóm IAM để cấp cùng một quyền truy cập cho nhiều người dùng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "36-4",
+        "answer_text": "Xác định các quyền truy cập chi tiết.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-37",
+    "question_text": "Điều nào sau đây nên được thực hiện bởi người dùng gốc của tài khoản AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "37-0",
+        "answer_text": "Bảo mật quyền truy cập cho các ứng dụng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "37-1",
+        "answer_text": "Tích hợp với các dịch vụ AWS khác",
+        "is_correct": false
+      },
+      {
+        "answer_id": "37-2",
+        "answer_text": "Thay đổi quyền chi tiết",
+        "is_correct": false
+      },
+      {
+        "answer_id": "37-3",
+        "answer_text": "Thay đổi gói hỗ trợ của AWS",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-38",
+    "question_text": "Sau khi đăng nhập lần đầu, AWS khuyến nghị phương pháp hay nhất cho người dùng gốc của tài khoản AWS là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "38-0",
+        "answer_text": "Xóa người dùng gốc của tài khoản AWS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "38-1",
+        "answer_text": "Thu hồi tất cả các quyền trên người dùng gốc của tài khoản AWS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "38-2",
+        "answer_text": "Hạn chế quyền trên người dùng gốc của tài khoản AWS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "38-3",
+        "answer_text": "Xóa các khóa truy cập của người dùng gốc của tài khoản AWS",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-39",
+    "question_text": "Làm thế nào một quản trị viên hệ thống có thể thêm một lớp bảo mật đăng nhập bổ sung vào AWS Management Console của người dùng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "39-0",
+        "answer_text": "Sử dụng Amazon Cloud Directory",
+        "is_correct": false
+      },
+      {
+        "answer_id": "39-1",
+        "answer_text": "Kiểm tra các vai trò AWS Identity and Access Management (IAM)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "39-2",
+        "answer_text": "Bật xác thực đa yếu tố",
+        "is_correct": true
+      },
+      {
+        "answer_id": "39-3",
+        "answer_text": "Bật AWS CloudTrail",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-40",
+    "question_text": "Đúng hay sai? AWS Key Management Service (AWS KMS) cho phép bạn đánh giá, kiểm tra và đánh giá các cấu hình của tài nguyên AWS của bạn.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "40-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "40-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-41",
+    "question_text": "Với Amazon VPC, kích thước mạng con nhỏ nhất bạn có thể có trong VPC là bao nhiêu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "41-0",
+        "answer_text": "/28",
+        "is_correct": true
+      },
+      {
+        "answer_id": "41-1",
+        "answer_text": "/24",
+        "is_correct": false
+      },
+      {
+        "answer_id": "41-2",
+        "answer_text": "/26",
+        "is_correct": false
+      },
+      {
+        "answer_id": "41-3",
+        "answer_text": "/30",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-42",
+    "question_text": "Với Amazon VPC, dải địa chỉ IP có kích thước tối đa bạn có thể có trong VPC là bao nhiêu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "42-0",
+        "answer_text": "/16",
+        "is_correct": true
+      },
+      {
+        "answer_id": "42-1",
+        "answer_text": "/28",
+        "is_correct": false
+      },
+      {
+        "answer_id": "42-2",
+        "answer_text": "/24",
+        "is_correct": false
+      },
+      {
+        "answer_id": "42-3",
+        "answer_text": "/30",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-43",
+    "question_text": "Bạn cần cho phép các tài nguyên trong một mạng con riêng tư truy cập internet. Điều nào sau đây phải có mặt để cho phép truy cập này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "43-0",
+        "answer_text": "Network access control lists",
+        "is_correct": false
+      },
+      {
+        "answer_id": "43-1",
+        "answer_text": "Route tables",
+        "is_correct": false
+      },
+      {
+        "answer_id": "43-2",
+        "answer_text": "NAT gateway",
+        "is_correct": true
+      },
+      {
+        "answer_id": "43-3",
+        "answer_text": "Security groups",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-44",
+    "question_text": "Dịch vụ mạng AWS nào cho phép một công ty tạo một mạng ảo trong AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "44-0",
+        "answer_text": "AWS Direct Connect",
+        "is_correct": false
+      },
+      {
+        "answer_id": "44-1",
+        "answer_text": "AWS Config",
+        "is_correct": false
+      },
+      {
+        "answer_id": "44-2",
+        "answer_text": "Amazon Virtual Private Cloud (Amazon VPC)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "44-3",
+        "answer_text": "Amazon Route 53",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-45",
+    "question_text": "Đúng hay sai? Các mạng con riêng tư có quyền truy cập trực tiếp vào internet.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "45-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "45-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-46",
+    "question_text": "Thành phần nào của Cơ sở hạ tầng toàn cầu của AWS mà Amazon CloudFront sử dụng để đảm bảo phân phối có độ trễ thấp?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "46-0",
+        "answer_text": "AWS Regions",
+        "is_correct": false
+      },
+      {
+        "answer_id": "46-1",
+        "answer_text": "AWS edge locations",
+        "is_correct": true
+      },
+      {
+        "answer_id": "46-2",
+        "answer_text": "AWS Availability Zones",
+        "is_correct": false
+      },
+      {
+        "answer_id": "46-3",
+        "answer_text": "Amazon Virtual Private Cloud (Amazon VPC)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-47",
+    "question_text": "Điều nào sau đây là một kiểm soát bảo mật tùy chọn có thể được áp dụng ở lớp mạng con của VPC?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "47-0",
+        "answer_text": "Web application firewall",
+        "is_correct": false
+      },
+      {
+        "answer_id": "47-1",
+        "answer_text": "Security group",
+        "is_correct": false
+      },
+      {
+        "answer_id": "47-2",
+        "answer_text": "Firewall",
+        "is_correct": false
+      },
+      {
+        "answer_id": "47-3",
+        "answer_text": "Network ACL",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-48",
+    "question_text": "Điều gì xảy ra khi bạn sử dụng Amazon VPC để tạo một VPC mới?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "48-0",
+        "answer_text": "Một bảng định tuyến chính được tạo theo mặc định.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "48-1",
+        "answer_text": "Ba mạng con được tạo theo mặc định: một cho mỗi Availability Zone.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "48-2",
+        "answer_text": "Ba mạng con được tạo theo mặc định trong một Availability Zone.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "48-3",
+        "answer_text": "Một cổng internet được tạo theo mặc định.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-49",
+    "question_text": "Điều nào sau đây có thể được sử dụng để bảo vệ các phiên bản Amazon EC2 được lưu trữ trong AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "49-0",
+        "answer_text": "Security group",
+        "is_correct": true
+      },
+      {
+        "answer_id": "49-1",
+        "answer_text": "Internet Gateway",
+        "is_correct": false
+      },
+      {
+        "answer_id": "49-2",
+        "answer_text": "AMI",
+        "is_correct": false
+      },
+      {
+        "answer_id": "49-3",
+        "answer_text": "Tất cả những điều trên",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-50",
+    "question_text": "Bạn là một kiến trúc sư giải pháp... Khi bạn tạo một VPC, bạn gán cho nó một khối CIDR IPv4 là 10.0.1.0/24 (có tổng cộng 256 địa chỉ IP). Có bao nhiêu địa chỉ IP có sẵn?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "50-0",
+        "answer_text": "250",
+        "is_correct": false
+      },
+      {
+        "answer_id": "50-1",
+        "answer_text": "246",
+        "is_correct": false
+      },
+      {
+        "answer_id": "50-2",
+        "answer_text": "251",
+        "is_correct": true
+      },
+      {
+        "answer_id": "50-3",
+        "answer_text": "256",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-51",
+    "question_text": "Tại sao AWS lại kinh tế hơn các trung tâm dữ liệu truyền thống cho các ứng dụng có khối lượng công việc tính toán khác nhau?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "51-0",
+        "answer_text": "Chi phí Amazon EC2 được thanh toán hàng tháng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "51-1",
+        "answer_text": "Khách hàng giữ toàn quyền quản trị đối với các phiên bản Amazon EC2 của họ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "51-2",
+        "answer_text": "Khách hàng có thể chạy vĩnh viễn đủ số phiên bản để xử lý khối lượng công việc cao điểm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "51-3",
+        "answer_text": "Các phiên bản Amazon EC2 có thể được khởi chạy theo yêu cầu khi cần thiết.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-52",
+    "question_text": "Nếu dự án của bạn yêu cầu các báo cáo hàng tháng lặp lại qua một lượng lớn dữ liệu, bạn nên xem xét tùy chọn mua Amazon EC2 nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "52-0",
+        "answer_text": "Spot Instances",
+        "is_correct": false
+      },
+      {
+        "answer_id": "52-1",
+        "answer_text": "Scheduled Reserved Instances",
+        "is_correct": true
+      },
+      {
+        "answer_id": "52-2",
+        "answer_text": "Dedicated Hosts",
+        "is_correct": false
+      },
+      {
+        "answer_id": "52-3",
+        "answer_text": "On-Demand Instances",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-53",
+    "question_text": "Một Amazon Machine Image (AMI) bao gồm những gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "53-0",
+        "answer_text": "Một mẫu cho ổ đĩa gốc cho phiên bản",
+        "is_correct": false
+      },
+      {
+        "answer_id": "53-1",
+        "answer_text": "Quyền khởi chạy kiểm soát tài khoản AWS nào có thể sử dụng AMI",
+        "is_correct": false
+      },
+      {
+        "answer_id": "53-2",
+        "answer_text": "Một ánh xạ thiết bị khối chỉ định các ổ đĩa sẽ được gắn vào phiên bản",
+        "is_correct": false
+      },
+      {
+        "answer_id": "53-3",
+        "answer_text": "Tất cả những điều trên",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-54",
+    "question_text": "Tính năng Amazon EC2 nào đảm bảo các phiên bản của bạn sẽ không chia sẻ một máy chủ vật lý với các phiên bản từ bất kỳ khách hàng AWS nào khác?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "54-0",
+        "answer_text": "Amazon VPC",
+        "is_correct": false
+      },
+      {
+        "answer_id": "54-1",
+        "answer_text": "Placement groups",
+        "is_correct": false
+      },
+      {
+        "answer_id": "54-2",
+        "answer_text": "Dedicated Instances",
+        "is_correct": true
+      },
+      {
+        "answer_id": "54-3",
+        "answer_text": "Reserved Instances",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-55",
+    "question_text": "Dịch vụ nào sau đây là một dịch vụ tính toán không máy chủ trong AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "55-0",
+        "answer_text": "AWS Config",
+        "is_correct": false
+      },
+      {
+        "answer_id": "55-1",
+        "answer_text": "AWS Lambda",
+        "is_correct": true
+      },
+      {
+        "answer_id": "55-2",
+        "answer_text": "AWS OpsWorks",
+        "is_correct": false
+      },
+      {
+        "answer_id": "55-3",
+        "answer_text": "Amazon EC2",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-56",
+    "question_text": "Dịch vụ nào do AWS cung cấp cho phép các nhà phát triển dễ dàng triển khai và quản lý các ứng dụng trên đám mây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "56-0",
+        "answer_text": "Amazon Elastic Container Service",
+        "is_correct": false
+      },
+      {
+        "answer_id": "56-1",
+        "answer_text": "AWS Elastic Beanstalk",
+        "is_correct": true
+      },
+      {
+        "answer_id": "56-2",
+        "answer_text": "AWS Opswork",
+        "is_correct": false
+      },
+      {
+        "answer_id": "56-3",
+        "answer_text": "AWS CloudFormation",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-57",
+    "question_text": "Ứng dụng web của bạn cần bốn phiên bản để hỗ trợ lưu lượng truy cập ổn định mọi lúc. Vào ngày cuối cùng của tháng, lưu lượng truy cập tăng gấp ba lần. Cách tiết kiệm chi phí nhất để xử lý mô hình này là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "57-0",
+        "answer_text": "Chạy 12 phiên bản dành riêng mọi lúc.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "57-1",
+        "answer_text": "Chạy bốn phiên bản theo yêu cầu liên tục, sau đó thêm tám phiên bản theo yêu cầu khác vào ngày cuối cùng của mỗi tháng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "57-2",
+        "answer_text": "Chạy bốn phiên bản dành riêng liên tục, sau đó thêm tám phiên bản theo yêu cầu vào ngày cuối cùng của mỗi tháng.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "57-3",
+        "answer_text": "Chạy bốn phiên bản theo yêu cầu liên tục, sau đó thêm tám phiên bản dành riêng vào ngày cuối cùng của mỗi tháng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-58",
+    "question_text": "Đúng hay sai? Các vùng chứa chứa toàn bộ hệ điều hành.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "58-0",
+        "answer_text": "TRUE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "58-1",
+        "answer_text": "FALSE",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-59",
+    "question_text": "Tùy chọn Amazon EC2 nào tốt nhất cho khối lượng công việc dài hạn với các mẫu sử dụng có thể dự đoán được?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "59-0",
+        "answer_text": "Spot Instances",
+        "is_correct": false
+      },
+      {
+        "answer_id": "59-1",
+        "answer_text": "On-Demand Instances",
+        "is_correct": false
+      },
+      {
+        "answer_id": "59-2",
+        "answer_text": "Reserved Instances",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-60",
+    "question_text": "Điều nào sau đây phải được chỉ định khi khởi chạy một phiên bản Windows Amazon EC2 mới? (Chọn hai)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "60-0",
+        "answer_text": "Mật khẩu cho tài khoản quản trị viên",
+        "is_correct": false
+      },
+      {
+        "answer_id": "60-1",
+        "answer_text": "Amazon Machine Image (AMI)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "60-2",
+        "answer_text": "ID phiên bản Amazon EC2",
+        "is_correct": false
+      },
+      {
+        "answer_id": "60-3",
+        "answer_text": "Loại phiên bản Amazon EC2",
+        "is_correct": true
+      }
+    ]
+  }
+]

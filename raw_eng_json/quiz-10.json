@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "q-138",
+    "question_text": "A company has an ecommerce site that requires storage and retrieval of unstructured customer metadata to support one of its microservices. Which database option is best suited to store this data?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "138-0",
+        "answer_text": "Amazon RDS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "138-1",
+        "answer_text": "Amazon Redshift",
+        "is_correct": false
+      },
+      {
+        "answer_id": "138-2",
+        "answer_text": "Amazon Aurora",
+        "is_correct": false
+      },
+      {
+        "answer_id": "138-3",
+        "answer_text": "Amazon DynamoDB",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-139",
+    "question_text": "Which statement reflects a design principle of the Security pillar of the AWS Well-Architected Framework?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "139-0",
+        "answer_text": "Don't deploy a solution to production until you're certain that there are no security risks.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "139-1",
+        "answer_text": "Ensure that staff are actively monitoring potential risks manually.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "139-2",
+        "answer_text": "Apply security at all layers of an architecture.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "139-3",
+        "answer_text": "Decentralize permissions management.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-140",
+    "question_text": "What is the relationship between AWS Regions, Availability Zones, and data centers?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "140-0",
+        "answer_text": "Each Region has locations called Availability Zones. Each Availability Zone has data centers.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "140-1",
+        "answer_text": "Each Availability Zone includes data centers. Each data center in an Availability Zone is located in a different geographical Region.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "140-2",
+        "answer_text": "A set of data centers in a geographical area create a Region. Availability Zones are connections between Regions.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "140-3",
+        "answer_text": "Each Region has a set of data centers. Each data center maps to one Availability Zone.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-141",
+    "question_text": "Which scenario describes a use case for AWS CloudTrail?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "141-0",
+        "answer_text": "An account administrator wants to centrally control access permissions for groups of accounts.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "141-1",
+        "answer_text": "A systems administrator wants to protect their web application from denial of service attacks.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "141-2",
+        "answer_text": "A developer wants to control user logins to their website.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "141-3",
+        "answer_text": "An account administrator wants the ability to track user activity on their account.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-142",
+    "question_text": "Which option describes a capability of Amazon virtual private clouds (VPCs)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "142-0",
+        "answer_text": "They can be configured as a physically isolated section of the AWS Cloud.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "142-1",
+        "answer_text": "They can have the address range changed as desired after creation.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "142-2",
+        "answer_text": "They can span Availability Zones.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "142-3",
+        "answer_text": "They can belong to multiple AWS Regions.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-143",
+    "question_text": "Which statement accurately describes a content delivery network (CDN)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "143-0",
+        "answer_text": "A CDN caches frequently requested files.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "143-1",
+        "answer_text": "A CDN creates fast connections between origin servers.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "143-2",
+        "answer_text": "A CDN speeds up domain name resolution for application servers.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "143-3",
+        "answer_text": "A CDN is a Regional group of servers.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-144",
+    "question_text": "Which statement about Amazon Elastic Block Store (Amazon EBS) is true?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "144-0",
+        "answer_text": "Amazon EBS volumes are automatically replicated across multiple Availability Zones.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "144-1",
+        "answer_text": "Amazon EBS volumes aren't recommended for storage that requires frequent updating.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "144-2",
+        "answer_text": "Amazon EBS volumes persist independently from the Amazon EC2 instances that they're attached to.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "144-3",
+        "answer_text": "Amazon EBS volumes can't be resized.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-145",
+    "question_text": "Which pieces of information MUST be configured for the Amazon EC2 instances that will be part of an Amazon EC2 Auto Scaling group? (Select TWO).",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "145-0",
+        "answer_text": "ID of an Amazon Machine Image (AMI)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "145-1",
+        "answer_text": "Amazon EC2 instance type",
+        "is_correct": true
+      },
+      {
+        "answer_id": "145-2",
+        "answer_text": "Amazon EC2 Auto Scaling group metrics",
+        "is_correct": false
+      },
+      {
+        "answer_id": "145-3",
+        "answer_text": "Network access control list (ACL)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "145-4",
+        "answer_text": "Storage volume",
+        "is_correct": false
+      }
+    ]
+  }
+]
