@@ -1,6 +1,6 @@
 [
   {
-    "question_id": "q-61",
+    "question_id": "61",
     "question_text": "Đúng hay sai? Amazon S3 là một kho lưu trữ đối tượng phù hợp để lưu trữ các tệp phẳng như tài liệu Microsoft Word, ảnh, v.v.",
     "question_type": "single_answer_question",
     "answers": [
@@ -17,7 +17,7 @@
     ]
   },
   {
-    "question_id": "q-62",
+    "question_id": "62",
     "question_text": "Amazon S3 sao chép tất cả các đối tượng ______.",
     "question_type": "single_answer_question",
     "answers": [
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "question_id": "q-63",
+    "question_id": "63",
     "question_text": "Điều nào sau đây có thể được sử dụng làm lớp lưu trữ cho chính sách vòng đời đối tượng S3? (Chọn ba)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -76,7 +76,7 @@
     ]
   },
   {
-    "question_id": "q-64",
+    "question_id": "64",
     "question_text": "Tên của một bucket S3 phải là duy nhất ______.",
     "question_type": "single_answer_question",
     "answers": [
@@ -103,7 +103,7 @@
     ]
   },
   {
-    "question_id": "q-65",
+    "question_id": "65",
     "question_text": "Bạn có thể sử dụng Amazon Elastic File System (Amazon EFS) để:",
     "question_type": "single_answer_question",
     "answers": [
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "question_id": "q-66",
+    "question_id": "66",
     "question_text": "Amazon EBS được khuyến nghị khi dữ liệu ______ và ______. (Chọn hai)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -157,7 +157,7 @@
     ]
   },
   {
-    "question_id": "q-67",
+    "question_id": "67",
     "question_text": "Đúng hay sai? Theo mặc định, tất cả dữ liệu được lưu trữ trong Amazon S3 đều có thể xem được bởi công chúng.",
     "question_type": "single_answer_question",
     "answers": [
@@ -174,7 +174,7 @@
     ]
   },
   {
-    "question_id": "q-68",
+    "question_id": "68",
     "question_text": "Về Amazon S3 Glacier, Vault là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -201,7 +201,7 @@
     ]
   },
   {
-    "question_id": "q-69",
+    "question_id": "69",
     "question_text": "Đúng hay sai? Khi bạn tạo một bucket trong Amazon S3, nó được liên kết với một Khu vực AWS cụ thể.",
     "question_type": "single_answer_question",
     "answers": [
@@ -218,7 +218,7 @@
     ]
   },
   {
-    "question_id": "q-70",
+    "question_id": "70",
     "question_text": "Các tính năng của Amazon EBS là gì? (Chọn hai)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -245,7 +245,7 @@
     ]
   },
   {
-    "question_id": "q-71",
+    "question_id": "71",
     "question_text": "Bạn đang thiết kế một ứng dụng web thương mại điện tử sẽ mở rộng quy mô cho hàng trăm nghìn người dùng đồng thời. Công nghệ cơ sở dữ liệu nào phù hợp nhất để giữ trạng thái phiên trong ví dụ này?",
     "question_type": "single_answer_question",
     "answers": [
@@ -272,7 +272,7 @@
     ]
   },
   {
-    "question_id": "q-72",
+    "question_id": "72",
     "question_text": "Bạn cần tìm một mục trong bảng Amazon DynamoDB bằng cách sử dụng một thuộc tính khác ngoài khóa chính của mục. Bạn nên sử dụng thao tác nào sau đây?",
     "question_type": "single_answer_question",
     "answers": [
@@ -299,7 +299,7 @@
     ]
   },
   {
-    "question_id": "q-73",
+    "question_id": "73",
     "question_text": "Trong Amazon DynamoDB, thao tác truy vấn cho phép bạn làm gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -326,7 +326,7 @@
     ]
   },
   {
-    "question_id": "q-74",
+    "question_id": "74",
     "question_text": "Dịch vụ AWS Cloud nào phù hợp nhất để phân tích dữ liệu của bạn bằng cách sử dụng SQL tiêu chuẩn và các công cụ BI hiện có của bạn?",
     "question_type": "single_answer_question",
     "answers": [
@@ -353,7 +353,7 @@
     ]
   },
   {
-    "question_id": "q-75",
+    "question_id": "75",
     "question_text": "Trong Amazon DynamoDB, một thuộc tính là ______.",
     "question_type": "single_answer_question",
     "answers": [
@@ -375,7 +375,7 @@
     ]
   },
   {
-    "question_id": "q-76",
+    "question_id": "76",
     "question_text": "Nếu bạn đang phát triển một ứng dụng yêu cầu cơ sở dữ liệu có hiệu suất cực nhanh, khả năng mở rộng nhanh và tính linh hoạt trong lược đồ cơ sở dữ liệu, bạn nên xem xét dịch vụ nào?",
     "question_type": "single_answer_question",
     "answers": [
@@ -402,7 +402,7 @@
     ]
   },
   {
-    "question_id": "q-77",
+    "question_id": "77",
     "question_text": "Trường hợp sử dụng nào sau đây phù hợp để sử dụng Amazon RDS?",
     "question_type": "single_answer_question",
     "answers": [
@@ -429,7 +429,7 @@
     ]
   },
   {
-    "question_id": "q-78",
+    "question_id": "78",
     "question_text": "Một công ty có một ứng dụng, bao gồm một lớp .NET kết nối với cơ sở dữ liệu MySQL. Họ muốn chuyển ứng dụng này sang AWS và sử dụng các tính năng như tính sẵn sàng cao và sao lưu tự động. Cơ sở dữ liệu nào sau đây sẽ là lựa chọn lý tưởng cho trường hợp sử dụng này?",
     "question_type": "single_answer_question",
     "answers": [
@@ -456,7 +456,7 @@
     ]
   },
   {
-    "question_id": "q-79",
+    "question_id": "79",
     "question_text": "Đúng hay sai? Amazon RDS tự động vá lỗi phần mềm cơ sở dữ liệu và sao lưu cơ sở dữ liệu của bạn, lưu trữ các bản sao lưu trong một khoảng thời gian lưu giữ do người dùng xác định và cho phép khôi phục tại một thời điểm.",
     "question_type": "single_answer_question",
     "answers": [
@@ -473,7 +473,7 @@
     ]
   },
   {
-    "question_id": "q-80",
+    "question_id": "80",
     "question_text": "Bạn nên cân nhắc điều gì khi chọn loại cơ sở dữ liệu?",
     "question_type": "single_answer_question",
     "answers": [
@@ -505,7 +505,7 @@
     ]
   },
   {
-    "question_id": "q-81",
+    "question_id": "81",
     "question_text": "Điều nào sau đây không phải là một trong bốn lĩnh vực của trụ cột hiệu quả hoạt động của AWS Well-Architected Framework?",
     "question_type": "single_answer_question",
     "answers": [
@@ -532,7 +532,7 @@
     ]
   },
   {
-    "question_id": "q-82",
+    "question_id": "82",
     "question_text": "Điều nào sau đây là một nguyên tắc khi thiết kế các hệ thống dựa trên đám mây?",
     "question_type": "single_answer_question",
     "answers": [
@@ -559,7 +559,7 @@
     ]
   },
   {
-    "question_id": "q-83",
+    "question_id": "83",
     "question_text": "Các trụ cột của AWS Well-Architected Framework là gì? (Chọn ba)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -586,7 +586,7 @@
     ]
   },
   {
-    "question_id": "q-84",
+    "question_id": "84",
     "question_text": "Các nguyên tắc thiết kế nào được khuyến nghị khi xem xét hiệu quả hoạt động? (Chọn hai)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -618,7 +618,7 @@
     ]
   },
   {
-    "question_id": "q-85",
+    "question_id": "85",
     "question_text": "AWS Trusted Advisor cung cấp thông tin chi tiết về năm loại nào của tài khoản AWS?",
     "question_type": "single_answer_question",
     "answers": [
@@ -645,7 +645,7 @@
     ]
   },
   {
-    "question_id": "q-86",
+    "question_id": "86",
     "question_text": "Trọng tâm của trụ cột bền vững của Well-Architected Framework là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -672,7 +672,7 @@
     ]
   },
   {
-    "question_id": "q-87",
+    "question_id": "87",
     "question_text": "Sau khi bạn chuyển sang AWS Cloud, bạn muốn đảm bảo rằng các cài đặt bảo mật phù hợp được áp dụng. Công cụ trực tuyến nào có thể hỗ trợ tuân thủ bảo mật?",
     "question_type": "single_answer_question",
     "answers": [
@@ -699,7 +699,7 @@
     ]
   },
   {
-    "question_id": "q-88",
+    "question_id": "88",
     "question_text": "Điều nào sau đây là thước đo khả năng của hệ thống của bạn để cung cấp chức năng khi người dùng mong muốn?",
     "question_type": "single_answer_question",
     "answers": [
@@ -726,7 +726,7 @@
     ]
   },
   {
-    "question_id": "q-89",
+    "question_id": "89",
     "question_text": "Điều gì được định nghĩa là khả năng của một hệ thống để duy trì hoạt động ngay cả khi một số thành phần của hệ thống đó bị lỗi?",
     "question_type": "single_answer_question",
     "answers": [
@@ -753,7 +753,7 @@
     ]
   },
   {
-    "question_id": "q-90",
+    "question_id": "90",
     "question_text": "Điều nào sau đây mô tả tốt nhất một hệ thống có thể chịu được một số biện pháp suy giảm, trải qua thời gian ngừng hoạt động tối thiểu và yêu cầu sự can thiệp tối thiểu của con người?",
     "question_type": "single_answer_question",
     "answers": [

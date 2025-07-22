@@ -1,0 +1,792 @@
+[
+  {
+    "question_id": "236",
+    "question_text": "The Weather Company đã di chuyển tài sản web thời tiết của mình sang một kiến trúc an toàn, có khả năng mở rộng và toàn cầu trên IBM Cloud. Họ đã nhận được những lợi ích gì từ việc di chuyển này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "236-0",
+        "answer_text": "Tăng tính sẵn sàng của tài sản và hiệu quả tổng thể của thiết bị",
+        "is_correct": false
+      },
+      {
+        "answer_id": "236-1",
+        "answer_text": "Phát triển và phát hành nhanh hơn các ứng dụng mới và các công cụ tự phục vụ kỹ thuật số cho khách hàng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "236-2",
+        "answer_text": "Tăng cường phát triển và tăng độ trễ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "236-3",
+        "answer_text": "Khai thác các trung tâm dữ liệu địa phương để giảm thiểu độ trễ cho người dùng và tối ưu hóa hệ thống của họ để có tính đàn hồi trong việc xử lý các đợt tăng đột biến về nhu cầu",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "237",
+    "question_text": "Thành phần nào của IBM Cloud đã giúp bạn làm cho dịch vụ Đặt hàng DineEase có khả năng mở rộng? Chọn thành phần giám sát các yêu cầu đến, tăng giảm các instance ứng dụng để đáp ứng nhu cầu và là một nền tảng serverless được quản lý hoàn toàn.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "237-0",
+        "answer_text": "Turbonomic",
+        "is_correct": false
+      },
+      {
+        "answer_id": "237-1",
+        "answer_text": "API Connect",
+        "is_correct": false
+      },
+      {
+        "answer_id": "237-2",
+        "answer_text": "IBM Watson Assistant",
+        "is_correct": false
+      },
+      {
+        "answer_id": "237-3",
+        "answer_text": "IBM Cloud Code Engine",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "238",
+    "question_text": "Mô hình triển khai nào phù hợp với yêu cầu độ trễ thấp và tính sẵn sàng cao cho các dịch vụ DineEase?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "238-0",
+        "answer_text": "IBM Edge Application Manager",
+        "is_correct": false
+      },
+      {
+        "answer_id": "238-1",
+        "answer_text": "Single campus Multizone Regions",
+        "is_correct": false
+      },
+      {
+        "answer_id": "238-2",
+        "answer_text": "Multizone Regions (MZR)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "238-3",
+        "answer_text": "Hybrid Cloud HPC",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "239",
+    "question_text": "Việc xử lý thanh toán cho DineEase đòi hỏi tính toán nhiều, cần một môi trường an toàn và phải xử lý nhanh một lượng lớn dữ liệu. Bạn đã chọn dịch vụ IBM Cloud nào cho những khả năng này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "239-0",
+        "answer_text": "IBM Cloud Bare Metal Servers",
+        "is_correct": true
+      },
+      {
+        "answer_id": "239-1",
+        "answer_text": "IBM Cloud Functions",
+        "is_correct": false
+      },
+      {
+        "answer_id": "239-2",
+        "answer_text": "IBM Cloud for VMware Solutions",
+        "is_correct": false
+      },
+      {
+        "answer_id": "239-3",
+        "answer_text": "IBM WebSphere Application Server",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "240",
+    "question_text": "Các dịch vụ Tìm kiếm, Menu và Định giá cho DineEase cần sự linh hoạt để sử dụng các ngăn xếp công nghệ (technology stacks) khác nhau cho mỗi dịch vụ. Bạn đã chọn dịch vụ IBM Cloud nào để giải quyết vấn đề này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "240-0",
+        "answer_text": "IBM Cloud Kubernetes Service",
+        "is_correct": true
+      },
+      {
+        "answer_id": "240-1",
+        "answer_text": "IBM Cloud Bare Metal Servers",
+        "is_correct": false
+      },
+      {
+        "answer_id": "240-2",
+        "answer_text": "Container Security Services",
+        "is_correct": false
+      },
+      {
+        "answer_id": "240-3",
+        "answer_text": "IBM WebSphere Application Server",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "241",
+    "question_text": "Bạn cần tìm một dịch vụ có thể tương tác với các dịch vụ API của DineEase và thế giới bên ngoài, loại bỏ các phụ thuộc cứng nhắc và thêm một lớp giao tiếp. Bạn đã chọn dịch vụ IBM Cloud nào để giải quyết vấn đề này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "241-0",
+        "answer_text": "IBM API Connect",
+        "is_correct": true
+      },
+      {
+        "answer_id": "241-1",
+        "answer_text": "Event Streams",
+        "is_correct": false
+      },
+      {
+        "answer_id": "241-2",
+        "answer_text": "IBM App Connect",
+        "is_correct": false
+      },
+      {
+        "answer_id": "241-3",
+        "answer_text": "IBM Lift",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "242",
+    "question_text": "DineEase cần tối ưu hóa việc đọc để người tiêu dùng có thể xem các bài đánh giá và xếp hạng nhà hàng. Bạn đã chọn dịch vụ IBM Cloud nào để giải quyết vấn đề này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "242-0",
+        "answer_text": "IBM Db2 Warehouse on Cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "242-1",
+        "answer_text": "IBM Db2 on Cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "242-2",
+        "answer_text": "IBM Cloud Databases for MySQL",
+        "is_correct": false
+      },
+      {
+        "answer_id": "242-3",
+        "answer_text": "IBM Cloudant",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "243",
+    "question_text": "DineEase cần tìm một cơ sở dữ liệu quan hệ IBM được quản lý hoàn toàn, triển khai theo khu vực và cung cấp khả năng phục hồi sau thảm họa có tính sẵn sàng cao (HADR). Bạn đã chọn dịch vụ IBM Cloud nào để giải quyết vấn đề này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "243-0",
+        "answer_text": "IBM Db2 on Cloud",
+        "is_correct": true
+      },
+      {
+        "answer_id": "243-1",
+        "answer_text": "IBM Cloudant",
+        "is_correct": false
+      },
+      {
+        "answer_id": "243-2",
+        "answer_text": "IBM Cloud Databases for MongoDB",
+        "is_correct": false
+      },
+      {
+        "answer_id": "243-3",
+        "answer_text": "IBM Cloud Object Storage",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "244",
+    "question_text": "DineEase lưu trữ rất nhiều ảnh đồ ăn, logo nhà hàng và các phương tiện phụ khác. Tìm dịch vụ phân phối nội dung của họ ở các nút địa lý đa dạng và rút ngắn khoảng cách mà hình ảnh phương tiện cần di chuyển để đến thiết bị của người tiêu dùng. Bạn đã chọn dịch vụ IBM Cloud nào để giải quyết vấn đề này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "244-0",
+        "answer_text": "IBM Cloud Pak for Data",
+        "is_correct": false
+      },
+      {
+        "answer_id": "244-1",
+        "answer_text": "Content Delivery Network (CDN)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "244-2",
+        "answer_text": "IBM Cloud Backup",
+        "is_correct": false
+      },
+      {
+        "answer_id": "244-3",
+        "answer_text": "IBM Cloud Databases for MongoDB",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "245",
+    "question_text": "Ứng dụng mới cần một dịch vụ để cân bằng lưu lượng truy cập giữa các máy chủ của nó để giúp cải thiện thời gian hoạt động. Bạn đã chọn dịch vụ IBM Cloud nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "245-0",
+        "answer_text": "IBM Cloud Load Balancer for VPC or Classic",
+        "is_correct": true
+      },
+      {
+        "answer_id": "245-1",
+        "answer_text": "IBM Cloud Code Engine",
+        "is_correct": false
+      },
+      {
+        "answer_id": "245-2",
+        "answer_text": "IBM Cloud Activity Tracker",
+        "is_correct": false
+      },
+      {
+        "answer_id": "245-3",
+        "answer_text": "IBM Cloud Direct Link",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "246",
+    "question_text": "Bạn cần tìm một dịch vụ mà bạn có thể sử dụng để giám sát hiệu suất và tình trạng hoạt động của DineEase. Bạn đã chọn dịch vụ IBM Cloud nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "246-0",
+        "answer_text": "IBM Cloud Pak for AIOps",
+        "is_correct": false
+      },
+      {
+        "answer_id": "246-1",
+        "answer_text": "IBM Log Analysis",
+        "is_correct": false
+      },
+      {
+        "answer_id": "246-2",
+        "answer_text": "IBM Cloud Monitoring",
+        "is_correct": true
+      },
+      {
+        "answer_id": "246-3",
+        "answer_text": "IBM Cloud Activity Tracker",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "247",
+    "question_text": "Bốn yếu tố chính mà một kiến trúc sư giải pháp nên xem xét khi họ phải chọn một Vùng (Region) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "247-0",
+        "answer_text": "Độ trễ, giá cả, tính sẵn có của dịch vụ và tuân thủ",
+        "is_correct": true
+      },
+      {
+        "answer_id": "247-1",
+        "answer_text": "Độ trễ, tính sẵn sàng cao, thuế và tuân thủ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "247-2",
+        "answer_text": "Độ trễ, thuế, tốc độ và tuân thủ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "247-3",
+        "answer_text": "Độ trễ, bảo mật, tính sẵn sàng cao và khả năng phục hồi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "248",
+    "question_text": "Đúng hay Sai: Mọi hành động mà người dùng thực hiện trong AWS đều là một lệnh gọi API.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "248-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "248-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "249",
+    "question_text": "Phát biểu nào mô tả ĐÚNG NHẤT mối quan hệ giữa các Vùng (Regions), Vùng sẵn sàng (Availability Zones) và các trung tâm dữ liệu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "249-0",
+        "answer_text": "Vùng sẵn sàng là các cụm Vùng. Vùng là các cụm trung tâm dữ liệu.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "249-1",
+        "answer_text": "Trung tâm dữ liệu là cụm của các Vùng sẵn sàng. Vùng là các cụm của các Vùng sẵn sàng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "249-2",
+        "answer_text": "Vùng là các cụm của các Vùng sẵn sàng. Vùng sẵn sàng là các cụm của các trung tâm dữ liệu.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "249-3",
+        "answer_text": "Trung tâm dữ liệu là các cụm Vùng. Vùng là các cụm của các Vùng sẵn sàng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "250",
+    "question_text": "Điều nào sau đây là một lợi ích của điện toán đám mây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "250-0",
+        "answer_text": "Chạy và bảo trì các trung tâm dữ liệu của riêng bạn.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "250-1",
+        "answer_text": "Tăng thời gian đưa ra thị trường.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "250-2",
+        "answer_text": "Cung cấp quá mức để mở rộng quy mô.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "250-3",
+        "answer_text": "Vươn ra toàn cầu trong vài phút.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "251",
+    "question_text": "Một công ty muốn quản lý các dịch vụ AWS bằng cách sử dụng dòng lệnh và tự động hóa chúng bằng các tập lệnh. Công ty nên sử dụng gì để đạt được mục tiêu này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "251-0",
+        "answer_text": "AWS Management Console",
+        "is_correct": false
+      },
+      {
+        "answer_id": "251-1",
+        "answer_text": "Giao diện dòng lệnh AWS (AWS CLI)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "251-2",
+        "answer_text": "Các bộ công cụ phát triển phần mềm AWS (AWS SDKs)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "251-3",
+        "answer_text": "AWS Management Console và AWS SDKs",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "252",
+    "question_text": "Phương pháp hay nhất khi bảo mật người dùng gốc (root user) của tài khoản AWS là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "252-0",
+        "answer_text": "Kích hoạt quyền truy cập AWS Identity and Access Management (IAM) vào bảng điều khiển Thanh toán và Quản lý chi phí",
+        "is_correct": false
+      },
+      {
+        "answer_id": "252-1",
+        "answer_text": "Sử dụng người dùng gốc cho các tác vụ quản trị thông thường",
+        "is_correct": false
+      },
+      {
+        "answer_id": "252-2",
+        "answer_text": "Thay đổi cài đặt tài khoản",
+        "is_correct": false
+      },
+      {
+        "answer_id": "252-3",
+        "answer_text": "Bật xác thực đa yếu tố (MFA)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "253",
+    "question_text": "Một kiến trúc sư giải pháp đang tư vấn cho một công ty. Khi người dùng trong công ty xác thực vào mạng công ty, họ muốn có thể sử dụng AWS mà không cần phải đăng nhập lại. Kiến trúc sư giải pháp nên đề xuất danh tính AWS nào cho trường hợp sử dụng này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "253-0",
+        "answer_text": "Người dùng gốc của tài khoản AWS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "253-1",
+        "answer_text": "Người dùng AWS Identity and Access Management (IAM)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "253-2",
+        "answer_text": "Vai trò IAM (IAM Role)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "253-3",
+        "answer_text": "Nhóm IAM (IAM Group)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "254",
+    "question_text": "Điều nào sau đây có thể được tìm thấy trong một chính sách AWS Identity and Access Management (IAM)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "254-0",
+        "answer_text": "Effect (Hiệu lực)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "254-1",
+        "answer_text": "Action (Hành động)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "254-2",
+        "answer_text": "Object (Đối tượng)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "254-3",
+        "answer_text": "A và B",
+        "is_correct": true
+      },
+      {
+        "answer_id": "254-4",
+        "answer_text": "B và C",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "255",
+    "question_text": "Đúng hay Sai: Các chính sách AWS Identity and Access Management (IAM) có thể hạn chế các hành động của người dùng gốc của tài khoản AWS.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "255-0",
+        "answer_text": "Đúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "255-1",
+        "answer_text": "Sai",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "256",
+    "question_text": "Theo mô hình trách nhiệm chung của AWS, điều nào sau đây là trách nhiệm của AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "256-0",
+        "answer_text": "Kiểm soát hệ điều hành và nền tảng ứng dụng, cũng như mã hóa, bảo vệ và quản lý dữ liệu của khách hàng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "256-1",
+        "answer_text": "Quản lý dữ liệu của khách hàng, mã hóa dữ liệu đó và bảo vệ dữ liệu thông qua tường lửa mạng và sao lưu.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "256-2",
+        "answer_text": "Quản lý các thành phần phần cứng, phần mềm và mạng chạy các dịch vụ AWS, chẳng hạn như máy chủ vật lý, hệ điều hành máy chủ, các lớp ảo hóa và các thành phần mạng AWS.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "256-3",
+        "answer_text": "Quản lý dữ liệu của khách hàng, mã hóa dữ liệu đó và bảo vệ dữ liệu thông qua mã hóa phía máy khách.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "257",
+    "question_text": "Điều nào sau đây được khuyến nghị nếu một công ty có một tài khoản AWS duy nhất và nhiều người làm việc với các dịch vụ AWS trong tài khoản đó?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "257-0",
+        "answer_text": "Tất cả mọi người phải sử dụng người dùng gốc để làm việc với các dịch vụ AWS hàng ngày.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "257-1",
+        "answer_text": "Công ty nên tạo một nhóm AWS Identity and Access Management (IAM), cấp cho nhóm các quyền để thực hiện các chức năng công việc cụ thể và gán người dùng vào một nhóm hoặc sử dụng các vai trò IAM.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "257-2",
+        "answer_text": "Công ty phải tạo người dùng AWS Identity and Access Management (IAM) và cấp cho người dùng các quyền để thực hiện các chức năng công việc cụ thể.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "257-3",
+        "answer_text": "Công ty phải tạo một người dùng AWS Identity and Access Management (IAM) và cấp cho người dùng quyền truy cập vào tất cả các tài nguyên AWS.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "258",
+    "question_text": "Đúng hay Sai: Theo mô hình trách nhiệm chung của AWS, khách hàng chịu trách nhiệm về bảo mật trên đám mây.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "258-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "258-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "259",
+    "question_text": "Điều nào sau đây cung cấp thông tin xác thực tạm thời (hết hạn sau một khoảng thời gian xác định) cho các dịch vụ AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "259-0",
+        "answer_text": "Nguyên tắc đặc quyền tối thiểu (Principle of least privilege)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "259-1",
+        "answer_text": "Vai trò IAM (IAM role)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "259-2",
+        "answer_text": "Nhà cung cấp danh tính (Identity provider - IdP)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "259-3",
+        "answer_text": "AWS IAM Identity Center (tiền thân là AWS Single Sign-On)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "260",
+    "question_text": "Một người dùng đang lưu trữ một giải pháp trên Amazon Elastic Compute Cloud (Amazon EC2). Thành phần mạng nào là cần thiết để tạo một mạng riêng cho các tài nguyên AWS của họ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "260-0",
+        "answer_text": "Đám mây riêng ảo (Virtual private cloud - VPC)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "260-1",
+        "answer_text": "Instance",
+        "is_correct": false
+      },
+      {
+        "answer_id": "260-2",
+        "answer_text": "Thẻ (Tags)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "260-3",
+        "answer_text": "Amazon Machine Image (AMI)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "261",
+    "question_text": "Thông tin nào là cần thiết để tạo một đám mây riêng ảo (VPC)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "261-0",
+        "answer_text": "Vùng sẵn sàng (Availability Zone) mà VPC sẽ nằm trong đó.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "261-1",
+        "answer_text": "Mạng con (subnet) mà VPC sẽ nằm trong đó.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "261-2",
+        "answer_text": "Vùng AWS (AWS Region) mà VPC sẽ nằm trong đó.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "261-3",
+        "answer_text": "Nhóm các mạng con mà VPC sẽ nằm trong đó.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "262",
+    "question_text": "Một bảng định tuyến (route table) có thể được đính kèm vào đâu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "262-0",
+        "answer_text": "Tài khoản AWS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "262-1",
+        "answer_text": "Vùng sẵn sàng (Availability Zone)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "262-2",
+        "answer_text": "Mạng con (Subnets)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "262-3",
+        "answer_text": "Vùng (Regions)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "263",
+    "question_text": "Một công ty muốn cho phép các tài nguyên trong một mạng con công cộng (public subnet) giao tiếp với internet. Công ty phải làm gì sau đây để đáp ứng yêu cầu này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "263-0",
+        "answer_text": "Tạo một tuyến đường đến một mạng con riêng tư",
+        "is_correct": false
+      },
+      {
+        "answer_id": "263-1",
+        "answer_text": "Đính kèm một cổng internet (internet gateway) vào VPC của họ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "263-2",
+        "answer_text": "Tạo một tuyến đường trong bảng định tuyến đến cổng internet",
+        "is_correct": false
+      },
+      {
+        "answer_id": "263-3",
+        "answer_text": "A và B",
+        "is_correct": false
+      },
+      {
+        "answer_id": "263-4",
+        "answer_text": "B và C",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "264",
+    "question_text": "Mô hình tính toán dưới dạng dịch vụ (CaaS) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "264-0",
+        "answer_text": "Mô hình CaaS yêu cầu người dùng mua máy ảo và cấp phát máy chủ thủ công để chạy một khối lượng công việc.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "264-1",
+        "answer_text": "Mô hình CaaS cung cấp các tài nguyên tính toán (chẳng hạn như máy ảo chạy trên các máy chủ trong các trung tâm dữ liệu) theo yêu cầu, bằng cách sử dụng các dịch vụ ảo.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "264-2",
+        "answer_text": "Mô hình CaaS cung cấp chiết khấu lớn cho các tài nguyên tính toán. Tuy nhiên, người dùng phải chạy khối lượng công việc từ máy chủ được lưu trữ tại chỗ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "264-3",
+        "answer_text": "Mô hình CaaS cung cấp các ứng dụng dựa trên đám mây cho người dùng trên toàn cầu, qua internet.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "265",
+    "question_text": "Phát biểu nào về cài đặt mặc định của một nhóm bảo mật (security group) là ĐÚNG?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "265-0",
+        "answer_text": "Cho phép tất cả lưu lượng truy cập vào và chặn tất cả lưu lượng truy cập ra theo mặc định.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "265-1",
+        "answer_text": "Chặn tất cả lưu lượng truy cập vào và cho phép tất cả lưu lượng truy cập ra theo mặc định.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "265-2",
+        "answer_text": "Cho phép tất cả lưu lượng truy cập vào và ra theo mặc định.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "265-3",
+        "answer_text": "Chặn tất cả lưu lượng truy cập vào và ra theo mặc định.",
+        "is_correct": false
+      }
+    ]
+  }
+]

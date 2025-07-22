@@ -1,6 +1,6 @@
 [
   {
-    "question_id": "q-1",
+    "question_id": "1",
     "question_text": "Những lợi thế của điện toán đám mây so với điện toán tại chỗ là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "question_id": "q-2",
+    "question_id": "2",
     "question_text": "Mô hình định giá nào cho phép khách hàng AWS thanh toán cho các tài nguyên trên cơ sở khi cần thiết?",
     "question_type": "single_answer_question",
     "answers": [
@@ -59,7 +59,7 @@
     ]
   },
   {
-    "question_id": "q-3",
+    "question_id": "3",
     "question_text": "Cái nào trong số này KHÔNG phải là mô hình điện toán đám mây?",
     "question_type": "single_answer_question",
     "answers": [
@@ -86,7 +86,7 @@
     ]
   },
   {
-    "question_id": "q-4",
+    "question_id": "4",
     "question_text": "Đúng hay sai? AWS sở hữu và bảo trì phần cứng được kết nối mạng cần thiết cho các dịch vụ ứng dụng, trong khi bạn cung cấp và sử dụng những gì bạn cần.",
     "question_type": "single_answer_question",
     "answers": [
@@ -103,7 +103,7 @@
     ]
   },
   {
-    "question_id": "q-5",
+    "question_id": "5",
     "question_text": "Cái nào trong số này KHÔNG phải là lợi ích của điện toán đám mây so với điện toán tại chỗ?",
     "question_type": "single_answer_question",
     "answers": [
@@ -135,7 +135,7 @@
     ]
   },
   {
-    "question_id": "q-6",
+    "question_id": "6",
     "question_text": "Những điều nào sau đây KHÔNG phải là lợi ích của điện toán đám mây AWS? (Chọn hai)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -167,7 +167,7 @@
     ]
   },
   {
-    "question_id": "q-7",
+    "question_id": "7",
     "question_text": "Dịch vụ nào sau đây là dịch vụ tính toán?",
     "question_type": "single_answer_question",
     "answers": [
@@ -199,7 +199,7 @@
     ]
   },
   {
-    "question_id": "q-8",
+    "question_id": "8",
     "question_text": "Đúng hay sai? Điện toán đám mây cung cấp một cách đơn giản để truy cập máy chủ, lưu trữ, cơ sở dữ liệu và một bộ rộng các dịch vụ ứng dụng qua internet. Bạn sở hữu phần cứng được kết nối mạng cần thiết cho các dịch vụ này và Amazon Web Services cung cấp những gì bạn cần.",
     "question_type": "single_answer_question",
     "answers": [
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "question_id": "q-9",
+    "question_id": "9",
     "question_text": "Kinh tế theo quy mô là kết quả của ______.",
     "question_type": "single_answer_question",
     "answers": [
@@ -243,7 +243,7 @@
     ]
   },
   {
-    "question_id": "q-10",
+    "question_id": "10",
     "question_text": "Những cách nào sau đây để truy cập các dịch vụ cốt lõi của AWS? (Chọn ba)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -275,7 +275,7 @@
     ]
   },
   {
-    "question_id": "q-11",
+    "question_id": "11",
     "question_text": "Đối với một số dịch vụ nhất định như Amazon EC2 và Amazon RDS, bạn có thể đầu tư vào dung lượng dành riêng. Các tùy chọn nào có sẵn cho Reserved Instances? (Chọn ba)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -307,7 +307,7 @@
     ]
   },
   {
-    "question_id": "q-12",
+    "question_id": "12",
     "question_text": "Khách hàng có thể đến đâu để biết thêm chi tiết về hoạt động thanh toán Amazon EC2 đã diễn ra 3 tháng trước?",
     "question_type": "single_answer_question",
     "answers": [
@@ -334,7 +334,7 @@
     ]
   },
   {
-    "question_id": "q-13",
+    "question_id": "13",
     "question_text": "Đúng hay sai? Để nhận được mức giá chiết khấu liên quan đến Reserved Instances, bạn phải thanh toán đầy đủ, trả trước cho thời hạn của thỏa thuận.",
     "question_type": "single_answer_question",
     "answers": [
@@ -351,7 +351,7 @@
     ]
   },
   {
-    "question_id": "q-14",
+    "question_id": "14",
     "question_text": "Phát biểu nào là đúng về mô hình định giá trên AWS?",
     "question_type": "single_answer_question",
     "answers": [
@@ -378,7 +378,7 @@
     ]
   },
   {
-    "question_id": "q-15",
+    "question_id": "15",
     "question_text": "Bốn gói hỗ trợ do AWS Support cung cấp là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -405,7 +405,7 @@
     ]
   },
   {
-    "question_id": "q-16",
+    "question_id": "16",
     "question_text": "Công cụ AWS nào cho phép bạn khám phá các dịch vụ của AWS và tạo ước tính chi phí cho các trường hợp sử dụng của bạn trên AWS?",
     "question_type": "single_answer_question",
     "answers": [
@@ -432,7 +432,7 @@
     ]
   },
   {
-    "question_id": "q-17",
+    "question_id": "17",
     "question_text": "Khi AWS phát triển, chi phí kinh doanh giảm và các khoản tiết kiệm được chuyển lại cho khách hàng với giá thấp hơn. Tối ưu hóa này được gọi là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -459,7 +459,7 @@
     ]
   },
   {
-    "question_id": "q-18",
+    "question_id": "18",
     "question_text": "Đúng hay sai? AWS cung cấp một số dịch vụ miễn phí, chẳng hạn như Amazon VPC, AWS IAM, Consolidated Billing, AWS Elastic Beanstalk, auto scaling và AWS CloudFormation. Tuy nhiên, bạn có thể bị tính phí cho các dịch vụ AWS khác mà bạn sử dụng cùng với các dịch vụ này.",
     "question_type": "single_answer_question",
     "answers": [
@@ -476,7 +476,7 @@
     ]
   },
   {
-    "question_id": "q-19",
+    "question_id": "19",
     "question_text": "Lợi ích của việc sử dụng AWS Organizations là gì? (Chọn hai)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -508,7 +508,7 @@
     ]
   },
   {
-    "question_id": "q-20",
+    "question_id": "20",
     "question_text": "Đúng hay sai? Các dịch vụ không giới hạn có sẵn với AWS Free Tier cho khách hàng AWS mới trong 12 tháng sau ngày đăng ký AWS của họ.",
     "question_type": "single_answer_question",
     "answers": [
@@ -525,7 +525,7 @@
     ]
   },
   {
-    "question_id": "q-21",
+    "question_id": "21",
     "question_text": "Thành phần nào của Cơ sở hạ tầng toàn cầu của AWS mà Amazon CloudFront sử dụng để đảm bảo phân phối có độ trễ thấp?",
     "question_type": "single_answer_question",
     "answers": [
@@ -552,7 +552,7 @@
     ]
   },
   {
-    "question_id": "q-22",
+    "question_id": "22",
     "question_text": "Bạn có thể chạy các ứng dụng và khối lượng công việc từ một Khu vực gần hơn với người dùng cuối để ______ độ trễ.",
     "question_type": "single_answer_question",
     "answers": [
@@ -569,7 +569,7 @@
     ]
   },
   {
-    "question_id": "q-23",
+    "question_id": "23",
     "question_text": "Đúng hay sai? Mạng, lưu trữ, tính toán và cơ sở dữ liệu là các ví dụ về các danh mục dịch vụ mà AWS cung cấp.",
     "question_type": "single_answer_question",
     "answers": [
@@ -586,7 +586,7 @@
     ]
   },
   {
-    "question_id": "q-24",
+    "question_id": "24",
     "question_text": "Điều nào sau đây là các khu vực địa lý lưu trữ hai hoặc nhiều Availability Zones?",
     "question_type": "single_answer_question",
     "answers": [
@@ -613,7 +613,7 @@
     ]
   },
   {
-    "question_id": "q-25",
+    "question_id": "25",
     "question_text": "______ có nghĩa là cơ sở hạ tầng có tính dự phòng thành phần tích hợp và ______ có nghĩa là các tài nguyên tự động điều chỉnh theo sự tăng hoặc giảm yêu cầu về năng lực.",
     "question_type": "single_answer_question",
     "answers": [
@@ -645,7 +645,7 @@
     ]
   },
   {
-    "question_id": "q-26",
+    "question_id": "26",
     "question_text": "Đúng hay sai? Các Availability Zones trong một Khu vực được kết nối thông qua các liên kết có độ trễ thấp.",
     "question_type": "single_answer_question",
     "answers": [
@@ -662,7 +662,7 @@
     ]
   },
   {
-    "question_id": "q-27",
+    "question_id": "27",
     "question_text": "Phát biểu nào sau đây về Availability Zones là không đúng?",
     "question_type": "single_answer_question",
     "answers": [
@@ -689,7 +689,7 @@
     ]
   },
   {
-    "question_id": "q-28",
+    "question_id": "28",
     "question_text": "Điều gì đúng về các Khu vực? (Chọn hai)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -716,7 +716,7 @@
     ]
   },
   {
-    "question_id": "q-29",
+    "question_id": "29",
     "question_text": "AWS thực sự khuyên bạn nên cung cấp tài nguyên tính toán của mình trên ______ Availability Zones.",
     "question_type": "single_answer_question",
     "answers": [
@@ -743,7 +743,7 @@
     ]
   },
   {
-    "question_id": "q-30",
+    "question_id": "30",
     "question_text": "Đúng hay sai? Các vị trí biên chỉ nằm trong cùng một khu vực chung với các Khu vực.",
     "question_type": "single_answer_question",
     "answers": [

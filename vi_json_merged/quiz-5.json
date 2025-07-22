@@ -1,6 +1,6 @@
 [
   {
-    "question_id": "q-122",
+    "question_id": "122",
     "question_text": "Cấu hình nào đại diện cho việc sử dụng hợp lệ các nhóm bảo mật trong một đám mây riêng ảo (VPC)?",
     "question_type": "single_answer_question",
     "answers": [
@@ -27,7 +27,7 @@
     ]
   },
   {
-    "question_id": "q-123",
+    "question_id": "123",
     "question_text": "Một công ty muốn kiểm soát hoàn toàn các cấu hình, hệ điều hành (OS) và ngăn xếp phần mềm ứng dụng của máy chủ của mình. Họ nên chọn dịch vụ tính toán AWS nào?",
     "question_type": "single_answer_question",
     "answers": [
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "question_id": "q-124",
+    "question_id": "124",
     "question_text": "Các nhóm bảo mật đóng vai trò gì trong việc quản lý quyền truy cập vào các phiên bản Amazon EC2?",
     "question_type": "single_answer_question",
     "answers": [
@@ -81,7 +81,7 @@
     ]
   },
   {
-    "question_id": "q-125",
+    "question_id": "125",
     "question_text": "Một nhà phát triển muốn sử dụng Amazon Elastic Block Store (Amazon EBS) cho ứng dụng của họ. Họ nên thực hiện hành động nào?",
     "question_type": "single_answer_question",
     "answers": [
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "question_id": "q-126",
+    "question_id": "126",
     "question_text": "Một công ty cần lưu trữ hàng tỷ sự kiện hàng ngày có khối lượng thấp sẽ được sử dụng để phân tích. Tùy chọn lưu trữ nào phù hợp nhất với trường hợp sử dụng này?",
     "question_type": "single_answer_question",
     "answers": [
@@ -135,7 +135,7 @@
     ]
   },
   {
-    "question_id": "q-127",
+    "question_id": "127",
     "question_text": "Một công ty nên định cấu hình tính năng nào của Amazon RDS để cho phép tính sẵn sàng cao?",
     "question_type": "single_answer_question",
     "answers": [
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "question_id": "q-128",
+    "question_id": "128",
     "question_text": "Kịch bản nào mô tả tốt nhất một trường hợp sử dụng cho Amazon Aurora?",
     "question_type": "single_answer_question",
     "answers": [
@@ -189,7 +189,7 @@
     ]
   },
   {
-    "question_id": "q-129",
+    "question_id": "129",
     "question_text": "Phát biểu nào mô tả tính sẵn sàng cao?",
     "question_type": "single_answer_question",
     "answers": [
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "question_id": "q-130",
+    "question_id": "130",
     "question_text": "Một công ty có một ứng dụng đang chạy trên hai phiên bản Amazon EC2. Họ muốn giảm dung lượng EC2 nhàn rỗi. Tải ứng dụng khó dự báo và họ muốn giữ mức sử dụng CPU gần 40% trên tất cả các phiên bản. Họ nên định cấu hình loại Amazon EC2 Auto Scaling nào?",
     "question_type": "single_answer_question",
     "answers": [
@@ -243,7 +243,7 @@
     ]
   },
   {
-    "question_id": "q-131",
+    "question_id": "131",
     "question_text": "Elastic Load Balancing (ELB) được sử dụng với Amazon EC2 Auto Scaling như thế nào? (Chọn HAI.)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -275,7 +275,7 @@
     ]
   },
   {
-    "question_id": "q-132",
+    "question_id": "132",
     "question_text": "Phát biểu nào mô tả quan điểm kinh doanh của AWS Cloud Adoption Framework?",
     "question_type": "single_answer_question",
     "answers": [
@@ -302,7 +302,7 @@
     ]
   },
   {
-    "question_id": "q-133",
+    "question_id": "133",
     "question_text": "Một người thực hành đám mây muốn trực quan hóa chi phí AWS của họ cho mỗi loại phiên bản EC2 trong 3 tháng qua. Họ nên sử dụng công cụ hoặc tính năng nào của AWS?",
     "question_type": "single_answer_question",
     "answers": [
@@ -329,7 +329,7 @@
     ]
   },
   {
-    "question_id": "q-134",
+    "question_id": "134",
     "question_text": "Phát biểu nào về các vị trí biên là đúng?",
     "question_type": "single_answer_question",
     "answers": [
@@ -356,7 +356,7 @@
     ]
   },
   {
-    "question_id": "q-135",
+    "question_id": "135",
     "question_text": "Phát biểu nào về trách nhiệm là chính xác dựa trên mô hình trách nhiệm chung của AWS? (Chọn HAI.)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -388,7 +388,7 @@
     ]
   },
   {
-    "question_id": "q-136",
+    "question_id": "136",
     "question_text": "Phát biểu nào về việc bảo mật dữ liệu đang truyền là đúng? (Chọn HAI.)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -420,7 +420,7 @@
     ]
   },
   {
-    "question_id": "q-137",
+    "question_id": "137",
     "question_text": "Một nhà phát triển cần bộ nhớ khối tạm thời cho dữ liệu bộ đệm trên một phiên bản Amazon EC2. Họ nên chọn tùy chọn nào?",
     "question_type": "single_answer_question",
     "answers": [
@@ -447,7 +447,7 @@
     ]
   },
   {
-    "question_id": "q-138",
+    "question_id": "138",
     "question_text": "Một công ty có một trang web thương mại điện tử yêu cầu lưu trữ và truy xuất siêu dữ liệu khách hàng phi cấu trúc để hỗ trợ một trong các microservices của nó. Tùy chọn cơ sở dữ liệu nào phù hợp nhất để lưu trữ dữ liệu này?",
     "question_type": "single_answer_question",
     "answers": [
@@ -474,7 +474,7 @@
     ]
   },
   {
-    "question_id": "q-139",
+    "question_id": "139",
     "question_text": "Phát biểu nào phản ánh một nguyên tắc thiết kế của Trụ cột bảo mật của AWS Well-Architected Framework?",
     "question_type": "single_answer_question",
     "answers": [
@@ -501,7 +501,7 @@
     ]
   },
   {
-    "question_id": "q-140",
+    "question_id": "140",
     "question_text": "Mối quan hệ giữa các Khu vực AWS, Availability Zones và các trung tâm dữ liệu là gì?",
     "question_type": "single_answer_question",
     "answers": [
@@ -528,7 +528,7 @@
     ]
   },
   {
-    "question_id": "q-141",
+    "question_id": "141",
     "question_text": "Kịch bản nào mô tả một trường hợp sử dụng cho AWS CloudTrail?",
     "question_type": "single_answer_question",
     "answers": [
@@ -555,7 +555,7 @@
     ]
   },
   {
-    "question_id": "q-142",
+    "question_id": "142",
     "question_text": "Tùy chọn nào mô tả một khả năng của các đám mây riêng ảo (VPC) của Amazon?",
     "question_type": "single_answer_question",
     "answers": [
@@ -582,7 +582,7 @@
     ]
   },
   {
-    "question_id": "q-143",
+    "question_id": "143",
     "question_text": "Phát biểu nào mô tả chính xác một mạng phân phối nội dung (CDN)?",
     "question_type": "single_answer_question",
     "answers": [
@@ -609,7 +609,7 @@
     ]
   },
   {
-    "question_id": "q-144",
+    "question_id": "144",
     "question_text": "Phát biểu nào về Amazon Elastic Block Store (Amazon EBS) là đúng?",
     "question_type": "single_answer_question",
     "answers": [
@@ -636,7 +636,7 @@
     ]
   },
   {
-    "question_id": "q-145",
+    "question_id": "145",
     "question_text": "Những thông tin nào PHẢI được định cấu hình cho các phiên bản Amazon EC2 sẽ là một phần của nhóm Amazon EC2 Auto Scaling? (Chọn HAI).",
     "question_type": "multiple_answer_question",
     "answers": [

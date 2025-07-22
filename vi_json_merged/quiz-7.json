@@ -1,0 +1,812 @@
+[
+  {
+    "question_id": "176",
+    "question_text": "Khả năng nào trong mô hình PaaS loại bỏ nhu cầu tích hợp các thành phần riêng lẻ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "176-0",
+        "answer_text": "Cơ chế triển khai nhanh",
+        "is_correct": false
+      },
+      {
+        "answer_id": "176-1",
+        "answer_text": "Môi trường thời gian chạy (Runtime environment)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "176-2",
+        "answer_text": "Dịch vụ phân tích kinh doanh",
+        "is_correct": false
+      },
+      {
+        "answer_id": "176-3",
+        "answer_text": "API cho các dịch vụ",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "177",
+    "question_text": "Đặc điểm của mô hình SaaS là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "177-0",
+        "answer_text": "Các dịch vụ miễn phí cho người dùng trên đám mây SaaS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "177-1",
+        "answer_text": "Người dùng chỉ có thể thấy ứng dụng của riêng họ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "177-2",
+        "answer_text": "Các ứng dụng nằm trên một mạng đám mây từ xa",
+        "is_correct": true
+      },
+      {
+        "answer_id": "177-3",
+        "answer_text": "Hạ tầng và mã nguồn được người dùng bảo trì",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "178",
+    "question_text": "Vai trò của người dùng trong public cloud là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "178-0",
+        "answer_text": "Người dùng bảo trì nền tảng chạy ứng dụng của họ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "178-1",
+        "answer_text": "Người dùng không sở hữu các máy chủ mà ứng dụng của họ chạy trên đó",
+        "is_correct": true
+      },
+      {
+        "answer_id": "178-2",
+        "answer_text": "Người dùng có thể quản lý hoạt động của các máy chủ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "178-3",
+        "answer_text": "Người dùng sở hữu không gian lưu trữ mà dữ liệu của họ tiêu thụ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "179",
+    "question_text": "Một tính năng của private cloud là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "179-0",
+        "answer_text": "Tính di động của ứng dụng (Application portability)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "179-1",
+        "answer_text": "Sử dụng tài nguyên máy tính bên ngoài",
+        "is_correct": false
+      },
+      {
+        "answer_id": "179-2",
+        "answer_text": "Bảo mật hạn chế",
+        "is_correct": false
+      },
+      {
+        "answer_id": "179-3",
+        "answer_text": "Truy cập không kiểm soát",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "180",
+    "question_text": "Nếu một tổ chức cần chạy một ứng dụng có độ nhạy cảm cao và quan trọng với yêu cầu về hiệu suất và dung lượng không thể đoán trước, mô hình nào sau đây sẽ đáp ứng tốt nhất yêu cầu của họ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "180-0",
+        "answer_text": "Private Cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "180-1",
+        "answer_text": "Hybrid Cloud",
+        "is_correct": true
+      },
+      {
+        "answer_id": "180-2",
+        "answer_text": "Public Cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "180-3",
+        "answer_text": "Trung tâm dữ liệu tại chỗ (On-premise)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "181",
+    "question_text": "Bạn hiểu “cloud bursting” là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "181-0",
+        "answer_text": "Bạn có thể hiện đại hóa dần các hệ thống kinh doanh cốt lõi của mình",
+        "is_correct": false
+      },
+      {
+        "answer_id": "181-1",
+        "answer_text": "Bạn có thể khởi tạo môi trường bằng cách sử dụng mô hình trả tiền theo mức sử dụng (pay-as-you-go) trong public cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "181-2",
+        "answer_text": "Bạn có thể di chuyển ứng dụng và dữ liệu giữa các hệ thống tại chỗ và đám mây",
+        "is_correct": false
+      },
+      {
+        "answer_id": "181-3",
+        "answer_text": "Bạn có thể tận dụng các instance của public cloud trong một khoảng thời gian nhưng quay trở lại private cloud khi nhu cầu tăng đột biến được đáp ứng",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "182",
+    "question_text": "Đâu là một khu vực địa lý hoặc địa điểm nơi cơ sở hạ tầng của một nhà cung cấp Đám mây được tập trung?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "182-0",
+        "answer_text": "Mạng (Networking)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "182-1",
+        "answer_text": "Trung tâm dữ liệu (Data center)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "182-2",
+        "answer_text": "Kho hàng (Warehouse)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "182-3",
+        "answer_text": "Vùng (Region)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "183",
+    "question_text": "Máy ảo (VM) nào sau đây sử dụng trình ảo hóa được lưu trữ (hosted hypervisors)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "183-0",
+        "answer_text": "Microsoft Hyper-V",
+        "is_correct": false
+      },
+      {
+        "answer_id": "183-1",
+        "answer_text": "Open-source KVM",
+        "is_correct": false
+      },
+      {
+        "answer_id": "183-2",
+        "answer_text": "VMware ESX",
+        "is_correct": false
+      },
+      {
+        "answer_id": "183-3",
+        "answer_text": "Oracle VirtualBox",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "184",
+    "question_text": "Loại Máy ảo (VM) nào tận dụng dung lượng không sử dụng trong các trung tâm dữ liệu với chi phí thấp hơn nhiều so với các máy ảo thông thường có kích thước tương tự?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "184-0",
+        "answer_text": "Máy ảo chia sẻ hoặc Public Cloud (Shared or Public Cloud VMs)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "184-1",
+        "answer_text": "Máy ảo tạm thời hoặc Spot (Transient or Spot VMs)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "184-2",
+        "answer_text": "Máy chủ ảo đặt trước (Reserved virtual servers)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "184-3",
+        "answer_text": "Máy chủ chuyên dụng (Dedicated hosts)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "185",
+    "question_text": "Tại sao máy chủ vật lý (bare metal servers) cần nhiều thời gian để cấp phát hơn máy chủ ảo?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "185-0",
+        "answer_text": "Chúng là máy chủ đa người thuê (multi-tenant), và tất cả người thuê phải giúp cấu hình chúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "185-1",
+        "answer_text": "Khách hàng cấu hình các máy chủ vật lý",
+        "is_correct": false
+      },
+      {
+        "answer_id": "185-2",
+        "answer_text": "Việc cấu hình GPU mất thời gian",
+        "is_correct": false
+      },
+      {
+        "answer_id": "185-3",
+        "answer_text": "Chúng là các máy chủ vật lý có thể được tùy chỉnh theo một dung lượng cụ thể",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "186",
+    "question_text": "Phần nào của một mạng đám mây được phân đoạn logic là khu vực chính nơi bảo mật được triển khai?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "186-0",
+        "answer_text": "Mạng con (Subnets)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "186-1",
+        "answer_text": "Các thực thể logic của các yếu tố mạng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "186-2",
+        "answer_text": "Không gian mạng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "186-3",
+        "answer_text": "Bộ cân bằng tải (Load balancers)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "187",
+    "question_text": "Container là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "187-0",
+        "answer_text": "Một đơn vị phần mềm có thể thực thi trong đó mã ứng dụng được đóng gói cùng với các thư viện và phần phụ thuộc của nó, cho phép nó chạy ở bất kỳ đâu",
+        "is_correct": true
+      },
+      {
+        "answer_id": "187-1",
+        "answer_text": "Một loại máy ảo do nhà cung cấp quản lý, đa người thuê và có thể được cấp phát theo yêu cầu với các kích thước được xác định trước",
+        "is_correct": false
+      },
+      {
+        "answer_id": "187-2",
+        "answer_text": "Một máy chủ vật lý dành riêng cho một khách hàng duy nhất",
+        "is_correct": false
+      },
+      {
+        "answer_id": "187-3",
+        "answer_text": "Một phần mềm lấy tài nguyên từ máy chủ vật lý và phân bổ chúng cho môi trường ảo của bạn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "188",
+    "question_text": "Loại lưu trữ nào đôi khi được gọi là \"Lưu trữ cục bộ\" (Local Storage)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "188-0",
+        "answer_text": "Lưu trữ đối tượng (Object Storage)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "188-1",
+        "answer_text": "Lưu trữ khối (Block Storage)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "188-2",
+        "answer_text": "Lưu trữ tệp (File Storage)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "188-3",
+        "answer_text": "Lưu trữ đính kèm trực tiếp (Direct Attached)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "189",
+    "question_text": "Tên gọi khác của Lưu trữ tệp (File Storage) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "189-0",
+        "answer_text": "Ethernet",
+        "is_correct": false
+      },
+      {
+        "answer_id": "189-1",
+        "answer_text": "Lưu trữ đính kèm trực tiếp (Direct attached storage)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "189-2",
+        "answer_text": "NFS",
+        "is_correct": true
+      },
+      {
+        "answer_id": "189-3",
+        "answer_text": "COS",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "190",
+    "question_text": "Điều nào sau đây đúng với lưu trữ khối (block storage)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "190-0",
+        "answer_text": "Có thể được gắn vào nhiều nút tính toán cùng một lúc",
+        "is_correct": false
+      },
+      {
+        "answer_id": "190-1",
+        "answer_text": "Được gắn vào các nút tính toán bằng mạng ethernet",
+        "is_correct": false
+      },
+      {
+        "answer_id": "190-2",
+        "answer_text": "Được sử dụng ở những nơi khối lượng công việc không yêu cầu kết nối cực nhanh đến bộ nhớ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "190-3",
+        "answer_text": "Chỉ có thể được gắn vào một nút tại một thời điểm",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "191",
+    "question_text": "Điều nào sau đây đúng với Lưu trữ đối tượng (Object storage)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "191-0",
+        "answer_text": "Bạn không thể chạy hệ điều hành hoặc cơ sở dữ liệu trên đó",
+        "is_correct": true
+      },
+      {
+        "answer_id": "191-1",
+        "answer_text": "Không thể được sử dụng để lưu trữ tệp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "191-2",
+        "answer_text": "Được sử dụng ở những nơi cần tốc độ đọc và ghi nhanh",
+        "is_correct": false
+      },
+      {
+        "answer_id": "191-3",
+        "answer_text": "Có thể lưu trữ các ứng dụng mà nội dung của tệp thay đổi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "192",
+    "question_text": "Mạng phân phối nội dung (CDN) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "192-0",
+        "answer_text": "Một nút mạng (network node)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "192-1",
+        "answer_text": "Một cấu trúc liên kết mạng (network topology)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "192-2",
+        "answer_text": "Một liên kết mạng (network link)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "192-3",
+        "answer_text": "Một mạng máy chủ phân tán (distributed server network)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "193",
+    "question_text": "Mỗi Vùng (Region) trên Đám mây có thể có nhiều Vùng sẵn sàng (Availability Zones). Zones là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "193-0",
+        "answer_text": "Các vị trí vật lý duy nhất với một hoặc nhiều trung tâm dữ liệu",
+        "is_correct": true
+      },
+      {
+        "answer_id": "193-1",
+        "answer_text": "Các container tài nguyên máy tính được tiêu chuẩn hóa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "193-2",
+        "answer_text": "Điểm lỗi đơn lẻ được chia sẻ (Single shared point of failure)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "193-3",
+        "answer_text": "Khu vực địa lý nơi cơ sở hạ tầng của nhà cung cấp đám mây được tập trung",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "194",
+    "question_text": "Điều nào sau đây là lợi ích của ảo hóa?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "194-0",
+        "answer_text": "Tăng thời gian chết của bạn",
+        "is_correct": false
+      },
+      {
+        "answer_id": "194-1",
+        "answer_text": "An toàn",
+        "is_correct": false
+      },
+      {
+        "answer_id": "194-2",
+        "answer_text": "Tiết kiệm chi phí",
+        "is_correct": true
+      },
+      {
+        "answer_id": "194-3",
+        "answer_text": "Chạy một hệ điều hành duy nhất",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "195",
+    "question_text": "Loại Máy ảo (VM) nào sau đây đảm bảo tài nguyên cho các lần triển khai trong tương lai?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "195-0",
+        "answer_text": "Máy ảo tạm thời hoặc Spot (Transient or Spot VMs)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "195-1",
+        "answer_text": "Máy ảo chia sẻ hoặc Public Cloud (Shared or Public Cloud VMs)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "195-2",
+        "answer_text": "Máy chủ chuyên dụng (Dedicated hosts)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "195-3",
+        "answer_text": "Máy chủ ảo đặt trước (Reserved virtual servers)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "196",
+    "question_text": "Điều nào sau đây là một tính năng của máy chủ vật lý (bare metal servers)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "196-0",
+        "answer_text": "Được cấp phát nhanh chóng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "196-1",
+        "answer_text": "Chi phí sử dụng thấp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "196-2",
+        "answer_text": "Nhiều người thuê (Multiple tenants)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "196-3",
+        "answer_text": "Hiệu suất cao và an toàn",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "197",
+    "question_text": "Subnet là khu vực chính nơi bảo mật được triển khai trong đám mây. Điều nào sau đây được sử dụng để cung cấp bảo mật ở cấp máy ảo (virtual instance) trong các subnet?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "197-0",
+        "answer_text": "Cổng công cộng (Public Gateways)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "197-1",
+        "answer_text": "Đám mây riêng ảo (Virtual Private Cloud - VPC)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "197-2",
+        "answer_text": "Bộ cân bằng tải (Load Balancers)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "197-3",
+        "answer_text": "Nhóm bảo mật (Security Groups - SGs)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "198",
+    "question_text": "Điều nào sau đây là lợi ích của việc cô lập các ứng dụng trong container?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "198-0",
+        "answer_text": "Được đóng gói lại thành các container hoặc các microservice được container hóa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "198-1",
+        "answer_text": "Ngăn chặn mã độc trong một container ảnh hưởng đến các container khác",
+        "is_correct": true
+      },
+      {
+        "answer_id": "198-2",
+        "answer_text": "Trừu tượng hóa khỏi hệ điều hành máy chủ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "198-3",
+        "answer_text": "Công cụ thời gian chạy mã nguồn mở (Open-sourced runtime engine)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "199",
+    "question_text": "Loại lưu trữ nào sau đây là tạm thời hoặc không bền vững (ephemeral or non-persistent)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "199-0",
+        "answer_text": "Lưu trữ tệp (File storage)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "199-1",
+        "answer_text": "Lưu trữ đính kèm trực tiếp (Direct Attached storage)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "199-2",
+        "answer_text": "Lưu trữ đối tượng (Object storage)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "199-3",
+        "answer_text": "Lưu trữ khối (Block storage)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "200",
+    "question_text": "Điều gì làm cho Lưu trữ tệp (File storage) trở thành một giải pháp lý tưởng cho các tình huống yêu cầu lưu trữ dùng chung?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "200-0",
+        "answer_text": "Lưu trữ tệp được gắn vào các nút tính toán thông qua mạng ethernet",
+        "is_correct": false
+      },
+      {
+        "answer_id": "200-1",
+        "answer_text": "Lưu trữ tệp có thể được gắn từ các thiết bị lưu trữ từ xa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "200-2",
+        "answer_text": "Khả năng truy cập nhanh của lưu trữ tệp qua mạng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "200-3",
+        "answer_text": "Lưu trữ tệp có thể được gắn trên nhiều nút tính toán cùng một lúc",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "201",
+    "question_text": "Tình huống nào sau đây phù hợp nhất với Lưu trữ khối (Block Storage)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "201-0",
+        "answer_text": "Các khối lượng công việc cần chia sẻ đĩa giữa các nút tính toán",
+        "is_correct": false
+      },
+      {
+        "answer_id": "201-1",
+        "answer_text": "Chi phí thấp là một yếu tố cần cân nhắc",
+        "is_correct": false
+      },
+      {
+        "answer_id": "201-2",
+        "answer_text": "Nơi các khối lượng công việc không yêu cầu kết nối nhanh đến bộ nhớ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "201-3",
+        "answer_text": "Các ứng dụng cần truy cập nhanh và nhất quán vào đĩa, chẳng hạn như cơ sở dữ liệu",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "202",
+    "question_text": "Điều nào sau đây là một tính năng của Lưu trữ đối tượng (Object storage)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "202-0",
+        "answer_text": "Lưu trữ đối tượng có thể được gắn trên nhiều nút tính toán thông qua mạng ethernet",
+        "is_correct": false
+      },
+      {
+        "answer_id": "202-1",
+        "answer_text": "Được sử dụng ở những nơi cần tốc độ đọc và ghi nhanh",
+        "is_correct": false
+      },
+      {
+        "answer_id": "202-2",
+        "answer_text": "Bạn có thể sử dụng trực tiếp Lưu trữ đối tượng mà không cần gắn nó vào một nút tính toán",
+        "is_correct": true
+      },
+      {
+        "answer_id": "202-3",
+        "answer_text": "Bộ nhớ được gắn vào các nút tính toán bằng mạng cáp quang",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "203",
+    "question_text": "Điện toán phi máy chủ (serverless computing) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "203-0",
+        "answer_text": "Một phương pháp tính toán loại bỏ máy chủ khỏi môi trường máy tính.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "203-1",
+        "answer_text": "Một phương pháp tính toán làm tăng trách nhiệm đối với các tác vụ quản lý cơ sở hạ tầng chung.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "203-2",
+        "answer_text": "Một phương pháp tính toán loại bỏ máy chủ khỏi môi trường máy tính và tăng trách nhiệm đối với các tác vụ quản lý cơ sở hạ tầng chung.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "203-3",
+        "answer_text": "Một phương pháp tính toán giảm tải trách nhiệm đối với các tác vụ quản lý cơ sở hạ tầng chung.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "204",
+    "question_text": "Phương pháp kiến trúc microservices là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "204-0",
+        "answer_text": "Một phương pháp trong đó một ứng dụng duy nhất bao gồm nhiều thành phần hoặc dịch vụ nhỏ hơn, liên kết lỏng lẻo và có thể triển khai độc lập",
+        "is_correct": true
+      },
+      {
+        "answer_id": "204-1",
+        "answer_text": "Một phương pháp trong đó một ứng dụng duy nhất kiểm soát một máy chủ cho một doanh nghiệp.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "204-2",
+        "answer_text": "Một phương pháp trong đó một ứng dụng duy nhất giám sát mạng bảo mật của doanh nghiệp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "204-3",
+        "answer_text": "Một phương pháp trong đó tất cả dữ liệu doanh nghiệp được lưu trữ trong một kho lưu trữ duy nhất",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "205",
+    "question_text": "Danh sách nào sau đây liệt kê tất cả ba phương thức giao tiếp của microservices?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "205-0",
+        "answer_text": "API, luồng sự kiện (event streaming) và trình môi giới tài nguyên (resource brokers)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "205-1",
+        "answer_text": "Luồng sự kiện, trình môi giới thông điệp (message brokers) và mã hóa đám mây",
+        "is_correct": false
+      },
+      {
+        "answer_id": "205-2",
+        "answer_text": "API, giám sát đám mây và trình môi giới thông điệp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "205-3",
+        "answer_text": "API, luồng sự kiện và trình môi giới thông điệp",
+        "is_correct": true
+      }
+    ]
+  }
+]

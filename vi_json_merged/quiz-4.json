@@ -1,6 +1,6 @@
 [
   {
-    "question_id": "q-91",
+    "question_id": "91",
     "question_text": "Công cụ AWS nào sau đây giúp ứng dụng của bạn tăng hoặc giảm quy mô dựa trên nhu cầu? (Chọn hai)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -32,7 +32,7 @@
     ]
   },
   {
-    "question_id": "q-92",
+    "question_id": "92",
     "question_text": "Bạn sẽ sử dụng dịch vụ nào để gửi cảnh báo dựa trên báo động Amazon CloudWatch?",
     "question_type": "single_answer_question",
     "answers": [
@@ -59,7 +59,7 @@
     ]
   },
   {
-    "question_id": "q-93",
+    "question_id": "93",
     "question_text": "Các đặc điểm của Amazon EC2 Auto Scaling là gì? (Chọn ba)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -91,7 +91,7 @@
     ]
   },
   {
-    "question_id": "q-94",
+    "question_id": "94",
     "question_text": "Điều nào sau đây phải được định cấu hình trên bộ cân bằng tải Elastic Load Balancing để mong đợi lưu lượng truy cập đến?",
     "question_type": "single_answer_question",
     "answers": [
@@ -118,7 +118,7 @@
     ]
   },
   {
-    "question_id": "q-95",
+    "question_id": "95",
     "question_text": "Các yếu tố nào sau đây được sử dụng để tạo cấu hình khởi chạy Amazon EC2 Auto Scaling? (Chọn ba)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -150,7 +150,7 @@
     ]
   },
   {
-    "question_id": "q-96",
+    "question_id": "96",
     "question_text": "Dịch vụ nào sau đây có thể giúp bạn thu thập các chỉ số quan trọng từ các phiên bản Amazon RDS và Amazon EC2?",
     "question_type": "single_answer_question",
     "answers": [
@@ -182,7 +182,7 @@
     ]
   },
   {
-    "question_id": "q-97",
+    "question_id": "97",
     "question_text": "Các yếu tố nào sau đây là của một nhóm Auto Scaling? (Chọn ba)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -209,7 +209,7 @@
     ]
   },
   {
-    "question_id": "q-98",
+    "question_id": "98",
     "question_text": "Có một cuộc kiểm toán tại công ty của bạn và họ cần có một bản ghi nhật ký về tất cả các quyền truy cập vào tài nguyên AWS trong tài khoản. Dịch vụ nào sau đây có thể hỗ trợ cung cấp các chi tiết này?",
     "question_type": "single_answer_question",
     "answers": [
@@ -236,7 +236,7 @@
     ]
   },
   {
-    "question_id": "q-99",
+    "question_id": "99",
     "question_text": "Trong Elastic Load Balancing, khi bộ cân bằng tải phát hiện một mục tiêu không lành mạnh, điều nào sau đây là đúng? (Chọn ba)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -268,7 +268,7 @@
     ]
   },
   {
-    "question_id": "q-100",
+    "question_id": "100",
     "question_text": "Ba loại bộ cân bằng tải mà Elastic Load Balancing cung cấp là gì?",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -300,7 +300,7 @@
     ]
   },
   {
-    "question_id": "q-101",
+    "question_id": "101",
     "question_text": "Những lợi thế của điện toán đám mây đối với một công ty chuyển từ mô hình điện toán tại chỗ truyền thống là gì? (Chọn HAI.)",
     "question_type": "multiple_answer_question",
     "answers": [
@@ -332,7 +332,7 @@
     ]
   },
   {
-    "question_id": "q-102",
+    "question_id": "102",
     "question_text": "Làm thế nào để kinh tế theo quy mô giúp khách hàng chuyển sang điện toán đám mây từ điện toán tại chỗ?",
     "question_type": "single_answer_question",
     "answers": [
@@ -359,7 +359,7 @@
     ]
   },
   {
-    "question_id": "q-103",
+    "question_id": "103",
     "question_text": "Phát biểu nào mô tả chính xác cách khách hàng có thể sử dụng AWS Support?",
     "question_type": "single_answer_question",
     "answers": [
@@ -386,7 +386,7 @@
     ]
   },
   {
-    "question_id": "q-104",
+    "question_id": "104",
     "question_text": "Làm thế nào để AWS Billing Dashboard giúp các công ty phân tích việc sử dụng AWS của họ để tìm các cơ hội tiết kiệm chi phí tiềm năng?",
     "question_type": "single_answer_question",
     "answers": [
@@ -413,7 +413,7 @@
     ]
   },
   {
-    "question_id": "q-105",
+    "question_id": "105",
     "question_text": "Phát biểu nào về các Khu vực AWS là đúng?",
     "question_type": "single_answer_question",
     "answers": [
@@ -440,7 +440,7 @@
     ]
   },
   {
-    "question_id": "q-106",
+    "question_id": "106",
     "question_text": "Quản trị viên tài khoản AWS muốn cấp quyền truy cập tạm thời giữa các tài khoản cho phép người dùng bên ngoài truy cập các tài nguyên cụ thể trong tài khoản của riêng họ. Hành động nào sau đây phù hợp với thực tiễn tốt nhất về việc sử dụng các phiên tạm thời?",
     "question_type": "single_answer_question",
     "answers": [
@@ -467,7 +467,7 @@
     ]
   },
   {
-    "question_id": "q-107",
+    "question_id": "107",
     "question_text": "Một công ty phải tạo báo cáo về bất kỳ thay đổi nào đối với cài đặt phiên bản Amazon EC2 của mình. Họ nên sử dụng dịch vụ AWS nào?",
     "question_type": "single_answer_question",
     "answers": [
@@ -494,7 +494,7 @@
     ]
   },
   {
-    "question_id": "q-108",
+    "question_id": "108",
     "question_text": "Một quản trị viên mạng muốn định cấu hình một mạng con công cộng và định tuyến lưu lượng truy cập đến và đi từ một phiên bản Amazon EC2 trong mạng con công cộng đến internet công cộng. Họ nên sử dụng tính năng nào của đám mây riêng ảo (VPC)?",
     "question_type": "single_answer_question",
     "answers": [
@@ -521,7 +521,7 @@
     ]
   },
   {
-    "question_id": "q-109",
+    "question_id": "109",
     "question_text": "Các nhóm bảo mật đóng vai trò gì trong việc quản lý quyền truy cập vào các phiên bản Amazon EC2?",
     "question_type": "single_answer_question",
     "answers": [
@@ -548,7 +548,7 @@
     ]
   },
   {
-    "question_id": "q-110",
+    "question_id": "110",
     "question_text": "Kịch bản nào phù hợp với lưu trữ Amazon Elastic File System (Amazon EFS)?",
     "question_type": "single_answer_question",
     "answers": [
@@ -575,7 +575,7 @@
     ]
   },
   {
-    "question_id": "q-111",
+    "question_id": "111",
     "question_text": "Phát biểu nào về các dịch vụ lưu trữ của AWS là chính xác?",
     "question_type": "single_answer_question",
     "answers": [
@@ -602,7 +602,7 @@
     ]
   },
   {
-    "question_id": "q-112",
+    "question_id": "112",
     "question_text": "Kịch bản nào mô tả một trường hợp sử dụng tốt cho lưu trữ Amazon S3 Standard?",
     "question_type": "single_answer_question",
     "answers": [
@@ -629,7 +629,7 @@
     ]
   },
   {
-    "question_id": "q-113",
+    "question_id": "113",
     "question_text": "Tùy chọn nào là trách nhiệm của công ty khi chạy Amazon RDS?",
     "question_type": "single_answer_question",
     "answers": [
@@ -656,7 +656,7 @@
     ]
   },
   {
-    "question_id": "q-114",
+    "question_id": "114",
     "question_text": "Kịch bản nào phù hợp với Amazon Redshift?",
     "question_type": "single_answer_question",
     "answers": [
@@ -683,7 +683,7 @@
     ]
   },
   {
-    "question_id": "q-115",
+    "question_id": "115",
     "question_text": "AWS Trusted Advisor hỗ trợ một công ty bắt đầu với AWS như thế nào?",
     "question_type": "single_answer_question",
     "answers": [
@@ -710,7 +710,7 @@
     ]
   },
   {
-    "question_id": "q-116",
+    "question_id": "116",
     "question_text": "Loại cảnh báo nào có thể được cung cấp bởi AWS Trusted Advisor?",
     "question_type": "single_answer_question",
     "answers": [
@@ -737,7 +737,7 @@
     ]
   },
   {
-    "question_id": "q-117",
+    "question_id": "117",
     "question_text": "Kịch bản nào nên được giải quyết bằng Network Load Balancer?",
     "question_type": "single_answer_question",
     "answers": [
@@ -764,7 +764,7 @@
     ]
   },
   {
-    "question_id": "q-118",
+    "question_id": "118",
     "question_text": "Phát biểu nào về AWS Auto Scaling là đúng?",
     "question_type": "single_answer_question",
     "answers": [
@@ -791,7 +791,7 @@
     ]
   },
   {
-    "question_id": "q-119",
+    "question_id": "119",
     "question_text": "Phát biểu nào là một lợi thế của mô hình dịch vụ đám mây nền tảng như một dịch vụ (PaaS)?",
     "question_type": "single_answer_question",
     "answers": [
@@ -818,7 +818,7 @@
     ]
   },
   {
-    "question_id": "q-120",
+    "question_id": "120",
     "question_text": "Phát biểu nào mô tả chính xác về giá cả của AWS?",
     "question_type": "single_answer_question",
     "answers": [
@@ -845,7 +845,7 @@
     ]
   },
   {
-    "question_id": "q-121",
+    "question_id": "121",
     "question_text": "Một quản trị viên mạng muốn chạy ứng dụng web thương mại điện tử của họ trên một đám mây riêng ảo (VPC). Bước nào là một phần của việc thiết lập VPC? (Chọn HAI.)",
     "question_type": "multiple_answer_question",
     "answers": [

@@ -31,7 +31,17 @@ await db.execute(`
   )
 `);
 
-const files = readdirSync(rawDir).filter((f) => extname(f) === '.json');
+await db.execute(`DELETE FROM quizzes`);
+
+const files = readdirSync(rawDir)
+	.filter((f) => extname(f) === '.json')
+	.sort((a, b) => {
+		const getNum = (name) => {
+			const m = name.match(/quiz-(\d+)\.json$/);
+			return m ? parseInt(m[1], 10) : 0;
+		};
+		return getNum(a) - getNum(b);
+	});
 
 async function insertQuizzes(quizzes, quiz_number) {
 	const grouped = {};

@@ -1,0 +1,812 @@
+[
+  {
+    "question_id": "146",
+    "question_text": "Đặc tính nào của điện toán đám mây cho phép tiết kiệm chi phí bằng cách phục vụ nhiều người dùng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "146-0",
+        "answer_text": "Truy cập mạng rộng (Broad network access)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "146-1",
+        "answer_text": "Tự phục vụ theo yêu cầu (On-demand self-service)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "146-2",
+        "answer_text": "Các mô hình public cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "146-3",
+        "answer_text": "Gộp tài nguyên (Resource pooling)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "147",
+    "question_text": "Tính năng mạng nào trong những năm 1950 đã giúp phát triển Máy ảo (Virtual Machines - VMs)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "147-0",
+        "answer_text": "Bảo mật, tuân thủ và hiệu năng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "147-1",
+        "answer_text": "Truy cập dùng chung vào một máy chủ mainframe",
+        "is_correct": true
+      },
+      {
+        "answer_id": "147-2",
+        "answer_text": "Truy cập mạng rộng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "147-3",
+        "answer_text": "Dịch vụ được đo lường (Measured service)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "148",
+    "question_text": "Một số lợi ích của điện toán đám mây là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "148-0",
+        "answer_text": "Khả năng hoạt động ngoại tuyến và bảo mật",
+        "is_correct": false
+      },
+      {
+        "answer_id": "148-1",
+        "answer_text": "Mua phần mềm đóng gói và các bản nâng cấp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "148-2",
+        "answer_text": "Lợi thế cạnh tranh, tính linh hoạt và hiệu quả",
+        "is_correct": true
+      },
+      {
+        "answer_id": "148-3",
+        "answer_text": "Sự đa dạng của việc tiêu chuẩn hóa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "149",
+    "question_text": "Nhà cung cấp nào sau đây được biết đến nhiều hơn với các sản phẩm SaaS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "149-0",
+        "answer_text": "Intel",
+        "is_correct": false
+      },
+      {
+        "answer_id": "149-1",
+        "answer_text": "Amazon Web Services",
+        "is_correct": false
+      },
+      {
+        "answer_id": "149-2",
+        "answer_text": "Alibaba Cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "149-3",
+        "answer_text": "Salesforce",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "150",
+    "question_text": "UBank đã tận dụng đám mây để loại bỏ các rào cản đối với sự đổi mới như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "150-0",
+        "answer_text": "Bằng cách áp dụng mô hình phát triển đám mây PaaS để hợp lý hóa quy trình phát triển và trao quyền cho các nhóm sản phẩm",
+        "is_correct": true
+      },
+      {
+        "answer_id": "150-1",
+        "answer_text": "Bằng cách hiện đại hóa các ứng dụng cho khách hàng từ mã nguồn nguyên khối (monolithic) sang kiến trúc microservices trên đám mây",
+        "is_correct": false
+      },
+      {
+        "answer_id": "150-2",
+        "answer_text": "Bằng cách thiết lập một nền tảng lưu trữ có khả năng mở rộng để phân phối với độ trễ thấp cho khách hàng doanh nghiệp trên toàn thế giới",
+        "is_correct": false
+      },
+      {
+        "answer_id": "150-3",
+        "answer_text": "Bằng cách di chuyển hệ thống giao dịch của họ từ hạ tầng tại chỗ sang giải pháp IBM Cloud cho VMware",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "151",
+    "question_text": "Đâu là một rủi ro mà doanh nghiệp phải đối mặt nếu không áp dụng đám mây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "151-0",
+        "answer_text": "Các vấn đề về tuân thủ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "151-1",
+        "answer_text": "Thiếu tiêu chuẩn hóa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "151-2",
+        "answer_text": "Bảo mật dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "151-3",
+        "answer_text": "Thiếu năng lực ra quyết định",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "152",
+    "question_text": "Kết nối Đám mây hỗ trợ các thiết bị IoT như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "152-0",
+        "answer_text": "Tăng độ trễ trong việc báo cáo và phản hồi",
+        "is_correct": false
+      },
+      {
+        "answer_id": "152-1",
+        "answer_text": "Điểm thu thập gần các thiết bị đang di chuyển",
+        "is_correct": true
+      },
+      {
+        "answer_id": "152-2",
+        "answer_text": "Cung cấp một vị trí vật lý cố định cho dữ liệu được thu thập từ các thiết bị IoT",
+        "is_correct": false
+      },
+      {
+        "answer_id": "152-3",
+        "answer_text": "Rút ra thông tin chi tiết từ dữ liệu được thu thập từ các thiết bị và người dùng IoT",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "153",
+    "question_text": "Mối quan hệ cộng sinh ba bên giữa IoT, AI và Đám mây là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "153-0",
+        "answer_text": "IoT cung cấp dữ liệu, AI cung cấp thông tin chuyên sâu, và cả hai công nghệ mới nổi này đều tận dụng khả năng mở rộng và sức mạnh xử lý của Đám mây",
+        "is_correct": true
+      },
+      {
+        "answer_id": "153-1",
+        "answer_text": "Hiểu được các luồng dữ liệu vô tận từ các thiết bị IoT",
+        "is_correct": false
+      },
+      {
+        "answer_id": "153-2",
+        "answer_text": "AI tiêu thụ dữ liệu do các thiết bị IoT tạo ra",
+        "is_correct": false
+      },
+      {
+        "answer_id": "153-3",
+        "answer_text": "Sức mạnh, quy mô, tính năng động và tính kinh tế của tài nguyên đám mây",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "154",
+    "question_text": "Mối quan hệ ba bên giữa blockchain, AI và Đám mây là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "154-0",
+        "answer_text": "Mang lại sự tin cậy và minh bạch cho AI bằng cách ghi lại dữ liệu và các biến số trong một quyết định được đưa ra trong thuật toán AI.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "154-1",
+        "answer_text": "Các tài nguyên máy tính được phân phối toàn cầu, có khả năng mở rộng và hiệu quả về chi phí.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "154-2",
+        "answer_text": "Blockchain cung cấp một mạng lưới bất biến cho phép các thành viên chỉ xem những giao dịch liên quan đến họ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "154-3",
+        "answer_text": "Blockchain cung cấp nguồn chân lý phi tập trung, đáng tin cậy; AI cung cấp sức mạnh phân tích và ra quyết định từ dữ liệu thu thập được; và Đám mây cung cấp tài nguyên máy tính phân tán toàn cầu, có khả năng mở rộng và hiệu quả về chi phí để hỗ trợ cả hai công nghệ.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "155",
+    "question_text": "Theo định nghĩa của Viện Tiêu chuẩn và Công nghệ Quốc gia Hoa Kỳ (NIST) về “điện toán đám mây”, ý nghĩa của câu “một hồ chứa chung các tài nguyên máy tính có thể cấu hình” là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "155-0",
+        "answer_text": "Mạng, máy chủ, lưu trữ, ứng dụng và dịch vụ.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "155-1",
+        "answer_text": "Năm đặc tính thiết yếu, ba mô hình triển khai và ba mô hình dịch vụ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "155-2",
+        "answer_text": "Tận dụng các dịch vụ đám mây qua internet mở trên phần cứng thuộc sở hữu của nhà cung cấp đám mây.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "155-3",
+        "answer_text": "Bảo mật dữ liệu liên quan đến việc mất mát hoặc không có sẵn dữ liệu gây gián đoạn kinh doanh.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "156",
+    "question_text": "Hypervisor (trình ảo hóa) thực hiện những tác vụ nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "156-0",
+        "answer_text": "Mở rộng theo yêu cầu để hỗ trợ các khối lượng công việc biến động",
+        "is_correct": false
+      },
+      {
+        "answer_id": "156-1",
+        "answer_text": "Làm biến động khối lượng công việc và tạo điều kiện truy cập vào máy chủ mainframe",
+        "is_correct": false
+      },
+      {
+        "answer_id": "156-2",
+        "answer_text": "Cho phép nhiều hệ điều hành chạy song song và phân tách các máy ảo một cách logic",
+        "is_correct": true
+      },
+      {
+        "answer_id": "156-3",
+        "answer_text": "Tạo điều kiện truy cập vào máy chủ mainframe cho nhiều người dùng để truy cập cùng một lớp lưu trữ dữ liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "157",
+    "question_text": "Những yếu tố chính nào thúc đẩy một tổ chức lựa chọn điện toán đám mây khi xem xét chi tiêu cho phần mềm đóng gói và đầu tư vào các bản nâng cấp?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "157-0",
+        "answer_text": "Mức độ rủi ro",
+        "is_correct": false
+      },
+      {
+        "answer_id": "157-1",
+        "answer_text": "Tốc độ và năng suất",
+        "is_correct": false
+      },
+      {
+        "answer_id": "157-2",
+        "answer_text": "Phần mềm dưới dạng dịch vụ (SaaS) và các nền tảng phát triển",
+        "is_correct": true
+      },
+      {
+        "answer_id": "157-3",
+        "answer_text": "Hạ tầng và khối lượng công việc",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "158",
+    "question_text": "Phát biểu nào sau đây mô tả một lợi ích của điện toán đám mây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "158-0",
+        "answer_text": "Thiếu tiêu chuẩn hóa trong cách các công nghệ không ngừng phát triển tích hợp với nhau",
+        "is_correct": false
+      },
+      {
+        "answer_id": "158-1",
+        "answer_text": "Tính liên tục trong kinh doanh (Business continuity)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "158-2",
+        "answer_text": "Lỗi phần cứng không dẫn đến mất dữ liệu vì có các bản sao lưu được duy trì trên mạng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "158-3",
+        "answer_text": "Bảo mật dữ liệu liên quan đến việc mất hoặc không có sẵn dữ liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "159",
+    "question_text": "Nhà cung cấp dịch vụ nào cung cấp một trong những nền tảng quản lý dữ liệu dựa trên đám mây lớn nhất?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "159-0",
+        "answer_text": "Salesforce",
+        "is_correct": false
+      },
+      {
+        "answer_id": "159-1",
+        "answer_text": "Alibaba Cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "159-2",
+        "answer_text": "Amazon Web Services",
+        "is_correct": false
+      },
+      {
+        "answer_id": "159-3",
+        "answer_text": "Oracle Cloud",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "160",
+    "question_text": "Nhà cung cấp dịch vụ nào sử dụng nền tảng đám mây của mình trong nội bộ cho các sản phẩm người dùng cuối, chẳng hạn như máy tìm kiếm và các công cụ ứng dụng tự động phân bổ và giải phóng tài nguyên để xử lý nhu cầu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "160-0",
+        "answer_text": "SAP",
+        "is_correct": false
+      },
+      {
+        "answer_id": "160-1",
+        "answer_text": "Oracle Cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "160-2",
+        "answer_text": "Microsoft Azure",
+        "is_correct": false
+      },
+      {
+        "answer_id": "160-3",
+        "answer_text": "Google Cloud Platform (GCP)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "161",
+    "question_text": "Theo International Data Corporation (IDC), khả năng quan trọng nào sẽ làm cho điện toán đám mây trở nên cần thiết để các doanh nghiệp thành công, duy trì và cạnh tranh trên thị trường ngày nay?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "161-0",
+        "answer_text": "Hạ tầng đa đám mây (Multi-cloud)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "161-1",
+        "answer_text": "Quyết định dựa trên dữ liệu (Data-driven decisions)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "161-2",
+        "answer_text": "Áp dụng các công nghệ cấp số nhân như AI, Tự động hóa, IoT và Blockchain",
+        "is_correct": false
+      },
+      {
+        "answer_id": "161-3",
+        "answer_text": "Quy trình làm việc được hỗ trợ bởi nhận thức (Cognitively enabled workflows)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "162",
+    "question_text": "Tại sao American Airlines yêu cầu một nền tảng công nghệ mới?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "162-0",
+        "answer_text": "Thiết lập một nền tảng lưu trữ có khả năng mở rộng để phân phối với độ trễ thấp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "162-1",
+        "answer_text": "Yêu cầu dịch vụ khách hàng tốt hơn",
+        "is_correct": true
+      },
+      {
+        "answer_id": "162-2",
+        "answer_text": "Tăng tốc độ tăng trưởng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "162-3",
+        "answer_text": "Loại bỏ các rào cản đối với sự đổi mới",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "163",
+    "question_text": "Chọn câu trả lời mô tả đúng nhất cách Điện toán đám mây giúp các thiết bị IoT?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "163-0",
+        "answer_text": "Cung cấp tài nguyên để lưu trữ và xử lý dữ liệu do các thiết bị và người dùng IoT tạo ra.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "163-1",
+        "answer_text": "Rút ra thông tin chi tiết từ dữ liệu được thu thập từ các thiết bị và người dùng IoT",
+        "is_correct": false
+      },
+      {
+        "answer_id": "163-2",
+        "answer_text": "Lưu trữ dữ liệu trên một ổ đĩa vật lý được mã hóa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "163-3",
+        "answer_text": "Cung cấp một vị trí vật lý cố định cho dữ liệu được thu thập từ các thiết bị IoT",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "164",
+    "question_text": "Điều nào sau đây biểu thị mối quan hệ giữa Blockchain, AI và đám mây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "164-0",
+        "answer_text": "Blockchain cung cấp một nguồn chân lý phi tập trung, AI cung cấp sức mạnh phân tích và ra quyết định, và đám mây cung cấp tài nguyên máy tính phân tán toàn cầu",
+        "is_correct": true
+      },
+      {
+        "answer_id": "164-1",
+        "answer_text": "Blockchain cung cấp tài nguyên máy tính phân tán, AI cung cấp sức mạnh phân tích, và đám mây ghi lại dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "164-2",
+        "answer_text": "Blockchain cung cấp một mạng lưới bất biến, AI cung cấp tài nguyên máy tính phân tán và đám mây cung cấp sức mạnh ra quyết định",
+        "is_correct": false
+      },
+      {
+        "answer_id": "164-3",
+        "answer_text": "Blockchain mang lại sự tin cậy và minh bạch cho AI bằng cách ghi lại dữ liệu và các biến số trong một quyết định được đưa ra trong thuật toán AI, và đám mây cung cấp một mạng lưới bất biến",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "165",
+    "question_text": "Trong phép loại suy về xe hơi được sử dụng trong video để giải thích và phân biệt ba mô hình dịch vụ, lựa chọn nào được cung cấp là một phép loại suy cho PaaS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "165-0",
+        "answer_text": "Thuê taxi",
+        "is_correct": false
+      },
+      {
+        "answer_id": "165-1",
+        "answer_text": "Mua xe hơi",
+        "is_correct": false
+      },
+      {
+        "answer_id": "165-2",
+        "answer_text": "Thuê xe dài hạn (Leasing a car)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "165-3",
+        "answer_text": "Thuê xe ngắn hạn (Renting a car)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "166",
+    "question_text": "Đặc điểm của mô hình cơ sở hạ tầng đám mây dưới dạng dịch vụ (IaaS) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "166-0",
+        "answer_text": "Dữ liệu chỉ có thể được lưu trữ trên các máy vật lý trong mạng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "166-1",
+        "answer_text": "Không có dịch vụ hỗ trợ nào được cung cấp bởi IaaS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "166-2",
+        "answer_text": "Người dùng có thể truy cập tài nguyên mạng trên đám mây thông qua ảo hóa",
+        "is_correct": true
+      },
+      {
+        "answer_id": "166-3",
+        "answer_text": "Người dùng cuối tương tác trực tiếp với cơ sở hạ tầng vật lý",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "167",
+    "question_text": "Những tình huống nào sau đây là trường hợp sử dụng tốt cho PaaS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "167-0",
+        "answer_text": "Triển khai IoT",
+        "is_correct": true
+      },
+      {
+        "answer_id": "167-1",
+        "answer_text": "Các tổ chức muốn quản lý các chi tiết cấp thấp của môi trường ứng dụng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "167-2",
+        "answer_text": "Các tổ chức muốn việc bảo trì ứng dụng của họ được thực hiện bởi nhà cung cấp dịch vụ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "167-3",
+        "answer_text": "Các tổ chức muốn duy trì toàn quyền kiểm soát việc cài đặt, cấu hình và vận hành cơ sở hạ tầng ứng dụng của họ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "168",
+    "question_text": "Điều nào sau đây là một trường hợp sử dụng tốt cho SaaS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "168-0",
+        "answer_text": "Các tổ chức có lực lượng lao động phân tán về mặt địa lý, một số trong đó làm việc ở những khu vực có kết nối internet thất thường hoặc không đáng tin cậy",
+        "is_correct": false
+      },
+      {
+        "answer_id": "168-1",
+        "answer_text": "Các tổ chức muốn giảm cơ sở hạ tầng CNTT tại chỗ và chi tiêu vốn",
+        "is_correct": true
+      },
+      {
+        "answer_id": "168-2",
+        "answer_text": "Các ứng dụng quan trọng đối với doanh nghiệp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "168-3",
+        "answer_text": "Các ứng dụng có dữ liệu rất bí mật và nhạy cảm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "169",
+    "question_text": "Những tình huống nào sau đây là trường hợp sử dụng tốt cho Public Cloud? Chọn hai.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "169-0",
+        "answer_text": "Giảm thời gian đưa sản phẩm và dịch vụ ra thị trường",
+        "is_correct": true
+      },
+      {
+        "answer_id": "169-1",
+        "answer_text": "Quản lý các nền tảng và ứng dụng quan trọng của doanh nghiệp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "169-2",
+        "answer_text": "Phục hồi sau thảm họa, bảo vệ dữ liệu và tính liên tục trong kinh doanh",
+        "is_correct": true
+      },
+      {
+        "answer_id": "169-3",
+        "answer_text": "Các ứng dụng có nhu cầu về năng lực và tài nguyên ổn định",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "170",
+    "question_text": "Chúng ta có ý gì khi nói rằng Hybrid Cloud có khả năng tương tác (interoperable)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "170-0",
+        "answer_text": "Khi có sự gia tăng đột biến về nhu cầu, một khối lượng công việc đang chạy trên đám mây riêng có thể tận dụng thêm dung lượng của đám mây công cộng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "170-1",
+        "answer_text": "Bạn không còn bị ràng buộc với một nhà cung cấp cụ thể",
+        "is_correct": false
+      },
+      {
+        "answer_id": "170-2",
+        "answer_text": "Các dịch vụ đám mây công cộng và riêng tư có thể hiểu API, cấu hình, định dạng dữ liệu và các hình thức xác thực và ủy quyền của nhau",
+        "is_correct": true
+      },
+      {
+        "answer_id": "170-3",
+        "answer_text": "Các tổ chức có thể chọn chạy các khối lượng công việc nhạy cảm của họ trên một đám mây riêng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "171",
+    "question_text": "Lợi ích của việc sử dụng private cloud là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "171-0",
+        "answer_text": "Khả năng tận dụng tốt hơn các tài nguyên bên ngoài tổ chức",
+        "is_correct": false
+      },
+      {
+        "answer_id": "171-1",
+        "answer_text": "Khả năng cung cấp các tài nguyên hạn chế giúp tiết kiệm chi phí",
+        "is_correct": false
+      },
+      {
+        "answer_id": "171-2",
+        "answer_text": "Quyền truy cập chung cho tất cả mọi người với mức bảo mật tối thiểu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "171-3",
+        "answer_text": "Tận dụng việc sử dụng các hệ thống do tổ chức trực tiếp kiểm soát",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "172",
+    "question_text": "Trong mô hình dịch vụ đám mây nào, nhà cung cấp dịch vụ quản lý dữ liệu ứng dụng cùng với tài nguyên hạ tầng và nền tảng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "172-0",
+        "answer_text": "CaaS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "172-1",
+        "answer_text": "PaaS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "172-2",
+        "answer_text": "SaaS",
+        "is_correct": true
+      },
+      {
+        "answer_id": "172-3",
+        "answer_text": "IaaS",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "173",
+    "question_text": "Trong môi trường đám mây IaaS nào, khách hàng có thể triển khai middleware và cài đặt ứng dụng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "173-0",
+        "answer_text": "Máy ảo (Virtual Machines)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "173-1",
+        "answer_text": "AI",
+        "is_correct": false
+      },
+      {
+        "answer_id": "173-2",
+        "answer_text": "Blockchain",
+        "is_correct": false
+      },
+      {
+        "answer_id": "173-3",
+        "answer_text": "IoT",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "174",
+    "question_text": "Một trong những mối quan tâm trong việc cấu hình và quản lý hạ tầng đám mây là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "174-0",
+        "answer_text": "Giải quyết các vấn đề phức tạp liên quan đến hàng triệu biến số và phép tính",
+        "is_correct": false
+      },
+      {
+        "answer_id": "174-1",
+        "answer_text": "Tính liên tục trong kinh doanh và phục hồi sau thảm họa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "174-2",
+        "answer_text": "Mở rộng hoặc thu hẹp hạ tầng khi nhu cầu thay đổi",
+        "is_correct": false
+      },
+      {
+        "answer_id": "174-3",
+        "answer_text": "Phụ thuộc vào bên thứ ba về tính sẵn sàng và hiệu suất của khối lượng công việc",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "175",
+    "question_text": "Trách nhiệm của người dùng trong mô hình PaaS là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "175-0",
+        "answer_text": "Quản lý khối lượng công việc",
+        "is_correct": false
+      },
+      {
+        "answer_id": "175-1",
+        "answer_text": "Hệ thống quản lý quy trình kinh doanh",
+        "is_correct": false
+      },
+      {
+        "answer_id": "175-2",
+        "answer_text": "Hệ thống quản lý cơ sở dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "175-3",
+        "answer_text": "Mã ứng dụng và việc bảo trì nó",
+        "is_correct": true
+      }
+    ]
+  }
+]

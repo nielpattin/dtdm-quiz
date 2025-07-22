@@ -1,0 +1,747 @@
+[
+  {
+    "question_id": "266",
+    "question_text": "Loại instance của Amazon Elastic Compute Cloud (Amazon EC2) cho biết điều gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "266-0",
+        "answer_text": "Họ instance và kích thước instance",
+        "is_correct": true
+      },
+      {
+        "answer_id": "266-1",
+        "answer_text": "Vị trí instance và kích thước instance",
+        "is_correct": false
+      },
+      {
+        "answer_id": "266-2",
+        "answer_text": "Hình thức thuê instance và thanh toán instance",
+        "is_correct": false
+      },
+      {
+        "answer_id": "266-3",
+        "answer_text": "Amazon Machine Image (AMI) của instance và tốc độ mạng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "267",
+    "question_text": "Sự khác biệt giữa việc sử dụng AWS Fargate hoặc Amazon Elastic Compute Cloud (Amazon EC2) làm nền tảng tính toán cho Amazon Elastic Container Service (Amazon ECS) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "267-0",
+        "answer_text": "Với AWS Fargate, AWS quản lý và cấp phát cơ sở hạ tầng cơ bản để lưu trữ các container.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "267-1",
+        "answer_text": "Với Amazon ECS trên Amazon EC2, AWS quản lý và cấp phát instance EC2 cơ bản cho các container.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "267-2",
+        "answer_text": "Với AWS Fargate, người dùng cần quản lý dung lượng và khả năng mở rộng của cụm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "267-3",
+        "answer_text": "Với Amazon ECS trên Amazon EC2, người dùng chỉ cần tải lên mã nguồn. Amazon ECS sẽ lo phần còn lại.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "268",
+    "question_text": "Phát biểu nào về serverless là ĐÚNG?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "268-0",
+        "answer_text": "Người dùng phải cấp phát và quản lý máy chủ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "268-1",
+        "answer_text": "Người dùng phải mở rộng quy mô tài nguyên serverless theo cách thủ công.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "268-2",
+        "answer_text": "Người dùng không trả tiền cho các tài nguyên không hoạt động.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "268-3",
+        "answer_text": "Người dùng phải quản lý tính sẵn sàng và khả năng chịu lỗi.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "269",
+    "question_text": "Đúng hay Sai: AWS Lambda luôn là giải pháp tốt nhất khi chạy các ứng dụng trên AWS.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "269-0",
+        "answer_text": "Đúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "269-1",
+        "answer_text": "Sai",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "270",
+    "question_text": "Dịch vụ tính toán nào mà Amazon Elastic Compute Cloud (Amazon EC2) cung cấp?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "270-0",
+        "answer_text": "Dịch vụ container",
+        "is_correct": false
+      },
+      {
+        "answer_id": "270-1",
+        "answer_text": "Serverless",
+        "is_correct": false
+      },
+      {
+        "answer_id": "270-2",
+        "answer_text": "Máy ảo (VMs)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "270-3",
+        "answer_text": "Phân tích (Analytics)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "271",
+    "question_text": "Instance đang ở giai đoạn nào của vòng đời khi tài khoản bắt đầu tích lũy phí?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "271-0",
+        "answer_text": "Khi một instance đang ở giai đoạn chờ xử lý (pending)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "271-1",
+        "answer_text": "Khi một instance đang ở giai đoạn đang chạy (running)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "271-2",
+        "answer_text": "Khi một instance bị dừng (stopped)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "271-3",
+        "answer_text": "Khi một instance bị chấm dứt (terminated)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "272",
+    "question_text": "Thành phần nào của instance c5.4xlarge xác định họ instance và số thế hệ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "272-0",
+        "answer_text": "4x",
+        "is_correct": false
+      },
+      {
+        "answer_id": "272-1",
+        "answer_text": "Large",
+        "is_correct": false
+      },
+      {
+        "answer_id": "272-2",
+        "answer_text": "4xlarge",
+        "is_correct": false
+      },
+      {
+        "answer_id": "272-3",
+        "answer_text": "c5",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "273",
+    "question_text": "Runtime container nào có thể được sử dụng để lưu trữ một container trên một instance Amazon Elastic Compute Cloud (Amazon EC2)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "273-0",
+        "answer_text": "Docker",
+        "is_correct": true
+      },
+      {
+        "answer_id": "273-1",
+        "answer_text": "Container",
+        "is_correct": false
+      },
+      {
+        "answer_id": "273-2",
+        "answer_text": "Amazon Simple Storage Service (Amazon S3)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "273-3",
+        "answer_text": "Amazon EC2",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "274",
+    "question_text": "Ví dụ nào về một sự kiện gọi một hàm AWS Lambda?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "274-0",
+        "answer_text": "Một lệnh gọi API AWS được thực hiện bởi một vai trò AWS Identity and Access Management (IAM)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "274-1",
+        "answer_text": "Tải lên một tệp vào bucket nguồn của Amazon Simple Storage Service (Amazon S3)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "274-2",
+        "answer_text": "Một yêu cầu HTTP đến một trang web được lưu trữ trên Amazon Elastic Compute Cloud (Amazon EC2)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "274-3",
+        "answer_text": "Một trang web WordPress đơn giản không có tích hợp API",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "275",
+    "question_text": "Đúng hay Sai: Với serverless, người dùng không cần cấp phát và quản lý máy chủ.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "275-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "275-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "276",
+    "question_text": "Đúng hay Sai: Tất cả các dịch vụ AWS đều yêu cầu người dùng cấu hình một đám mây riêng ảo (VPC).",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "276-0",
+        "answer_text": "Đúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "276-1",
+        "answer_text": "Sai",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "277",
+    "question_text": "Một kỹ sư đang làm việc với các mạng trong AWS Cloud. Kỹ sư nên sử dụng gì để cấu hình kích thước mạng của họ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "277-0",
+        "answer_text": "Ký hiệu Định tuyến liên miền không lớp (CIDR)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "277-1",
+        "answer_text": "Ký hiệu IPv6",
+        "is_correct": false
+      },
+      {
+        "answer_id": "277-2",
+        "answer_text": "Ký hiệu IPv4",
+        "is_correct": false
+      },
+      {
+        "answer_id": "277-3",
+        "answer_text": "Địa chỉ IP",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "278",
+    "question_text": "Sự khác biệt giữa danh sách kiểm soát truy cập mạng (network ACLs) và các nhóm bảo mật (security groups) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "278-0",
+        "answer_text": "Theo mặc định, network ACL cho phép lưu lượng truy cập đến và chặn lưu lượng truy cập đi từ một mạng con. Người dùng có thể thay đổi các cài đặt này để cung cấp một lớp bảo mật bổ sung. Tuy nhiên, các cấu hình mặc định của các nhóm bảo mật chặn tất cả lưu lượng truy cập.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "278-1",
+        "answer_text": "Theo mặc định, network ACL chặn tất cả lưu lượng truy cập từ một mạng con. Tuy nhiên, các cấu hình mặc định của các nhóm bảo mật cho phép tất cả lưu lượng truy cập vào và ra. Người dùng có thể thay đổi các cài đặt này để cung cấp một lớp bảo mật bổ sung.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "278-2",
+        "answer_text": "Theo mặc định, network ACL chặn lưu lượng truy cập đến và cho phép lưu lượng truy cập đi. Các cấu hình mặc định của các nhóm bảo mật chặn tất cả lưu lượng truy cập. Người dùng có thể thay đổi các cài đặt này khi họ cấu hình mạng cho instance của mình.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "278-3",
+        "answer_text": "Theo mặc định, network ACL cho phép lưu lượng truy cập đến và đi từ một mạng con. Người dùng có thể thay đổi các cài đặt này để cung cấp một lớp bảo mật bổ sung. Tuy nhiên, các cấu hình mặc định của các nhóm bảo mật chặn tất cả lưu lượng truy cập vào và cho phép tất cả lưu lượng truy cập ra.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "279",
+    "question_text": "Trường hợp sử dụng điển hình cho Amazon Simple Storage Service (Amazon S3) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "279-0",
+        "answer_text": "Lưu trữ đối tượng để lưu trữ media",
+        "is_correct": true
+      },
+      {
+        "answer_id": "279-1",
+        "answer_text": "Lưu trữ đối tượng cho một ổ đĩa khởi động",
+        "is_correct": false
+      },
+      {
+        "answer_id": "279-2",
+        "answer_text": "Lưu trữ khối cho một instance Amazon Elastic Compute Cloud (Amazon EC2)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "279-3",
+        "answer_text": "Lưu trữ tệp cho nhiều instance Amazon Elastic Compute Cloud (Amazon EC2)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "280",
+    "question_text": "Một công ty cần một lớp lưu trữ cho một cơ sở dữ liệu quan hệ có giao dịch cao trên một instance Amazon Elastic Compute Cloud (Amazon EC2). Công ty nên sử dụng dịch vụ nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "280-0",
+        "answer_text": "Amazon EC2 Instance Store",
+        "is_correct": false
+      },
+      {
+        "answer_id": "280-1",
+        "answer_text": "Amazon Elastic Block Store (Amazon EBS)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "280-2",
+        "answer_text": "Amazon Simple Storage Service (Amazon S3)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "280-3",
+        "answer_text": "Amazon Elastic File System (Amazon EFS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "281",
+    "question_text": "Đúng hay Sai: Các ổ đĩa Amazon Elastic Block Store (Amazon EBS) được coi là bộ nhớ tạm thời (ephemeral storage).",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "281-0",
+        "answer_text": "Đúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "281-1",
+        "answer_text": "Sai",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "282",
+    "question_text": "Một kiến trúc sư giải pháp đang làm việc cho một cơ sở chăm sóc sức khỏe, và họ được giao nhiệm vụ lưu trữ thông tin bệnh nhân trong 7 năm mà hiếm khi được truy cập. Giám đốc CNTT của cơ sở yêu cầu kiến trúc sư giải pháp xem xét một trong các bậc lưu trữ của Amazon Simple Storage Service (Amazon S3) để lưu trữ thông tin bệnh nhân. Kiến trúc sư giải pháp nên đề xuất bậc lưu trữ nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "282-0",
+        "answer_text": "Amazon S3 Standard",
+        "is_correct": false
+      },
+      {
+        "answer_id": "282-1",
+        "answer_text": "Amazon S3 Glacier Deep Archive",
+        "is_correct": true
+      },
+      {
+        "answer_id": "282-2",
+        "answer_text": "Amazon S3 Standard-Infrequent Access",
+        "is_correct": false
+      },
+      {
+        "answer_id": "282-3",
+        "answer_text": "Amazon S3 Intelligent-Tiering",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "283",
+    "question_text": "Đúng hay Sai: Lưu trữ đối tượng là giải pháp lưu trữ tốt nhất cho các ứng dụng cần cập nhật thường xuyên các phần nhỏ cụ thể của một tệp.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "283-0",
+        "answer_text": "Đúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "283-1",
+        "answer_text": "Sai",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "284",
+    "question_text": "Đúng hay Sai: Việc triển khai Đa Vùng sẵn sàng (Multi-AZ) có lợi khi người dùng muốn tăng tính sẵn sàng của cơ sở dữ liệu của họ.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "284-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "284-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "285",
+    "question_text": "Nhiệm vụ nào trong việc chạy và vận hành cơ sở dữ liệu mà người dùng chịu trách nhiệm khi họ sử dụng Amazon Relational Database Service (Amazon RDS)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "285-0",
+        "answer_text": "Tối ưu hóa cơ sở dữ liệu",
+        "is_correct": true
+      },
+      {
+        "answer_id": "285-1",
+        "answer_text": "Cấp phát và quản lý cơ sở hạ tầng cơ bản",
+        "is_correct": false
+      },
+      {
+        "answer_id": "285-2",
+        "answer_text": "Cài đặt hệ quản trị cơ sở dữ liệu quan hệ trên instance cơ sở dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "285-3",
+        "answer_text": "Cài đặt các bản vá cho hệ điều hành cho instance cơ sở dữ liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "286",
+    "question_text": "Những trường hợp nào sau đây là trường hợp sử dụng phổ biến cho lưu trữ tệp? (Chọn HAI.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "286-0",
+        "answer_text": "Thư mục chính của người dùng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "286-1",
+        "answer_text": "Các tệp sao lưu được lưu trữ trong Amazon Simple Storage Service (Amazon S3)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "286-2",
+        "answer_text": "Cơ sở dữ liệu quan hệ hoặc phi quan hệ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "286-3",
+        "answer_text": "Các kho nội dung lớn",
+        "is_correct": true
+      },
+      {
+        "answer_id": "286-4",
+        "answer_text": "Phân tích dữ liệu lớn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "287",
+    "question_text": "Đúng hay Sai: Bộ phận CNTT trong một công ty có thể đính kèm các ổ đĩa Amazon Elastic Block Store (Amazon EBS) vào Amazon Simple Storage Service (Amazon S3) để lưu trữ dữ liệu trong một bucket.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "287-0",
+        "answer_text": "Đúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "287-1",
+        "answer_text": "Sai",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "288",
+    "question_text": "Họ instance nào sau đây mà Amazon Relational Database Service (Amazon RDS) hỗ trợ? (Chọn HAI.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "288-0",
+        "answer_text": "Tối ưu hóa lưu trữ (Storage optimized)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "288-1",
+        "answer_text": "Mục đích chung (General purpose)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "288-2",
+        "answer_text": "Tối ưu hóa tính toán (Compute optimized)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "288-3",
+        "answer_text": "Tối ưu hóa bộ nhớ (Memory optimized)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "288-4",
+        "answer_text": "Tính toán tăng tốc (Accelerated computing)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "289",
+    "question_text": "Một kiến trúc sư giải pháp đang làm việc cho một doanh nghiệp nhỏ. Doanh nghiệp đang tìm kiếm một dịch vụ lưu trữ tạm thời lưu trữ dữ liệu thay đổi thường xuyên và không bền vững. Loại dữ liệu này có thể bị xóa trong quá trình dừng hoặc chấm dứt instance. Kiến trúc sư giải pháp nên đề xuất dịch vụ nào cho trường hợp sử dụng này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "289-0",
+        "answer_text": "Amazon Elastic Block Store (Amazon EBS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "289-1",
+        "answer_text": "Amazon Simple Storage Service (Amazon S3)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "289-2",
+        "answer_text": "Amazon Elastic Compute Cloud (Amazon EC2) Instance Store",
+        "is_correct": true
+      },
+      {
+        "answer_id": "289-3",
+        "answer_text": "Amazon Elastic File System (Amazon EFS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "290",
+    "question_text": "Cơ sở dữ liệu nào là cơ sở dữ liệu phi quan hệ lưu trữ dữ liệu theo cặp khóa-giá trị, và phù hợp để lưu trữ các bảng tra cứu đơn giản?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "290-0",
+        "answer_text": "Amazon DynamoDB",
+        "is_correct": true
+      },
+      {
+        "answer_id": "290-1",
+        "answer_text": "Amazon DocumentDB",
+        "is_correct": false
+      },
+      {
+        "answer_id": "290-2",
+        "answer_text": "Amazon Neptune",
+        "is_correct": false
+      },
+      {
+        "answer_id": "290-3",
+        "answer_text": "Amazon Relational Database Service (Amazon RDS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "291",
+    "question_text": "Thành phần cốt lõi nào của Amazon DynamoDB tương ứng với một cột trong một bảng cơ sở dữ liệu quan hệ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "291-0",
+        "answer_text": "Bảng (Table)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "291-1",
+        "answer_text": "Mục (Item)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "291-2",
+        "answer_text": "Thuộc tính (Attribute)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "291-3",
+        "answer_text": "Cơ sở dữ liệu (Database)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "292",
+    "question_text": "Dịch vụ cơ sở dữ liệu AWS nào phù hợp nhất cho các trường hợp sử dụng như mạng xã hội hoặc công cụ đề xuất?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "292-0",
+        "answer_text": "Amazon DynamoDB",
+        "is_correct": false
+      },
+      {
+        "answer_id": "292-1",
+        "answer_text": "Amazon Aurora",
+        "is_correct": false
+      },
+      {
+        "answer_id": "292-2",
+        "answer_text": "Amazon Redshift",
+        "is_correct": false
+      },
+      {
+        "answer_id": "292-3",
+        "answer_text": "Amazon Neptune",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "293",
+    "question_text": "Ba thành phần của Amazon EC2 Auto Scaling là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "293-0",
+        "answer_text": "Chính sách co giãn, nhóm bảo mật, nhóm EC2 Auto Scaling",
+        "is_correct": false
+      },
+      {
+        "answer_id": "293-1",
+        "answer_text": "Mẫu khởi chạy (Launch template), chính sách co giãn, nhóm EC2 Auto Scaling",
+        "is_correct": true
+      },
+      {
+        "answer_id": "293-2",
+        "answer_text": "Nhóm bảo mật, loại instance, cặp khóa (key pair)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "293-3",
+        "answer_text": "ID Amazon Machine Image (AMI), loại instance, bộ nhớ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "294",
+    "question_text": "Những tính năng nào sau đây được bao gồm trong Elastic Load Balancing (ELB)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "294-0",
+        "answer_text": "Tự động co giãn (Automatic scaling)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "294-1",
+        "answer_text": "Tích hợp với Amazon Relational Database Service RDS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "294-2",
+        "answer_text": "Tích hợp với Amazon EC2 Auto Scaling",
+        "is_correct": false
+      },
+      {
+        "answer_id": "294-3",
+        "answer_text": "A và B",
+        "is_correct": false
+      },
+      {
+        "answer_id": "294-4",
+        "answer_text": "A và C",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "295",
+    "question_text": "Đúng hay Sai: Khi người dùng sử dụng Elastic Load Balancing (ELB) với một nhóm Auto Scaling, không cần phải đăng ký thủ công các instance Amazon Elastic Compute Cloud (Amazon EC2) riêng lẻ với bộ cân bằng tải.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "295-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "295-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  }
+]

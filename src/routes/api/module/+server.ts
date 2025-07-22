@@ -4,7 +4,7 @@ import { env } from '$env/dynamic/private';
 
 export async function GET({ url }) {
 	const id = url.searchParams.get('id')?.trim().toLowerCase();
-
+	const idsParam = url.searchParams.get('ids');
 	const db = createClient({
 		url: env.TURSO_URL,
 		authToken: env.TURSO_AUTH_TOKEN
@@ -13,7 +13,25 @@ export async function GET({ url }) {
 	let quizzes: unknown[] = [];
 
 	try {
-		if (id && /^(\d+)$/.test(id)) {
+		if (idsParam) {
+			const ids = idsParam
+				.split(',')
+				.map((x) => x.trim())
+				.filter(Boolean);
+			if (ids.length > 0) {
+				const placeholders = ids.map(() => '?').join(',');
+				const rows = await db.execute({
+					sql: `SELECT * FROM quizzes WHERE question_id IN (${placeholders})`,
+					args: ids
+				});
+				quizzes = rows.rows.map((row: { [key: string]: unknown }) => ({
+					...row,
+					answers: typeof row.answers === 'string' ? JSON.parse(row.answers as string) : row.answers
+				}));
+			} else {
+				quizzes = [];
+			}
+		} else if (id && /^(\d+)$/.test(id)) {
 			const moduleKey = `module_${id}`;
 			const rows = await db.execute({
 				sql: 'SELECT * FROM quizzes WHERE quiz_number = ?',
@@ -39,5 +57,36 @@ export async function GET({ url }) {
 		);
 	}
 
+	return json({ quizzes });
+}
+
+export async function POST({ request }: { request: Request }) {
+	const db = createClient({
+		url: env.TURSO_URL,
+		authToken: env.TURSO_AUTH_TOKEN
+	});
+
+	let quizzes: unknown[] = [];
+	try {
+		const { ids } = await request.json();
+		if (Array.isArray(ids) && ids.length > 0) {
+			const placeholders = ids.map(() => '?').join(',');
+			const rows = await db.execute({
+				sql: `SELECT * FROM quizzes WHERE question_id IN (${placeholders})`,
+				args: ids
+			});
+			quizzes = rows.rows.map((row: { [key: string]: unknown }) => ({
+				...row,
+				answers: typeof row.answers === 'string' ? JSON.parse(row.answers as string) : row.answers
+			}));
+		} else {
+			quizzes = [];
+		}
+	} catch (err) {
+		return json(
+			{ error: 'Failed to fetch from Turso', details: err instanceof Error ? err.message : err },
+			{ status: 500 }
+		);
+	}
 	return json({ quizzes });
 }

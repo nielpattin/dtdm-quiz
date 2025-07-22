@@ -1,11 +1,11 @@
 // split-aws-quiz.js
 import fs from 'fs';
 
-const inputPath = 'raw_eng_json/aws-quiz.json';
-const outputDir = 'raw_eng_json';
+const inputPath = 'raw_eng_json/moimoi-quiz.json';
+const outputDir = 'moimoi';
 
 const data = JSON.parse(fs.readFileSync(inputPath, 'utf8'));
-const chunkSize = 15;
+const chunkSize = 30;
 
 for (let i = 0; i < data.length; i += chunkSize) {
 	const chunk = data.slice(i, i + chunkSize);

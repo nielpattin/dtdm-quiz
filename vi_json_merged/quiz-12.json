@@ -1,0 +1,105 @@
+[
+  {
+    "question_id": "326",
+    "question_text": "Đúng hay Sai: Một câu lệnh chính sách kiểm soát dịch vụ (SCP) với một lệnh từ chối rõ ràng (explicit deny) ngăn cản ngay cả người dùng gốc của tài khoản thực hiện các lệnh gọi API.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "326-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "326-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "327",
+    "question_text": "Một kiến trúc sư giải pháp đang thiết kế một giải pháp cung cấp đăng nhập một lần (SSO) để xác thực vào các tài khoản AWS nằm trong AWS Organizations. Kiến trúc sư giải pháp có thể sử dụng dịch vụ AWS nào để triển khai liên kết danh tính với các nhà cung cấp danh tính hiện có, chẳng hạn như Microsoft Active Directory?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "327-0",
+        "answer_text": "Người dùng AWS Identity and Access Management (IAM)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "327-1",
+        "answer_text": "Amazon CloudWatch",
+        "is_correct": false
+      },
+      {
+        "answer_id": "327-2",
+        "answer_text": "AWS IAM Identity Center (tiền thân là AWS Single Sign-On)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "327-3",
+        "answer_text": "AWS CloudTrail",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "328",
+    "question_text": "Phát biểu nào là phương pháp hay nhất cho môi trường đa tài khoản? (Chọn BA.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "328-0",
+        "answer_text": "Bật cảnh báo thanh toán Amazon CloudWatch cho mỗi tài khoản và cấu hình các chính sách gắn thẻ trong AWS Organizations.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "328-1",
+        "answer_text": "Cấp chính sách AdministratorAccess cho các nhà phát triển trong các tài khoản AWS phát triển của họ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "328-2",
+        "answer_text": "Ngăn chặn việc vô hiệu hóa cấu hình CloudTrail trong tài khoản dịch vụ dùng chung.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "328-3",
+        "answer_text": "Sử dụng xác thực đa yếu tố (MFA) cho người dùng trong việc xác thực tập trung, chẳng hạn như sử dụng AWS IAM Identity Center (tiền thân là AWS Single Sign-On).",
+        "is_correct": true
+      },
+      {
+        "answer_id": "328-4",
+        "answer_text": "Sử dụng lại mật khẩu để đơn giản và dễ truy cập.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "329",
+    "question_text": "Một kiến trúc sư giải pháp phải tạo ra các tiêu chuẩn quản trị được xác định rõ ràng cho một công ty có nhiều tài khoản AWS. Công ty cần ghi nhật ký hạ tầng tập trung cho tất cả các tài khoản AWS. Ngoài ra, giám đốc an ninh thông tin (CISO) của công ty muốn có một biện pháp áp dụng bộ ngắt mạch (circuit breaker) để dừng các hoạt động API của Amazon Elastic Compute Cloud (Amazon EC2) nếu các cảnh báo thanh toán cho thấy hoạt động đáng ngờ. Công ty dự định sử dụng AWS Organizations. Kịch bản kiến trúc nào mà kiến trúc sư giải pháp nên đề xuất để đáp ứng nhu cầu của công ty một cách hiệu quả NHẤT?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "329-0",
+        "answer_text": "Bật AWS CloudTrail cho tất cả các tài khoản trong AWS Organizations. Sử dụng Organizations để tập trung tất cả các nhật ký vào một bucket Amazon Simple Storage Service (Amazon S3). Với vai trò là bộ ngắt mạch, sử dụng các chính sách kiểm soát dịch vụ (SCP) có một lệnh từ chối rõ ràng đối với hoạt động API của Amazon EC2. Các SCP này sau đó có thể được áp dụng cho đơn vị tổ chức (OU) gốc khi cần thiết.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "329-1",
+        "answer_text": "Bật AWS CloudTrail cho tất cả các tài khoản trong AWS Organizations. Sử dụng Organizations để tập trung tất cả các nhật ký vào một bucket Amazon Simple Storage Service (Amazon S3). Sử dụng các thiết bị xác thực đa yếu tố (MFA) cho mọi người dùng trong AWS IAM Identity Center (tiền thân là AWS Single Sign-On).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "329-2",
+        "answer_text": "Bật AWS CloudTrail chỉ cho các tài khoản sản xuất trong AWS Organizations. Sử dụng Organizations để tập trung nhật ký vào một bucket Amazon Simple Storage Service (Amazon S3). Để đăng nhập một lần, sử dụng AWS IAM Identity Center (tiền thân là AWS Single Sign-ON).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "329-3",
+        "answer_text": "Bật AWS CloudTrail cho tất cả các tài khoản trong AWS Organizations. Sử dụng Organizations để tập trung nhật ký vào một bucket Amazon Simple Storage Service (Amazon S3). Với vai trò là bộ ngắt mạch, sử dụng các chính sách AWS Identity and Access Management (IAM) trên mỗi tài khoản có một lệnh từ chối rõ ràng đối với hoạt động API của Amazon EC2. Các chính sách IAM sau đó có thể được áp dụng cho đơn vị tổ chức (OU) gốc khi cần thiết.",
+        "is_correct": false
+      }
+    ]
+  }
+]

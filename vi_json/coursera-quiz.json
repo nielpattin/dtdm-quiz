@@ -1,0 +1,4815 @@
+[
+  {
+    "question_id": "q-1",
+    "question_text": "Đặc tính nào của điện toán đám mây cho phép tiết kiệm chi phí bằng cách phục vụ nhiều người dùng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "1-0",
+        "answer_text": "Truy cập mạng rộng (Broad network access)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-1",
+        "answer_text": "Tự phục vụ theo yêu cầu (On-demand self-service)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-2",
+        "answer_text": "Các mô hình public cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "1-3",
+        "answer_text": "Gộp tài nguyên (Resource pooling)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-2",
+    "question_text": "Tính năng mạng nào trong những năm 1950 đã giúp phát triển Máy ảo (Virtual Machines - VMs)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "2-0",
+        "answer_text": "Bảo mật, tuân thủ và hiệu năng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-1",
+        "answer_text": "Truy cập dùng chung vào một máy chủ mainframe",
+        "is_correct": true
+      },
+      {
+        "answer_id": "2-2",
+        "answer_text": "Truy cập mạng rộng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "2-3",
+        "answer_text": "Dịch vụ được đo lường (Measured service)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-3",
+    "question_text": "Một số lợi ích của điện toán đám mây là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "3-0",
+        "answer_text": "Khả năng hoạt động ngoại tuyến và bảo mật",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-1",
+        "answer_text": "Mua phần mềm đóng gói và các bản nâng cấp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "3-2",
+        "answer_text": "Lợi thế cạnh tranh, tính linh hoạt và hiệu quả",
+        "is_correct": true
+      },
+      {
+        "answer_id": "3-3",
+        "answer_text": "Sự đa dạng của việc tiêu chuẩn hóa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-4",
+    "question_text": "Nhà cung cấp nào sau đây được biết đến nhiều hơn với các sản phẩm SaaS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "4-0",
+        "answer_text": "Intel",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-1",
+        "answer_text": "Amazon Web Services",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-2",
+        "answer_text": "Alibaba Cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "4-3",
+        "answer_text": "Salesforce",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-5",
+    "question_text": "UBank đã tận dụng đám mây để loại bỏ các rào cản đối với sự đổi mới như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "5-0",
+        "answer_text": "Bằng cách áp dụng mô hình phát triển đám mây PaaS để hợp lý hóa quy trình phát triển và trao quyền cho các nhóm sản phẩm",
+        "is_correct": true
+      },
+      {
+        "answer_id": "5-1",
+        "answer_text": "Bằng cách hiện đại hóa các ứng dụng cho khách hàng từ mã nguồn nguyên khối (monolithic) sang kiến trúc microservices trên đám mây",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-2",
+        "answer_text": "Bằng cách thiết lập một nền tảng lưu trữ có khả năng mở rộng để phân phối với độ trễ thấp cho khách hàng doanh nghiệp trên toàn thế giới",
+        "is_correct": false
+      },
+      {
+        "answer_id": "5-3",
+        "answer_text": "Bằng cách di chuyển hệ thống giao dịch của họ từ hạ tầng tại chỗ sang giải pháp IBM Cloud cho VMware",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-6",
+    "question_text": "Đâu là một rủi ro mà doanh nghiệp phải đối mặt nếu không áp dụng đám mây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "6-0",
+        "answer_text": "Các vấn đề về tuân thủ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-1",
+        "answer_text": "Thiếu tiêu chuẩn hóa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-2",
+        "answer_text": "Bảo mật dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "6-3",
+        "answer_text": "Thiếu năng lực ra quyết định",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-7",
+    "question_text": "Kết nối Đám mây hỗ trợ các thiết bị IoT như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "7-0",
+        "answer_text": "Tăng độ trễ trong việc báo cáo và phản hồi",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-1",
+        "answer_text": "Điểm thu thập gần các thiết bị đang di chuyển",
+        "is_correct": true
+      },
+      {
+        "answer_id": "7-2",
+        "answer_text": "Cung cấp một vị trí vật lý cố định cho dữ liệu được thu thập từ các thiết bị IoT",
+        "is_correct": false
+      },
+      {
+        "answer_id": "7-3",
+        "answer_text": "Rút ra thông tin chi tiết từ dữ liệu được thu thập từ các thiết bị và người dùng IoT",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-8",
+    "question_text": "Mối quan hệ cộng sinh ba bên giữa IoT, AI và Đám mây là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "8-0",
+        "answer_text": "IoT cung cấp dữ liệu, AI cung cấp thông tin chuyên sâu, và cả hai công nghệ mới nổi này đều tận dụng khả năng mở rộng và sức mạnh xử lý của Đám mây",
+        "is_correct": true
+      },
+      {
+        "answer_id": "8-1",
+        "answer_text": "Hiểu được các luồng dữ liệu vô tận từ các thiết bị IoT",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-2",
+        "answer_text": "AI tiêu thụ dữ liệu do các thiết bị IoT tạo ra",
+        "is_correct": false
+      },
+      {
+        "answer_id": "8-3",
+        "answer_text": "Sức mạnh, quy mô, tính năng động và tính kinh tế của tài nguyên đám mây",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-9",
+    "question_text": "Mối quan hệ ba bên giữa blockchain, AI và Đám mây là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "9-0",
+        "answer_text": "Mang lại sự tin cậy và minh bạch cho AI bằng cách ghi lại dữ liệu và các biến số trong một quyết định được đưa ra trong thuật toán AI.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-1",
+        "answer_text": "Các tài nguyên máy tính được phân phối toàn cầu, có khả năng mở rộng và hiệu quả về chi phí.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-2",
+        "answer_text": "Blockchain cung cấp một mạng lưới bất biến cho phép các thành viên chỉ xem những giao dịch liên quan đến họ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "9-3",
+        "answer_text": "Blockchain cung cấp nguồn chân lý phi tập trung, đáng tin cậy; AI cung cấp sức mạnh phân tích và ra quyết định từ dữ liệu thu thập được; và Đám mây cung cấp tài nguyên máy tính phân tán toàn cầu, có khả năng mở rộng và hiệu quả về chi phí để hỗ trợ cả hai công nghệ.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-10",
+    "question_text": "Theo định nghĩa của Viện Tiêu chuẩn và Công nghệ Quốc gia Hoa Kỳ (NIST) về “điện toán đám mây”, ý nghĩa của câu “một hồ chứa chung các tài nguyên máy tính có thể cấu hình” là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "10-0",
+        "answer_text": "Mạng, máy chủ, lưu trữ, ứng dụng và dịch vụ.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "10-1",
+        "answer_text": "Năm đặc tính thiết yếu, ba mô hình triển khai và ba mô hình dịch vụ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-2",
+        "answer_text": "Tận dụng các dịch vụ đám mây qua internet mở trên phần cứng thuộc sở hữu của nhà cung cấp đám mây.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "10-3",
+        "answer_text": "Bảo mật dữ liệu liên quan đến việc mất mát hoặc không có sẵn dữ liệu gây gián đoạn kinh doanh.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-11",
+    "question_text": "Hypervisor (trình ảo hóa) thực hiện những tác vụ nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "11-0",
+        "answer_text": "Mở rộng theo yêu cầu để hỗ trợ các khối lượng công việc biến động",
+        "is_correct": false
+      },
+      {
+        "answer_id": "11-1",
+        "answer_text": "Làm biến động khối lượng công việc và tạo điều kiện truy cập vào máy chủ mainframe",
+        "is_correct": false
+      },
+      {
+        "answer_id": "11-2",
+        "answer_text": "Cho phép nhiều hệ điều hành chạy song song và phân tách các máy ảo một cách logic",
+        "is_correct": true
+      },
+      {
+        "answer_id": "11-3",
+        "answer_text": "Tạo điều kiện truy cập vào máy chủ mainframe cho nhiều người dùng để truy cập cùng một lớp lưu trữ dữ liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-12",
+    "question_text": "Những yếu tố chính nào thúc đẩy một tổ chức lựa chọn điện toán đám mây khi xem xét chi tiêu cho phần mềm đóng gói và đầu tư vào các bản nâng cấp?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "12-0",
+        "answer_text": "Mức độ rủi ro",
+        "is_correct": false
+      },
+      {
+        "answer_id": "12-1",
+        "answer_text": "Tốc độ và năng suất",
+        "is_correct": false
+      },
+      {
+        "answer_id": "12-2",
+        "answer_text": "Phần mềm dưới dạng dịch vụ (SaaS) và các nền tảng phát triển",
+        "is_correct": true
+      },
+      {
+        "answer_id": "12-3",
+        "answer_text": "Hạ tầng và khối lượng công việc",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-13",
+    "question_text": "Phát biểu nào sau đây mô tả một lợi ích của điện toán đám mây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "13-0",
+        "answer_text": "Thiếu tiêu chuẩn hóa trong cách các công nghệ không ngừng phát triển tích hợp với nhau",
+        "is_correct": false
+      },
+      {
+        "answer_id": "13-1",
+        "answer_text": "Tính liên tục trong kinh doanh (Business continuity)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "13-2",
+        "answer_text": "Lỗi phần cứng không dẫn đến mất dữ liệu vì có các bản sao lưu được duy trì trên mạng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "13-3",
+        "answer_text": "Bảo mật dữ liệu liên quan đến việc mất hoặc không có sẵn dữ liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-14",
+    "question_text": "Nhà cung cấp dịch vụ nào cung cấp một trong những nền tảng quản lý dữ liệu dựa trên đám mây lớn nhất?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "14-0",
+        "answer_text": "Salesforce",
+        "is_correct": false
+      },
+      {
+        "answer_id": "14-1",
+        "answer_text": "Alibaba Cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "14-2",
+        "answer_text": "Amazon Web Services",
+        "is_correct": false
+      },
+      {
+        "answer_id": "14-3",
+        "answer_text": "Oracle Cloud",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-15",
+    "question_text": "Nhà cung cấp dịch vụ nào sử dụng nền tảng đám mây của mình trong nội bộ cho các sản phẩm người dùng cuối, chẳng hạn như máy tìm kiếm và các công cụ ứng dụng tự động phân bổ và giải phóng tài nguyên để xử lý nhu cầu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "15-0",
+        "answer_text": "SAP",
+        "is_correct": false
+      },
+      {
+        "answer_id": "15-1",
+        "answer_text": "Oracle Cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "15-2",
+        "answer_text": "Microsoft Azure",
+        "is_correct": false
+      },
+      {
+        "answer_id": "15-3",
+        "answer_text": "Google Cloud Platform (GCP)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-16",
+    "question_text": "Theo International Data Corporation (IDC), khả năng quan trọng nào sẽ làm cho điện toán đám mây trở nên cần thiết để các doanh nghiệp thành công, duy trì và cạnh tranh trên thị trường ngày nay?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "16-0",
+        "answer_text": "Hạ tầng đa đám mây (Multi-cloud)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "16-1",
+        "answer_text": "Quyết định dựa trên dữ liệu (Data-driven decisions)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "16-2",
+        "answer_text": "Áp dụng các công nghệ cấp số nhân như AI, Tự động hóa, IoT và Blockchain",
+        "is_correct": false
+      },
+      {
+        "answer_id": "16-3",
+        "answer_text": "Quy trình làm việc được hỗ trợ bởi nhận thức (Cognitively enabled workflows)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-17",
+    "question_text": "Tại sao American Airlines yêu cầu một nền tảng công nghệ mới?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "17-0",
+        "answer_text": "Thiết lập một nền tảng lưu trữ có khả năng mở rộng để phân phối với độ trễ thấp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-1",
+        "answer_text": "Yêu cầu dịch vụ khách hàng tốt hơn",
+        "is_correct": true
+      },
+      {
+        "answer_id": "17-2",
+        "answer_text": "Tăng tốc độ tăng trưởng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "17-3",
+        "answer_text": "Loại bỏ các rào cản đối với sự đổi mới",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-18",
+    "question_text": "Chọn câu trả lời mô tả đúng nhất cách Điện toán đám mây giúp các thiết bị IoT?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "18-0",
+        "answer_text": "Cung cấp tài nguyên để lưu trữ và xử lý dữ liệu do các thiết bị và người dùng IoT tạo ra.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "18-1",
+        "answer_text": "Rút ra thông tin chi tiết từ dữ liệu được thu thập từ các thiết bị và người dùng IoT",
+        "is_correct": false
+      },
+      {
+        "answer_id": "18-2",
+        "answer_text": "Lưu trữ dữ liệu trên một ổ đĩa vật lý được mã hóa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "18-3",
+        "answer_text": "Cung cấp một vị trí vật lý cố định cho dữ liệu được thu thập từ các thiết bị IoT",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-19",
+    "question_text": "Điều nào sau đây biểu thị mối quan hệ giữa Blockchain, AI và đám mây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "19-0",
+        "answer_text": "Blockchain cung cấp một nguồn chân lý phi tập trung, AI cung cấp sức mạnh phân tích và ra quyết định, và đám mây cung cấp tài nguyên máy tính phân tán toàn cầu",
+        "is_correct": true
+      },
+      {
+        "answer_id": "19-1",
+        "answer_text": "Blockchain cung cấp tài nguyên máy tính phân tán, AI cung cấp sức mạnh phân tích, và đám mây ghi lại dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-2",
+        "answer_text": "Blockchain cung cấp một mạng lưới bất biến, AI cung cấp tài nguyên máy tính phân tán và đám mây cung cấp sức mạnh ra quyết định",
+        "is_correct": false
+      },
+      {
+        "answer_id": "19-3",
+        "answer_text": "Blockchain mang lại sự tin cậy và minh bạch cho AI bằng cách ghi lại dữ liệu và các biến số trong một quyết định được đưa ra trong thuật toán AI, và đám mây cung cấp một mạng lưới bất biến",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-20",
+    "question_text": "Trong phép loại suy về xe hơi được sử dụng trong video để giải thích và phân biệt ba mô hình dịch vụ, lựa chọn nào được cung cấp là một phép loại suy cho PaaS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "20-0",
+        "answer_text": "Thuê taxi",
+        "is_correct": false
+      },
+      {
+        "answer_id": "20-1",
+        "answer_text": "Mua xe hơi",
+        "is_correct": false
+      },
+      {
+        "answer_id": "20-2",
+        "answer_text": "Thuê xe dài hạn (Leasing a car)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "20-3",
+        "answer_text": "Thuê xe ngắn hạn (Renting a car)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-21",
+    "question_text": "Đặc điểm của mô hình cơ sở hạ tầng đám mây dưới dạng dịch vụ (IaaS) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "21-0",
+        "answer_text": "Dữ liệu chỉ có thể được lưu trữ trên các máy vật lý trong mạng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "21-1",
+        "answer_text": "Không có dịch vụ hỗ trợ nào được cung cấp bởi IaaS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "21-2",
+        "answer_text": "Người dùng có thể truy cập tài nguyên mạng trên đám mây thông qua ảo hóa",
+        "is_correct": true
+      },
+      {
+        "answer_id": "21-3",
+        "answer_text": "Người dùng cuối tương tác trực tiếp với cơ sở hạ tầng vật lý",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-22",
+    "question_text": "Những tình huống nào sau đây là trường hợp sử dụng tốt cho PaaS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "22-0",
+        "answer_text": "Triển khai IoT",
+        "is_correct": true
+      },
+      {
+        "answer_id": "22-1",
+        "answer_text": "Các tổ chức muốn quản lý các chi tiết cấp thấp của môi trường ứng dụng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "22-2",
+        "answer_text": "Các tổ chức muốn việc bảo trì ứng dụng của họ được thực hiện bởi nhà cung cấp dịch vụ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "22-3",
+        "answer_text": "Các tổ chức muốn duy trì toàn quyền kiểm soát việc cài đặt, cấu hình và vận hành cơ sở hạ tầng ứng dụng của họ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-23",
+    "question_text": "Điều nào sau đây là một trường hợp sử dụng tốt cho SaaS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "23-0",
+        "answer_text": "Các tổ chức có lực lượng lao động phân tán về mặt địa lý, một số trong đó làm việc ở những khu vực có kết nối internet thất thường hoặc không đáng tin cậy",
+        "is_correct": false
+      },
+      {
+        "answer_id": "23-1",
+        "answer_text": "Các tổ chức muốn giảm cơ sở hạ tầng CNTT tại chỗ và chi tiêu vốn",
+        "is_correct": true
+      },
+      {
+        "answer_id": "23-2",
+        "answer_text": "Các ứng dụng quan trọng đối với doanh nghiệp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "23-3",
+        "answer_text": "Các ứng dụng có dữ liệu rất bí mật và nhạy cảm",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-24",
+    "question_text": "Những tình huống nào sau đây là trường hợp sử dụng tốt cho Public Cloud? Chọn hai.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "24-0",
+        "answer_text": "Giảm thời gian đưa sản phẩm và dịch vụ ra thị trường",
+        "is_correct": true
+      },
+      {
+        "answer_id": "24-1",
+        "answer_text": "Quản lý các nền tảng và ứng dụng quan trọng của doanh nghiệp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "24-2",
+        "answer_text": "Phục hồi sau thảm họa, bảo vệ dữ liệu và tính liên tục trong kinh doanh",
+        "is_correct": true
+      },
+      {
+        "answer_id": "24-3",
+        "answer_text": "Các ứng dụng có nhu cầu về năng lực và tài nguyên ổn định",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-25",
+    "question_text": "Chúng ta có ý gì khi nói rằng Hybrid Cloud có khả năng tương tác (interoperable)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "25-0",
+        "answer_text": "Khi có sự gia tăng đột biến về nhu cầu, một khối lượng công việc đang chạy trên đám mây riêng có thể tận dụng thêm dung lượng của đám mây công cộng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "25-1",
+        "answer_text": "Bạn không còn bị ràng buộc với một nhà cung cấp cụ thể",
+        "is_correct": false
+      },
+      {
+        "answer_id": "25-2",
+        "answer_text": "Các dịch vụ đám mây công cộng và riêng tư có thể hiểu API, cấu hình, định dạng dữ liệu và các hình thức xác thực và ủy quyền của nhau",
+        "is_correct": true
+      },
+      {
+        "answer_id": "25-3",
+        "answer_text": "Các tổ chức có thể chọn chạy các khối lượng công việc nhạy cảm của họ trên một đám mây riêng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-26",
+    "question_text": "Lợi ích của việc sử dụng private cloud là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "26-0",
+        "answer_text": "Khả năng tận dụng tốt hơn các tài nguyên bên ngoài tổ chức",
+        "is_correct": false
+      },
+      {
+        "answer_id": "26-1",
+        "answer_text": "Khả năng cung cấp các tài nguyên hạn chế giúp tiết kiệm chi phí",
+        "is_correct": false
+      },
+      {
+        "answer_id": "26-2",
+        "answer_text": "Quyền truy cập chung cho tất cả mọi người với mức bảo mật tối thiểu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "26-3",
+        "answer_text": "Tận dụng việc sử dụng các hệ thống do tổ chức trực tiếp kiểm soát",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-27",
+    "question_text": "Trong mô hình dịch vụ đám mây nào, nhà cung cấp dịch vụ quản lý dữ liệu ứng dụng cùng với tài nguyên hạ tầng và nền tảng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "27-0",
+        "answer_text": "CaaS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "27-1",
+        "answer_text": "PaaS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "27-2",
+        "answer_text": "SaaS",
+        "is_correct": true
+      },
+      {
+        "answer_id": "27-3",
+        "answer_text": "IaaS",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-28",
+    "question_text": "Trong môi trường đám mây IaaS nào, khách hàng có thể triển khai middleware và cài đặt ứng dụng?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "28-0",
+        "answer_text": "Máy ảo (Virtual Machines)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "28-1",
+        "answer_text": "AI",
+        "is_correct": false
+      },
+      {
+        "answer_id": "28-2",
+        "answer_text": "Blockchain",
+        "is_correct": false
+      },
+      {
+        "answer_id": "28-3",
+        "answer_text": "IoT",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-29",
+    "question_text": "Một trong những mối quan tâm trong việc cấu hình và quản lý hạ tầng đám mây là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "29-0",
+        "answer_text": "Giải quyết các vấn đề phức tạp liên quan đến hàng triệu biến số và phép tính",
+        "is_correct": false
+      },
+      {
+        "answer_id": "29-1",
+        "answer_text": "Tính liên tục trong kinh doanh và phục hồi sau thảm họa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "29-2",
+        "answer_text": "Mở rộng hoặc thu hẹp hạ tầng khi nhu cầu thay đổi",
+        "is_correct": false
+      },
+      {
+        "answer_id": "29-3",
+        "answer_text": "Phụ thuộc vào bên thứ ba về tính sẵn sàng và hiệu suất của khối lượng công việc",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-30",
+    "question_text": "Trách nhiệm của người dùng trong mô hình PaaS là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "30-0",
+        "answer_text": "Quản lý khối lượng công việc",
+        "is_correct": false
+      },
+      {
+        "answer_id": "30-1",
+        "answer_text": "Hệ thống quản lý quy trình kinh doanh",
+        "is_correct": false
+      },
+      {
+        "answer_id": "30-2",
+        "answer_text": "Hệ thống quản lý cơ sở dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "30-3",
+        "answer_text": "Mã ứng dụng và việc bảo trì nó",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-31",
+    "question_text": "Khả năng nào trong mô hình PaaS loại bỏ nhu cầu tích hợp các thành phần riêng lẻ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "31-0",
+        "answer_text": "Cơ chế triển khai nhanh",
+        "is_correct": false
+      },
+      {
+        "answer_id": "31-1",
+        "answer_text": "Môi trường thời gian chạy (Runtime environment)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "31-2",
+        "answer_text": "Dịch vụ phân tích kinh doanh",
+        "is_correct": false
+      },
+      {
+        "answer_id": "31-3",
+        "answer_text": "API cho các dịch vụ",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-32",
+    "question_text": "Đặc điểm của mô hình SaaS là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "32-0",
+        "answer_text": "Các dịch vụ miễn phí cho người dùng trên đám mây SaaS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "32-1",
+        "answer_text": "Người dùng chỉ có thể thấy ứng dụng của riêng họ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "32-2",
+        "answer_text": "Các ứng dụng nằm trên một mạng đám mây từ xa",
+        "is_correct": true
+      },
+      {
+        "answer_id": "32-3",
+        "answer_text": "Hạ tầng và mã nguồn được người dùng bảo trì",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-33",
+    "question_text": "Vai trò của người dùng trong public cloud là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "33-0",
+        "answer_text": "Người dùng bảo trì nền tảng chạy ứng dụng của họ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "33-1",
+        "answer_text": "Người dùng không sở hữu các máy chủ mà ứng dụng của họ chạy trên đó",
+        "is_correct": true
+      },
+      {
+        "answer_id": "33-2",
+        "answer_text": "Người dùng có thể quản lý hoạt động của các máy chủ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "33-3",
+        "answer_text": "Người dùng sở hữu không gian lưu trữ mà dữ liệu của họ tiêu thụ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-34",
+    "question_text": "Một tính năng của private cloud là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "34-0",
+        "answer_text": "Tính di động của ứng dụng (Application portability)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "34-1",
+        "answer_text": "Sử dụng tài nguyên máy tính bên ngoài",
+        "is_correct": false
+      },
+      {
+        "answer_id": "34-2",
+        "answer_text": "Bảo mật hạn chế",
+        "is_correct": false
+      },
+      {
+        "answer_id": "34-3",
+        "answer_text": "Truy cập không kiểm soát",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-35",
+    "question_text": "Nếu một tổ chức cần chạy một ứng dụng có độ nhạy cảm cao và quan trọng với yêu cầu về hiệu suất và dung lượng không thể đoán trước, mô hình nào sau đây sẽ đáp ứng tốt nhất yêu cầu của họ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "35-0",
+        "answer_text": "Private Cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "35-1",
+        "answer_text": "Hybrid Cloud",
+        "is_correct": true
+      },
+      {
+        "answer_id": "35-2",
+        "answer_text": "Public Cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "35-3",
+        "answer_text": "Trung tâm dữ liệu tại chỗ (On-premise)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-36",
+    "question_text": "Bạn hiểu “cloud bursting” là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "36-0",
+        "answer_text": "Bạn có thể hiện đại hóa dần các hệ thống kinh doanh cốt lõi của mình",
+        "is_correct": false
+      },
+      {
+        "answer_id": "36-1",
+        "answer_text": "Bạn có thể khởi tạo môi trường bằng cách sử dụng mô hình trả tiền theo mức sử dụng (pay-as-you-go) trong public cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "36-2",
+        "answer_text": "Bạn có thể di chuyển ứng dụng và dữ liệu giữa các hệ thống tại chỗ và đám mây",
+        "is_correct": false
+      },
+      {
+        "answer_id": "36-3",
+        "answer_text": "Bạn có thể tận dụng các instance của public cloud trong một khoảng thời gian nhưng quay trở lại private cloud khi nhu cầu tăng đột biến được đáp ứng",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-37",
+    "question_text": "Đâu là một khu vực địa lý hoặc địa điểm nơi cơ sở hạ tầng của một nhà cung cấp Đám mây được tập trung?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "37-0",
+        "answer_text": "Mạng (Networking)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "37-1",
+        "answer_text": "Trung tâm dữ liệu (Data center)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "37-2",
+        "answer_text": "Kho hàng (Warehouse)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "37-3",
+        "answer_text": "Vùng (Region)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-38",
+    "question_text": "Máy ảo (VM) nào sau đây sử dụng trình ảo hóa được lưu trữ (hosted hypervisors)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "38-0",
+        "answer_text": "Microsoft Hyper-V",
+        "is_correct": false
+      },
+      {
+        "answer_id": "38-1",
+        "answer_text": "Open-source KVM",
+        "is_correct": false
+      },
+      {
+        "answer_id": "38-2",
+        "answer_text": "VMware ESX",
+        "is_correct": false
+      },
+      {
+        "answer_id": "38-3",
+        "answer_text": "Oracle VirtualBox",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-39",
+    "question_text": "Loại Máy ảo (VM) nào tận dụng dung lượng không sử dụng trong các trung tâm dữ liệu với chi phí thấp hơn nhiều so với các máy ảo thông thường có kích thước tương tự?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "39-0",
+        "answer_text": "Máy ảo chia sẻ hoặc Public Cloud (Shared or Public Cloud VMs)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "39-1",
+        "answer_text": "Máy ảo tạm thời hoặc Spot (Transient or Spot VMs)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "39-2",
+        "answer_text": "Máy chủ ảo đặt trước (Reserved virtual servers)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "39-3",
+        "answer_text": "Máy chủ chuyên dụng (Dedicated hosts)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-40",
+    "question_text": "Tại sao máy chủ vật lý (bare metal servers) cần nhiều thời gian để cấp phát hơn máy chủ ảo?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "40-0",
+        "answer_text": "Chúng là máy chủ đa người thuê (multi-tenant), và tất cả người thuê phải giúp cấu hình chúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "40-1",
+        "answer_text": "Khách hàng cấu hình các máy chủ vật lý",
+        "is_correct": false
+      },
+      {
+        "answer_id": "40-2",
+        "answer_text": "Việc cấu hình GPU mất thời gian",
+        "is_correct": false
+      },
+      {
+        "answer_id": "40-3",
+        "answer_text": "Chúng là các máy chủ vật lý có thể được tùy chỉnh theo một dung lượng cụ thể",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-41",
+    "question_text": "Phần nào của một mạng đám mây được phân đoạn logic là khu vực chính nơi bảo mật được triển khai?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "41-0",
+        "answer_text": "Mạng con (Subnets)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "41-1",
+        "answer_text": "Các thực thể logic của các yếu tố mạng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "41-2",
+        "answer_text": "Không gian mạng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "41-3",
+        "answer_text": "Bộ cân bằng tải (Load balancers)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-42",
+    "question_text": "Container là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "42-0",
+        "answer_text": "Một đơn vị phần mềm có thể thực thi trong đó mã ứng dụng được đóng gói cùng với các thư viện và phần phụ thuộc của nó, cho phép nó chạy ở bất kỳ đâu",
+        "is_correct": true
+      },
+      {
+        "answer_id": "42-1",
+        "answer_text": "Một loại máy ảo do nhà cung cấp quản lý, đa người thuê và có thể được cấp phát theo yêu cầu với các kích thước được xác định trước",
+        "is_correct": false
+      },
+      {
+        "answer_id": "42-2",
+        "answer_text": "Một máy chủ vật lý dành riêng cho một khách hàng duy nhất",
+        "is_correct": false
+      },
+      {
+        "answer_id": "42-3",
+        "answer_text": "Một phần mềm lấy tài nguyên từ máy chủ vật lý và phân bổ chúng cho môi trường ảo của bạn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-43",
+    "question_text": "Loại lưu trữ nào đôi khi được gọi là \"Lưu trữ cục bộ\" (Local Storage)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "43-0",
+        "answer_text": "Lưu trữ đối tượng (Object Storage)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "43-1",
+        "answer_text": "Lưu trữ khối (Block Storage)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "43-2",
+        "answer_text": "Lưu trữ tệp (File Storage)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "43-3",
+        "answer_text": "Lưu trữ đính kèm trực tiếp (Direct Attached)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-44",
+    "question_text": "Tên gọi khác của Lưu trữ tệp (File Storage) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "44-0",
+        "answer_text": "Ethernet",
+        "is_correct": false
+      },
+      {
+        "answer_id": "44-1",
+        "answer_text": "Lưu trữ đính kèm trực tiếp (Direct attached storage)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "44-2",
+        "answer_text": "NFS",
+        "is_correct": true
+      },
+      {
+        "answer_id": "44-3",
+        "answer_text": "COS",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-45",
+    "question_text": "Điều nào sau đây đúng với lưu trữ khối (block storage)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "45-0",
+        "answer_text": "Có thể được gắn vào nhiều nút tính toán cùng một lúc",
+        "is_correct": false
+      },
+      {
+        "answer_id": "45-1",
+        "answer_text": "Được gắn vào các nút tính toán bằng mạng ethernet",
+        "is_correct": false
+      },
+      {
+        "answer_id": "45-2",
+        "answer_text": "Được sử dụng ở những nơi khối lượng công việc không yêu cầu kết nối cực nhanh đến bộ nhớ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "45-3",
+        "answer_text": "Chỉ có thể được gắn vào một nút tại một thời điểm",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-46",
+    "question_text": "Điều nào sau đây đúng với Lưu trữ đối tượng (Object storage)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "46-0",
+        "answer_text": "Bạn không thể chạy hệ điều hành hoặc cơ sở dữ liệu trên đó",
+        "is_correct": true
+      },
+      {
+        "answer_id": "46-1",
+        "answer_text": "Không thể được sử dụng để lưu trữ tệp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "46-2",
+        "answer_text": "Được sử dụng ở những nơi cần tốc độ đọc và ghi nhanh",
+        "is_correct": false
+      },
+      {
+        "answer_id": "46-3",
+        "answer_text": "Có thể lưu trữ các ứng dụng mà nội dung của tệp thay đổi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-47",
+    "question_text": "Mạng phân phối nội dung (CDN) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "47-0",
+        "answer_text": "Một nút mạng (network node)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "47-1",
+        "answer_text": "Một cấu trúc liên kết mạng (network topology)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "47-2",
+        "answer_text": "Một liên kết mạng (network link)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "47-3",
+        "answer_text": "Một mạng máy chủ phân tán (distributed server network)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-48",
+    "question_text": "Mỗi Vùng (Region) trên Đám mây có thể có nhiều Vùng sẵn sàng (Availability Zones). Zones là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "48-0",
+        "answer_text": "Các vị trí vật lý duy nhất với một hoặc nhiều trung tâm dữ liệu",
+        "is_correct": true
+      },
+      {
+        "answer_id": "48-1",
+        "answer_text": "Các container tài nguyên máy tính được tiêu chuẩn hóa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "48-2",
+        "answer_text": "Điểm lỗi đơn lẻ được chia sẻ (Single shared point of failure)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "48-3",
+        "answer_text": "Khu vực địa lý nơi cơ sở hạ tầng của nhà cung cấp đám mây được tập trung",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-49",
+    "question_text": "Điều nào sau đây là lợi ích của ảo hóa?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "49-0",
+        "answer_text": "Tăng thời gian chết của bạn",
+        "is_correct": false
+      },
+      {
+        "answer_id": "49-1",
+        "answer_text": "An toàn",
+        "is_correct": false
+      },
+      {
+        "answer_id": "49-2",
+        "answer_text": "Tiết kiệm chi phí",
+        "is_correct": true
+      },
+      {
+        "answer_id": "49-3",
+        "answer_text": "Chạy một hệ điều hành duy nhất",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-50",
+    "question_text": "Loại Máy ảo (VM) nào sau đây đảm bảo tài nguyên cho các lần triển khai trong tương lai?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "50-0",
+        "answer_text": "Máy ảo tạm thời hoặc Spot (Transient or Spot VMs)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "50-1",
+        "answer_text": "Máy ảo chia sẻ hoặc Public Cloud (Shared or Public Cloud VMs)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "50-2",
+        "answer_text": "Máy chủ chuyên dụng (Dedicated hosts)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "50-3",
+        "answer_text": "Máy chủ ảo đặt trước (Reserved virtual servers)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-51",
+    "question_text": "Điều nào sau đây là một tính năng của máy chủ vật lý (bare metal servers)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "51-0",
+        "answer_text": "Được cấp phát nhanh chóng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "51-1",
+        "answer_text": "Chi phí sử dụng thấp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "51-2",
+        "answer_text": "Nhiều người thuê (Multiple tenants)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "51-3",
+        "answer_text": "Hiệu suất cao và an toàn",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-52",
+    "question_text": "Subnet là khu vực chính nơi bảo mật được triển khai trong đám mây. Điều nào sau đây được sử dụng để cung cấp bảo mật ở cấp máy ảo (virtual instance) trong các subnet?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "52-0",
+        "answer_text": "Cổng công cộng (Public Gateways)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "52-1",
+        "answer_text": "Đám mây riêng ảo (Virtual Private Cloud - VPC)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "52-2",
+        "answer_text": "Bộ cân bằng tải (Load Balancers)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "52-3",
+        "answer_text": "Nhóm bảo mật (Security Groups - SGs)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-53",
+    "question_text": "Điều nào sau đây là lợi ích của việc cô lập các ứng dụng trong container?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "53-0",
+        "answer_text": "Được đóng gói lại thành các container hoặc các microservice được container hóa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "53-1",
+        "answer_text": "Ngăn chặn mã độc trong một container ảnh hưởng đến các container khác",
+        "is_correct": true
+      },
+      {
+        "answer_id": "53-2",
+        "answer_text": "Trừu tượng hóa khỏi hệ điều hành máy chủ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "53-3",
+        "answer_text": "Công cụ thời gian chạy mã nguồn mở (Open-sourced runtime engine)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-54",
+    "question_text": "Loại lưu trữ nào sau đây là tạm thời hoặc không bền vững (ephemeral or non-persistent)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "54-0",
+        "answer_text": "Lưu trữ tệp (File storage)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "54-1",
+        "answer_text": "Lưu trữ đính kèm trực tiếp (Direct Attached storage)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "54-2",
+        "answer_text": "Lưu trữ đối tượng (Object storage)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "54-3",
+        "answer_text": "Lưu trữ khối (Block storage)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-55",
+    "question_text": "Điều gì làm cho Lưu trữ tệp (File storage) trở thành một giải pháp lý tưởng cho các tình huống yêu cầu lưu trữ dùng chung?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "55-0",
+        "answer_text": "Lưu trữ tệp được gắn vào các nút tính toán thông qua mạng ethernet",
+        "is_correct": false
+      },
+      {
+        "answer_id": "55-1",
+        "answer_text": "Lưu trữ tệp có thể được gắn từ các thiết bị lưu trữ từ xa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "55-2",
+        "answer_text": "Khả năng truy cập nhanh của lưu trữ tệp qua mạng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "55-3",
+        "answer_text": "Lưu trữ tệp có thể được gắn trên nhiều nút tính toán cùng một lúc",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-56",
+    "question_text": "Tình huống nào sau đây phù hợp nhất với Lưu trữ khối (Block Storage)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "56-0",
+        "answer_text": "Các khối lượng công việc cần chia sẻ đĩa giữa các nút tính toán",
+        "is_correct": false
+      },
+      {
+        "answer_id": "56-1",
+        "answer_text": "Chi phí thấp là một yếu tố cần cân nhắc",
+        "is_correct": false
+      },
+      {
+        "answer_id": "56-2",
+        "answer_text": "Nơi các khối lượng công việc không yêu cầu kết nối nhanh đến bộ nhớ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "56-3",
+        "answer_text": "Các ứng dụng cần truy cập nhanh và nhất quán vào đĩa, chẳng hạn như cơ sở dữ liệu",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-57",
+    "question_text": "Điều nào sau đây là một tính năng của Lưu trữ đối tượng (Object storage)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "57-0",
+        "answer_text": "Lưu trữ đối tượng có thể được gắn trên nhiều nút tính toán thông qua mạng ethernet",
+        "is_correct": false
+      },
+      {
+        "answer_id": "57-1",
+        "answer_text": "Được sử dụng ở những nơi cần tốc độ đọc và ghi nhanh",
+        "is_correct": false
+      },
+      {
+        "answer_id": "57-2",
+        "answer_text": "Bạn có thể sử dụng trực tiếp Lưu trữ đối tượng mà không cần gắn nó vào một nút tính toán",
+        "is_correct": true
+      },
+      {
+        "answer_id": "57-3",
+        "answer_text": "Bộ nhớ được gắn vào các nút tính toán bằng mạng cáp quang",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-58",
+    "question_text": "Điện toán phi máy chủ (serverless computing) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "58-0",
+        "answer_text": "Một phương pháp tính toán loại bỏ máy chủ khỏi môi trường máy tính.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "58-1",
+        "answer_text": "Một phương pháp tính toán làm tăng trách nhiệm đối với các tác vụ quản lý cơ sở hạ tầng chung.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "58-2",
+        "answer_text": "Một phương pháp tính toán loại bỏ máy chủ khỏi môi trường máy tính và tăng trách nhiệm đối với các tác vụ quản lý cơ sở hạ tầng chung.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "58-3",
+        "answer_text": "Một phương pháp tính toán giảm tải trách nhiệm đối với các tác vụ quản lý cơ sở hạ tầng chung.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-59",
+    "question_text": "Phương pháp kiến trúc microservices là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "59-0",
+        "answer_text": "Một phương pháp trong đó một ứng dụng duy nhất bao gồm nhiều thành phần hoặc dịch vụ nhỏ hơn, liên kết lỏng lẻo và có thể triển khai độc lập",
+        "is_correct": true
+      },
+      {
+        "answer_id": "59-1",
+        "answer_text": "Một phương pháp trong đó một ứng dụng duy nhất kiểm soát một máy chủ cho một doanh nghiệp.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "59-2",
+        "answer_text": "Một phương pháp trong đó một ứng dụng duy nhất giám sát mạng bảo mật của doanh nghiệp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "59-3",
+        "answer_text": "Một phương pháp trong đó tất cả dữ liệu doanh nghiệp được lưu trữ trong một kho lưu trữ duy nhất",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-60",
+    "question_text": "Danh sách nào sau đây liệt kê tất cả ba phương thức giao tiếp của microservices?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "60-0",
+        "answer_text": "API, luồng sự kiện (event streaming) và trình môi giới tài nguyên (resource brokers)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "60-1",
+        "answer_text": "Luồng sự kiện, trình môi giới thông điệp (message brokers) và mã hóa đám mây",
+        "is_correct": false
+      },
+      {
+        "answer_id": "60-2",
+        "answer_text": "API, giám sát đám mây và trình môi giới thông điệp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "60-3",
+        "answer_text": "API, luồng sự kiện và trình môi giới thông điệp",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-61",
+    "question_text": "Lựa chọn nào sau đây chứa hai môi trường mà một môi trường hybrid cloud kết nối?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "61-0",
+        "answer_text": "Đám mây công cộng và đám mây tài nguyên",
+        "is_correct": false
+      },
+      {
+        "answer_id": "61-1",
+        "answer_text": "Đám mây công cộng và đám mây riêng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "61-2",
+        "answer_text": "Đám mây riêng và đám mây tài nguyên",
+        "is_correct": false
+      },
+      {
+        "answer_id": "61-3",
+        "answer_text": "Đám mây riêng và đám mây bảo mật",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-62",
+    "question_text": "Lựa chọn nào sau đây mô tả một chiến lược đa đám mây (multi-cloud)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "62-0",
+        "answer_text": "Chiến lược đám mây hạ tầng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "62-1",
+        "answer_text": "Chiến lược đám mây doanh nghiệp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "62-2",
+        "answer_text": "Chiến lược áp dụng đám mây (Cloud adoption strategy)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "62-3",
+        "answer_text": "Chiến lược đám mây chuyên dụng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-63",
+    "question_text": "Điều nào sau đây là một nguyên tắc phát triển cho các ứng dụng cloud-native?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "63-0",
+        "answer_text": "Kết hợp các ứng dụng để tạo ra các microservice với nhiều chức năng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "63-1",
+        "answer_text": "Liên kết chặt chẽ các chức năng khác nhau của ứng dụng để chúng có thể hoạt động cùng nhau như một tổng thể",
+        "is_correct": false
+      },
+      {
+        "answer_id": "63-2",
+        "answer_text": "Container hóa các microservice để có sự linh hoạt, khả năng mở rộng và tính di động tối đa",
+        "is_correct": true
+      },
+      {
+        "answer_id": "63-3",
+        "answer_text": "Gộp các thành phần chức năng đơn lẻ khác nhau của một ứng dụng thành một phần mềm khổng lồ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-64",
+    "question_text": "Phát biểu nào sau đây mô tả phương pháp và quy trình DevOps?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "64-0",
+        "answer_text": "Loại bỏ nhu cầu giám sát hiệu suất và tính sẵn sàng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "64-1",
+        "answer_text": "Loại bỏ nhu cầu cấp phát máy chủ, xây dựng middleware và cài đặt mã ứng dụng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "64-2",
+        "answer_text": "Cho phép các nhóm tự do xây dựng, triển khai và quản lý các ứng dụng cloud-native theo một bộ hướng dẫn không chính thức, được định nghĩa lỏng lẻo",
+        "is_correct": false
+      },
+      {
+        "answer_id": "64-3",
+        "answer_text": "Một phương pháp hợp tác trong đó chủ sở hữu doanh nghiệp và các nhóm phát triển, vận hành và đảm bảo chất lượng hợp tác để cung cấp phần mềm liên tục",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-65",
+    "question_text": "Lựa chọn nào được cung cấp gói gọn hành trình hiện đại hóa ứng dụng hoàn chỉnh?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "65-0",
+        "answer_text": "Hành trình từ kiến trúc nguyên khối (monolithic) và hướng dịch vụ (service-oriented) đến kiến trúc microservices, từ máy chủ vật lý và máy ảo đến hạ tầng đám mây, và từ phương pháp thác nước (waterfall) và linh hoạt (agile) đến DevOps",
+        "is_correct": true
+      },
+      {
+        "answer_id": "65-1",
+        "answer_text": "Hành trình từ kiến trúc nguyên khối và hướng dịch vụ đến kiến trúc microservices",
+        "is_correct": false
+      },
+      {
+        "answer_id": "65-2",
+        "answer_text": "Hành trình từ máy chủ vật lý và máy ảo đến hạ tầng đám mây",
+        "is_correct": false
+      },
+      {
+        "answer_id": "65-3",
+        "answer_text": "Hành trình từ các phương pháp phát triển thác nước và linh hoạt đến DevOps",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-66",
+    "question_text": "Điều nào sau đây mô tả một nguyên tắc hoặc hành động phát triển cho các ứng dụng cloud native?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "66-0",
+        "answer_text": "Gộp các thành phần chức năng đơn lẻ khác nhau của một ứng dụng thành một phần mềm khổng lồ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "66-1",
+        "answer_text": "Liên kết chặt chẽ các chức năng khác nhau của ứng dụng để chúng có thể hoạt động cùng nhau như một tổng thể.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "66-2",
+        "answer_text": "Container hóa các microservice để có sự linh hoạt, khả năng mở rộng và tính di động tối đa.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "66-3",
+        "answer_text": "Kết hợp các ứng dụng để tạo ra các microservice với nhiều chức năng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-67",
+    "question_text": "Một công ty giao hoa toàn cầu sẽ tận dụng kiến trúc Hybrid Multicloud như thế nào để đáp ứng yêu cầu về nhu cầu dung lượng thay đổi ở các khu vực địa lý khác nhau?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "67-0",
+        "answer_text": "Bằng cách phân phối ứng dụng dịch vụ giao hàng của họ trên nhiều môi trường và nhà cung cấp đám mây trải rộng trên nhiều khu vực địa lý.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "67-1",
+        "answer_text": "Bằng cách sử dụng việc cấp phát và giải phóng tài nguyên tự động mà đám mây cung cấp.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "67-2",
+        "answer_text": "Bằng cách mở rộng quy mô kiến trúc tại chỗ của họ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-68",
+    "question_text": "Tình huống nào sau đây KHÔNG phải là một trường hợp sử dụng tốt cho kiến trúc serverless?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "68-0",
+        "answer_text": "Các khối lượng công việc xử lý luồng (Stream processing)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "68-1",
+        "answer_text": "Hỗ trợ kiến trúc microservices",
+        "is_correct": false
+      },
+      {
+        "answer_id": "68-2",
+        "answer_text": "Các microservice có thể được xây dựng dưới dạng các hàm không trạng thái (stateless functions)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "68-3",
+        "answer_text": "Các khối lượng công việc được đặc trưng bởi các quy trình chạy trong thời gian dài (long-running processes)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-69",
+    "question_text": "Cách tiếp cận kiến trúc microservices có thể được mô tả như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "69-0",
+        "answer_text": "Ảnh hưởng đến toàn bộ ứng dụng khi một microservice ngừng hoạt động.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "69-1",
+        "answer_text": "Yêu cầu xây dựng mọi chức năng mới trong một microservice từ đầu.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "69-2",
+        "answer_text": "Phân rã các ứng dụng lớn thành các chức năng cốt lõi để xây dựng một ứng dụng toàn diện và đầy đủ chức năng.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "69-3",
+        "answer_text": "Bắt buộc phải đóng gói tất cả các microservice cho một tác vụ cụ thể vào một container duy nhất.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-70",
+    "question_text": "Điền vào chỗ trống. Kiến trúc microservices là một phương pháp trong đó một ______________ bao gồm nhiều thành phần hoặc dịch vụ nhỏ hơn, liên kết lỏng lẻo và có thể triển khai độc lập.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "70-0",
+        "answer_text": "Dịch vụ đám mây",
+        "is_correct": false
+      },
+      {
+        "answer_id": "70-1",
+        "answer_text": "Ứng dụng duy nhất (Single application)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "70-2",
+        "answer_text": "Ứng dụng kho lưu trữ (Repository application)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "70-3",
+        "answer_text": "Máy chủ (Server)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-71",
+    "question_text": "Một ứng dụng cloud native bao gồm những gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "71-0",
+        "answer_text": "Các container có thể thực thi (Executable containers)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "71-1",
+        "answer_text": "Các tệp có thể thực thi (Executable files)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "71-2",
+        "answer_text": "Các microservice",
+        "is_correct": true
+      },
+      {
+        "answer_id": "71-3",
+        "answer_text": "Các container ứng dụng (Application containers)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-72",
+    "question_text": "DevOps và Đám mây chia sẻ một mối quan hệ _________.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "72-0",
+        "answer_text": "Nhà cung cấp (Vendor)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "72-1",
+        "answer_text": "Cộng sinh (Symbiotic)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "72-2",
+        "answer_text": "Đối tác chung (General partnership)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "72-3",
+        "answer_text": "Khách hàng (Customer)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-73",
+    "question_text": "Ba lĩnh vực chính mà giám sát đám mây đánh giá là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "73-0",
+        "answer_text": "Hạ tầng, tài nguyên và framework.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "73-1",
+        "answer_text": "Ứng dụng, dữ liệu và framework.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "73-2",
+        "answer_text": "Dữ liệu, ứng dụng và hạ tầng.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "73-3",
+        "answer_text": "Dữ liệu, tài nguyên và hạ tầng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-74",
+    "question_text": "Mã hóa dữ liệu làm gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "74-0",
+        "answer_text": "Làm xáo trộn dữ liệu theo cách làm cho dữ liệu không thể đọc được.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "74-1",
+        "answer_text": "Lưu dữ liệu lên đám mây và có thể truy cập được bởi bất kỳ người dùng được chia sẻ nào.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "74-2",
+        "answer_text": "Lưu trữ dữ liệu trên đám mây nơi nó có thể được truy cập ngay cả khi không có khóa.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "74-3",
+        "answer_text": "Giữ cho dữ liệu nhạy cảm được bảo vệ bằng mật khẩu.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-75",
+    "question_text": "Mục đích của dịch vụ thư mục đám mây (cloud directory services) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "75-0",
+        "answer_text": "Mã hóa tài khoản người dùng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "75-1",
+        "answer_text": "Lưu trữ an toàn dữ liệu người dùng trong một kho lưu trữ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "75-2",
+        "answer_text": "Quản lý an toàn hồ sơ người dùng và thông tin xác thực của họ.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "75-3",
+        "answer_text": "Phục vụ như một trung tâm dữ liệu cho các tệp và thư mục.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-76",
+    "question_text": "Một cuộc tấn công từ chối dịch vụ phân tán (DDoS) làm gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "76-0",
+        "answer_text": "Một cuộc tấn công DDoS nhắm vào các hệ thống doanh nghiệp bằng cách cài đặt một virus worm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "76-1",
+        "answer_text": "Một cuộc tấn công DDoS nhắm vào máy chủ trong doanh nghiệp bằng cách làm quá tải nó với lưu lượng truy cập từ nhiều hệ thống được đồng bộ hóa.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "76-2",
+        "answer_text": "Một cuộc tấn công DDoS ngắt kết nối người dùng khỏi internet.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "76-3",
+        "answer_text": "Một cuộc tấn công DDoS cài đặt phần mềm độc hại vào máy tính của người dùng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-77",
+    "question_text": "Yếu tố nào khác của bảo mật đám mây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "77-0",
+        "answer_text": "Truyền phát trên đám mây (Cloud streaming).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "77-1",
+        "answer_text": "Bảo mật mạng đám mây (Cloud network security).",
+        "is_correct": true
+      },
+      {
+        "answer_id": "77-2",
+        "answer_text": "Truy cập đám mây ngoại tuyến (Offline cloud access).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "77-3",
+        "answer_text": "Bảo mật thiết bị (Device security).",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-78",
+    "question_text": "Điện toán đám mây là một phần quan trọng trong chiến lược chuyển đổi số của một doanh nghiệp. Đúng hay sai.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "78-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "78-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-79",
+    "question_text": "Một số phương pháp hay nhất mà các tổ chức cần tuân theo để bảo vệ tài nguyên và hệ thống đám mây của họ là gì? Chọn hai.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "79-0",
+        "answer_text": "Chạy các công cụ giám sát bảo mật định kỳ để đảm bảo các mối đe dọa và vi phạm bảo mật được gắn cờ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "79-1",
+        "answer_text": "Giám sát tích cực về bảo mật và tuân thủ",
+        "is_correct": true
+      },
+      {
+        "answer_id": "79-2",
+        "answer_text": "Áp dụng mô hình trách nhiệm chung (shared responsibility model)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "79-3",
+        "answer_text": "Phân phối các tác vụ, khối lượng công việc và lưu lượng mạng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-80",
+    "question_text": "Các thành phần chính của Quản lý Danh tính và Truy cập (IAM) là gì? Chọn hai.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "80-0",
+        "answer_text": "Nhúng bảo mật trong suốt vòng đời của một ứng dụng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "80-1",
+        "answer_text": "Bảo vệ dữ liệu khi nó ở trạng thái nghỉ (at rest), đang chuyển động (in motion) và đang sử dụng (in use)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "80-2",
+        "answer_text": "Kiểm toán và Tuân thủ (Audit and Compliance)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "80-3",
+        "answer_text": "Dịch vụ Thư mục Đám mây (Cloud Directory Services)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-81",
+    "question_text": "Phát biểu nào sau đây là đúng về mã hóa đám mây? A. Mã hóa đảm bảo chỉ những người dùng được ủy quyền mới có quyền truy cập vào dữ liệu nhạy cảm. B. Khi dữ liệu được mã hóa bị chặn mà không có sự cho phép, nó không thể đọc được và vô nghĩa? C. Mã hóa bảo vệ dữ liệu khi nó ở trạng thái nghỉ, đang truyền và đang được sử dụng trong bộ nhớ. D. Mã hóa loại bỏ rủi ro bảo mật dữ liệu",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "81-0",
+        "answer_text": "Chỉ A, B và D",
+        "is_correct": false
+      },
+      {
+        "answer_id": "81-1",
+        "answer_text": "Chỉ A, B và C",
+        "is_correct": true
+      },
+      {
+        "answer_id": "81-2",
+        "answer_text": "Chỉ A và C",
+        "is_correct": false
+      },
+      {
+        "answer_id": "81-3",
+        "answer_text": "A, B, C và D",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-82",
+    "question_text": "Xác định một số phương pháp hay nhất về giám sát đám mây tiêu chuẩn từ các tùy chọn được cung cấp. Chọn hai",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "82-0",
+        "answer_text": "Tận dụng các giải pháp giám sát trải nghiệm người dùng cuối để nắm bắt hiệu suất của một ứng dụng từ góc độ của người dùng cuối.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "82-1",
+        "answer_text": "Theo dõi việc sử dụng và chi phí của các tài nguyên và dịch vụ đám mây của bạn.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "82-2",
+        "answer_text": "Mã hóa dữ liệu trước khi nó được gửi lên đám mây.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "82-3",
+        "answer_text": "Xác thực người dùng đang cố gắng truy cập tài nguyên đám mây của họ.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-83",
+    "question_text": "Điền vào chỗ trống. _____________ là một phần quan trọng trong chiến lược chuyển đổi số của một doanh nghiệp.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "83-0",
+        "answer_text": "Cơ sở dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "83-1",
+        "answer_text": "Mã hóa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "83-2",
+        "answer_text": "Điện toán đám mây",
+        "is_correct": true
+      },
+      {
+        "answer_id": "83-3",
+        "answer_text": "Thiết bị lưu trữ cục bộ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-84",
+    "question_text": "Đâu là một số phương pháp hay nhất mà các tổ chức phải tuân theo để bảo vệ tài nguyên và hệ thống đám mây của họ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "84-0",
+        "answer_text": "Chạy các công cụ giám sát bảo mật định kỳ để đảm bảo các mối đe dọa và vi phạm bảo mật được gắn cờ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "84-1",
+        "answer_text": "Phân phối các tác vụ, khối lượng công việc và phần mềm giám sát",
+        "is_correct": false
+      },
+      {
+        "answer_id": "84-2",
+        "answer_text": "Áp dụng mô hình trách nhiệm chung về giám sát tích cực cho bảo mật và tuân thủ",
+        "is_correct": true
+      },
+      {
+        "answer_id": "84-3",
+        "answer_text": "Phân phối các tác vụ, khối lượng công việc và lưu lượng mạng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-85",
+    "question_text": "Các thành phần chính của Quản lý Danh tính và Truy cập (IAM) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "85-0",
+        "answer_text": "Bảo vệ dữ liệu khi nó ở trạng thái nghỉ, đang chuyển động và đang sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "85-1",
+        "answer_text": "Dịch vụ Thư mục Đám mây, Kiểm toán và Tuân thủ",
+        "is_correct": true
+      },
+      {
+        "answer_id": "85-2",
+        "answer_text": "Nhúng bảo mật trong suốt vòng đời của một ứng dụng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "85-3",
+        "answer_text": "Các phương pháp bảo mật mã hóa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-86",
+    "question_text": "Xác định một số phương pháp hay nhất về giám sát đám mây tiêu chuẩn từ các tùy chọn được cung cấp.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "86-0",
+        "answer_text": "Mã hóa dữ liệu trước khi nó được gửi lên đám mây.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "86-1",
+        "answer_text": "Mã hóa dữ liệu trên một thiết bị lưu trữ vật lý.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "86-2",
+        "answer_text": "Xác thực người dùng đang cố gắng truy cập tài nguyên đám mây của họ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "86-3",
+        "answer_text": "Tận dụng các giải pháp giám sát trải nghiệm người dùng cuối để nắm bắt hiệu suất của một ứng dụng từ góc độ của người dùng cuối và theo dõi việc sử dụng và chi phí của các tài nguyên và dịch vụ đám mây của bạn.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-87",
+    "question_text": "Một số công cụ giám sát giúp bạn có được thông tin chi tiết về tình hình, sự tuân thủ và các mối đe dọa của mình là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "87-0",
+        "answer_text": "Hypervisors",
+        "is_correct": false
+      },
+      {
+        "answer_id": "87-1",
+        "answer_text": "Nhật ký luồng (Flow logs) từ mạng và các sự kiện bảo mật",
+        "is_correct": true
+      },
+      {
+        "answer_id": "87-2",
+        "answer_text": "Nhật ký luồng và hypervisors",
+        "is_correct": false
+      },
+      {
+        "answer_id": "87-3",
+        "answer_text": "Mã hóa dữ liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-88",
+    "question_text": "Một số lợi ích của việc sử dụng các nhóm truy cập (access groups) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "88-0",
+        "answer_text": "Nhóm truy cập giúp tăng số lượng chính sách của một tài khoản.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "88-1",
+        "answer_text": "Nhóm truy cập xác định người dùng, tài nguyên được cấp quyền truy cập và cấp độ quyền mà mỗi người dùng có trên các tài nguyên này.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "88-2",
+        "answer_text": "Nhóm truy cập tạo ra một cấp độ xác thực bổ sung cho người dùng ứng dụng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "88-3",
+        "answer_text": "Việc sử dụng các nhóm truy cập giúp giảm số lượng chính sách trong một tài khoản. Các nhóm truy cập cung cấp một cách hợp lý hơn để gán quyền truy cập.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-89",
+    "question_text": "Xác định hai phần chính của một hệ thống mã hóa từ các tùy chọn được cung cấp.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "89-0",
+        "answer_text": "Mã hóa phía máy chủ (Server-side encryption)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "89-1",
+        "answer_text": "Thuật toán mã hóa và khóa giải mã",
+        "is_correct": true
+      },
+      {
+        "answer_id": "89-2",
+        "answer_text": "Mã hóa phía máy khách (Client-side encryption)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "89-3",
+        "answer_text": "Thiết bị mã hóa vật lý",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-90",
+    "question_text": "Một số lợi ích mà các giải pháp giám sát đám mây mang lại là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "90-0",
+        "answer_text": "Tăng tốc chẩn đoán và giải quyết các sự cố về hiệu suất và cung cấp thông báo chủ động về các tình huống bất thường hoặc không bình thường.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "90-1",
+        "answer_text": "Khắc phục sự cố ứng dụng và hạ tầng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "90-2",
+        "answer_text": "Tăng cường bảo mật cho tài khoản người dùng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "90-3",
+        "answer_text": "Ngăn chặn người dùng không được phép truy cập vào hệ thống",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-91",
+    "question_text": "The Weather Company đã di chuyển tài sản web thời tiết của mình sang một kiến trúc an toàn, có khả năng mở rộng và toàn cầu trên IBM Cloud. Họ đã nhận được những lợi ích gì từ việc di chuyển này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "91-0",
+        "answer_text": "Tăng tính sẵn sàng của tài sản và hiệu quả tổng thể của thiết bị",
+        "is_correct": false
+      },
+      {
+        "answer_id": "91-1",
+        "answer_text": "Phát triển và phát hành nhanh hơn các ứng dụng mới và các công cụ tự phục vụ kỹ thuật số cho khách hàng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "91-2",
+        "answer_text": "Tăng cường phát triển và tăng độ trễ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "91-3",
+        "answer_text": "Khai thác các trung tâm dữ liệu địa phương để giảm thiểu độ trễ cho người dùng và tối ưu hóa hệ thống của họ để có tính đàn hồi trong việc xử lý các đợt tăng đột biến về nhu cầu",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-92",
+    "question_text": "Thành phần nào của IBM Cloud đã giúp bạn làm cho dịch vụ Đặt hàng DineEase có khả năng mở rộng? Chọn thành phần giám sát các yêu cầu đến, tăng giảm các instance ứng dụng để đáp ứng nhu cầu và là một nền tảng serverless được quản lý hoàn toàn.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "92-0",
+        "answer_text": "Turbonomic",
+        "is_correct": false
+      },
+      {
+        "answer_id": "92-1",
+        "answer_text": "API Connect",
+        "is_correct": false
+      },
+      {
+        "answer_id": "92-2",
+        "answer_text": "IBM Watson Assistant",
+        "is_correct": false
+      },
+      {
+        "answer_id": "92-3",
+        "answer_text": "IBM Cloud Code Engine",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-93",
+    "question_text": "Mô hình triển khai nào phù hợp với yêu cầu độ trễ thấp và tính sẵn sàng cao cho các dịch vụ DineEase?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "93-0",
+        "answer_text": "IBM Edge Application Manager",
+        "is_correct": false
+      },
+      {
+        "answer_id": "93-1",
+        "answer_text": "Single campus Multizone Regions",
+        "is_correct": false
+      },
+      {
+        "answer_id": "93-2",
+        "answer_text": "Multizone Regions (MZR)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "93-3",
+        "answer_text": "Hybrid Cloud HPC",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-94",
+    "question_text": "Việc xử lý thanh toán cho DineEase đòi hỏi tính toán nhiều, cần một môi trường an toàn và phải xử lý nhanh một lượng lớn dữ liệu. Bạn đã chọn dịch vụ IBM Cloud nào cho những khả năng này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "94-0",
+        "answer_text": "IBM Cloud Bare Metal Servers",
+        "is_correct": true
+      },
+      {
+        "answer_id": "94-1",
+        "answer_text": "IBM Cloud Functions",
+        "is_correct": false
+      },
+      {
+        "answer_id": "94-2",
+        "answer_text": "IBM Cloud for VMware Solutions",
+        "is_correct": false
+      },
+      {
+        "answer_id": "94-3",
+        "answer_text": "IBM WebSphere Application Server",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-95",
+    "question_text": "Các dịch vụ Tìm kiếm, Menu và Định giá cho DineEase cần sự linh hoạt để sử dụng các ngăn xếp công nghệ (technology stacks) khác nhau cho mỗi dịch vụ. Bạn đã chọn dịch vụ IBM Cloud nào để giải quyết vấn đề này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "95-0",
+        "answer_text": "IBM Cloud Kubernetes Service",
+        "is_correct": true
+      },
+      {
+        "answer_id": "95-1",
+        "answer_text": "IBM Cloud Bare Metal Servers",
+        "is_correct": false
+      },
+      {
+        "answer_id": "95-2",
+        "answer_text": "Container Security Services",
+        "is_correct": false
+      },
+      {
+        "answer_id": "95-3",
+        "answer_text": "IBM WebSphere Application Server",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-96",
+    "question_text": "Bạn cần tìm một dịch vụ có thể tương tác với các dịch vụ API của DineEase và thế giới bên ngoài, loại bỏ các phụ thuộc cứng nhắc và thêm một lớp giao tiếp. Bạn đã chọn dịch vụ IBM Cloud nào để giải quyết vấn đề này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "96-0",
+        "answer_text": "IBM API Connect",
+        "is_correct": true
+      },
+      {
+        "answer_id": "96-1",
+        "answer_text": "Event Streams",
+        "is_correct": false
+      },
+      {
+        "answer_id": "96-2",
+        "answer_text": "IBM App Connect",
+        "is_correct": false
+      },
+      {
+        "answer_id": "96-3",
+        "answer_text": "IBM Lift",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-97",
+    "question_text": "DineEase cần tối ưu hóa việc đọc để người tiêu dùng có thể xem các bài đánh giá và xếp hạng nhà hàng. Bạn đã chọn dịch vụ IBM Cloud nào để giải quyết vấn đề này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "97-0",
+        "answer_text": "IBM Db2 Warehouse on Cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "97-1",
+        "answer_text": "IBM Db2 on Cloud",
+        "is_correct": false
+      },
+      {
+        "answer_id": "97-2",
+        "answer_text": "IBM Cloud Databases for MySQL",
+        "is_correct": false
+      },
+      {
+        "answer_id": "97-3",
+        "answer_text": "IBM Cloudant",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-98",
+    "question_text": "DineEase cần tìm một cơ sở dữ liệu quan hệ IBM được quản lý hoàn toàn, triển khai theo khu vực và cung cấp khả năng phục hồi sau thảm họa có tính sẵn sàng cao (HADR). Bạn đã chọn dịch vụ IBM Cloud nào để giải quyết vấn đề này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "98-0",
+        "answer_text": "IBM Db2 on Cloud",
+        "is_correct": true
+      },
+      {
+        "answer_id": "98-1",
+        "answer_text": "IBM Cloudant",
+        "is_correct": false
+      },
+      {
+        "answer_id": "98-2",
+        "answer_text": "IBM Cloud Databases for MongoDB",
+        "is_correct": false
+      },
+      {
+        "answer_id": "98-3",
+        "answer_text": "IBM Cloud Object Storage",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-99",
+    "question_text": "DineEase lưu trữ rất nhiều ảnh đồ ăn, logo nhà hàng và các phương tiện phụ khác. Tìm dịch vụ phân phối nội dung của họ ở các nút địa lý đa dạng và rút ngắn khoảng cách mà hình ảnh phương tiện cần di chuyển để đến thiết bị của người tiêu dùng. Bạn đã chọn dịch vụ IBM Cloud nào để giải quyết vấn đề này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "99-0",
+        "answer_text": "IBM Cloud Pak for Data",
+        "is_correct": false
+      },
+      {
+        "answer_id": "99-1",
+        "answer_text": "Content Delivery Network (CDN)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "99-2",
+        "answer_text": "IBM Cloud Backup",
+        "is_correct": false
+      },
+      {
+        "answer_id": "99-3",
+        "answer_text": "IBM Cloud Databases for MongoDB",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-100",
+    "question_text": "Ứng dụng mới cần một dịch vụ để cân bằng lưu lượng truy cập giữa các máy chủ của nó để giúp cải thiện thời gian hoạt động. Bạn đã chọn dịch vụ IBM Cloud nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "100-0",
+        "answer_text": "IBM Cloud Load Balancer for VPC or Classic",
+        "is_correct": true
+      },
+      {
+        "answer_id": "100-1",
+        "answer_text": "IBM Cloud Code Engine",
+        "is_correct": false
+      },
+      {
+        "answer_id": "100-2",
+        "answer_text": "IBM Cloud Activity Tracker",
+        "is_correct": false
+      },
+      {
+        "answer_id": "100-3",
+        "answer_text": "IBM Cloud Direct Link",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-101",
+    "question_text": "Bạn cần tìm một dịch vụ mà bạn có thể sử dụng để giám sát hiệu suất và tình trạng hoạt động của DineEase. Bạn đã chọn dịch vụ IBM Cloud nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "101-0",
+        "answer_text": "IBM Cloud Pak for AIOps",
+        "is_correct": false
+      },
+      {
+        "answer_id": "101-1",
+        "answer_text": "IBM Log Analysis",
+        "is_correct": false
+      },
+      {
+        "answer_id": "101-2",
+        "answer_text": "IBM Cloud Monitoring",
+        "is_correct": true
+      },
+      {
+        "answer_id": "101-3",
+        "answer_text": "IBM Cloud Activity Tracker",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-102",
+    "question_text": "Bốn yếu tố chính mà một kiến trúc sư giải pháp nên xem xét khi họ phải chọn một Vùng (Region) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "102-0",
+        "answer_text": "Độ trễ, giá cả, tính sẵn có của dịch vụ và tuân thủ",
+        "is_correct": true
+      },
+      {
+        "answer_id": "102-1",
+        "answer_text": "Độ trễ, tính sẵn sàng cao, thuế và tuân thủ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "102-2",
+        "answer_text": "Độ trễ, thuế, tốc độ và tuân thủ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "102-3",
+        "answer_text": "Độ trễ, bảo mật, tính sẵn sàng cao và khả năng phục hồi",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-103",
+    "question_text": "Đúng hay Sai: Mọi hành động mà người dùng thực hiện trong AWS đều là một lệnh gọi API.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "103-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "103-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-104",
+    "question_text": "Phát biểu nào mô tả ĐÚNG NHẤT mối quan hệ giữa các Vùng (Regions), Vùng sẵn sàng (Availability Zones) và các trung tâm dữ liệu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "104-0",
+        "answer_text": "Vùng sẵn sàng là các cụm Vùng. Vùng là các cụm trung tâm dữ liệu.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "104-1",
+        "answer_text": "Trung tâm dữ liệu là cụm của các Vùng sẵn sàng. Vùng là các cụm của các Vùng sẵn sàng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "104-2",
+        "answer_text": "Vùng là các cụm của các Vùng sẵn sàng. Vùng sẵn sàng là các cụm của các trung tâm dữ liệu.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "104-3",
+        "answer_text": "Trung tâm dữ liệu là các cụm Vùng. Vùng là các cụm của các Vùng sẵn sàng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-105",
+    "question_text": "Điều nào sau đây là một lợi ích của điện toán đám mây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "105-0",
+        "answer_text": "Chạy và bảo trì các trung tâm dữ liệu của riêng bạn.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "105-1",
+        "answer_text": "Tăng thời gian đưa ra thị trường.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "105-2",
+        "answer_text": "Cung cấp quá mức để mở rộng quy mô.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "105-3",
+        "answer_text": "Vươn ra toàn cầu trong vài phút.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-106",
+    "question_text": "Một công ty muốn quản lý các dịch vụ AWS bằng cách sử dụng dòng lệnh và tự động hóa chúng bằng các tập lệnh. Công ty nên sử dụng gì để đạt được mục tiêu này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "106-0",
+        "answer_text": "AWS Management Console",
+        "is_correct": false
+      },
+      {
+        "answer_id": "106-1",
+        "answer_text": "Giao diện dòng lệnh AWS (AWS CLI)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "106-2",
+        "answer_text": "Các bộ công cụ phát triển phần mềm AWS (AWS SDKs)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "106-3",
+        "answer_text": "AWS Management Console và AWS SDKs",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-107",
+    "question_text": "Phương pháp hay nhất khi bảo mật người dùng gốc (root user) của tài khoản AWS là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "107-0",
+        "answer_text": "Kích hoạt quyền truy cập AWS Identity and Access Management (IAM) vào bảng điều khiển Thanh toán và Quản lý chi phí",
+        "is_correct": false
+      },
+      {
+        "answer_id": "107-1",
+        "answer_text": "Sử dụng người dùng gốc cho các tác vụ quản trị thông thường",
+        "is_correct": false
+      },
+      {
+        "answer_id": "107-2",
+        "answer_text": "Thay đổi cài đặt tài khoản",
+        "is_correct": false
+      },
+      {
+        "answer_id": "107-3",
+        "answer_text": "Bật xác thực đa yếu tố (MFA)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-108",
+    "question_text": "Một kiến trúc sư giải pháp đang tư vấn cho một công ty. Khi người dùng trong công ty xác thực vào mạng công ty, họ muốn có thể sử dụng AWS mà không cần phải đăng nhập lại. Kiến trúc sư giải pháp nên đề xuất danh tính AWS nào cho trường hợp sử dụng này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "108-0",
+        "answer_text": "Người dùng gốc của tài khoản AWS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "108-1",
+        "answer_text": "Người dùng AWS Identity and Access Management (IAM)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "108-2",
+        "answer_text": "Vai trò IAM (IAM Role)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "108-3",
+        "answer_text": "Nhóm IAM (IAM Group)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-109",
+    "question_text": "Điều nào sau đây có thể được tìm thấy trong một chính sách AWS Identity and Access Management (IAM)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "109-0",
+        "answer_text": "Effect (Hiệu lực)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "109-1",
+        "answer_text": "Action (Hành động)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "109-2",
+        "answer_text": "Object (Đối tượng)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "109-3",
+        "answer_text": "A và B",
+        "is_correct": true
+      },
+      {
+        "answer_id": "109-4",
+        "answer_text": "B và C",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-110",
+    "question_text": "Đúng hay Sai: Các chính sách AWS Identity and Access Management (IAM) có thể hạn chế các hành động của người dùng gốc của tài khoản AWS.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "110-0",
+        "answer_text": "Đúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "110-1",
+        "answer_text": "Sai",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-111",
+    "question_text": "Theo mô hình trách nhiệm chung của AWS, điều nào sau đây là trách nhiệm của AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "111-0",
+        "answer_text": "Kiểm soát hệ điều hành và nền tảng ứng dụng, cũng như mã hóa, bảo vệ và quản lý dữ liệu của khách hàng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "111-1",
+        "answer_text": "Quản lý dữ liệu của khách hàng, mã hóa dữ liệu đó và bảo vệ dữ liệu thông qua tường lửa mạng và sao lưu.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "111-2",
+        "answer_text": "Quản lý các thành phần phần cứng, phần mềm và mạng chạy các dịch vụ AWS, chẳng hạn như máy chủ vật lý, hệ điều hành máy chủ, các lớp ảo hóa và các thành phần mạng AWS.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "111-3",
+        "answer_text": "Quản lý dữ liệu của khách hàng, mã hóa dữ liệu đó và bảo vệ dữ liệu thông qua mã hóa phía máy khách.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-112",
+    "question_text": "Điều nào sau đây được khuyến nghị nếu một công ty có một tài khoản AWS duy nhất và nhiều người làm việc với các dịch vụ AWS trong tài khoản đó?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "112-0",
+        "answer_text": "Tất cả mọi người phải sử dụng người dùng gốc để làm việc với các dịch vụ AWS hàng ngày.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "112-1",
+        "answer_text": "Công ty nên tạo một nhóm AWS Identity and Access Management (IAM), cấp cho nhóm các quyền để thực hiện các chức năng công việc cụ thể và gán người dùng vào một nhóm hoặc sử dụng các vai trò IAM.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "112-2",
+        "answer_text": "Công ty phải tạo người dùng AWS Identity and Access Management (IAM) và cấp cho người dùng các quyền để thực hiện các chức năng công việc cụ thể.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "112-3",
+        "answer_text": "Công ty phải tạo một người dùng AWS Identity and Access Management (IAM) và cấp cho người dùng quyền truy cập vào tất cả các tài nguyên AWS.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-113",
+    "question_text": "Đúng hay Sai: Theo mô hình trách nhiệm chung của AWS, khách hàng chịu trách nhiệm về bảo mật trên đám mây.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "113-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "113-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-114",
+    "question_text": "Điều nào sau đây cung cấp thông tin xác thực tạm thời (hết hạn sau một khoảng thời gian xác định) cho các dịch vụ AWS?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "114-0",
+        "answer_text": "Nguyên tắc đặc quyền tối thiểu (Principle of least privilege)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "114-1",
+        "answer_text": "Vai trò IAM (IAM role)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "114-2",
+        "answer_text": "Nhà cung cấp danh tính (Identity provider - IdP)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "114-3",
+        "answer_text": "AWS IAM Identity Center (tiền thân là AWS Single Sign-On)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-115",
+    "question_text": "Một người dùng đang lưu trữ một giải pháp trên Amazon Elastic Compute Cloud (Amazon EC2). Thành phần mạng nào là cần thiết để tạo một mạng riêng cho các tài nguyên AWS của họ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "115-0",
+        "answer_text": "Đám mây riêng ảo (Virtual private cloud - VPC)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "115-1",
+        "answer_text": "Instance",
+        "is_correct": false
+      },
+      {
+        "answer_id": "115-2",
+        "answer_text": "Thẻ (Tags)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "115-3",
+        "answer_text": "Amazon Machine Image (AMI)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-116",
+    "question_text": "Thông tin nào là cần thiết để tạo một đám mây riêng ảo (VPC)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "116-0",
+        "answer_text": "Vùng sẵn sàng (Availability Zone) mà VPC sẽ nằm trong đó.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "116-1",
+        "answer_text": "Mạng con (subnet) mà VPC sẽ nằm trong đó.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "116-2",
+        "answer_text": "Vùng AWS (AWS Region) mà VPC sẽ nằm trong đó.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "116-3",
+        "answer_text": "Nhóm các mạng con mà VPC sẽ nằm trong đó.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-117",
+    "question_text": "Một bảng định tuyến (route table) có thể được đính kèm vào đâu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "117-0",
+        "answer_text": "Tài khoản AWS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "117-1",
+        "answer_text": "Vùng sẵn sàng (Availability Zone)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "117-2",
+        "answer_text": "Mạng con (Subnets)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "117-3",
+        "answer_text": "Vùng (Regions)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-118",
+    "question_text": "Một công ty muốn cho phép các tài nguyên trong một mạng con công cộng (public subnet) giao tiếp với internet. Công ty phải làm gì sau đây để đáp ứng yêu cầu này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "118-0",
+        "answer_text": "Tạo một tuyến đường đến một mạng con riêng tư",
+        "is_correct": false
+      },
+      {
+        "answer_id": "118-1",
+        "answer_text": "Đính kèm một cổng internet (internet gateway) vào VPC của họ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "118-2",
+        "answer_text": "Tạo một tuyến đường trong bảng định tuyến đến cổng internet",
+        "is_correct": false
+      },
+      {
+        "answer_id": "118-3",
+        "answer_text": "A và B",
+        "is_correct": false
+      },
+      {
+        "answer_id": "118-4",
+        "answer_text": "B và C",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-119",
+    "question_text": "Mô hình tính toán dưới dạng dịch vụ (CaaS) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "119-0",
+        "answer_text": "Mô hình CaaS yêu cầu người dùng mua máy ảo và cấp phát máy chủ thủ công để chạy một khối lượng công việc.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "119-1",
+        "answer_text": "Mô hình CaaS cung cấp các tài nguyên tính toán (chẳng hạn như máy ảo chạy trên các máy chủ trong các trung tâm dữ liệu) theo yêu cầu, bằng cách sử dụng các dịch vụ ảo.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "119-2",
+        "answer_text": "Mô hình CaaS cung cấp chiết khấu lớn cho các tài nguyên tính toán. Tuy nhiên, người dùng phải chạy khối lượng công việc từ máy chủ được lưu trữ tại chỗ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "119-3",
+        "answer_text": "Mô hình CaaS cung cấp các ứng dụng dựa trên đám mây cho người dùng trên toàn cầu, qua internet.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-120",
+    "question_text": "Phát biểu nào về cài đặt mặc định của một nhóm bảo mật (security group) là ĐÚNG?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "120-0",
+        "answer_text": "Cho phép tất cả lưu lượng truy cập vào và chặn tất cả lưu lượng truy cập ra theo mặc định.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "120-1",
+        "answer_text": "Chặn tất cả lưu lượng truy cập vào và cho phép tất cả lưu lượng truy cập ra theo mặc định.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "120-2",
+        "answer_text": "Cho phép tất cả lưu lượng truy cập vào và ra theo mặc định.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "120-3",
+        "answer_text": "Chặn tất cả lưu lượng truy cập vào và ra theo mặc định.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-121",
+    "question_text": "Loại instance của Amazon Elastic Compute Cloud (Amazon EC2) cho biết điều gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "121-0",
+        "answer_text": "Họ instance và kích thước instance",
+        "is_correct": true
+      },
+      {
+        "answer_id": "121-1",
+        "answer_text": "Vị trí instance và kích thước instance",
+        "is_correct": false
+      },
+      {
+        "answer_id": "121-2",
+        "answer_text": "Hình thức thuê instance và thanh toán instance",
+        "is_correct": false
+      },
+      {
+        "answer_id": "121-3",
+        "answer_text": "Amazon Machine Image (AMI) của instance và tốc độ mạng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-122",
+    "question_text": "Sự khác biệt giữa việc sử dụng AWS Fargate hoặc Amazon Elastic Compute Cloud (Amazon EC2) làm nền tảng tính toán cho Amazon Elastic Container Service (Amazon ECS) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "122-0",
+        "answer_text": "Với AWS Fargate, AWS quản lý và cấp phát cơ sở hạ tầng cơ bản để lưu trữ các container.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "122-1",
+        "answer_text": "Với Amazon ECS trên Amazon EC2, AWS quản lý và cấp phát instance EC2 cơ bản cho các container.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "122-2",
+        "answer_text": "Với AWS Fargate, người dùng cần quản lý dung lượng và khả năng mở rộng của cụm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "122-3",
+        "answer_text": "Với Amazon ECS trên Amazon EC2, người dùng chỉ cần tải lên mã nguồn. Amazon ECS sẽ lo phần còn lại.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-123",
+    "question_text": "Phát biểu nào về serverless là ĐÚNG?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "123-0",
+        "answer_text": "Người dùng phải cấp phát và quản lý máy chủ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "123-1",
+        "answer_text": "Người dùng phải mở rộng quy mô tài nguyên serverless theo cách thủ công.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "123-2",
+        "answer_text": "Người dùng không trả tiền cho các tài nguyên không hoạt động.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "123-3",
+        "answer_text": "Người dùng phải quản lý tính sẵn sàng và khả năng chịu lỗi.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-124",
+    "question_text": "Đúng hay Sai: AWS Lambda luôn là giải pháp tốt nhất khi chạy các ứng dụng trên AWS.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "124-0",
+        "answer_text": "Đúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "124-1",
+        "answer_text": "Sai",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-125",
+    "question_text": "Dịch vụ tính toán nào mà Amazon Elastic Compute Cloud (Amazon EC2) cung cấp?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "125-0",
+        "answer_text": "Dịch vụ container",
+        "is_correct": false
+      },
+      {
+        "answer_id": "125-1",
+        "answer_text": "Serverless",
+        "is_correct": false
+      },
+      {
+        "answer_id": "125-2",
+        "answer_text": "Máy ảo (VMs)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "125-3",
+        "answer_text": "Phân tích (Analytics)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-126",
+    "question_text": "Instance đang ở giai đoạn nào của vòng đời khi tài khoản bắt đầu tích lũy phí?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "126-0",
+        "answer_text": "Khi một instance đang ở giai đoạn chờ xử lý (pending)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "126-1",
+        "answer_text": "Khi một instance đang ở giai đoạn đang chạy (running)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "126-2",
+        "answer_text": "Khi một instance bị dừng (stopped)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "126-3",
+        "answer_text": "Khi một instance bị chấm dứt (terminated)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-127",
+    "question_text": "Thành phần nào của instance c5.4xlarge xác định họ instance và số thế hệ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "127-0",
+        "answer_text": "4x",
+        "is_correct": false
+      },
+      {
+        "answer_id": "127-1",
+        "answer_text": "Large",
+        "is_correct": false
+      },
+      {
+        "answer_id": "127-2",
+        "answer_text": "4xlarge",
+        "is_correct": false
+      },
+      {
+        "answer_id": "127-3",
+        "answer_text": "c5",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-128",
+    "question_text": "Runtime container nào có thể được sử dụng để lưu trữ một container trên một instance Amazon Elastic Compute Cloud (Amazon EC2)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "128-0",
+        "answer_text": "Docker",
+        "is_correct": true
+      },
+      {
+        "answer_id": "128-1",
+        "answer_text": "Container",
+        "is_correct": false
+      },
+      {
+        "answer_id": "128-2",
+        "answer_text": "Amazon Simple Storage Service (Amazon S3)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "128-3",
+        "answer_text": "Amazon EC2",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-129",
+    "question_text": "Ví dụ nào về một sự kiện gọi một hàm AWS Lambda?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "129-0",
+        "answer_text": "Một lệnh gọi API AWS được thực hiện bởi một vai trò AWS Identity and Access Management (IAM)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "129-1",
+        "answer_text": "Tải lên một tệp vào bucket nguồn của Amazon Simple Storage Service (Amazon S3)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "129-2",
+        "answer_text": "Một yêu cầu HTTP đến một trang web được lưu trữ trên Amazon Elastic Compute Cloud (Amazon EC2)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "129-3",
+        "answer_text": "Một trang web WordPress đơn giản không có tích hợp API",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-130",
+    "question_text": "Đúng hay Sai: Với serverless, người dùng không cần cấp phát và quản lý máy chủ.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "130-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "130-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-131",
+    "question_text": "Đúng hay Sai: Tất cả các dịch vụ AWS đều yêu cầu người dùng cấu hình một đám mây riêng ảo (VPC).",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "131-0",
+        "answer_text": "Đúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "131-1",
+        "answer_text": "Sai",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-132",
+    "question_text": "Một kỹ sư đang làm việc với các mạng trong AWS Cloud. Kỹ sư nên sử dụng gì để cấu hình kích thước mạng của họ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "132-0",
+        "answer_text": "Ký hiệu Định tuyến liên miền không lớp (CIDR)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "132-1",
+        "answer_text": "Ký hiệu IPv6",
+        "is_correct": false
+      },
+      {
+        "answer_id": "132-2",
+        "answer_text": "Ký hiệu IPv4",
+        "is_correct": false
+      },
+      {
+        "answer_id": "132-3",
+        "answer_text": "Địa chỉ IP",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-133",
+    "question_text": "Sự khác biệt giữa danh sách kiểm soát truy cập mạng (network ACLs) và các nhóm bảo mật (security groups) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "133-0",
+        "answer_text": "Theo mặc định, network ACL cho phép lưu lượng truy cập đến và chặn lưu lượng truy cập đi từ một mạng con. Người dùng có thể thay đổi các cài đặt này để cung cấp một lớp bảo mật bổ sung. Tuy nhiên, các cấu hình mặc định của các nhóm bảo mật chặn tất cả lưu lượng truy cập.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "133-1",
+        "answer_text": "Theo mặc định, network ACL chặn tất cả lưu lượng truy cập từ một mạng con. Tuy nhiên, các cấu hình mặc định của các nhóm bảo mật cho phép tất cả lưu lượng truy cập vào và ra. Người dùng có thể thay đổi các cài đặt này để cung cấp một lớp bảo mật bổ sung.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "133-2",
+        "answer_text": "Theo mặc định, network ACL chặn lưu lượng truy cập đến và cho phép lưu lượng truy cập đi. Các cấu hình mặc định của các nhóm bảo mật chặn tất cả lưu lượng truy cập. Người dùng có thể thay đổi các cài đặt này khi họ cấu hình mạng cho instance của mình.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "133-3",
+        "answer_text": "Theo mặc định, network ACL cho phép lưu lượng truy cập đến và đi từ một mạng con. Người dùng có thể thay đổi các cài đặt này để cung cấp một lớp bảo mật bổ sung. Tuy nhiên, các cấu hình mặc định của các nhóm bảo mật chặn tất cả lưu lượng truy cập vào và cho phép tất cả lưu lượng truy cập ra.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-134",
+    "question_text": "Trường hợp sử dụng điển hình cho Amazon Simple Storage Service (Amazon S3) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "134-0",
+        "answer_text": "Lưu trữ đối tượng để lưu trữ media",
+        "is_correct": true
+      },
+      {
+        "answer_id": "134-1",
+        "answer_text": "Lưu trữ đối tượng cho một ổ đĩa khởi động",
+        "is_correct": false
+      },
+      {
+        "answer_id": "134-2",
+        "answer_text": "Lưu trữ khối cho một instance Amazon Elastic Compute Cloud (Amazon EC2)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "134-3",
+        "answer_text": "Lưu trữ tệp cho nhiều instance Amazon Elastic Compute Cloud (Amazon EC2)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-135",
+    "question_text": "Một công ty cần một lớp lưu trữ cho một cơ sở dữ liệu quan hệ có giao dịch cao trên một instance Amazon Elastic Compute Cloud (Amazon EC2). Công ty nên sử dụng dịch vụ nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "135-0",
+        "answer_text": "Amazon EC2 Instance Store",
+        "is_correct": false
+      },
+      {
+        "answer_id": "135-1",
+        "answer_text": "Amazon Elastic Block Store (Amazon EBS)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "135-2",
+        "answer_text": "Amazon Simple Storage Service (Amazon S3)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "135-3",
+        "answer_text": "Amazon Elastic File System (Amazon EFS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-136",
+    "question_text": "Đúng hay Sai: Các ổ đĩa Amazon Elastic Block Store (Amazon EBS) được coi là bộ nhớ tạm thời (ephemeral storage).",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "136-0",
+        "answer_text": "Đúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "136-1",
+        "answer_text": "Sai",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-137",
+    "question_text": "Một kiến trúc sư giải pháp đang làm việc cho một cơ sở chăm sóc sức khỏe, và họ được giao nhiệm vụ lưu trữ thông tin bệnh nhân trong 7 năm mà hiếm khi được truy cập. Giám đốc CNTT của cơ sở yêu cầu kiến trúc sư giải pháp xem xét một trong các bậc lưu trữ của Amazon Simple Storage Service (Amazon S3) để lưu trữ thông tin bệnh nhân. Kiến trúc sư giải pháp nên đề xuất bậc lưu trữ nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "137-0",
+        "answer_text": "Amazon S3 Standard",
+        "is_correct": false
+      },
+      {
+        "answer_id": "137-1",
+        "answer_text": "Amazon S3 Glacier Deep Archive",
+        "is_correct": true
+      },
+      {
+        "answer_id": "137-2",
+        "answer_text": "Amazon S3 Standard-Infrequent Access",
+        "is_correct": false
+      },
+      {
+        "answer_id": "137-3",
+        "answer_text": "Amazon S3 Intelligent-Tiering",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-138",
+    "question_text": "Đúng hay Sai: Lưu trữ đối tượng là giải pháp lưu trữ tốt nhất cho các ứng dụng cần cập nhật thường xuyên các phần nhỏ cụ thể của một tệp.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "138-0",
+        "answer_text": "Đúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "138-1",
+        "answer_text": "Sai",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-139",
+    "question_text": "Đúng hay Sai: Việc triển khai Đa Vùng sẵn sàng (Multi-AZ) có lợi khi người dùng muốn tăng tính sẵn sàng của cơ sở dữ liệu của họ.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "139-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "139-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-140",
+    "question_text": "Nhiệm vụ nào trong việc chạy và vận hành cơ sở dữ liệu mà người dùng chịu trách nhiệm khi họ sử dụng Amazon Relational Database Service (Amazon RDS)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "140-0",
+        "answer_text": "Tối ưu hóa cơ sở dữ liệu",
+        "is_correct": true
+      },
+      {
+        "answer_id": "140-1",
+        "answer_text": "Cấp phát và quản lý cơ sở hạ tầng cơ bản",
+        "is_correct": false
+      },
+      {
+        "answer_id": "140-2",
+        "answer_text": "Cài đặt hệ quản trị cơ sở dữ liệu quan hệ trên instance cơ sở dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "140-3",
+        "answer_text": "Cài đặt các bản vá cho hệ điều hành cho instance cơ sở dữ liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-141",
+    "question_text": "Những trường hợp nào sau đây là trường hợp sử dụng phổ biến cho lưu trữ tệp? (Chọn HAI.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "141-0",
+        "answer_text": "Thư mục chính của người dùng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "141-1",
+        "answer_text": "Các tệp sao lưu được lưu trữ trong Amazon Simple Storage Service (Amazon S3)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "141-2",
+        "answer_text": "Cơ sở dữ liệu quan hệ hoặc phi quan hệ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "141-3",
+        "answer_text": "Các kho nội dung lớn",
+        "is_correct": true
+      },
+      {
+        "answer_id": "141-4",
+        "answer_text": "Phân tích dữ liệu lớn",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-142",
+    "question_text": "Đúng hay Sai: Bộ phận CNTT trong một công ty có thể đính kèm các ổ đĩa Amazon Elastic Block Store (Amazon EBS) vào Amazon Simple Storage Service (Amazon S3) để lưu trữ dữ liệu trong một bucket.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "142-0",
+        "answer_text": "Đúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "142-1",
+        "answer_text": "Sai",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-143",
+    "question_text": "Họ instance nào sau đây mà Amazon Relational Database Service (Amazon RDS) hỗ trợ? (Chọn HAI.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "143-0",
+        "answer_text": "Tối ưu hóa lưu trữ (Storage optimized)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "143-1",
+        "answer_text": "Mục đích chung (General purpose)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "143-2",
+        "answer_text": "Tối ưu hóa tính toán (Compute optimized)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "143-3",
+        "answer_text": "Tối ưu hóa bộ nhớ (Memory optimized)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "143-4",
+        "answer_text": "Tính toán tăng tốc (Accelerated computing)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-144",
+    "question_text": "Một kiến trúc sư giải pháp đang làm việc cho một doanh nghiệp nhỏ. Doanh nghiệp đang tìm kiếm một dịch vụ lưu trữ tạm thời lưu trữ dữ liệu thay đổi thường xuyên và không bền vững. Loại dữ liệu này có thể bị xóa trong quá trình dừng hoặc chấm dứt instance. Kiến trúc sư giải pháp nên đề xuất dịch vụ nào cho trường hợp sử dụng này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "144-0",
+        "answer_text": "Amazon Elastic Block Store (Amazon EBS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "144-1",
+        "answer_text": "Amazon Simple Storage Service (Amazon S3)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "144-2",
+        "answer_text": "Amazon Elastic Compute Cloud (Amazon EC2) Instance Store",
+        "is_correct": true
+      },
+      {
+        "answer_id": "144-3",
+        "answer_text": "Amazon Elastic File System (Amazon EFS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-145",
+    "question_text": "Cơ sở dữ liệu nào là cơ sở dữ liệu phi quan hệ lưu trữ dữ liệu theo cặp khóa-giá trị, và phù hợp để lưu trữ các bảng tra cứu đơn giản?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "145-0",
+        "answer_text": "Amazon DynamoDB",
+        "is_correct": true
+      },
+      {
+        "answer_id": "145-1",
+        "answer_text": "Amazon DocumentDB",
+        "is_correct": false
+      },
+      {
+        "answer_id": "145-2",
+        "answer_text": "Amazon Neptune",
+        "is_correct": false
+      },
+      {
+        "answer_id": "145-3",
+        "answer_text": "Amazon Relational Database Service (Amazon RDS)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-146",
+    "question_text": "Thành phần cốt lõi nào của Amazon DynamoDB tương ứng với một cột trong một bảng cơ sở dữ liệu quan hệ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "146-0",
+        "answer_text": "Bảng (Table)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "146-1",
+        "answer_text": "Mục (Item)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "146-2",
+        "answer_text": "Thuộc tính (Attribute)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "146-3",
+        "answer_text": "Cơ sở dữ liệu (Database)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-147",
+    "question_text": "Dịch vụ cơ sở dữ liệu AWS nào phù hợp nhất cho các trường hợp sử dụng như mạng xã hội hoặc công cụ đề xuất?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "147-0",
+        "answer_text": "Amazon DynamoDB",
+        "is_correct": false
+      },
+      {
+        "answer_id": "147-1",
+        "answer_text": "Amazon Aurora",
+        "is_correct": false
+      },
+      {
+        "answer_id": "147-2",
+        "answer_text": "Amazon Redshift",
+        "is_correct": false
+      },
+      {
+        "answer_id": "147-3",
+        "answer_text": "Amazon Neptune",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-148",
+    "question_text": "Ba thành phần của Amazon EC2 Auto Scaling là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "148-0",
+        "answer_text": "Chính sách co giãn, nhóm bảo mật, nhóm EC2 Auto Scaling",
+        "is_correct": false
+      },
+      {
+        "answer_id": "148-1",
+        "answer_text": "Mẫu khởi chạy (Launch template), chính sách co giãn, nhóm EC2 Auto Scaling",
+        "is_correct": true
+      },
+      {
+        "answer_id": "148-2",
+        "answer_text": "Nhóm bảo mật, loại instance, cặp khóa (key pair)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "148-3",
+        "answer_text": "ID Amazon Machine Image (AMI), loại instance, bộ nhớ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-149",
+    "question_text": "Những tính năng nào sau đây được bao gồm trong Elastic Load Balancing (ELB)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "149-0",
+        "answer_text": "Tự động co giãn (Automatic scaling)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "149-1",
+        "answer_text": "Tích hợp với Amazon Relational Database Service RDS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "149-2",
+        "answer_text": "Tích hợp với Amazon EC2 Auto Scaling",
+        "is_correct": false
+      },
+      {
+        "answer_id": "149-3",
+        "answer_text": "A và B",
+        "is_correct": false
+      },
+      {
+        "answer_id": "149-4",
+        "answer_text": "A và C",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-150",
+    "question_text": "Đúng hay Sai: Khi người dùng sử dụng Elastic Load Balancing (ELB) với một nhóm Auto Scaling, không cần phải đăng ký thủ công các instance Amazon Elastic Compute Cloud (Amazon EC2) riêng lẻ với bộ cân bằng tải.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "150-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "150-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-151",
+    "question_text": "Một ứng dụng phải chọn các nhóm mục tiêu (target groups) bằng cách sử dụng một quy tắc dựa trên đường dẫn của một URL. Loại Elastic Load Balancing (ELB) nào nên được sử dụng cho trường hợp sử dụng này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "151-0",
+        "answer_text": "Classic Load Balancer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "151-1",
+        "answer_text": "Application Load Balancer",
+        "is_correct": true
+      },
+      {
+        "answer_id": "151-2",
+        "answer_text": "Network Load Balancer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "151-3",
+        "answer_text": "Target Load Balancer",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-152",
+    "question_text": "Hai cách để một ứng dụng có thể được co giãn là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "152-0",
+        "answer_text": "Theo chiều dọc và chiều ngang",
+        "is_correct": true
+      },
+      {
+        "answer_id": "152-1",
+        "answer_text": "Theo đường chéo và chiều dọc",
+        "is_correct": false
+      },
+      {
+        "answer_id": "152-2",
+        "answer_text": "Theo chiều ngang và đường chéo",
+        "is_correct": false
+      },
+      {
+        "answer_id": "152-3",
+        "answer_text": "Độc lập và theo chiều dọc",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-153",
+    "question_text": "Các yếu tố nào trong bảng điều khiển Amazon CloudWatch có thể được sử dụng để xem và phân tích các chỉ số?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "153-0",
+        "answer_text": "Tiện ích (Widgets)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "153-1",
+        "answer_text": "Chỉ số (Metrics)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "153-2",
+        "answer_text": "Biểu tượng (Icons)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "153-3",
+        "answer_text": "Thành phần (Components)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-154",
+    "question_text": "Các trạng thái có thể có của một cảnh báo chỉ số (metric alarm) trong Amazon CloudWatch là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "154-0",
+        "answer_text": "OK, ALARM, NOT_AVAILABLE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "154-1",
+        "answer_text": "OK, ALERT, INSUFFICIENT_DATA",
+        "is_correct": false
+      },
+      {
+        "answer_id": "154-2",
+        "answer_text": "OK, ALARM, INSUFFICIENT_DATA",
+        "is_correct": true
+      },
+      {
+        "answer_id": "154-3",
+        "answer_text": "OK, ALERT, NOT_AVAILABLE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-155",
+    "question_text": "Một công ty có thể thu thập loại dữ liệu nào với VPC Flow Logs?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "155-0",
+        "answer_text": "Dữ liệu về lưu lượng mạng đi vào và ra khỏi một đám mây riêng ảo (VPC)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "155-1",
+        "answer_text": "Hoạt động độc hại và hành vi trái phép",
+        "is_correct": false
+      },
+      {
+        "answer_id": "155-2",
+        "answer_text": "Cấu hình của các tài nguyên AWS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "155-3",
+        "answer_text": "Thông tin liên quan đến tuân thủ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-156",
+    "question_text": "Lợi ích của việc giám sát trên AWS là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "156-0",
+        "answer_text": "Giám sát tạo ra chi phí vận hành.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "156-1",
+        "answer_text": "Giám sát nhận ra các mối đe dọa và sự kiện bảo mật.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "156-2",
+        "answer_text": "Giám sát làm giảm hiệu suất và độ tin cậy của tài nguyên.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "156-3",
+        "answer_text": "Giám sát tăng tốc độ và sự linh hoạt",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-157",
+    "question_text": "Đúng hay Sai: Khi một công ty thiết kế lại một ứng dụng bằng cách sử dụng một dịch vụ serverless trên AWS, họ có thể không cần phải cấu hình các thành phần mạng, chẳng hạn như đám mây riêng ảo (VPC), mạng con và các nhóm bảo mật.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "157-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "157-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-158",
+    "question_text": "Phát biểu nào mô tả ĐÚNG NHẤT mối quan hệ giữa các Vùng (Regions), Vùng sẵn sàng (Availability Zones) và các trung tâm dữ liệu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "158-0",
+        "answer_text": "Vùng sẵn sàng là các cụm Vùng. Vùng là các cụm trung tâm dữ liệu.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "158-1",
+        "answer_text": "Trung tâm dữ liệu là cụm của các Vùng sẵn sàng. Vùng là các cụm của các Vùng sẵn sàng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "158-2",
+        "answer_text": "Vùng là các cụm của các Vùng sẵn sàng. Vùng sẵn sàng là các cụm của các trung tâm dữ liệu.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "158-3",
+        "answer_text": "Trung tâm dữ liệu là các cụm Vùng. Vùng là các cụm của các Vùng sẵn sàng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-159",
+    "question_text": "Một kiến trúc sư giải pháp đang tư vấn cho một công ty. Khi người dùng trong công ty xác thực vào mạng công ty, họ muốn có thể sử dụng AWS mà không cần phải đăng nhập lại. Kiến trúc sư giải pháp nên đề xuất danh tính AWS nào cho trường hợp sử dụng này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "159-0",
+        "answer_text": "Người dùng gốc của tài khoản AWS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "159-1",
+        "answer_text": "Người dùng AWS Identity and Access Management (IAM)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "159-2",
+        "answer_text": "Vai trò IAM (IAM Role)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "159-3",
+        "answer_text": "Nhóm IAM (IAM Group)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-160",
+    "question_text": "Loại instance của Amazon Elastic Compute Cloud (Amazon EC2) cho biết điều gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "160-0",
+        "answer_text": "Họ instance và kích thước instance",
+        "is_correct": true
+      },
+      {
+        "answer_id": "160-1",
+        "answer_text": "Vị trí instance và kích thước instance",
+        "is_correct": false
+      },
+      {
+        "answer_id": "160-2",
+        "answer_text": "Hình thức thuê instance và thanh toán instance",
+        "is_correct": false
+      },
+      {
+        "answer_id": "160-3",
+        "answer_text": "Amazon Machine Image (AMI) của instance và tốc độ mạng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-161",
+    "question_text": "Trường hợp sử dụng điển hình cho Amazon Simple Storage Service (Amazon S3) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "161-0",
+        "answer_text": "Lưu trữ đối tượng để lưu trữ media",
+        "is_correct": true
+      },
+      {
+        "answer_id": "161-1",
+        "answer_text": "Lưu trữ đối tượng cho một ổ đĩa khởi động",
+        "is_correct": false
+      },
+      {
+        "answer_id": "161-2",
+        "answer_text": "Lưu trữ khối cho một instance EC2",
+        "is_correct": false
+      },
+      {
+        "answer_id": "161-3",
+        "answer_text": "Lưu trữ tệp cho nhiều instance EC2",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-162",
+    "question_text": "Một kiến trúc sư giải pháp đang làm việc cho một cơ sở chăm sóc sức khỏe, và họ được giao nhiệm vụ lưu trữ thông tin bệnh nhân trong 7 năm mà hiếm khi được truy cập. Giám đốc CNTT của cơ sở yêu cầu kiến trúc sư giải pháp xem xét một trong các bậc lưu trữ của Amazon Simple Storage Service (Amazon S3) để lưu trữ thông tin bệnh nhân. Kiến trúc sư giải pháp nên đề xuất bậc lưu trữ nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "162-0",
+        "answer_text": "Amazon S3 Standard",
+        "is_correct": false
+      },
+      {
+        "answer_id": "162-1",
+        "answer_text": "Amazon S3 Glacier Deep Archive",
+        "is_correct": true
+      },
+      {
+        "answer_id": "162-2",
+        "answer_text": "Amazon S3 Standard-Infrequent Access",
+        "is_correct": false
+      },
+      {
+        "answer_id": "162-3",
+        "answer_text": "Amazon S3 Intelligent-Tiering",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-163",
+    "question_text": "Nhiệm vụ nào trong việc chạy và vận hành cơ sở dữ liệu mà người dùng chịu trách nhiệm khi họ sử dụng Amazon Relational Database Service (Amazon RDS)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "163-0",
+        "answer_text": "Tối ưu hóa cơ sở dữ liệu",
+        "is_correct": true
+      },
+      {
+        "answer_id": "163-1",
+        "answer_text": "Cấp phát và quản lý cơ sở hạ tầng cơ bản",
+        "is_correct": false
+      },
+      {
+        "answer_id": "163-2",
+        "answer_text": "Cài đặt hệ quản trị cơ sở dữ liệu quan hệ trên instance cơ sở dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "163-3",
+        "answer_text": "Cài đặt các bản vá cho hệ điều hành cho instance cơ sở dữ liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-164",
+    "question_text": "Đúng hay Sai: Việc triển khai Đa Vùng sẵn sàng (Multi-AZ) có lợi khi người dùng muốn tăng tính sẵn sàng của cơ sở dữ liệu của họ.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "164-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "164-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-165",
+    "question_text": "Một kiến trúc sư giải pháp phải thiết kế một giải pháp để giúp quản lý các ứng dụng được container hóa của khách hàng. Hiện tại, khối lượng công việc của khách hàng chạy trong các container Docker trên các instance Amazon Elastic Compute Cloud (Amazon EC2) và các máy chủ tại chỗ chạy một cụm Kubernetes lai. Khách hàng muốn di chuyển một phần của việc triển khai Kubernetes lai của họ lên đám mây với nỗ lực tối thiểu, và họ muốn giữ lại tất cả các tính năng gốc của Kubernetes. Khách hàng cũng muốn giảm chi phí vận hành để quản lý cụm Kubernetes của họ. Kiến trúc sư giải pháp nên đề xuất dịch vụ AWS được quản lý nào để đáp ứng tốt nhất các yêu cầu này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "165-0",
+        "answer_text": "AWS Fargate với Amazon Elastic Container Service (Amazon ECS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "165-1",
+        "answer_text": "AWS Fargate với Amazon Elastic Kubernetes Service (Amazon EKS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "165-2",
+        "answer_text": "Amazon Elastic Container Service (Amazon ECS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "165-3",
+        "answer_text": "Amazon Elastic Kubernetes Service (Amazon EKS)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-166",
+    "question_text": "Một ứng dụng cần xử lý các sự kiện được nhận thông qua một API. Nhiều người tiêu dùng phải có thể xử lý dữ liệu đồng thời. Dịch vụ AWS được quản lý nào sẽ đáp ứng tốt nhất yêu cầu này một cách hiệu quả nhất về chi phí?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "166-0",
+        "answer_text": "Amazon Simple Notification Service (Amazon SNS) với chiến lược fan-out",
+        "is_correct": true
+      },
+      {
+        "answer_id": "166-1",
+        "answer_text": "Amazon Simple Queue Service (Amazon SQS) với hàng đợi FIFO",
+        "is_correct": false
+      },
+      {
+        "answer_id": "166-2",
+        "answer_text": "Amazon EventBridge với các quy tắc",
+        "is_correct": false
+      },
+      {
+        "answer_id": "166-3",
+        "answer_text": "Amazon Elastic Compute Cloud (Amazon EC2) với các Spot Instances",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-167",
+    "question_text": "Đúng hay Sai: Amazon Relational Database Service (Amazon RDS) phù hợp hơn cho các cơ sở dữ liệu xử lý dữ liệu có cấu trúc hoặc quan hệ, nơi người dùng có thể tin tưởng vào các tính năng như tự động tăng và nối bảng. Amazon DynamoDB phù hợp hơn cho các khối lượng công việc cơ sở dữ liệu NoSQL, nơi các bảng là tập hợp các mục có các thuộc tính riêng của chúng.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "167-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "167-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-168",
+    "question_text": "Amazon DynamoDB được thiết kế cho quy mô và hiệu suất. Trong hầu hết các trường hợp, thời gian phản hồi của DynamoDB có thể được đo bằng mili giây một chữ số. Tuy nhiên, có một số trường hợp sử dụng nhất định yêu cầu thời gian phản hồi tính bằng micro giây. Đối với các trường hợp sử dụng này, DynamoDB Accelerator (DAX) cung cấp thời gian phản hồi nhanh để truy cập dữ liệu nhất quán cuối cùng. Phát biểu nào về DAX là đúng? (Chọn BA.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "168-0",
+        "answer_text": "DAX giảm độ phức tạp vận hành và ứng dụng bằng cách cung cấp một dịch vụ được quản lý tương thích với API DynamoDB.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "168-1",
+        "answer_text": "Mặc dù sử dụng DAX có chi phí, nó có thể giảm mức tiêu thụ dung lượng bảng DynamoDB. Nếu dữ liệu được đọc nhiều (tức là hàng triệu yêu cầu mỗi giây), DAX có thể giúp tiết kiệm chi phí bằng cách lưu vào bộ đệm dữ liệu đồng thời cung cấp độ trễ đọc tốt hơn, có lợi cho các tình huống cần đọc lặp lại cho các khóa riêng lẻ.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "168-2",
+        "answer_text": "DAX không hỗ trợ mã hóa phía máy chủ (SSE).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "168-3",
+        "answer_text": "DAX không được thiết kế cho các ứng dụng ghi nhiều. Nó cũng có thể làm tăng chi phí cho các ứng dụng không thực hiện nhiều hoạt động đọc.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "168-4",
+        "answer_text": "DAX không hỗ trợ mã hóa dữ liệu đang truyền, điều đó có nghĩa là giao tiếp giữa một ứng dụng và DAX không thể được mã hóa.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-169",
+    "question_text": "Đúng hay Sai: AWS Lambda là một dịch vụ tính toán chạy mã mà không cần cấp phát hoặc quản lý máy chủ. Lambda chạy mã trên một cơ sở hạ tầng tính toán có tính sẵn sàng cao. Nó cũng thực hiện tất cả việc quản trị các tài nguyên tính toán, bao gồm bảo trì máy chủ và hệ điều hành, cấp phát dung lượng và tự động co giãn, và ghi nhật ký. Lambda có thể chạy mã cho hầu như bất kỳ loại ứng dụng hoặc dịch vụ backend nào.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "169-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "169-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-170",
+    "question_text": "Một kiến trúc sư giải pháp đang thiết kế một kiến trúc có thể cung cấp các trang HTML cho khách hàng. Họ muốn một giải pháp serverless có thể lưu trữ nội dung qua internet và phục vụ một trang web tĩnh với nỗ lực tối thiểu. Kiến trúc sư giải pháp nên chọn dịch vụ AWS nào để đáp ứng các yêu cầu này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "170-0",
+        "answer_text": "Amazon Simple Storage Service (Amazon S3)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "170-1",
+        "answer_text": "Amazon Elastic Compute Cloud (Amazon EC2)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "170-2",
+        "answer_text": "Amazon DynamoDB",
+        "is_correct": false
+      },
+      {
+        "answer_id": "170-3",
+        "answer_text": "Amazon Kinesis",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-171",
+    "question_text": "Một kiến trúc sư giải pháp đang thiết kế một giải pháp cần nhập dữ liệu theo thời gian thực. Họ đang xem xét Amazon Kinesis Data Firehose hoặc Amazon Kinesis Data Streams cho giải pháp này. Kiến trúc sư giải pháp nên chọn dịch vụ nào để đáp ứng yêu cầu nhập dữ liệu theo thời gian thực và tại sao? (Hãy nhớ rằng độ trễ dữ liệu thấp hơn có nghĩa là thời gian trọn vòng từ khi dữ liệu được nhập và có sẵn thấp hơn.)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "171-0",
+        "answer_text": "Amazon Kinesis Data Firehose, vì nó có độ trễ thấp hơn so với Amazon Kinesis Data Streams",
+        "is_correct": false
+      },
+      {
+        "answer_id": "171-1",
+        "answer_text": "Amazon Kinesis Data Firehose, vì nó có độ trễ cao hơn so với Amazon Kinesis Data Streams",
+        "is_correct": false
+      },
+      {
+        "answer_id": "171-2",
+        "answer_text": "Amazon Kinesis Data Streams, vì nó có độ trễ thấp hơn so với Amazon Kinesis Data Firehose",
+        "is_correct": true
+      },
+      {
+        "answer_id": "171-3",
+        "answer_text": "Amazon Kinesis Data Streams, vì nó có độ trễ cao hơn so với Amazon Kinesis Data Firehose",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-172",
+    "question_text": "Đúng hay Sai: Khi tạo các hồ dữ liệu (data lakes) để phân tích trên AWS, Amazon Simple Storage Service (Amazon S3) sẽ là một dịch vụ được ưu tiên. Người dùng có thể sử dụng dữ liệu trong một bucket S3 với một lớp xử lý hoặc trực quan hóa dữ liệu độc lập, chẳng hạn như Amazon QuickSight, Amazon Athena hoặc Amazon EMR.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "172-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "172-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-173",
+    "question_text": "Một kiến trúc sư giải pháp đang thiết kế một giải pháp serverless có thể thực hiện các truy vấn Ngôn ngữ truy vấn có cấu trúc (SQL) trên nhiều đối tượng được lưu trữ trong Amazon Simple Storage Service (Amazon S3). Tất cả các đối tượng đều có cùng cấu trúc dữ liệu (lược đồ) và ở định dạng JSON. Dịch vụ nào sẽ giúp truy vấn dữ liệu dễ dàng hơn, ngoài việc cung cấp các khả năng serverless?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "173-0",
+        "answer_text": "Amazon Athena",
+        "is_correct": true
+      },
+      {
+        "answer_id": "173-1",
+        "answer_text": "AWS Database Migration Service (AWS DMS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "173-2",
+        "answer_text": "Amazon S3 Select",
+        "is_correct": false
+      },
+      {
+        "answer_id": "173-3",
+        "answer_text": "AWS Data Exchange",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-174",
+    "question_text": "Đúng hay Sai: Khi kiến trúc một giải pháp có thể xử lý nhu cầu cao và các đợt tăng đột biến về mức sử dụng, Amazon CloudFront nên được sử dụng ở phía trước một bucket Amazon Simple Storage Service (Amazon S3). CloudFront có thể lưu vào bộ đệm dữ liệu được phân phối cho khách hàng, và nó cho phép khách hàng sử dụng các tên miền tùy chỉnh. Ngoài ra, CloudFront có thể phục vụ các chứng chỉ SSL tùy chỉnh được cấp bởi Amazon Certificate Manager (không tính thêm phí) và nó có thể cung cấp bảo vệ chống tấn công từ chối dịch vụ phân tán (DDoS) được cung cấp bởi AWS WAF và AWS Shield.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "174-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "174-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-175",
+    "question_text": "Lựa chọn nào sau đây bao gồm các phát biểu đúng cho cả sao chép liên vùng của Amazon Simple Storage Service (Amazon S3) và AWS Key Management Service (AWS KMS)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "175-0",
+        "answer_text": "Để cấu hình sao chép liên vùng của Amazon S3, cả bucket nguồn và đích phải thuộc cùng một tài khoản AWS. Mã hóa phía máy chủ (SSE) có thể thực hiện được đối với các đối tượng được sao chép.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "175-1",
+        "answer_text": "Để cấu hình sao chép liên vùng của Amazon S3, cả bucket nguồn và đích phải thuộc cùng một tài khoản AWS. Mã hóa phía máy chủ (SSE) không thể thực hiện được đối với các đối tượng được sao chép.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "175-2",
+        "answer_text": "Để cấu hình sao chép liên vùng của Amazon S3, bucket nguồn và đích có thể thuộc các tài khoản AWS khác nhau. Mã hóa phía máy chủ (SSE) có thể thực hiện được đối với các đối tượng được sao chép.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "175-3",
+        "answer_text": "Để cấu hình sao chép liên vùng của Amazon S3, bucket nguồn và đích có thể thuộc các tài khoản AWS khác nhau. Mã hóa phía máy chủ không thể thực hiện được đối với các đối tượng được sao chép.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-176",
+    "question_text": "Một kiến trúc sư giải pháp đang thiết kế một giải pháp lai. Giải pháp sử dụng các tài nguyên Amazon Virtual Private Cloud (Amazon VPC), chẳng hạn như Amazon Relational Database Service (Amazon RDS) và Amazon Elastic Compute Cloud (Amazon EC2). Nó cũng sử dụng các dịch vụ không nằm trong VPC, chẳng hạn như Amazon Simple Storage Service (Amazon S3) và AWS Systems Manager. Phát biểu nào về Amazon VPC và phạm vi của các dịch vụ AWS là đúng? (Chọn BA.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "176-0",
+        "answer_text": "Amazon VPC cho phép người dùng toàn quyền kiểm soát môi trường mạng ảo của họ. Do đó, kiến trúc sư giải pháp có thể xác định các quy tắc tường lửa ở cấp độ mạng cho các tài nguyên dựa trên VPC.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "176-1",
+        "answer_text": "Vì các bucket S3 không nằm trong VPC, khách hàng có thể dựa vào AWS để cấu hình các cơ chế bảo mật, chẳng hạn như quyền và chính sách bucket. Do đó, bảo mật được tự động áp dụng ở cấp độ dữ liệu vì cấp độ bảo mật này là trách nhiệm của AWS.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "176-2",
+        "answer_text": "Các dịch vụ dựa trên VPC nằm trong một mạng con riêng tư yêu cầu các cấu hình cụ thể để cho phép truy cập internet, chẳng hạn như một cổng NAT và các bảng định tuyến.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "176-3",
+        "answer_text": "Khi có thể, khách hàng nên tránh để các dịch vụ nằm trong VPC vì một cấu hình mạng sai có thể vô tình để lại cơ sở hạ tầng trong tình trạng không an toàn.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "176-4",
+        "answer_text": "Các giải pháp AWS VPN có thể được cấu hình để thiết lập các kết nối an toàn giữa các mạng tại chỗ, văn phòng từ xa, thiết bị khách và mạng toàn cầu của AWS.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-177",
+    "question_text": "Phát biểu nào về AWS Storage Gateway là đúng? (Chọn BA.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "177-0",
+        "answer_text": "AWS Storage Gateway là một bộ các dịch vụ lưu trữ đám mây lai cung cấp quyền truy cập tại chỗ vào bộ nhớ đám mây gần như không giới hạn.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "177-1",
+        "answer_text": "AWS Storage Gateway cung cấp bộ nhớ đám mây gần như không giới hạn cho người dùng và ứng dụng, với chi phí của phần cứng lưu trữ mới.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "177-2",
+        "answer_text": "AWS Storage Gateway cung cấp quyền truy cập dữ liệu cho các ứng dụng tại chỗ trong khi tận dụng các khả năng linh hoạt, kinh tế và bảo mật của AWS Cloud.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "177-3",
+        "answer_text": "AWS Storage Gateway chỉ giới hạn ở các ứng dụng tại chỗ, điều đó có nghĩa là nó không thể được sử dụng từ đám mây này sang đám mây khác.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "177-4",
+        "answer_text": "AWS Storage Gateway giúp hỗ trợ các yêu cầu tuân thủ thông qua việc tích hợp với AWS Backup để quản lý việc sao lưu và phục hồi các ổ đĩa Volume Gateway, giúp đơn giản hóa việc quản lý sao lưu.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-178",
+    "question_text": "Bộ dịch vụ AWS nào phù hợp NHẤT với danh mục “Lưu trữ đối tượng, tệp và khối” (có nghĩa là các dịch vụ dành riêng cho việc lưu trữ dữ liệu một cách bền vững)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "178-0",
+        "answer_text": "AWS DataSync, AWS Snow Family",
+        "is_correct": false
+      },
+      {
+        "answer_id": "178-1",
+        "answer_text": "Amazon Simple Storage Service (Amazon S3), Amazon Elastic File System (Amazon EFS), Amazon Elastic Block Store (Amazon EBS), Amazon FSx",
+        "is_correct": true
+      },
+      {
+        "answer_id": "178-2",
+        "answer_text": "AWS Storage Gateway, AWS Snow Family",
+        "is_correct": false
+      },
+      {
+        "answer_id": "178-3",
+        "answer_text": "AWS Elastic Disaster Recovery, AWS Backup",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-179",
+    "question_text": "Đúng hay Sai: Amazon Simple Storage Service (Amazon S3) tốt hơn Amazon Elastic Block Store (Amazon EBS) vì nó được thiết kế để cung cấp mức độ bền vững dữ liệu cao hơn.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "179-0",
+        "answer_text": "Đúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "179-1",
+        "answer_text": "Sai",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "q-180",
+    "question_text": "Một số lợi ích của việc sử dụng nhiều tài khoản AWS với AWS Organizations là gì? (Chọn BA.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "180-0",
+        "answer_text": "Phân nhóm khối lượng công việc dựa trên mục đích kinh doanh và quyền sở hữu",
+        "is_correct": true
+      },
+      {
+        "answer_id": "180-1",
+        "answer_text": "Sử dụng các phương thức thanh toán khác nhau cho mỗi tài khoản",
+        "is_correct": false
+      },
+      {
+        "answer_id": "180-2",
+        "answer_text": "Hạn chế phạm vi tác động từ các sự kiện bất lợi",
+        "is_correct": true
+      },
+      {
+        "answer_id": "180-3",
+        "answer_text": "Phân phối hạn ngạch dịch vụ AWS và giới hạn tốc độ yêu cầu API",
+        "is_correct": true
+      },
+      {
+        "answer_id": "180-4",
+        "answer_text": "Có nhiều người dùng gốc của tài khoản với quyền truy cập không hạn chế trên mỗi tài khoản",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-181",
+    "question_text": "Đúng hay Sai: Một câu lệnh chính sách kiểm soát dịch vụ (SCP) với một lệnh từ chối rõ ràng (explicit deny) ngăn cản ngay cả người dùng gốc của tài khoản thực hiện các lệnh gọi API.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "181-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "181-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-182",
+    "question_text": "Một kiến trúc sư giải pháp đang thiết kế một giải pháp cung cấp đăng nhập một lần (SSO) để xác thực vào các tài khoản AWS nằm trong AWS Organizations. Kiến trúc sư giải pháp có thể sử dụng dịch vụ AWS nào để triển khai liên kết danh tính với các nhà cung cấp danh tính hiện có, chẳng hạn như Microsoft Active Directory?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "182-0",
+        "answer_text": "Người dùng AWS Identity and Access Management (IAM)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "182-1",
+        "answer_text": "Amazon CloudWatch",
+        "is_correct": false
+      },
+      {
+        "answer_id": "182-2",
+        "answer_text": "AWS IAM Identity Center (tiền thân là AWS Single Sign-On)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "182-3",
+        "answer_text": "AWS CloudTrail",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-183",
+    "question_text": "Phát biểu nào là phương pháp hay nhất cho môi trường đa tài khoản? (Chọn BA.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "183-0",
+        "answer_text": "Bật cảnh báo thanh toán Amazon CloudWatch cho mỗi tài khoản và cấu hình các chính sách gắn thẻ trong AWS Organizations.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "183-1",
+        "answer_text": "Cấp chính sách AdministratorAccess cho các nhà phát triển trong các tài khoản AWS phát triển của họ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "183-2",
+        "answer_text": "Ngăn chặn việc vô hiệu hóa cấu hình CloudTrail trong tài khoản dịch vụ dùng chung.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "183-3",
+        "answer_text": "Sử dụng xác thực đa yếu tố (MFA) cho người dùng trong việc xác thực tập trung, chẳng hạn như sử dụng AWS IAM Identity Center (tiền thân là AWS Single Sign-On).",
+        "is_correct": true
+      },
+      {
+        "answer_id": "183-4",
+        "answer_text": "Sử dụng lại mật khẩu để đơn giản và dễ truy cập.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "q-184",
+    "question_text": "Một kiến trúc sư giải pháp phải tạo ra các tiêu chuẩn quản trị được xác định rõ ràng cho một công ty có nhiều tài khoản AWS. Công ty cần ghi nhật ký hạ tầng tập trung cho tất cả các tài khoản AWS. Ngoài ra, giám đốc an ninh thông tin (CISO) của công ty muốn có một biện pháp áp dụng bộ ngắt mạch (circuit breaker) để dừng các hoạt động API của Amazon Elastic Compute Cloud (Amazon EC2) nếu các cảnh báo thanh toán cho thấy hoạt động đáng ngờ. Công ty dự định sử dụng AWS Organizations. Kịch bản kiến trúc nào mà kiến trúc sư giải pháp nên đề xuất để đáp ứng nhu cầu của công ty một cách hiệu quả NHẤT?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "184-0",
+        "answer_text": "Bật AWS CloudTrail cho tất cả các tài khoản trong AWS Organizations. Sử dụng Organizations để tập trung tất cả các nhật ký vào một bucket Amazon Simple Storage Service (Amazon S3). Với vai trò là bộ ngắt mạch, sử dụng các chính sách kiểm soát dịch vụ (SCP) có một lệnh từ chối rõ ràng đối với hoạt động API của Amazon EC2. Các SCP này sau đó có thể được áp dụng cho đơn vị tổ chức (OU) gốc khi cần thiết.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "184-1",
+        "answer_text": "Bật AWS CloudTrail cho tất cả các tài khoản trong AWS Organizations. Sử dụng Organizations để tập trung tất cả các nhật ký vào một bucket Amazon Simple Storage Service (Amazon S3). Sử dụng các thiết bị xác thực đa yếu tố (MFA) cho mọi người dùng trong AWS IAM Identity Center (tiền thân là AWS Single Sign-On).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "184-2",
+        "answer_text": "Bật AWS CloudTrail chỉ cho các tài khoản sản xuất trong AWS Organizations. Sử dụng Organizations để tập trung nhật ký vào một bucket Amazon Simple Storage Service (Amazon S3). Để đăng nhập một lần, sử dụng AWS IAM Identity Center (tiền thân là AWS Single Sign-ON).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "184-3",
+        "answer_text": "Bật AWS CloudTrail cho tất cả các tài khoản trong AWS Organizations. Sử dụng Organizations để tập trung nhật ký vào một bucket Amazon Simple Storage Service (Amazon S3). Với vai trò là bộ ngắt mạch, sử dụng các chính sách AWS Identity and Access Management (IAM) trên mỗi tài khoản có một lệnh từ chối rõ ràng đối với hoạt động API của Amazon EC2. Các chính sách IAM sau đó có thể được áp dụng cho đơn vị tổ chức (OU) gốc khi cần thiết.",
+        "is_correct": false
+      }
+    ]
+  }
+]

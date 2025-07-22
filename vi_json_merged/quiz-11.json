@@ -1,0 +1,762 @@
+[
+  {
+    "question_id": "296",
+    "question_text": "Một ứng dụng phải chọn các nhóm mục tiêu (target groups) bằng cách sử dụng một quy tắc dựa trên đường dẫn của một URL. Loại Elastic Load Balancing (ELB) nào nên được sử dụng cho trường hợp sử dụng này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "296-0",
+        "answer_text": "Classic Load Balancer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "296-1",
+        "answer_text": "Application Load Balancer",
+        "is_correct": true
+      },
+      {
+        "answer_id": "296-2",
+        "answer_text": "Network Load Balancer",
+        "is_correct": false
+      },
+      {
+        "answer_id": "296-3",
+        "answer_text": "Target Load Balancer",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "297",
+    "question_text": "Hai cách để một ứng dụng có thể được co giãn là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "297-0",
+        "answer_text": "Theo chiều dọc và chiều ngang",
+        "is_correct": true
+      },
+      {
+        "answer_id": "297-1",
+        "answer_text": "Theo đường chéo và chiều dọc",
+        "is_correct": false
+      },
+      {
+        "answer_id": "297-2",
+        "answer_text": "Theo chiều ngang và đường chéo",
+        "is_correct": false
+      },
+      {
+        "answer_id": "297-3",
+        "answer_text": "Độc lập và theo chiều dọc",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "298",
+    "question_text": "Các yếu tố nào trong bảng điều khiển Amazon CloudWatch có thể được sử dụng để xem và phân tích các chỉ số?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "298-0",
+        "answer_text": "Tiện ích (Widgets)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "298-1",
+        "answer_text": "Chỉ số (Metrics)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "298-2",
+        "answer_text": "Biểu tượng (Icons)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "298-3",
+        "answer_text": "Thành phần (Components)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "299",
+    "question_text": "Các trạng thái có thể có của một cảnh báo chỉ số (metric alarm) trong Amazon CloudWatch là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "299-0",
+        "answer_text": "OK, ALARM, NOT_AVAILABLE",
+        "is_correct": false
+      },
+      {
+        "answer_id": "299-1",
+        "answer_text": "OK, ALERT, INSUFFICIENT_DATA",
+        "is_correct": false
+      },
+      {
+        "answer_id": "299-2",
+        "answer_text": "OK, ALARM, INSUFFICIENT_DATA",
+        "is_correct": true
+      },
+      {
+        "answer_id": "299-3",
+        "answer_text": "OK, ALERT, NOT_AVAILABLE",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "300",
+    "question_text": "Một công ty có thể thu thập loại dữ liệu nào với VPC Flow Logs?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "300-0",
+        "answer_text": "Dữ liệu về lưu lượng mạng đi vào và ra khỏi một đám mây riêng ảo (VPC)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "300-1",
+        "answer_text": "Hoạt động độc hại và hành vi trái phép",
+        "is_correct": false
+      },
+      {
+        "answer_id": "300-2",
+        "answer_text": "Cấu hình của các tài nguyên AWS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "300-3",
+        "answer_text": "Thông tin liên quan đến tuân thủ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "301",
+    "question_text": "Lợi ích của việc giám sát trên AWS là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "301-0",
+        "answer_text": "Giám sát tạo ra chi phí vận hành.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "301-1",
+        "answer_text": "Giám sát nhận ra các mối đe dọa và sự kiện bảo mật.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "301-2",
+        "answer_text": "Giám sát làm giảm hiệu suất và độ tin cậy của tài nguyên.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "301-3",
+        "answer_text": "Giám sát tăng tốc độ và sự linh hoạt",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "302",
+    "question_text": "Đúng hay Sai: Khi một công ty thiết kế lại một ứng dụng bằng cách sử dụng một dịch vụ serverless trên AWS, họ có thể không cần phải cấu hình các thành phần mạng, chẳng hạn như đám mây riêng ảo (VPC), mạng con và các nhóm bảo mật.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "302-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "302-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "303",
+    "question_text": "Phát biểu nào mô tả ĐÚNG NHẤT mối quan hệ giữa các Vùng (Regions), Vùng sẵn sàng (Availability Zones) và các trung tâm dữ liệu?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "303-0",
+        "answer_text": "Vùng sẵn sàng là các cụm Vùng. Vùng là các cụm trung tâm dữ liệu.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "303-1",
+        "answer_text": "Trung tâm dữ liệu là cụm của các Vùng sẵn sàng. Vùng là các cụm của các Vùng sẵn sàng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "303-2",
+        "answer_text": "Vùng là các cụm của các Vùng sẵn sàng. Vùng sẵn sàng là các cụm của các trung tâm dữ liệu.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "303-3",
+        "answer_text": "Trung tâm dữ liệu là các cụm Vùng. Vùng là các cụm của các Vùng sẵn sàng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "304",
+    "question_text": "Một kiến trúc sư giải pháp đang tư vấn cho một công ty. Khi người dùng trong công ty xác thực vào mạng công ty, họ muốn có thể sử dụng AWS mà không cần phải đăng nhập lại. Kiến trúc sư giải pháp nên đề xuất danh tính AWS nào cho trường hợp sử dụng này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "304-0",
+        "answer_text": "Người dùng gốc của tài khoản AWS",
+        "is_correct": false
+      },
+      {
+        "answer_id": "304-1",
+        "answer_text": "Người dùng AWS Identity and Access Management (IAM)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "304-2",
+        "answer_text": "Vai trò IAM (IAM Role)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "304-3",
+        "answer_text": "Nhóm IAM (IAM Group)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "305",
+    "question_text": "Loại instance của Amazon Elastic Compute Cloud (Amazon EC2) cho biết điều gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "305-0",
+        "answer_text": "Họ instance và kích thước instance",
+        "is_correct": true
+      },
+      {
+        "answer_id": "305-1",
+        "answer_text": "Vị trí instance và kích thước instance",
+        "is_correct": false
+      },
+      {
+        "answer_id": "305-2",
+        "answer_text": "Hình thức thuê instance và thanh toán instance",
+        "is_correct": false
+      },
+      {
+        "answer_id": "305-3",
+        "answer_text": "Amazon Machine Image (AMI) của instance và tốc độ mạng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "306",
+    "question_text": "Trường hợp sử dụng điển hình cho Amazon Simple Storage Service (Amazon S3) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "306-0",
+        "answer_text": "Lưu trữ đối tượng để lưu trữ media",
+        "is_correct": true
+      },
+      {
+        "answer_id": "306-1",
+        "answer_text": "Lưu trữ đối tượng cho một ổ đĩa khởi động",
+        "is_correct": false
+      },
+      {
+        "answer_id": "306-2",
+        "answer_text": "Lưu trữ khối cho một instance EC2",
+        "is_correct": false
+      },
+      {
+        "answer_id": "306-3",
+        "answer_text": "Lưu trữ tệp cho nhiều instance EC2",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "307",
+    "question_text": "Một kiến trúc sư giải pháp đang làm việc cho một cơ sở chăm sóc sức khỏe, và họ được giao nhiệm vụ lưu trữ thông tin bệnh nhân trong 7 năm mà hiếm khi được truy cập. Giám đốc CNTT của cơ sở yêu cầu kiến trúc sư giải pháp xem xét một trong các bậc lưu trữ của Amazon Simple Storage Service (Amazon S3) để lưu trữ thông tin bệnh nhân. Kiến trúc sư giải pháp nên đề xuất bậc lưu trữ nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "307-0",
+        "answer_text": "Amazon S3 Standard",
+        "is_correct": false
+      },
+      {
+        "answer_id": "307-1",
+        "answer_text": "Amazon S3 Glacier Deep Archive",
+        "is_correct": true
+      },
+      {
+        "answer_id": "307-2",
+        "answer_text": "Amazon S3 Standard-Infrequent Access",
+        "is_correct": false
+      },
+      {
+        "answer_id": "307-3",
+        "answer_text": "Amazon S3 Intelligent-Tiering",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "308",
+    "question_text": "Nhiệm vụ nào trong việc chạy và vận hành cơ sở dữ liệu mà người dùng chịu trách nhiệm khi họ sử dụng Amazon Relational Database Service (Amazon RDS)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "308-0",
+        "answer_text": "Tối ưu hóa cơ sở dữ liệu",
+        "is_correct": true
+      },
+      {
+        "answer_id": "308-1",
+        "answer_text": "Cấp phát và quản lý cơ sở hạ tầng cơ bản",
+        "is_correct": false
+      },
+      {
+        "answer_id": "308-2",
+        "answer_text": "Cài đặt hệ quản trị cơ sở dữ liệu quan hệ trên instance cơ sở dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "308-3",
+        "answer_text": "Cài đặt các bản vá cho hệ điều hành cho instance cơ sở dữ liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "309",
+    "question_text": "Đúng hay Sai: Việc triển khai Đa Vùng sẵn sàng (Multi-AZ) có lợi khi người dùng muốn tăng tính sẵn sàng của cơ sở dữ liệu của họ.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "309-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "309-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "310",
+    "question_text": "Một kiến trúc sư giải pháp phải thiết kế một giải pháp để giúp quản lý các ứng dụng được container hóa của khách hàng. Hiện tại, khối lượng công việc của khách hàng chạy trong các container Docker trên các instance Amazon Elastic Compute Cloud (Amazon EC2) và các máy chủ tại chỗ chạy một cụm Kubernetes lai. Khách hàng muốn di chuyển một phần của việc triển khai Kubernetes lai của họ lên đám mây với nỗ lực tối thiểu, và họ muốn giữ lại tất cả các tính năng gốc của Kubernetes. Khách hàng cũng muốn giảm chi phí vận hành để quản lý cụm Kubernetes của họ. Kiến trúc sư giải pháp nên đề xuất dịch vụ AWS được quản lý nào để đáp ứng tốt nhất các yêu cầu này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "310-0",
+        "answer_text": "AWS Fargate với Amazon Elastic Container Service (Amazon ECS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "310-1",
+        "answer_text": "AWS Fargate với Amazon Elastic Kubernetes Service (Amazon EKS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "310-2",
+        "answer_text": "Amazon Elastic Container Service (Amazon ECS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "310-3",
+        "answer_text": "Amazon Elastic Kubernetes Service (Amazon EKS)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "311",
+    "question_text": "Một ứng dụng cần xử lý các sự kiện được nhận thông qua một API. Nhiều người tiêu dùng phải có thể xử lý dữ liệu đồng thời. Dịch vụ AWS được quản lý nào sẽ đáp ứng tốt nhất yêu cầu này một cách hiệu quả nhất về chi phí?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "311-0",
+        "answer_text": "Amazon Simple Notification Service (Amazon SNS) với chiến lược fan-out",
+        "is_correct": true
+      },
+      {
+        "answer_id": "311-1",
+        "answer_text": "Amazon Simple Queue Service (Amazon SQS) với hàng đợi FIFO",
+        "is_correct": false
+      },
+      {
+        "answer_id": "311-2",
+        "answer_text": "Amazon EventBridge với các quy tắc",
+        "is_correct": false
+      },
+      {
+        "answer_id": "311-3",
+        "answer_text": "Amazon Elastic Compute Cloud (Amazon EC2) với các Spot Instances",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "312",
+    "question_text": "Đúng hay Sai: Amazon Relational Database Service (Amazon RDS) phù hợp hơn cho các cơ sở dữ liệu xử lý dữ liệu có cấu trúc hoặc quan hệ, nơi người dùng có thể tin tưởng vào các tính năng như tự động tăng và nối bảng. Amazon DynamoDB phù hợp hơn cho các khối lượng công việc cơ sở dữ liệu NoSQL, nơi các bảng là tập hợp các mục có các thuộc tính riêng của chúng.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "312-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "312-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "313",
+    "question_text": "Amazon DynamoDB được thiết kế cho quy mô và hiệu suất. Trong hầu hết các trường hợp, thời gian phản hồi của DynamoDB có thể được đo bằng mili giây một chữ số. Tuy nhiên, có một số trường hợp sử dụng nhất định yêu cầu thời gian phản hồi tính bằng micro giây. Đối với các trường hợp sử dụng này, DynamoDB Accelerator (DAX) cung cấp thời gian phản hồi nhanh để truy cập dữ liệu nhất quán cuối cùng. Phát biểu nào về DAX là đúng? (Chọn BA.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "313-0",
+        "answer_text": "DAX giảm độ phức tạp vận hành và ứng dụng bằng cách cung cấp một dịch vụ được quản lý tương thích với API DynamoDB.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "313-1",
+        "answer_text": "Mặc dù sử dụng DAX có chi phí, nó có thể giảm mức tiêu thụ dung lượng bảng DynamoDB. Nếu dữ liệu được đọc nhiều (tức là hàng triệu yêu cầu mỗi giây), DAX có thể giúp tiết kiệm chi phí bằng cách lưu vào bộ đệm dữ liệu đồng thời cung cấp độ trễ đọc tốt hơn, có lợi cho các tình huống cần đọc lặp lại cho các khóa riêng lẻ.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "313-2",
+        "answer_text": "DAX không hỗ trợ mã hóa phía máy chủ (SSE).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "313-3",
+        "answer_text": "DAX không được thiết kế cho các ứng dụng ghi nhiều. Nó cũng có thể làm tăng chi phí cho các ứng dụng không thực hiện nhiều hoạt động đọc.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "313-4",
+        "answer_text": "DAX không hỗ trợ mã hóa dữ liệu đang truyền, điều đó có nghĩa là giao tiếp giữa một ứng dụng và DAX không thể được mã hóa.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "314",
+    "question_text": "Đúng hay Sai: AWS Lambda là một dịch vụ tính toán chạy mã mà không cần cấp phát hoặc quản lý máy chủ. Lambda chạy mã trên một cơ sở hạ tầng tính toán có tính sẵn sàng cao. Nó cũng thực hiện tất cả việc quản trị các tài nguyên tính toán, bao gồm bảo trì máy chủ và hệ điều hành, cấp phát dung lượng và tự động co giãn, và ghi nhật ký. Lambda có thể chạy mã cho hầu như bất kỳ loại ứng dụng hoặc dịch vụ backend nào.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "314-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "314-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "315",
+    "question_text": "Một kiến trúc sư giải pháp đang thiết kế một kiến trúc có thể cung cấp các trang HTML cho khách hàng. Họ muốn một giải pháp serverless có thể lưu trữ nội dung qua internet và phục vụ một trang web tĩnh với nỗ lực tối thiểu. Kiến trúc sư giải pháp nên chọn dịch vụ AWS nào để đáp ứng các yêu cầu này?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "315-0",
+        "answer_text": "Amazon Simple Storage Service (Amazon S3)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "315-1",
+        "answer_text": "Amazon Elastic Compute Cloud (Amazon EC2)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "315-2",
+        "answer_text": "Amazon DynamoDB",
+        "is_correct": false
+      },
+      {
+        "answer_id": "315-3",
+        "answer_text": "Amazon Kinesis",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "316",
+    "question_text": "Một kiến trúc sư giải pháp đang thiết kế một giải pháp cần nhập dữ liệu theo thời gian thực. Họ đang xem xét Amazon Kinesis Data Firehose hoặc Amazon Kinesis Data Streams cho giải pháp này. Kiến trúc sư giải pháp nên chọn dịch vụ nào để đáp ứng yêu cầu nhập dữ liệu theo thời gian thực và tại sao? (Hãy nhớ rằng độ trễ dữ liệu thấp hơn có nghĩa là thời gian trọn vòng từ khi dữ liệu được nhập và có sẵn thấp hơn.)",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "316-0",
+        "answer_text": "Amazon Kinesis Data Firehose, vì nó có độ trễ thấp hơn so với Amazon Kinesis Data Streams",
+        "is_correct": false
+      },
+      {
+        "answer_id": "316-1",
+        "answer_text": "Amazon Kinesis Data Firehose, vì nó có độ trễ cao hơn so với Amazon Kinesis Data Streams",
+        "is_correct": false
+      },
+      {
+        "answer_id": "316-2",
+        "answer_text": "Amazon Kinesis Data Streams, vì nó có độ trễ thấp hơn so với Amazon Kinesis Data Firehose",
+        "is_correct": true
+      },
+      {
+        "answer_id": "316-3",
+        "answer_text": "Amazon Kinesis Data Streams, vì nó có độ trễ cao hơn so với Amazon Kinesis Data Firehose",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "317",
+    "question_text": "Đúng hay Sai: Khi tạo các hồ dữ liệu (data lakes) để phân tích trên AWS, Amazon Simple Storage Service (Amazon S3) sẽ là một dịch vụ được ưu tiên. Người dùng có thể sử dụng dữ liệu trong một bucket S3 với một lớp xử lý hoặc trực quan hóa dữ liệu độc lập, chẳng hạn như Amazon QuickSight, Amazon Athena hoặc Amazon EMR.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "317-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "317-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "318",
+    "question_text": "Một kiến trúc sư giải pháp đang thiết kế một giải pháp serverless có thể thực hiện các truy vấn Ngôn ngữ truy vấn có cấu trúc (SQL) trên nhiều đối tượng được lưu trữ trong Amazon Simple Storage Service (Amazon S3). Tất cả các đối tượng đều có cùng cấu trúc dữ liệu (lược đồ) và ở định dạng JSON. Dịch vụ nào sẽ giúp truy vấn dữ liệu dễ dàng hơn, ngoài việc cung cấp các khả năng serverless?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "318-0",
+        "answer_text": "Amazon Athena",
+        "is_correct": true
+      },
+      {
+        "answer_id": "318-1",
+        "answer_text": "AWS Database Migration Service (AWS DMS)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "318-2",
+        "answer_text": "Amazon S3 Select",
+        "is_correct": false
+      },
+      {
+        "answer_id": "318-3",
+        "answer_text": "AWS Data Exchange",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "319",
+    "question_text": "Đúng hay Sai: Khi kiến trúc một giải pháp có thể xử lý nhu cầu cao và các đợt tăng đột biến về mức sử dụng, Amazon CloudFront nên được sử dụng ở phía trước một bucket Amazon Simple Storage Service (Amazon S3). CloudFront có thể lưu vào bộ đệm dữ liệu được phân phối cho khách hàng, và nó cho phép khách hàng sử dụng các tên miền tùy chỉnh. Ngoài ra, CloudFront có thể phục vụ các chứng chỉ SSL tùy chỉnh được cấp bởi Amazon Certificate Manager (không tính thêm phí) và nó có thể cung cấp bảo vệ chống tấn công từ chối dịch vụ phân tán (DDoS) được cung cấp bởi AWS WAF và AWS Shield.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "319-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "319-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "320",
+    "question_text": "Lựa chọn nào sau đây bao gồm các phát biểu đúng cho cả sao chép liên vùng của Amazon Simple Storage Service (Amazon S3) và AWS Key Management Service (AWS KMS)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "320-0",
+        "answer_text": "Để cấu hình sao chép liên vùng của Amazon S3, cả bucket nguồn và đích phải thuộc cùng một tài khoản AWS. Mã hóa phía máy chủ (SSE) có thể thực hiện được đối với các đối tượng được sao chép.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "320-1",
+        "answer_text": "Để cấu hình sao chép liên vùng của Amazon S3, cả bucket nguồn và đích phải thuộc cùng một tài khoản AWS. Mã hóa phía máy chủ (SSE) không thể thực hiện được đối với các đối tượng được sao chép.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "320-2",
+        "answer_text": "Để cấu hình sao chép liên vùng của Amazon S3, bucket nguồn và đích có thể thuộc các tài khoản AWS khác nhau. Mã hóa phía máy chủ (SSE) có thể thực hiện được đối với các đối tượng được sao chép.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "320-3",
+        "answer_text": "Để cấu hình sao chép liên vùng của Amazon S3, bucket nguồn và đích có thể thuộc các tài khoản AWS khác nhau. Mã hóa phía máy chủ không thể thực hiện được đối với các đối tượng được sao chép.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "321",
+    "question_text": "Một kiến trúc sư giải pháp đang thiết kế một giải pháp lai. Giải pháp sử dụng các tài nguyên Amazon Virtual Private Cloud (Amazon VPC), chẳng hạn như Amazon Relational Database Service (Amazon RDS) và Amazon Elastic Compute Cloud (Amazon EC2). Nó cũng sử dụng các dịch vụ không nằm trong VPC, chẳng hạn như Amazon Simple Storage Service (Amazon S3) và AWS Systems Manager. Phát biểu nào về Amazon VPC và phạm vi của các dịch vụ AWS là đúng? (Chọn BA.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "321-0",
+        "answer_text": "Amazon VPC cho phép người dùng toàn quyền kiểm soát môi trường mạng ảo của họ. Do đó, kiến trúc sư giải pháp có thể xác định các quy tắc tường lửa ở cấp độ mạng cho các tài nguyên dựa trên VPC.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "321-1",
+        "answer_text": "Vì các bucket S3 không nằm trong VPC, khách hàng có thể dựa vào AWS để cấu hình các cơ chế bảo mật, chẳng hạn như quyền và chính sách bucket. Do đó, bảo mật được tự động áp dụng ở cấp độ dữ liệu vì cấp độ bảo mật này là trách nhiệm của AWS.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "321-2",
+        "answer_text": "Các dịch vụ dựa trên VPC nằm trong một mạng con riêng tư yêu cầu các cấu hình cụ thể để cho phép truy cập internet, chẳng hạn như một cổng NAT và các bảng định tuyến.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "321-3",
+        "answer_text": "Khi có thể, khách hàng nên tránh để các dịch vụ nằm trong VPC vì một cấu hình mạng sai có thể vô tình để lại cơ sở hạ tầng trong tình trạng không an toàn.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "321-4",
+        "answer_text": "Các giải pháp AWS VPN có thể được cấu hình để thiết lập các kết nối an toàn giữa các mạng tại chỗ, văn phòng từ xa, thiết bị khách và mạng toàn cầu của AWS.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "322",
+    "question_text": "Phát biểu nào về AWS Storage Gateway là đúng? (Chọn BA.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "322-0",
+        "answer_text": "AWS Storage Gateway là một bộ các dịch vụ lưu trữ đám mây lai cung cấp quyền truy cập tại chỗ vào bộ nhớ đám mây gần như không giới hạn.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "322-1",
+        "answer_text": "AWS Storage Gateway cung cấp bộ nhớ đám mây gần như không giới hạn cho người dùng và ứng dụng, với chi phí của phần cứng lưu trữ mới.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "322-2",
+        "answer_text": "AWS Storage Gateway cung cấp quyền truy cập dữ liệu cho các ứng dụng tại chỗ trong khi tận dụng các khả năng linh hoạt, kinh tế và bảo mật của AWS Cloud.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "322-3",
+        "answer_text": "AWS Storage Gateway chỉ giới hạn ở các ứng dụng tại chỗ, điều đó có nghĩa là nó không thể được sử dụng từ đám mây này sang đám mây khác.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "322-4",
+        "answer_text": "AWS Storage Gateway giúp hỗ trợ các yêu cầu tuân thủ thông qua việc tích hợp với AWS Backup để quản lý việc sao lưu và phục hồi các ổ đĩa Volume Gateway, giúp đơn giản hóa việc quản lý sao lưu.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "323",
+    "question_text": "Bộ dịch vụ AWS nào phù hợp NHẤT với danh mục “Lưu trữ đối tượng, tệp và khối” (có nghĩa là các dịch vụ dành riêng cho việc lưu trữ dữ liệu một cách bền vững)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "323-0",
+        "answer_text": "AWS DataSync, AWS Snow Family",
+        "is_correct": false
+      },
+      {
+        "answer_id": "323-1",
+        "answer_text": "Amazon Simple Storage Service (Amazon S3), Amazon Elastic File System (Amazon EFS), Amazon Elastic Block Store (Amazon EBS), Amazon FSx",
+        "is_correct": true
+      },
+      {
+        "answer_id": "323-2",
+        "answer_text": "AWS Storage Gateway, AWS Snow Family",
+        "is_correct": false
+      },
+      {
+        "answer_id": "323-3",
+        "answer_text": "AWS Elastic Disaster Recovery, AWS Backup",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "324",
+    "question_text": "Đúng hay Sai: Amazon Simple Storage Service (Amazon S3) tốt hơn Amazon Elastic Block Store (Amazon EBS) vì nó được thiết kế để cung cấp mức độ bền vững dữ liệu cao hơn.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "324-0",
+        "answer_text": "Đúng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "324-1",
+        "answer_text": "Sai",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "325",
+    "question_text": "Một số lợi ích của việc sử dụng nhiều tài khoản AWS với AWS Organizations là gì? (Chọn BA.)",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "325-0",
+        "answer_text": "Phân nhóm khối lượng công việc dựa trên mục đích kinh doanh và quyền sở hữu",
+        "is_correct": true
+      },
+      {
+        "answer_id": "325-1",
+        "answer_text": "Sử dụng các phương thức thanh toán khác nhau cho mỗi tài khoản",
+        "is_correct": false
+      },
+      {
+        "answer_id": "325-2",
+        "answer_text": "Hạn chế phạm vi tác động từ các sự kiện bất lợi",
+        "is_correct": true
+      },
+      {
+        "answer_id": "325-3",
+        "answer_text": "Phân phối hạn ngạch dịch vụ AWS và giới hạn tốc độ yêu cầu API",
+        "is_correct": true
+      },
+      {
+        "answer_id": "325-4",
+        "answer_text": "Có nhiều người dùng gốc của tài khoản với quyền truy cập không hạn chế trên mỗi tài khoản",
+        "is_correct": false
+      }
+    ]
+  }
+]

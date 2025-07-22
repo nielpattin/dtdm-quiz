@@ -27,16 +27,21 @@
 			localStorage.setItem(CURRENT_VIEW_KEY, 'favorites');
 			appState.currentView = 'favorites';
 			const favStateRaw = localStorage.getItem(FAVORITES_LOCAL_KEY);
+			const favQuestionsRaw = localStorage.getItem(FAVORITE_QUESTIONS_KEY);
+			const favIdsArr = favQuestionsRaw ? JSON.parse(favQuestionsRaw) : [];
 			if (
 				!favStateRaw ||
 				favStateRaw === '""' ||
 				favStateRaw === '{}' ||
-				favStateRaw.trim() === ''
+				favStateRaw.trim() === '' ||
+				!favQuestionsRaw ||
+				!Array.isArray(favIdsArr) ||
+				favIdsArr.length === 0
 			) {
 				// Default to 'all' if favorites state is empty
 				appState.favorites = { ...DEFAULT_FAVORITES_LOCAL };
 				moduleId = DEFAULT_FAVORITES_LOCAL.module;
-				await loadQuizForModule(moduleId, 0);
+				quizData = [];
 				current = 0;
 			} else {
 				loadAppState('favorites');
@@ -50,7 +55,21 @@
 					typeof appState.favorites.questionIndex === 'number'
 						? appState.favorites.questionIndex
 						: 0;
-				await loadQuizForModule(moduleId, restoredIndex);
+				isLoading = true;
+				const res = await fetch('/api/module', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: JSON.stringify({ ids: favIdsArr })
+				});
+				const data = await res.json();
+				let loadedQuizzes: Quiz[] = Array.isArray(data.quizzes)
+					? data.quizzes.filter((q: Quiz) => q.status !== 'all_false')
+					: [];
+				if (moduleId !== 'all') {
+					loadedQuizzes = loadedQuizzes.filter((q) => q.quiz_number === `module_${moduleId}`);
+				}
+				quizData = loadedQuizzes;
+				isLoading = false;
 				current = restoredIndex;
 			}
 		}
@@ -152,10 +171,33 @@
 	// Quiz loading logic
 	async function loadQuizForModule(moduleId: string, startAt = 0) {
 		// If in favorites view and no favorites, skip loading bar
-		if (appState.currentView === 'favorites' && favorites.size === 0) {
+		if (appState.currentView === 'favorites') {
+			const favIdsArr = Array.from(favorites);
+			if (favIdsArr.length === 0) {
+				isLoading = false;
+				quizData = [];
+				current = 0;
+				return;
+			}
+			isLoading = true;
+			const res = await fetch('/api/module', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ ids: favIdsArr })
+			});
+			const data = await res.json();
+			let loadedQuizzes: Quiz[] = Array.isArray(data.quizzes)
+				? data.quizzes.filter((q: Quiz) => q.status !== 'all_false')
+				: [];
+			if (moduleId !== 'all') {
+				loadedQuizzes = loadedQuizzes.filter((q) => q.quiz_number === `module_${moduleId}`);
+			}
+			quizData = loadedQuizzes;
 			isLoading = false;
-			quizData = [];
-			current = 0;
+			current =
+				typeof startAt === 'number' ? Math.max(0, Math.min(startAt, quizData.length - 1)) : 0;
+			selectedAnswers = [];
+			questionLocked = false;
 			return;
 		}
 		isLoading = true;
@@ -177,21 +219,7 @@
 				: [];
 			moduleQuizCache.set(moduleId, loadedQuizzes);
 		}
-
-		// Filter for favorites view
-		if (appState.currentView === 'favorites') {
-			const favIds = favorites;
-			if (moduleId === 'all') {
-				quizData = loadedQuizzes.filter((q) => favIds.has(q.question_id));
-			} else {
-				quizData = loadedQuizzes.filter(
-					(q) => favIds.has(q.question_id) && q.quiz_number === `module_${moduleId}`
-				);
-			}
-		} else {
-			quizData = loadedQuizzes;
-		}
-
+		quizData = loadedQuizzes;
 		isLoading = false;
 		current = typeof startAt === 'number' ? Math.max(0, Math.min(startAt, quizData.length - 1)) : 0;
 		selectedAnswers = [];
@@ -240,13 +268,23 @@
 		}
 	}
 
-	let isInitialLoad = true;
+	let isInitialLoad = $state(true);
 	$effect(() => {
 		window.addEventListener('keydown', handleKeyNavigation);
 		if (isInitialLoad) {
-			const initialModule = appState.all.module || modules[0].value; // Default to "Select Module" if no module saved
-			moduleId = initialModule;
-			loadQuizForModule(moduleId, appState.all.questionIndex);
+			if (appState.currentView === 'favorites') {
+				moduleId = appState.favorites.module || 'all';
+				showFavorites();
+			} else {
+				// Ensure first valid module is selected by default if none is set
+				const firstValidModule = modules.find((m) => m.value !== '')?.value || '';
+				if (!appState.all.module && firstValidModule) {
+					appState.all.module = firstValidModule;
+				}
+				const initialModule = appState.all.module || firstValidModule || '';
+				moduleId = initialModule;
+				loadQuizForModule(moduleId, appState.all.questionIndex);
+			}
 			isInitialLoad = false;
 		}
 		return () => window.removeEventListener('keydown', handleKeyNavigation);
@@ -341,10 +379,12 @@
 			{/if}
 		</div>
 		<!-- Main Content -->
-		<div id="main-content" class="flex-1 flex flex-col items-center justify-start">
-			<!-- Question Card or Loading Spinner -->
-			{#if isLoading && !(appState.favorites.module === 'all' && quizData.length === 0)}
-				<div class="flex flex-col items-center justify-center w-full h-[350px]">
+		<div id="main-content" class="flex-1 flex flex-col items-center justify-start relative">
+			{#if isLoading && !(isInitialLoad && quizData.length > 0)}
+				<!-- Loading Overlay -->
+				<div
+					class="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-black/60 pointer-events-auto select-none"
+				>
 					<svg
 						class="animate-spin h-16 w-16 text-[#C294FF]"
 						xmlns="http://www.w3.org/2000/svg"
@@ -356,122 +396,102 @@
 						<path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
 						></path>
 					</svg>
-					<div class="mt-4 text-lg text-[#CECDE0] font-medium tracking-wide">Loading module...</div>
-				</div>
-			{:else}
-				<div
-					class="relative w-full h-full flex flex-col items-center justify-center overflow-hidden"
-				>
-					{#if quizData.length > 0}
-						<div
-							class="carousel-vertical flex flex-col items-center justify-center w-full h-full relative"
-						>
-							{#each [current - 1, current, current + 1] as idx (idx)}
-								{#if idx >= 0 && idx < quizData.length}
-									<div
-										class="carousel-card flex items-center justify-center"
-										style="width:95vw; height:90%; position: absolute; left:50%; top:50%; transform: translate(-50%, calc(-50% + {(idx -
-											current) *
-											110}%)); transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);"
-									>
-										<QuizCard
-											currentQuestion={quizData[idx]}
-											current={idx}
-											{quizData}
-											selectedAnswers={idx === current ? selectedAnswers : []}
-											questionLocked={idx === current ? questionLocked : false}
-											{checkAnswers}
-											{handleAnswerClick}
-											{favorites}
-											toggleFavorite={() => {
-												if (!quizData[idx]) return;
-												if (favorites.has(quizData[idx].question_id)) {
-													favorites.delete(quizData[idx].question_id);
-													favorites = new Set(favorites);
-												} else {
-													favorites.add(quizData[idx].question_id);
-													favorites = new Set(favorites);
-												}
-											}}
-											answers={Array.isArray(quizData[idx]?.answers)
-												? quizData[idx].answers.map((a) =>
-														typeof a === 'object' && a !== null ? a : { answer_text: String(a) }
-													)
-												: []}
-											onSwipeUp={() => {
-												const cardEl = document.querySelectorAll('.quiz-card')[idx - (current - 1)];
-												if (
-													cardEl &&
-													cardEl.scrollTop + cardEl.clientHeight >= cardEl.scrollHeight - 2
-												) {
-													if (idx === current && current < quizData.length - 1) {
-														current++;
-														selectedAnswers = [];
-														questionLocked = false;
-														setTimeout(() => {
-															const nextCard = document.querySelectorAll('.quiz-card')[2];
-															if (nextCard) nextCard.scrollTop = 0;
-														}, 0);
-													}
-												}
-											}}
-											onSwipeDown={() => {
-												const cardEl = document.querySelectorAll('.quiz-card')[idx - (current - 1)];
-												if (cardEl && cardEl.scrollTop <= 2) {
-													if (idx === current && current > 0) {
-														current--;
-														selectedAnswers = [];
-														questionLocked = false;
-														setTimeout(() => {
-															const prevCard = document.querySelectorAll('.quiz-card')[0];
-															if (prevCard) prevCard.scrollTop = 0;
-														}, 0);
-													}
-												}
-											}}
-										/>
-									</div>
-								{/if}
-							{/each}
-						</div>
-					{:else if appState.currentView === 'favorites'}
-						<div class="w-full h-full flex flex-col items-center justify-center">
-							<div class="text-lg text-[#CECDE0] font-medium tracking-wide">
-								No favorite questions
-							</div>
-						</div>
-					{:else}
-						<div class="w-full h-full flex flex-col items-center justify-center">
-							<svg
-								class="animate-spin h-16 w-16 text-[#C294FF] mb-6"
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-							>
-								<circle
-									class="opacity-25"
-									cx="12"
-									cy="12"
-									r="10"
-									stroke="currentColor"
-									stroke-width="4"
-								></circle>
-								<path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
-								></path>
-							</svg>
-							<div class="text-lg text-[#CECDE0] font-medium tracking-wide">
-								Loading bunch of data?
-							</div>
-						</div>
-					{/if}
+					<div class="mt-4 text-lg text-[#CECDE0] font-medium tracking-wide">
+						Loading bunch of data?
+					</div>
 				</div>
 			{/if}
-			<!-- Navigation Tips -->
-			<div class="desktop-tip text-[#8582B0] mt-6 text-base hidden md:block">
-				Press &#8592; or &#8594; to navigate
-			</div>
-			<div class="mobile-tip text-[#8582B0] mt-6 text-base block md:hidden">
-				Swipe left or right to navigate
+			<div
+				class="relative w-full h-full flex flex-col items-center justify-center overflow-hidden md:items-start md:justify-center"
+			>
+				{#if quizData.length > 0}
+					<div
+						class="carousel-vertical flex flex-col items-center justify-center w-full h-full relative md:items-start md:justify-center"
+					>
+						{#each [current - 1, current, current + 1] as idx (idx)}
+							{#if idx >= 0 && idx < quizData.length}
+								<div
+									class="carousel-card flex justify-center md:items-start md:justify-center"
+									style="width:95vw; height:90%; position: absolute; left:50%; top:50%; transform: translate(-50%, calc(-50% + {(idx -
+										current) *
+										110}%)); transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);"
+								>
+									<QuizCard
+										currentQuestion={quizData[idx]}
+										current={idx}
+										{quizData}
+										selectedAnswers={idx === current ? selectedAnswers : []}
+										questionLocked={idx === current ? questionLocked : false}
+										{checkAnswers}
+										{handleAnswerClick}
+										{favorites}
+										toggleFavorite={() => {
+											if (!quizData[idx]) return;
+											const qid = quizData[idx].question_id;
+											if (favorites.has(qid)) {
+												favorites.delete(qid);
+												favorites = new Set(favorites);
+												// If in favorites view, remove card from quizData instantly
+												if (appState.currentView === 'favorites') {
+													quizData = quizData.filter((q) => q.question_id !== qid);
+													// Adjust current index if needed
+													if (current >= quizData.length) {
+														current = Math.max(0, quizData.length - 1);
+													}
+												}
+											} else {
+												favorites.add(qid);
+												favorites = new Set(favorites);
+											}
+										}}
+										answers={Array.isArray(quizData[idx]?.answers)
+											? quizData[idx].answers.map((a) =>
+													typeof a === 'object' && a !== null ? a : { answer_text: String(a) }
+												)
+											: []}
+										onSwipeUp={() => {
+											const cardEl = document.querySelectorAll('.quiz-card')[idx - (current - 1)];
+											if (
+												cardEl &&
+												cardEl.scrollTop + cardEl.clientHeight >= cardEl.scrollHeight - 2
+											) {
+												if (idx === current && current < quizData.length - 1) {
+													current++;
+													selectedAnswers = [];
+													questionLocked = false;
+													setTimeout(() => {
+														const nextCard = document.querySelectorAll('.quiz-card')[2];
+														if (nextCard) nextCard.scrollTop = 0;
+													}, 0);
+												}
+											}
+										}}
+										onSwipeDown={() => {
+											const cardEl = document.querySelectorAll('.quiz-card')[idx - (current - 1)];
+											if (cardEl && cardEl.scrollTop <= 2) {
+												if (idx === current && current > 0) {
+													current--;
+													selectedAnswers = [];
+													questionLocked = false;
+													setTimeout(() => {
+														const prevCard = document.querySelectorAll('.quiz-card')[0];
+														if (prevCard) prevCard.scrollTop = 0;
+													}, 0);
+												}
+											}
+										}}
+									/>
+								</div>
+							{/if}
+						{/each}
+					</div>
+				{:else if appState.currentView === 'favorites'}
+					<div class="w-full h-full flex flex-col items-center justify-center">
+						<div class="text-lg text-[#CECDE0] font-medium tracking-wide">
+							No favorite questions
+						</div>
+					</div>
+				{/if}
 			</div>
 		</div>
 	</div>

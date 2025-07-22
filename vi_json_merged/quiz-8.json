@@ -1,0 +1,797 @@
+[
+  {
+    "question_id": "206",
+    "question_text": "Lựa chọn nào sau đây chứa hai môi trường mà một môi trường hybrid cloud kết nối?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "206-0",
+        "answer_text": "Đám mây công cộng và đám mây tài nguyên",
+        "is_correct": false
+      },
+      {
+        "answer_id": "206-1",
+        "answer_text": "Đám mây công cộng và đám mây riêng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "206-2",
+        "answer_text": "Đám mây riêng và đám mây tài nguyên",
+        "is_correct": false
+      },
+      {
+        "answer_id": "206-3",
+        "answer_text": "Đám mây riêng và đám mây bảo mật",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "207",
+    "question_text": "Lựa chọn nào sau đây mô tả một chiến lược đa đám mây (multi-cloud)?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "207-0",
+        "answer_text": "Chiến lược đám mây hạ tầng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "207-1",
+        "answer_text": "Chiến lược đám mây doanh nghiệp",
+        "is_correct": false
+      },
+      {
+        "answer_id": "207-2",
+        "answer_text": "Chiến lược áp dụng đám mây (Cloud adoption strategy)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "207-3",
+        "answer_text": "Chiến lược đám mây chuyên dụng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "208",
+    "question_text": "Điều nào sau đây là một nguyên tắc phát triển cho các ứng dụng cloud-native?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "208-0",
+        "answer_text": "Kết hợp các ứng dụng để tạo ra các microservice với nhiều chức năng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "208-1",
+        "answer_text": "Liên kết chặt chẽ các chức năng khác nhau của ứng dụng để chúng có thể hoạt động cùng nhau như một tổng thể",
+        "is_correct": false
+      },
+      {
+        "answer_id": "208-2",
+        "answer_text": "Container hóa các microservice để có sự linh hoạt, khả năng mở rộng và tính di động tối đa",
+        "is_correct": true
+      },
+      {
+        "answer_id": "208-3",
+        "answer_text": "Gộp các thành phần chức năng đơn lẻ khác nhau của một ứng dụng thành một phần mềm khổng lồ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "209",
+    "question_text": "Phát biểu nào sau đây mô tả phương pháp và quy trình DevOps?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "209-0",
+        "answer_text": "Loại bỏ nhu cầu giám sát hiệu suất và tính sẵn sàng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "209-1",
+        "answer_text": "Loại bỏ nhu cầu cấp phát máy chủ, xây dựng middleware và cài đặt mã ứng dụng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "209-2",
+        "answer_text": "Cho phép các nhóm tự do xây dựng, triển khai và quản lý các ứng dụng cloud-native theo một bộ hướng dẫn không chính thức, được định nghĩa lỏng lẻo",
+        "is_correct": false
+      },
+      {
+        "answer_id": "209-3",
+        "answer_text": "Một phương pháp hợp tác trong đó chủ sở hữu doanh nghiệp và các nhóm phát triển, vận hành và đảm bảo chất lượng hợp tác để cung cấp phần mềm liên tục",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "210",
+    "question_text": "Lựa chọn nào được cung cấp gói gọn hành trình hiện đại hóa ứng dụng hoàn chỉnh?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "210-0",
+        "answer_text": "Hành trình từ kiến trúc nguyên khối (monolithic) và hướng dịch vụ (service-oriented) đến kiến trúc microservices, từ máy chủ vật lý và máy ảo đến hạ tầng đám mây, và từ phương pháp thác nước (waterfall) và linh hoạt (agile) đến DevOps",
+        "is_correct": true
+      },
+      {
+        "answer_id": "210-1",
+        "answer_text": "Hành trình từ kiến trúc nguyên khối và hướng dịch vụ đến kiến trúc microservices",
+        "is_correct": false
+      },
+      {
+        "answer_id": "210-2",
+        "answer_text": "Hành trình từ máy chủ vật lý và máy ảo đến hạ tầng đám mây",
+        "is_correct": false
+      },
+      {
+        "answer_id": "210-3",
+        "answer_text": "Hành trình từ các phương pháp phát triển thác nước và linh hoạt đến DevOps",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "211",
+    "question_text": "Điều nào sau đây mô tả một nguyên tắc hoặc hành động phát triển cho các ứng dụng cloud native?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "211-0",
+        "answer_text": "Gộp các thành phần chức năng đơn lẻ khác nhau của một ứng dụng thành một phần mềm khổng lồ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "211-1",
+        "answer_text": "Liên kết chặt chẽ các chức năng khác nhau của ứng dụng để chúng có thể hoạt động cùng nhau như một tổng thể.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "211-2",
+        "answer_text": "Container hóa các microservice để có sự linh hoạt, khả năng mở rộng và tính di động tối đa.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "211-3",
+        "answer_text": "Kết hợp các ứng dụng để tạo ra các microservice với nhiều chức năng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "212",
+    "question_text": "Một công ty giao hoa toàn cầu sẽ tận dụng kiến trúc Hybrid Multicloud như thế nào để đáp ứng yêu cầu về nhu cầu dung lượng thay đổi ở các khu vực địa lý khác nhau?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "212-0",
+        "answer_text": "Bằng cách phân phối ứng dụng dịch vụ giao hàng của họ trên nhiều môi trường và nhà cung cấp đám mây trải rộng trên nhiều khu vực địa lý.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "212-1",
+        "answer_text": "Bằng cách sử dụng việc cấp phát và giải phóng tài nguyên tự động mà đám mây cung cấp.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "212-2",
+        "answer_text": "Bằng cách mở rộng quy mô kiến trúc tại chỗ của họ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "213",
+    "question_text": "Tình huống nào sau đây KHÔNG phải là một trường hợp sử dụng tốt cho kiến trúc serverless?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "213-0",
+        "answer_text": "Các khối lượng công việc xử lý luồng (Stream processing)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "213-1",
+        "answer_text": "Hỗ trợ kiến trúc microservices",
+        "is_correct": false
+      },
+      {
+        "answer_id": "213-2",
+        "answer_text": "Các microservice có thể được xây dựng dưới dạng các hàm không trạng thái (stateless functions)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "213-3",
+        "answer_text": "Các khối lượng công việc được đặc trưng bởi các quy trình chạy trong thời gian dài (long-running processes)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "214",
+    "question_text": "Cách tiếp cận kiến trúc microservices có thể được mô tả như thế nào?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "214-0",
+        "answer_text": "Ảnh hưởng đến toàn bộ ứng dụng khi một microservice ngừng hoạt động.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "214-1",
+        "answer_text": "Yêu cầu xây dựng mọi chức năng mới trong một microservice từ đầu.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "214-2",
+        "answer_text": "Phân rã các ứng dụng lớn thành các chức năng cốt lõi để xây dựng một ứng dụng toàn diện và đầy đủ chức năng.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "214-3",
+        "answer_text": "Bắt buộc phải đóng gói tất cả các microservice cho một tác vụ cụ thể vào một container duy nhất.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "215",
+    "question_text": "Điền vào chỗ trống. Kiến trúc microservices là một phương pháp trong đó một ______________ bao gồm nhiều thành phần hoặc dịch vụ nhỏ hơn, liên kết lỏng lẻo và có thể triển khai độc lập.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "215-0",
+        "answer_text": "Dịch vụ đám mây",
+        "is_correct": false
+      },
+      {
+        "answer_id": "215-1",
+        "answer_text": "Ứng dụng duy nhất (Single application)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "215-2",
+        "answer_text": "Ứng dụng kho lưu trữ (Repository application)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "215-3",
+        "answer_text": "Máy chủ (Server)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "216",
+    "question_text": "Một ứng dụng cloud native bao gồm những gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "216-0",
+        "answer_text": "Các container có thể thực thi (Executable containers)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "216-1",
+        "answer_text": "Các tệp có thể thực thi (Executable files)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "216-2",
+        "answer_text": "Các microservice",
+        "is_correct": true
+      },
+      {
+        "answer_id": "216-3",
+        "answer_text": "Các container ứng dụng (Application containers)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "217",
+    "question_text": "DevOps và Đám mây chia sẻ một mối quan hệ _________.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "217-0",
+        "answer_text": "Nhà cung cấp (Vendor)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "217-1",
+        "answer_text": "Cộng sinh (Symbiotic)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "217-2",
+        "answer_text": "Đối tác chung (General partnership)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "217-3",
+        "answer_text": "Khách hàng (Customer)",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "218",
+    "question_text": "Ba lĩnh vực chính mà giám sát đám mây đánh giá là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "218-0",
+        "answer_text": "Hạ tầng, tài nguyên và framework.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "218-1",
+        "answer_text": "Ứng dụng, dữ liệu và framework.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "218-2",
+        "answer_text": "Dữ liệu, ứng dụng và hạ tầng.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "218-3",
+        "answer_text": "Dữ liệu, tài nguyên và hạ tầng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "219",
+    "question_text": "Mã hóa dữ liệu làm gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "219-0",
+        "answer_text": "Làm xáo trộn dữ liệu theo cách làm cho dữ liệu không thể đọc được.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "219-1",
+        "answer_text": "Lưu dữ liệu lên đám mây và có thể truy cập được bởi bất kỳ người dùng được chia sẻ nào.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "219-2",
+        "answer_text": "Lưu trữ dữ liệu trên đám mây nơi nó có thể được truy cập ngay cả khi không có khóa.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "219-3",
+        "answer_text": "Giữ cho dữ liệu nhạy cảm được bảo vệ bằng mật khẩu.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "220",
+    "question_text": "Mục đích của dịch vụ thư mục đám mây (cloud directory services) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "220-0",
+        "answer_text": "Mã hóa tài khoản người dùng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "220-1",
+        "answer_text": "Lưu trữ an toàn dữ liệu người dùng trong một kho lưu trữ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "220-2",
+        "answer_text": "Quản lý an toàn hồ sơ người dùng và thông tin xác thực của họ.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "220-3",
+        "answer_text": "Phục vụ như một trung tâm dữ liệu cho các tệp và thư mục.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "221",
+    "question_text": "Một cuộc tấn công từ chối dịch vụ phân tán (DDoS) làm gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "221-0",
+        "answer_text": "Một cuộc tấn công DDoS nhắm vào các hệ thống doanh nghiệp bằng cách cài đặt một virus worm.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "221-1",
+        "answer_text": "Một cuộc tấn công DDoS nhắm vào máy chủ trong doanh nghiệp bằng cách làm quá tải nó với lưu lượng truy cập từ nhiều hệ thống được đồng bộ hóa.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "221-2",
+        "answer_text": "Một cuộc tấn công DDoS ngắt kết nối người dùng khỏi internet.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "221-3",
+        "answer_text": "Một cuộc tấn công DDoS cài đặt phần mềm độc hại vào máy tính của người dùng.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "222",
+    "question_text": "Yếu tố nào khác của bảo mật đám mây?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "222-0",
+        "answer_text": "Truyền phát trên đám mây (Cloud streaming).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "222-1",
+        "answer_text": "Bảo mật mạng đám mây (Cloud network security).",
+        "is_correct": true
+      },
+      {
+        "answer_id": "222-2",
+        "answer_text": "Truy cập đám mây ngoại tuyến (Offline cloud access).",
+        "is_correct": false
+      },
+      {
+        "answer_id": "222-3",
+        "answer_text": "Bảo mật thiết bị (Device security).",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "223",
+    "question_text": "Điện toán đám mây là một phần quan trọng trong chiến lược chuyển đổi số của một doanh nghiệp. Đúng hay sai.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "223-0",
+        "answer_text": "Đúng",
+        "is_correct": true
+      },
+      {
+        "answer_id": "223-1",
+        "answer_text": "Sai",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "224",
+    "question_text": "Một số phương pháp hay nhất mà các tổ chức cần tuân theo để bảo vệ tài nguyên và hệ thống đám mây của họ là gì? Chọn hai.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "224-0",
+        "answer_text": "Chạy các công cụ giám sát bảo mật định kỳ để đảm bảo các mối đe dọa và vi phạm bảo mật được gắn cờ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "224-1",
+        "answer_text": "Giám sát tích cực về bảo mật và tuân thủ",
+        "is_correct": true
+      },
+      {
+        "answer_id": "224-2",
+        "answer_text": "Áp dụng mô hình trách nhiệm chung (shared responsibility model)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "224-3",
+        "answer_text": "Phân phối các tác vụ, khối lượng công việc và lưu lượng mạng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "225",
+    "question_text": "Các thành phần chính của Quản lý Danh tính và Truy cập (IAM) là gì? Chọn hai.",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "225-0",
+        "answer_text": "Nhúng bảo mật trong suốt vòng đời của một ứng dụng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "225-1",
+        "answer_text": "Bảo vệ dữ liệu khi nó ở trạng thái nghỉ (at rest), đang chuyển động (in motion) và đang sử dụng (in use)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "225-2",
+        "answer_text": "Kiểm toán và Tuân thủ (Audit and Compliance)",
+        "is_correct": true
+      },
+      {
+        "answer_id": "225-3",
+        "answer_text": "Dịch vụ Thư mục Đám mây (Cloud Directory Services)",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "226",
+    "question_text": "Phát biểu nào sau đây là đúng về mã hóa đám mây? A. Mã hóa đảm bảo chỉ những người dùng được ủy quyền mới có quyền truy cập vào dữ liệu nhạy cảm. B. Khi dữ liệu được mã hóa bị chặn mà không có sự cho phép, nó không thể đọc được và vô nghĩa? C. Mã hóa bảo vệ dữ liệu khi nó ở trạng thái nghỉ, đang truyền và đang được sử dụng trong bộ nhớ. D. Mã hóa loại bỏ rủi ro bảo mật dữ liệu",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "226-0",
+        "answer_text": "Chỉ A, B và D",
+        "is_correct": false
+      },
+      {
+        "answer_id": "226-1",
+        "answer_text": "Chỉ A, B và C",
+        "is_correct": true
+      },
+      {
+        "answer_id": "226-2",
+        "answer_text": "Chỉ A và C",
+        "is_correct": false
+      },
+      {
+        "answer_id": "226-3",
+        "answer_text": "A, B, C và D",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "227",
+    "question_text": "Xác định một số phương pháp hay nhất về giám sát đám mây tiêu chuẩn từ các tùy chọn được cung cấp. Chọn hai",
+    "question_type": "multiple_answer_question",
+    "answers": [
+      {
+        "answer_id": "227-0",
+        "answer_text": "Tận dụng các giải pháp giám sát trải nghiệm người dùng cuối để nắm bắt hiệu suất của một ứng dụng từ góc độ của người dùng cuối.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "227-1",
+        "answer_text": "Theo dõi việc sử dụng và chi phí của các tài nguyên và dịch vụ đám mây của bạn.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "227-2",
+        "answer_text": "Mã hóa dữ liệu trước khi nó được gửi lên đám mây.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "227-3",
+        "answer_text": "Xác thực người dùng đang cố gắng truy cập tài nguyên đám mây của họ.",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "228",
+    "question_text": "Điền vào chỗ trống. _____________ là một phần quan trọng trong chiến lược chuyển đổi số của một doanh nghiệp.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "228-0",
+        "answer_text": "Cơ sở dữ liệu",
+        "is_correct": false
+      },
+      {
+        "answer_id": "228-1",
+        "answer_text": "Mã hóa",
+        "is_correct": false
+      },
+      {
+        "answer_id": "228-2",
+        "answer_text": "Điện toán đám mây",
+        "is_correct": true
+      },
+      {
+        "answer_id": "228-3",
+        "answer_text": "Thiết bị lưu trữ cục bộ",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "229",
+    "question_text": "Đâu là một số phương pháp hay nhất mà các tổ chức phải tuân theo để bảo vệ tài nguyên và hệ thống đám mây của họ?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "229-0",
+        "answer_text": "Chạy các công cụ giám sát bảo mật định kỳ để đảm bảo các mối đe dọa và vi phạm bảo mật được gắn cờ",
+        "is_correct": false
+      },
+      {
+        "answer_id": "229-1",
+        "answer_text": "Phân phối các tác vụ, khối lượng công việc và phần mềm giám sát",
+        "is_correct": false
+      },
+      {
+        "answer_id": "229-2",
+        "answer_text": "Áp dụng mô hình trách nhiệm chung về giám sát tích cực cho bảo mật và tuân thủ",
+        "is_correct": true
+      },
+      {
+        "answer_id": "229-3",
+        "answer_text": "Phân phối các tác vụ, khối lượng công việc và lưu lượng mạng",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "230",
+    "question_text": "Các thành phần chính của Quản lý Danh tính và Truy cập (IAM) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "230-0",
+        "answer_text": "Bảo vệ dữ liệu khi nó ở trạng thái nghỉ, đang chuyển động và đang sử dụng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "230-1",
+        "answer_text": "Dịch vụ Thư mục Đám mây, Kiểm toán và Tuân thủ",
+        "is_correct": true
+      },
+      {
+        "answer_id": "230-2",
+        "answer_text": "Nhúng bảo mật trong suốt vòng đời của một ứng dụng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "230-3",
+        "answer_text": "Các phương pháp bảo mật mã hóa",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "231",
+    "question_text": "Xác định một số phương pháp hay nhất về giám sát đám mây tiêu chuẩn từ các tùy chọn được cung cấp.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "231-0",
+        "answer_text": "Mã hóa dữ liệu trước khi nó được gửi lên đám mây.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "231-1",
+        "answer_text": "Mã hóa dữ liệu trên một thiết bị lưu trữ vật lý.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "231-2",
+        "answer_text": "Xác thực người dùng đang cố gắng truy cập tài nguyên đám mây của họ.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "231-3",
+        "answer_text": "Tận dụng các giải pháp giám sát trải nghiệm người dùng cuối để nắm bắt hiệu suất của một ứng dụng từ góc độ của người dùng cuối và theo dõi việc sử dụng và chi phí của các tài nguyên và dịch vụ đám mây của bạn.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "232",
+    "question_text": "Một số công cụ giám sát giúp bạn có được thông tin chi tiết về tình hình, sự tuân thủ và các mối đe dọa của mình là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "232-0",
+        "answer_text": "Hypervisors",
+        "is_correct": false
+      },
+      {
+        "answer_id": "232-1",
+        "answer_text": "Nhật ký luồng (Flow logs) từ mạng và các sự kiện bảo mật",
+        "is_correct": true
+      },
+      {
+        "answer_id": "232-2",
+        "answer_text": "Nhật ký luồng và hypervisors",
+        "is_correct": false
+      },
+      {
+        "answer_id": "232-3",
+        "answer_text": "Mã hóa dữ liệu",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "233",
+    "question_text": "Một số lợi ích của việc sử dụng các nhóm truy cập (access groups) là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "233-0",
+        "answer_text": "Nhóm truy cập giúp tăng số lượng chính sách của một tài khoản.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "233-1",
+        "answer_text": "Nhóm truy cập xác định người dùng, tài nguyên được cấp quyền truy cập và cấp độ quyền mà mỗi người dùng có trên các tài nguyên này.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "233-2",
+        "answer_text": "Nhóm truy cập tạo ra một cấp độ xác thực bổ sung cho người dùng ứng dụng.",
+        "is_correct": false
+      },
+      {
+        "answer_id": "233-3",
+        "answer_text": "Việc sử dụng các nhóm truy cập giúp giảm số lượng chính sách trong một tài khoản. Các nhóm truy cập cung cấp một cách hợp lý hơn để gán quyền truy cập.",
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "question_id": "234",
+    "question_text": "Xác định hai phần chính của một hệ thống mã hóa từ các tùy chọn được cung cấp.",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "234-0",
+        "answer_text": "Mã hóa phía máy chủ (Server-side encryption)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "234-1",
+        "answer_text": "Thuật toán mã hóa và khóa giải mã",
+        "is_correct": true
+      },
+      {
+        "answer_id": "234-2",
+        "answer_text": "Mã hóa phía máy khách (Client-side encryption)",
+        "is_correct": false
+      },
+      {
+        "answer_id": "234-3",
+        "answer_text": "Thiết bị mã hóa vật lý",
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "question_id": "235",
+    "question_text": "Một số lợi ích mà các giải pháp giám sát đám mây mang lại là gì?",
+    "question_type": "single_answer_question",
+    "answers": [
+      {
+        "answer_id": "235-0",
+        "answer_text": "Tăng tốc chẩn đoán và giải quyết các sự cố về hiệu suất và cung cấp thông báo chủ động về các tình huống bất thường hoặc không bình thường.",
+        "is_correct": true
+      },
+      {
+        "answer_id": "235-1",
+        "answer_text": "Khắc phục sự cố ứng dụng và hạ tầng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "235-2",
+        "answer_text": "Tăng cường bảo mật cho tài khoản người dùng",
+        "is_correct": false
+      },
+      {
+        "answer_id": "235-3",
+        "answer_text": "Ngăn chặn người dùng không được phép truy cập vào hệ thống",
+        "is_correct": false
+      }
+    ]
+  }
+]
