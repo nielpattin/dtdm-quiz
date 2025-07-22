@@ -8,12 +8,9 @@
 
 	injectAnalytics({ mode: dev ? 'development' : 'production' });
 
-	console.log('ENVIRONMENT:', dev);
-
 	let { children } = $props();
 
 	let showVersionModal = $state(false);
-	let versionConfirmed = $state(false);
 
 	// Only run on client
 	import { APP_VERSION_KEY } from '../lib/localKeys';
@@ -30,7 +27,6 @@
 		localStorage.clear();
 		localStorage.setItem(APP_VERSION_KEY, APP_VERSION);
 		showVersionModal = false;
-		versionConfirmed = true;
 		location.reload();
 	}
 </script>
