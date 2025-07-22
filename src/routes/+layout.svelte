@@ -1,8 +1,12 @@
 <script lang="ts">
+	import { dev } from '$app/environment';
 	import '@fontsource-variable/noto-sans';
+	import { injectAnalytics } from '@vercel/analytics/sveltekit';
 	import '../app.css';
 	import { APP_VERSION } from '../lib/config';
 	import NewVersionModal from './NewVersionModal.svelte';
+
+	injectAnalytics({ mode: dev ? 'development' : 'production' });
 
 	let { children } = $props();
 
@@ -30,5 +34,4 @@
 {#if showVersionModal}
 	<NewVersionModal onReload={confirmVersionUpdate} />
 {/if}
-
 {@render children()}
