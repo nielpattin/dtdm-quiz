@@ -3,6 +3,13 @@
 	import TopBar from './TopBar.svelte';
 	import QuizCard from './QuizCard.svelte';
 	import FavoritesModal from './FavoritesModal.svelte';
+	import {
+		DEFAULT_FAVORITES_LOCAL,
+		FAVORITES_LOCAL_KEY,
+		CURRENT_VIEW_KEY,
+		FAVORITE_QUESTIONS_KEY,
+		APPSTATE_ALL_KEY
+	} from '../lib/localKeys';
 
 	type Quiz = {
 		question_id: string;
@@ -17,19 +24,40 @@
 
 	async function showFavorites() {
 		if (typeof window !== 'undefined') {
-			localStorage.setItem('currentView', 'favorites');
+			localStorage.setItem(CURRENT_VIEW_KEY, 'favorites');
 			appState.currentView = 'favorites';
-			loadAppState('favorites');
-			moduleId = appState.favorites.module || modules[0].value;
-			const restoredIndex =
-				typeof appState.favorites.questionIndex === 'number' ? appState.favorites.questionIndex : 0;
-			await loadQuizForModule(moduleId, restoredIndex);
-			current = restoredIndex;
+			const favStateRaw = localStorage.getItem(FAVORITES_LOCAL_KEY);
+			if (
+				!favStateRaw ||
+				favStateRaw === '""' ||
+				favStateRaw === '{}' ||
+				favStateRaw.trim() === ''
+			) {
+				// Default to 'all' if favorites state is empty
+				appState.favorites = { ...DEFAULT_FAVORITES_LOCAL };
+				moduleId = DEFAULT_FAVORITES_LOCAL.module;
+				await loadQuizForModule(moduleId, 0);
+				current = 0;
+			} else {
+				loadAppState('favorites');
+				if (!appState.favorites.module || appState.favorites.module === '') {
+					appState.favorites.module = 'all';
+					moduleId = 'all';
+				} else {
+					moduleId = appState.favorites.module;
+				}
+				const restoredIndex =
+					typeof appState.favorites.questionIndex === 'number'
+						? appState.favorites.questionIndex
+						: 0;
+				await loadQuizForModule(moduleId, restoredIndex);
+				current = restoredIndex;
+			}
 		}
 	}
 	function onBackToAll() {
 		if (typeof window !== 'undefined') {
-			localStorage.setItem('currentView', 'all');
+			localStorage.setItem(CURRENT_VIEW_KEY, 'all');
 			appState.currentView = 'all';
 			loadAppState('all');
 			moduleId = appState.all.module;
@@ -39,7 +67,7 @@
 	function onClearFavorites() {
 		favorites = new Set();
 		if (typeof window !== 'undefined') {
-			localStorage.setItem('favoriteQuestions', '[]');
+			localStorage.setItem(FAVORITE_QUESTIONS_KEY, '[]');
 		}
 		if (appState.currentView === 'favorites') {
 			appState.currentView = 'all';
@@ -76,26 +104,27 @@
 	let appState = $state<AppState>({
 		currentView: 'all',
 		all: { module: '', questionIndex: 0 },
-		favorites: { module: '', questionIndex: 0 }
+		favorites: { ...DEFAULT_FAVORITES_LOCAL }
 	});
 
 	function loadAppState(view: 'all' | 'favorites') {
-		const key = view === 'all' ? 'appState_all' : 'appState_favorites';
+		const key = view === 'all' ? APPSTATE_ALL_KEY : FAVORITES_LOCAL_KEY;
 		const loaded = JSON.parse(localStorage.getItem(key) || '{}') || {};
 		if (view === 'all') {
 			if (!loaded.module) loaded.module = '';
 			if (typeof loaded.questionIndex !== 'number') loaded.questionIndex = 0;
 			appState.all = { module: loaded.module, questionIndex: loaded.questionIndex };
 		} else {
-			if (!loaded.module) loaded.module = '';
-			if (typeof loaded.questionIndex !== 'number') loaded.questionIndex = 0;
+			if (!loaded.module) loaded.module = DEFAULT_FAVORITES_LOCAL.module;
+			if (typeof loaded.questionIndex !== 'number')
+				loaded.questionIndex = DEFAULT_FAVORITES_LOCAL.questionIndex;
 			appState.favorites = { module: loaded.module, questionIndex: loaded.questionIndex };
 		}
 	}
 
 	if (typeof window !== 'undefined') {
-		favorites = new Set<string>(JSON.parse(localStorage.getItem('favoriteQuestions') || '[]'));
-		const currentView = (localStorage.getItem('currentView') as 'all' | 'favorites') || 'all';
+		favorites = new Set<string>(JSON.parse(localStorage.getItem(FAVORITE_QUESTIONS_KEY) || '[]'));
+		const currentView = (localStorage.getItem(CURRENT_VIEW_KEY) as 'all' | 'favorites') || 'all';
 		appState.currentView = currentView;
 		loadAppState(currentView);
 	}
@@ -114,7 +143,7 @@
 	import { modules } from '../lib/modules';
 
 	// Sidebar open state
-	let sidebarOpen = $state(typeof window !== 'undefined' && window.innerWidth >= 768);
+	let sidebarOpen = $state(false);
 
 	// Favorites modal
 	let showFavModal = $state(false);
@@ -122,6 +151,13 @@
 
 	// Quiz loading logic
 	async function loadQuizForModule(moduleId: string, startAt = 0) {
+		// If in favorites view and no favorites, skip loading bar
+		if (appState.currentView === 'favorites' && favorites.size === 0) {
+			isLoading = false;
+			quizData = [];
+			current = 0;
+			return;
+		}
 		isLoading = true;
 		if (!moduleId) {
 			quizData = [];
@@ -219,14 +255,14 @@
 	// Auto-save favorites to localStorage when they change
 	$effect(() => {
 		if (typeof window !== 'undefined') {
-			localStorage.setItem('favoriteQuestions', JSON.stringify(Array.from(favorites)));
+			localStorage.setItem(FAVORITE_QUESTIONS_KEY, JSON.stringify(Array.from(favorites)));
 		}
 	});
 
 	// Auto-save appState to localStorage when it changes
 	$effect(() => {
 		if (typeof window !== 'undefined') {
-			const key = appState.currentView === 'all' ? 'appState_all' : 'appState_favorites';
+			const key = appState.currentView === 'all' ? APPSTATE_ALL_KEY : FAVORITES_LOCAL_KEY;
 			if (appState.currentView === 'all') {
 				localStorage.setItem(key, JSON.stringify(appState.all));
 			} else {
@@ -239,59 +275,44 @@
 		if (typeof window !== 'undefined' && moduleId !== undefined && appState.currentView === 'all') {
 			appState.all.module = moduleId;
 			appState.all.questionIndex = current;
-			localStorage.setItem('appState_all', JSON.stringify(appState.all));
+			localStorage.setItem(APPSTATE_ALL_KEY, JSON.stringify(appState.all));
 		}
 		if (typeof window !== 'undefined' && appState.currentView === 'favorites') {
 			appState.favorites.module = moduleId;
 			appState.favorites.questionIndex = current;
-			localStorage.setItem('appState_favorites', JSON.stringify(appState.favorites));
+			localStorage.setItem(FAVORITES_LOCAL_KEY, JSON.stringify(appState.favorites));
 		}
 	});
 
-	// Responsive sidebar: close on mobile, open on desktop
-	$effect(() => {
-		if (typeof window === 'undefined') return;
-		const mediaQuery = window.matchMedia('(min-width: 768px)');
-		const handleResize = () => {
-			sidebarOpen = mediaQuery.matches;
-		};
-		handleResize();
-		mediaQuery.addEventListener('change', handleResize);
-		return () => mediaQuery.removeEventListener('change', handleResize);
-	});
+	// Removed auto-open/close sidebar on resize. Sidebar only opens/closes on explicit user action.
 </script>
 
 <!-- Main Layout -->
 <div class="flex min-h-screen min-w-screen w-screen bg-[#1D1B2C] text-[#CECDE0] font-sans">
-	<!-- Sidebar -->
-	<div
-		class="fixed top-0 left-0 h-full z-40 bg-[#29273F] transition-transform duration-200 ease-in-out
-						md:static md:translate-x-0 md:min-w-[200px] md:w-[250px]"
-		class:translate-x-[-100%]={!sidebarOpen &&
-			typeof window !== 'undefined' &&
-			window.innerWidth < 768}
-		class:translate-x-0={sidebarOpen || (typeof window !== 'undefined' && window.innerWidth >= 768)}
-	>
-		<Sidebar
-			{quizData}
-			{current}
-			{favorites}
-			{sidebarOpen}
-			setCurrent={(idx: number) => {
-				current = idx;
-				selectedAnswers = [];
-				questionLocked = false;
-				if (typeof window !== 'undefined' && window.innerWidth < 768) {
-					sidebarOpen = false;
-				}
-			}}
-			setSidebarOpen={(open: boolean) => (sidebarOpen = open)}
-			addFavorite={() => {}}
-			removeFavorite={() => {}}
-		/>
-	</div>
+	<!-- Sidebar (only rendered if open on mobile, always on desktop) -->
+	{#if sidebarOpen || (typeof window !== 'undefined' && window.innerWidth >= 768)}
+		<div
+			class="fixed top-0 left-0 h-full z-40 bg-[#29273F] transition-transform duration-200 ease-in-out
+							md:static md:translate-x-0 md:min-w-[200px] md:w-[250px]"
+		>
+			<Sidebar
+				{quizData}
+				{current}
+				{favorites}
+				setCurrent={(idx: number) => {
+					current = idx;
+					selectedAnswers = [];
+					questionLocked = false;
+					if (typeof window !== 'undefined' && window.innerWidth < 768) {
+						sidebarOpen = false;
+					}
+				}}
+				setSidebarOpen={(open: boolean) => (sidebarOpen = open)}
+			/>
+		</div>
+	{/if}
 
-	<!-- Backdrop for mobile -->
+	<!-- Backdrop for mobile (only rendered if sidebar is open) -->
 	{#if sidebarOpen && typeof window !== 'undefined' && window.innerWidth < 768}
 		<button
 			type="button"
@@ -322,7 +343,7 @@
 		<!-- Main Content -->
 		<div id="main-content" class="flex-1 flex flex-col items-center justify-start">
 			<!-- Question Card or Loading Spinner -->
-			{#if isLoading}
+			{#if isLoading && !(appState.favorites.module === 'all' && quizData.length === 0)}
 				<div class="flex flex-col items-center justify-center w-full h-[350px]">
 					<svg
 						class="animate-spin h-16 w-16 text-[#C294FF]"
@@ -335,6 +356,7 @@
 						<path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
 						></path>
 					</svg>
+					<div class="mt-4 text-lg text-[#CECDE0] font-medium tracking-wide">Loading module...</div>
 				</div>
 			{:else}
 				<div
@@ -412,9 +434,34 @@
 								{/if}
 							{/each}
 						</div>
+					{:else if appState.currentView === 'favorites'}
+						<div class="w-full h-full flex flex-col items-center justify-center">
+							<div class="text-lg text-[#CECDE0] font-medium tracking-wide">
+								No favorite questions
+							</div>
+						</div>
 					{:else}
-						<div class="w-full h-full flex items-center justify-center text-lg text-[#CECDE0]">
-							No questions loaded.
+						<div class="w-full h-full flex flex-col items-center justify-center">
+							<svg
+								class="animate-spin h-16 w-16 text-[#C294FF] mb-6"
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+							>
+								<circle
+									class="opacity-25"
+									cx="12"
+									cy="12"
+									r="10"
+									stroke="currentColor"
+									stroke-width="4"
+								></circle>
+								<path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
+								></path>
+							</svg>
+							<div class="text-lg text-[#CECDE0] font-medium tracking-wide">
+								Loading bunch of data?
+							</div>
 						</div>
 					{/if}
 				</div>

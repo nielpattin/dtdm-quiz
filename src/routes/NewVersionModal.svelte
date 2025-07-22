@@ -7,9 +7,11 @@
 
 	let oldVersion = $state<string | null>(null);
 
+	import { APP_VERSION_KEY } from '../lib/localKeys';
+
 	// Read old version from localStorage on mount
 	$effect(() => {
-		oldVersion = localStorage.getItem('app_version');
+		oldVersion = localStorage.getItem(APP_VERSION_KEY);
 	});
 
 	function handleReload() {

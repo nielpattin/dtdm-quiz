@@ -1,25 +1,5 @@
 <script lang="ts">
-	type SidebarProps = {
-		quizData: { question_id: string }[];
-		current: number;
-		favorites: Set<string>;
-		setCurrent: (idx: number) => void;
-		sidebarOpen: boolean;
-		setSidebarOpen: (open: boolean) => void;
-		addFavorite: (id: string) => void;
-		removeFavorite: (id: string) => void;
-	};
-
-	const {
-		quizData,
-		current,
-		favorites,
-		setCurrent,
-		sidebarOpen,
-		setSidebarOpen,
-		addFavorite,
-		removeFavorite
-	} = $props();
+	const { quizData, current, favorites, setCurrent, setSidebarOpen } = $props();
 
 	// Remove debounce so scroll happens immediately on every current change
 	$effect(() => {

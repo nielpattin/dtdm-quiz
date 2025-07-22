@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { page } from '$app/state';
-
 	interface Props {
 		// TopBar component for module selection and favorites
 		modules?: { value: string; label: string }[];

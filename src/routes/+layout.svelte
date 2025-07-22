@@ -14,8 +14,10 @@
 	let versionConfirmed = $state(false);
 
 	// Only run on client
+	import { APP_VERSION_KEY } from '../lib/localKeys';
+
 	if (typeof window !== 'undefined') {
-		const storedVersion = localStorage.getItem('app_version');
+		const storedVersion = localStorage.getItem(APP_VERSION_KEY);
 		if (!storedVersion || storedVersion !== APP_VERSION) {
 			showVersionModal = true;
 		}
@@ -24,7 +26,7 @@
 	// This function should be called when the user confirms the modal (to be implemented in a later subtask)
 	function confirmVersionUpdate() {
 		localStorage.clear();
-		localStorage.setItem('app_version', APP_VERSION);
+		localStorage.setItem(APP_VERSION_KEY, APP_VERSION);
 		showVersionModal = false;
 		versionConfirmed = true;
 		location.reload();
