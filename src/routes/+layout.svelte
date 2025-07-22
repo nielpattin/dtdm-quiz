@@ -8,6 +8,8 @@
 
 	injectAnalytics({ mode: dev ? 'development' : 'production' });
 
+	console.log('ENVIRONMENT:', dev);
+
 	let { children } = $props();
 
 	let showVersionModal = $state(false);
