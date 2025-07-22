@@ -2,6 +2,7 @@
 	import Sidebar from './Sidebar.svelte';
 	import TopBar from './TopBar.svelte';
 	import QuizCard from './QuizCard.svelte';
+	import Carousel from './Carousel.svelte';
 	import FavoritesModal from './FavoritesModal.svelte';
 	import {
 		DEFAULT_FAVORITES_LOCAL,
@@ -425,47 +426,18 @@
 			<div
 				class="relative w-full h-full flex flex-col items-center justify-center overflow-hidden md:items-start md:justify-center"
 			>
-				{#if pageState.quizData.length > 0}
-					<div
-						class="carousel-vertical flex flex-col items-center justify-center w-full h-full relative md:items-start md:justify-center"
-					>
-						{#each [pageState.current - 1, pageState.current, pageState.current + 1] as idx (idx)}
-							{#if idx >= 0 && idx < pageState.quizData.length}
-								<div
-									class="carousel-card flex justify-center md:items-start md:justify-center"
-									style="width:95vw; height:90%; position: absolute; left:50%; top:50%; transform: translate(-50%, calc(-50% + {(idx -
-										pageState.current) *
-										110}%)); transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);"
-								>
-									<QuizCard
-										currentQuestion={pageState.quizData[idx]}
-										current={idx}
-										quizData={pageState.quizData}
-										selectedAnswers={idx === pageState.current ? pageState.selectedAnswers : []}
-										questionLocked={idx === pageState.current ? pageState.questionLocked : false}
-										{checkAnswers}
-										{handleAnswerClick}
-										{favorites}
-										toggleFavorite={handleToggleFavorite}
-										answers={Array.isArray(pageState.quizData[idx]?.answers)
-											? pageState.quizData[idx].answers.map((a) =>
-													typeof a === 'object' && a !== null ? a : { answer_text: String(a) }
-												)
-											: []}
-										onSwipeUp={handleSwipeUp}
-										onSwipeDown={handleSwipeDown}
-									/>
-								</div>
-							{/if}
-						{/each}
-					</div>
-				{:else if appState.currentView === 'favorites'}
-					<div class="w-full h-full flex flex-col items-center justify-center">
-						<div class="text-lg text-[#CECDE0] font-medium tracking-wide">
-							No favorite questions
-						</div>
-					</div>
-				{/if}
+				<Carousel
+					quizData={pageState.quizData}
+					current={pageState.current}
+					selectedAnswers={pageState.selectedAnswers}
+					questionLocked={pageState.questionLocked}
+					{favorites}
+					{handleSwipeUp}
+					{handleSwipeDown}
+					{handleToggleFavorite}
+					{handleAnswerClick}
+					{checkAnswers}
+				/>
 			</div>
 		</div>
 	</div>
