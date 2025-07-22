@@ -85,7 +85,7 @@
 			setModuleId((e.target as HTMLSelectElement).value);
 			setTimeout(() => selectEl?.blur(), 0);
 		}}
-		class="rounded-md px-3 py-2 bg-[#29273F] text-[#CECDE0] border border-[#33314E] mr-2 ml-0 md:ml-0 focus:outline-none focus:ring-0"
+		class="cursor-pointer rounded-md px-3 py-2 bg-[#29273F] text-[#CECDE0] border border-[#33314E] mr-2 ml-0 md:ml-0 focus:outline-none focus:ring-0"
 		onkeydown={handleSelectKeydown}
 	>
 		{#each modules as mod}
@@ -96,7 +96,7 @@
 		<!-- Favorites Button -->
 		<button
 			id="favorites-btn"
-			class="ml-3 rounded-md px-3 py-2 bg-[#C294FF] text-[#1D1B2C] font-semibold"
+			class="cursor-pointer ml-3 rounded-md px-3 py-2 bg-[#C294FF] text-[#1D1B2C] font-semibold"
 			onclick={handleFavoritesClick}
 		>
 			Favorites
@@ -106,7 +106,7 @@
 		<!-- Back to All Button -->
 		<button
 			id="back-to-all-btn"
-			class="ml-3 rounded-md px-3 py-2 bg-[#C294FF] text-[#1D1B2C] font-semibold"
+			class="cursor-pointer ml-3 rounded-md px-3 py-2 bg-[#C294FF] text-[#1D1B2C] font-semibold"
 			onclick={handleBackClick}
 		>
 			Back to All
@@ -114,7 +114,7 @@
 		<!-- Clear Favorites Button -->
 		<button
 			id="clear-favorites-btn"
-			class="ml-3 rounded-md px-3 py-2 bg-[#C294FF] text-[#1D1B2C] font-semibold mt-2 md:mt-0"
+			class="cursor-pointer ml-3 rounded-md px-3 py-2 bg-[#C294FF] text-[#1D1B2C] font-semibold mt-2 md:mt-0"
 			onclick={handleClearFavorites}
 		>
 			Clear Favorites

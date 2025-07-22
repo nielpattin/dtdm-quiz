@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Sidebar from './Sidebar.svelte';
 	import TopBar from './TopBar.svelte';
-	import QuizCard from './QuizCard.svelte';
 	import Carousel from './Carousel.svelte';
 	import FavoritesModal from './FavoritesModal.svelte';
 	import {
@@ -28,51 +27,51 @@
 
 	let isInitialLoad = $state(true);
 
-	function handleSwipeUp(idx: number) {
-		const cardEl = document.querySelectorAll('.quiz-card')[idx - (pageState.current - 1)];
-		if (cardEl && cardEl.scrollTop + cardEl.clientHeight >= cardEl.scrollHeight - 2) {
-			if (idx === pageState.current && pageState.current < pageState.quizData.length - 1) {
-				pageState.current += 1;
-				pageState.selectedAnswers = [];
-				pageState.questionLocked = false;
-				setTimeout(() => {
-					const nextCard = document.querySelectorAll('.quiz-card')[2];
-					if (nextCard) nextCard.scrollTop = 0;
-				}, 0);
-			}
-		}
-	}
+	// function handleSwipeUp(idx: number) {
+	// 	const cardEl = document.querySelectorAll('.quiz-card')[idx - (pageState.current - 1)];
+	// 	if (cardEl && cardEl.scrollTop + cardEl.clientHeight >= cardEl.scrollHeight - 2) {
+	// 		if (idx === pageState.current && pageState.current < pageState.quizData.length - 1) {
+	// 			pageState.current += 1;
+	// 			pageState.selectedAnswers = [];
+	// 			pageState.questionLocked = false;
+	// 			setTimeout(() => {
+	// 				const nextCard = document.querySelectorAll('.quiz-card')[2];
+	// 				if (nextCard) nextCard.scrollTop = 0;
+	// 			}, 0);
+	// 		}
+	// 	}
+	// }
 
-	function handleSwipeDown(idx: number) {
-		const cardEl = document.querySelectorAll('.quiz-card')[idx - (pageState.current - 1)];
-		if (cardEl && cardEl.scrollTop <= 2) {
-			if (idx === pageState.current && pageState.current > 0) {
-				pageState.current -= 1;
-				pageState.selectedAnswers = [];
-				pageState.questionLocked = false;
-				setTimeout(() => {
-					const prevCard = document.querySelectorAll('.quiz-card')[0];
-					if (prevCard) prevCard.scrollTop = 0;
-				}, 0);
-			}
-		}
-	}
+	// function handleSwipeDown(idx: number) {
+	// 	const cardEl = document.querySelectorAll('.quiz-card')[idx - (pageState.current - 1)];
+	// 	if (cardEl && cardEl.scrollTop <= 2) {
+	// 		if (idx === pageState.current && pageState.current > 0) {
+	// 			pageState.current -= 1;
+	// 			pageState.selectedAnswers = [];
+	// 			pageState.questionLocked = false;
+	// 			setTimeout(() => {
+	// 				const prevCard = document.querySelectorAll('.quiz-card')[0];
+	// 				if (prevCard) prevCard.scrollTop = 0;
+	// 			}, 0);
+	// 		}
+	// 	}
+	// }
 
-	function handleToggleFavorite(idx: number) {
-		if (!pageState.quizData[idx]) return;
-		const qid = pageState.quizData[idx].question_id;
-		if (favorites.has(qid)) {
-			favorites.delete(qid);
-			// favorites is a shared Set, do not reassign
-			if (appState.currentView === 'favorites') {
-				pageState.quizData = [...pageState.quizData.filter((q) => favorites.has(q.question_id))];
-				pageState.current = Math.max(0, Math.min(pageState.current, pageState.quizData.length - 1));
-			}
-		} else {
-			favorites.add(qid);
-			// favorites is a shared Set, do not reassign
-		}
-	}
+	// function handleToggleFavorite(idx: number) {
+	// 	if (!pageState.quizData[idx]) return;
+	// 	const qid = pageState.quizData[idx].question_id;
+	// 	if (favorites.has(qid)) {
+	// 		favorites.delete(qid);
+	// 		// favorites is a shared Set, do not reassign
+	// 		if (appState.currentView === 'favorites') {
+	// 			pageState.quizData = [...pageState.quizData.filter((q) => favorites.has(q.question_id))];
+	// 			pageState.current = Math.max(0, Math.min(pageState.current, pageState.quizData.length - 1));
+	// 		}
+	// 	} else {
+	// 		favorites.add(qid);
+	// 		// favorites is a shared Set, do not reassign
+	// 	}
+	// }
 
 	async function showFavorites() {
 		if (typeof window !== 'undefined') {
@@ -246,24 +245,24 @@
 		pageState.questionLocked = false;
 	}
 
-	function handleAnswerClick(idx: number, questionType: string) {
-		if (pageState.questionLocked) return;
-		if (questionType === 'multiple_answer_question') {
-			if (pageState.selectedAnswers.includes(idx)) {
-				pageState.selectedAnswers = pageState.selectedAnswers.filter((i) => i !== idx);
-			} else {
-				pageState.selectedAnswers = [...pageState.selectedAnswers, idx];
-			}
-		} else {
-			pageState.selectedAnswers = [idx];
-			checkAnswers();
-		}
-	}
+	// function handleAnswerClick(idx: number, questionType: string) {
+	// 	if (pageState.questionLocked) return;
+	// 	if (questionType === 'multiple_answer_question') {
+	// 		if (pageState.selectedAnswers.includes(idx)) {
+	// 			pageState.selectedAnswers = pageState.selectedAnswers.filter((i) => i !== idx);
+	// 		} else {
+	// 			pageState.selectedAnswers = [...pageState.selectedAnswers, idx];
+	// 		}
+	// 	} else {
+	// 		pageState.selectedAnswers = [idx];
+	// 		checkAnswers();
+	// 	}
+	// }
 
-	function checkAnswers() {
-		if (!getCurrentQuestion()) return;
-		pageState.questionLocked = true;
-	}
+	// function checkAnswers() {
+	// 	if (!getCurrentQuestion()) return;
+	// 	pageState.questionLocked = true;
+	// }
 
 	function handleKeyNavigation(e: KeyboardEvent) {
 		if (
@@ -426,18 +425,7 @@
 			<div
 				class="relative w-full h-full flex flex-col items-center justify-center overflow-hidden md:items-start md:justify-center"
 			>
-				<Carousel
-					quizData={pageState.quizData}
-					current={pageState.current}
-					selectedAnswers={pageState.selectedAnswers}
-					questionLocked={pageState.questionLocked}
-					{favorites}
-					{handleSwipeUp}
-					{handleSwipeDown}
-					{handleToggleFavorite}
-					{handleAnswerClick}
-					{checkAnswers}
-				/>
+				<Carousel />
 			</div>
 		</div>
 	</div>

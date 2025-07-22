@@ -5,9 +5,7 @@
 		answer_text?: string;
 		[key: string]: unknown;
 	}
-	interface AnswerWithIdx extends Answer {
-		__originalIdx: number;
-	}
+
 	interface Props {
 		currentQuestion: any;
 		current: number;
@@ -19,6 +17,7 @@
 		favorites: Set<string>;
 		toggleFavorite: (idx: number) => void;
 		answers: Answer[];
+		originalIndices?: number[];
 		onSwipeLeft?: () => void;
 		onSwipeRight?: () => void;
 		onSwipeUp?: (idx: number) => void;
@@ -34,23 +33,12 @@
 		checkAnswers,
 		handleAnswerClick,
 		answers,
+		originalIndices,
 		toggleFavorite,
 		onSwipeUp,
 		onSwipeDown,
 		favorites
 	}: Props = $props();
-
-	let shuffledAnswers = $state<AnswerWithIdx[]>([]);
-	$effect(() => {
-		if (currentQuestion && answers) {
-			const arr: AnswerWithIdx[] = answers.map((a, i) => ({ ...a, __originalIdx: i }));
-			for (let i = arr.length - 1; i > 0; i--) {
-				const j = Math.floor(Math.random() * (i + 1));
-				[arr[i], arr[j]] = [arr[j], arr[i]];
-			}
-			shuffledAnswers = arr;
-		}
-	});
 
 	// Use reactive favorite state from props, not store
 	function isFavorited(id: string) {
@@ -296,25 +284,25 @@
 	<!-- Answers List -->
 	<div class="answers-row flex flex-col gap-4 mb-4">
 		{#if currentQuestion}
-			{#each shuffledAnswers as ans, idx}
+			{#each answers as ans, idx}
 				<button
 					type="button"
 					class="answer px-5 py-3 rounded-lg border-2 border-[#33314E] bg-[#302E4A] text-lg text-[#CECDE0] cursor-pointer transition-colors text-left
-					       {selectedAnswers.includes(ans.__originalIdx) ? 'border-[#C294FF]' : ''}
-					       {questionLocked && currentQuestion.answers[ans.__originalIdx]?.is_correct
+					       {selectedAnswers.includes(idx) ? 'border-[#C294FF]' : ''}
+					       {questionLocked && currentQuestion.answers[originalIndices?.[idx] ?? idx]?.is_correct
 						? 'border-green-400 text-green-300'
 						: ''}
 					       {questionLocked &&
-					selectedAnswers.includes(ans.__originalIdx) &&
-					!currentQuestion.answers[ans.__originalIdx]?.is_correct
+					selectedAnswers.includes(idx) &&
+					!currentQuestion.answers[originalIndices?.[idx] ?? idx]?.is_correct
 						? 'border-[#FF4747] text-[#FF4747]'
 						: ''}"
-					onclick={() => handleAnswerClick(ans.__originalIdx, currentQuestion.question_type)}
-					aria-pressed={selectedAnswers.includes(ans.__originalIdx)}
+					onclick={() => handleAnswerClick(idx, currentQuestion.question_type)}
+					aria-pressed={selectedAnswers.includes(idx)}
 					aria-label={'Answer ' + (idx + 1)}
 					onkeydown={(e) => {
 						if (e.key === 'Enter' || e.key === ' ')
-							handleAnswerClick(ans.__originalIdx, currentQuestion.question_type);
+							handleAnswerClick(idx, currentQuestion.question_type);
 					}}
 				>
 					{ans.answer_text || ans}
