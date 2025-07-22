@@ -1,6 +1,5 @@
 <script lang="ts">
 	interface Props {
-		// FavoritesModal component for displaying and importing favorite question IDs
 		showFavModal: boolean;
 		favIdList: string;
 		closeModal: () => void;
@@ -24,7 +23,7 @@
 		<div
 			class="fav-id-modal bg-white p-6 rounded-xl min-w-[320px] max-w-[95vw] shadow-xl border border-[#e0e0f0] text-[#23223a]"
 		>
-			<h3 class="text-[#574fd6] text-lg font-semibold mb-3">Favorite Question IDs</h3>
+			<h3 class="text-[#574fd6] text-lg font-semibold mb-3">Favorite Questions</h3>
 			<textarea
 				id="fav-id-list"
 				class="w-full h-32 resize-none text-base mb-3 rounded-lg border border-[#d3d3e7] bg-[#f7f7fb] text-[#23223a] p-2"

@@ -21,6 +21,50 @@
 	let selectedAnswers = $state<number[]>([]);
 	let questionLocked = $state(false);
 	let isLoading = $state(false);
+	function handleSwipeUp(idx: number) {
+		const cardEl = document.querySelectorAll('.quiz-card')[idx - (current - 1)];
+		if (cardEl && cardEl.scrollTop + cardEl.clientHeight >= cardEl.scrollHeight - 2) {
+			if (idx === current && current < quizData.length - 1) {
+				current++;
+				selectedAnswers = [];
+				questionLocked = false;
+				setTimeout(() => {
+					const nextCard = document.querySelectorAll('.quiz-card')[2];
+					if (nextCard) nextCard.scrollTop = 0;
+				}, 0);
+			}
+		}
+	}
+
+	function handleSwipeDown(idx: number) {
+		const cardEl = document.querySelectorAll('.quiz-card')[idx - (current - 1)];
+		if (cardEl && cardEl.scrollTop <= 2) {
+			if (idx === current && current > 0) {
+				current--;
+				selectedAnswers = [];
+				questionLocked = false;
+				setTimeout(() => {
+					const prevCard = document.querySelectorAll('.quiz-card')[0];
+					if (prevCard) prevCard.scrollTop = 0;
+				}, 0);
+			}
+		}
+	}
+	function handleToggleFavorite(idx: number) {
+		if (!quizData[idx]) return;
+		const qid = quizData[idx].question_id;
+		if (favorites.has(qid)) {
+			favorites.delete(qid);
+			favorites = new Set(favorites);
+			if (appState.currentView === 'favorites') {
+				quizData = [...quizData.filter((q) => favorites.has(q.question_id))];
+				current = Math.max(0, Math.min(current, quizData.length - 1));
+			}
+		} else {
+			favorites.add(qid);
+			favorites = new Set(favorites);
+		}
+	}
 
 	async function showFavorites() {
 		if (typeof window !== 'undefined') {
@@ -321,8 +365,6 @@
 			localStorage.setItem(FAVORITES_LOCAL_KEY, JSON.stringify(appState.favorites));
 		}
 	});
-
-	// Removed auto-open/close sidebar on resize. Sidebar only opens/closes on explicit user action.
 </script>
 
 <!-- Main Layout -->
@@ -425,61 +467,14 @@
 										{checkAnswers}
 										{handleAnswerClick}
 										{favorites}
-										toggleFavorite={() => {
-											if (!quizData[idx]) return;
-											const qid = quizData[idx].question_id;
-											if (favorites.has(qid)) {
-												favorites.delete(qid);
-												favorites = new Set(favorites);
-												// If in favorites view, remove card from quizData instantly
-												if (appState.currentView === 'favorites') {
-													quizData = quizData.filter((q) => q.question_id !== qid);
-													// Adjust current index if needed
-													if (current >= quizData.length) {
-														current = Math.max(0, quizData.length - 1);
-													}
-												}
-											} else {
-												favorites.add(qid);
-												favorites = new Set(favorites);
-											}
-										}}
+										toggleFavorite={handleToggleFavorite}
 										answers={Array.isArray(quizData[idx]?.answers)
 											? quizData[idx].answers.map((a) =>
 													typeof a === 'object' && a !== null ? a : { answer_text: String(a) }
 												)
 											: []}
-										onSwipeUp={() => {
-											const cardEl = document.querySelectorAll('.quiz-card')[idx - (current - 1)];
-											if (
-												cardEl &&
-												cardEl.scrollTop + cardEl.clientHeight >= cardEl.scrollHeight - 2
-											) {
-												if (idx === current && current < quizData.length - 1) {
-													current++;
-													selectedAnswers = [];
-													questionLocked = false;
-													setTimeout(() => {
-														const nextCard = document.querySelectorAll('.quiz-card')[2];
-														if (nextCard) nextCard.scrollTop = 0;
-													}, 0);
-												}
-											}
-										}}
-										onSwipeDown={() => {
-											const cardEl = document.querySelectorAll('.quiz-card')[idx - (current - 1)];
-											if (cardEl && cardEl.scrollTop <= 2) {
-												if (idx === current && current > 0) {
-													current--;
-													selectedAnswers = [];
-													questionLocked = false;
-													setTimeout(() => {
-														const prevCard = document.querySelectorAll('.quiz-card')[0];
-														if (prevCard) prevCard.scrollTop = 0;
-													}, 0);
-												}
-											}
-										}}
+										onSwipeUp={handleSwipeUp}
+										onSwipeDown={handleSwipeDown}
 									/>
 								</div>
 							{/if}

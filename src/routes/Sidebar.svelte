@@ -1,7 +1,7 @@
 <script lang="ts">
-	const { quizData, current, favorites, setCurrent, setSidebarOpen } = $props();
+	import { Star } from '@lucide/svelte';
+	const { quizData, current, setCurrent, setSidebarOpen, favorites } = $props();
 
-	// Remove debounce so scroll happens immediately on every current change
 	$effect(() => {
 		const btns = document.querySelectorAll('.sidebar-btn');
 		const btn = btns[current] as HTMLElement | undefined;
@@ -20,8 +20,7 @@
 >
 	{#each quizData as q, idx}
 		<button
-			style="outline: none; box-shadow: none;"
-			class="sidebar-btn flex items-center justify-between px-6 py-2 rounded-lg text-base outline-none {idx ===
+			class="cursor-pointer sidebar-btn flex items-center justify-between px-6 py-2 rounded-lg text-base outline-none {idx ===
 			current
 				? 'bg-[#C294FF] text-[#222] font-bold'
 				: 'hover:bg-[#8582B0]'}"
@@ -45,20 +44,7 @@
 			{#if favorites.has(q.question_id)}
 				<!-- Sidebar: Favorite Star -->
 				<span class="ml-2 flex-shrink-0 flex items-center justify-end w-6">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="16"
-						height="16"
-						viewBox="0 0 24 24"
-						fill="#FFD700"
-						stroke="#FFD700"
-						stroke-width="2"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						><polygon
-							points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
-						></polygon></svg
-					>
+					<Star fill="#FFD700" color="#FFD700" size={20} />
 				</span>
 			{/if}
 		</button>

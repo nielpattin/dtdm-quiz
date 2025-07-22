@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+	import { Star } from '@lucide/svelte';
 	interface Answer {
 		answer_text?: string;
 		[key: string]: unknown;
@@ -15,12 +17,12 @@
 		checkAnswers: () => void;
 		handleAnswerClick: (idx: number, questionType: string) => void;
 		favorites: Set<string>;
-		toggleFavorite: () => void;
+		toggleFavorite: (idx: number) => void;
 		answers: Answer[];
 		onSwipeLeft?: () => void;
 		onSwipeRight?: () => void;
-		onSwipeUp?: () => void;
-		onSwipeDown?: () => void;
+		onSwipeUp?: (idx: number) => void;
+		onSwipeDown?: (idx: number) => void;
 	}
 
 	let {
@@ -31,15 +33,13 @@
 		questionLocked,
 		checkAnswers,
 		handleAnswerClick,
-		favorites,
-		toggleFavorite,
 		answers,
+		toggleFavorite,
 		onSwipeUp,
-		onSwipeDown
+		onSwipeDown,
+		favorites
 	}: Props = $props();
 
-	// Shuffle answers for each question load
-	import { onMount } from 'svelte';
 	let shuffledAnswers = $state<AnswerWithIdx[]>([]);
 	$effect(() => {
 		if (currentQuestion && answers) {
@@ -51,6 +51,11 @@
 			shuffledAnswers = arr;
 		}
 	});
+
+	// Use reactive favorite state from props, not store
+	function isFavorited(id: string) {
+		return favorites.has(id);
+	}
 
 	onMount(() => {
 		const cardEls = document.querySelectorAll('.quiz-card');
@@ -152,12 +157,7 @@
 
 			// Only preventDefault if we are at the boundary AND swiping past threshold
 			if (isScrollable) {
-				// Only block scroll if swipe is strictly vertical and threshold is passed
-				// FIX: Only block if swipe is strictly vertical AND at boundary AND threshold passed AND NOT scrolling
-				// If user is actively scrolling, do NOT block
 				const isScrolling = Math.abs(deltaY) < Math.abs(currentX - startX);
-				// Only block scroll if swipe is strictly vertical, threshold is passed, and at boundary, AND not scrolling
-				// FIX: Only block scroll if swipe starts near the edge of the card (top/bottom 40px)
 				const touchY = e.touches[0].clientY;
 				const bounding = cardEl.getBoundingClientRect();
 				const nearTop = touchY - bounding.top < 40;
@@ -205,7 +205,7 @@
 					translateY = -window.innerHeight * 0.7;
 					animating = true;
 					setTimeout(() => {
-						onSwipeUp?.();
+						onSwipeUp?.(current);
 						translateY = 0;
 						animationDirection = null;
 						animating = false;
@@ -216,7 +216,7 @@
 					translateY = window.innerHeight * 0.7;
 					animating = true;
 					setTimeout(() => {
-						onSwipeDown?.();
+						onSwipeDown?.(current);
 						translateY = 0;
 						animationDirection = null;
 						animating = false;
@@ -249,6 +249,7 @@
 		: 0}px); transition: {animating || animationDirection
 		? 'transform 0.2s cubic-bezier(0.4,0,0.2,1)'
 		: 'none'};"
+	ontouchmove={(e) => handleTouchMove(e)}
 >
 	<!-- Question number and Favorite Button row -->
 	<div class="flex items-center justify-between mb-2">
@@ -274,41 +275,13 @@
 		<!-- This is the favorite button -->
 		<button
 			aria-label="Toggle favorite"
-			class="w-10 h-10 bg-transparent border-none p-0 flex items-center justify-center"
-			onclick={toggleFavorite}
+			class="cursor-pointer w-10 h-10 bg-transparent border-none p-0 flex items-center justify-center"
+			onclick={() => toggleFavorite(current)}
 		>
-			{#if favorites.has(currentQuestion?.question_id)}
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="32"
-					height="32"
-					viewBox="0 0 24 24"
-					fill="#FFD700"
-					stroke="#FFD700"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-				>
-					<polygon
-						points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
-					></polygon>
-				</svg>
+			{#if isFavorited(currentQuestion?.question_id)}
+				<Star fill="#FFD700" color="#FFD700" size={32} />
 			{:else}
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="32"
-					height="32"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-				>
-					<polygon
-						points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
-					></polygon>
-				</svg>
+				<Star color="#CECDE0" size={32} />
 			{/if}
 		</button>
 	</div>
