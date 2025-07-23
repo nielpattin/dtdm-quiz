@@ -10,9 +10,7 @@
 		FAVORITE_QUESTIONS_KEY,
 		APPSTATE_ALL_KEY
 	} from '../lib/localKeys';
-
 	import { modules } from '../lib/modules';
-
 	import type { Quiz } from './global.svelte';
 	import {
 		pageState,
@@ -23,55 +21,7 @@
 		getFavIdList
 	} from './global.svelte';
 
-	import { getCurrentQuestion } from './global.svelte';
-
 	let isInitialLoad = $state(true);
-
-	// function handleSwipeUp(idx: number) {
-	// 	const cardEl = document.querySelectorAll('.quiz-card')[idx - (pageState.current - 1)];
-	// 	if (cardEl && cardEl.scrollTop + cardEl.clientHeight >= cardEl.scrollHeight - 2) {
-	// 		if (idx === pageState.current && pageState.current < pageState.quizData.length - 1) {
-	// 			pageState.current += 1;
-	// 			pageState.selectedAnswers = [];
-	// 			pageState.questionLocked = false;
-	// 			setTimeout(() => {
-	// 				const nextCard = document.querySelectorAll('.quiz-card')[2];
-	// 				if (nextCard) nextCard.scrollTop = 0;
-	// 			}, 0);
-	// 		}
-	// 	}
-	// }
-
-	// function handleSwipeDown(idx: number) {
-	// 	const cardEl = document.querySelectorAll('.quiz-card')[idx - (pageState.current - 1)];
-	// 	if (cardEl && cardEl.scrollTop <= 2) {
-	// 		if (idx === pageState.current && pageState.current > 0) {
-	// 			pageState.current -= 1;
-	// 			pageState.selectedAnswers = [];
-	// 			pageState.questionLocked = false;
-	// 			setTimeout(() => {
-	// 				const prevCard = document.querySelectorAll('.quiz-card')[0];
-	// 				if (prevCard) prevCard.scrollTop = 0;
-	// 			}, 0);
-	// 		}
-	// 	}
-	// }
-
-	// function handleToggleFavorite(idx: number) {
-	// 	if (!pageState.quizData[idx]) return;
-	// 	const qid = pageState.quizData[idx].question_id;
-	// 	if (favorites.has(qid)) {
-	// 		favorites.delete(qid);
-	// 		// favorites is a shared Set, do not reassign
-	// 		if (appState.currentView === 'favorites') {
-	// 			pageState.quizData = [...pageState.quizData.filter((q) => favorites.has(q.question_id))];
-	// 			pageState.current = Math.max(0, Math.min(pageState.current, pageState.quizData.length - 1));
-	// 		}
-	// 	} else {
-	// 		favorites.add(qid);
-	// 		// favorites is a shared Set, do not reassign
-	// 	}
-	// }
 
 	async function showFavorites() {
 		if (typeof window !== 'undefined') {
@@ -245,25 +195,6 @@
 		pageState.questionLocked = false;
 	}
 
-	// function handleAnswerClick(idx: number, questionType: string) {
-	// 	if (pageState.questionLocked) return;
-	// 	if (questionType === 'multiple_answer_question') {
-	// 		if (pageState.selectedAnswers.includes(idx)) {
-	// 			pageState.selectedAnswers = pageState.selectedAnswers.filter((i) => i !== idx);
-	// 		} else {
-	// 			pageState.selectedAnswers = [...pageState.selectedAnswers, idx];
-	// 		}
-	// 	} else {
-	// 		pageState.selectedAnswers = [idx];
-	// 		checkAnswers();
-	// 	}
-	// }
-
-	// function checkAnswers() {
-	// 	if (!getCurrentQuestion()) return;
-	// 	pageState.questionLocked = true;
-	// }
-
 	function handleKeyNavigation(e: KeyboardEvent) {
 		if (
 			document.activeElement &&
@@ -354,20 +285,7 @@
 			class="fixed top-0 left-0 h-full z-40 bg-[#29273F] transition-transform duration-200 ease-in-out
 							md:static md:translate-x-0 md:min-w-[200px] md:w-[250px]"
 		>
-			<Sidebar
-				quizData={pageState.quizData}
-				current={pageState.current}
-				{favorites}
-				setCurrent={(idx: number) => {
-					pageState.current = idx;
-					pageState.selectedAnswers = [];
-					pageState.questionLocked = false;
-					if (typeof window !== 'undefined' && window.innerWidth < 768) {
-						uiState.sidebarOpen = false;
-					}
-				}}
-				setSidebarOpen={(open: boolean) => (uiState.sidebarOpen = open)}
-			/>
+			<Sidebar />
 		</div>
 	{/if}
 
