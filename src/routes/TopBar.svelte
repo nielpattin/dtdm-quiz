@@ -1,28 +1,16 @@
 <script lang="ts">
+	import { uiState, appState, pageState } from './global.svelte';
+	import { modules } from '../lib/modules';
+
 	interface Props {
 		// TopBar component for module selection and favorites
-		modules?: { value: string; label: string }[];
-		moduleId: string;
 		setModuleId: (id: string) => void;
 		showFavorites: () => void;
 		onBackToAll: () => void;
 		onClearFavorites: () => void;
-		sidebarOpen: boolean;
-		setSidebarOpen: (open: boolean) => void;
-		currentView: 'all' | 'favorites';
 	}
 
-	let {
-		modules = [],
-		moduleId = $bindable(),
-		setModuleId,
-		showFavorites,
-		onBackToAll,
-		onClearFavorites,
-		sidebarOpen,
-		setSidebarOpen,
-		currentView
-	}: Props = $props();
+	let { setModuleId, showFavorites, onBackToAll, onClearFavorites }: Props = $props();
 
 	let selectEl = $state<HTMLSelectElement | null>(null);
 
@@ -65,11 +53,11 @@
 	class="top-bar flex flex-row items-center justify-center py-4 flex-shrink-0 flex-wrap bg-[#29273F]"
 >
 	<!-- Hamburger button for mobile sidebar toggle -->
-	{#if typeof window !== 'undefined' && window.innerWidth < 768 && !sidebarOpen}
+	{#if typeof window !== 'undefined' && window.innerWidth < 768 && !uiState.sidebarOpen}
 		<button
 			class="hamburger-btn mr-4 bg-[#C294FF] rounded-lg p-2"
 			aria-label="Open sidebar"
-			onclick={() => setSidebarOpen(true)}
+			onclick={() => (uiState.sidebarOpen = true)}
 		>
 			<span class="block w-6 h-[3px] bg-[#222] my-1"></span>
 			<span class="block w-6 h-[3px] bg-[#222] my-1"></span>
@@ -78,7 +66,7 @@
 	{/if}
 	<!-- Module Selector always visible -->
 	<select
-		bind:value={moduleId}
+		bind:value={pageState.moduleId}
 		bind:this={selectEl}
 		onmousedown={handleSelectMousedown}
 		oninput={(e) => {
@@ -92,7 +80,7 @@
 			<option value={mod.value}>{mod.label}</option>
 		{/each}
 	</select>
-	{#if currentView === 'all'}
+	{#if appState.currentView === 'all'}
 		<!-- Favorites Button -->
 		<button
 			id="favorites-btn"
@@ -102,7 +90,7 @@
 			Favorites
 		</button>
 	{/if}
-	{#if currentView === 'favorites'}
+	{#if appState.currentView === 'favorites'}
 		<!-- Back to All Button -->
 		<button
 			id="back-to-all-btn"

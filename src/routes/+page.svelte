@@ -304,17 +304,7 @@
 		<!-- Top Bar -->
 		<div class="w-full relative z-10 flex-shrink-0">
 			{#if typeof window !== 'undefined'}
-				<TopBar
-					{modules}
-					moduleId={pageState.moduleId}
-					{setModuleId}
-					{showFavorites}
-					{onBackToAll}
-					{onClearFavorites}
-					sidebarOpen={uiState.sidebarOpen}
-					setSidebarOpen={(open: boolean) => (uiState.sidebarOpen = open)}
-					currentView={appState.currentView}
-				/>
+				<TopBar {setModuleId} {showFavorites} {onBackToAll} {onClearFavorites} />
 			{/if}
 		</div>
 		<!-- Main Content -->
@@ -355,16 +345,5 @@
 	>
 		★
 	</button>
-	<FavoritesModal
-		showFavModal={uiState.showFavModal}
-		favIdList={getFavIdList()}
-		closeModal={() => (uiState.showFavModal = false)}
-		importFavorites={(ids: string) => {
-			const newIds = ids
-				.split(',')
-				.map((id) => id.trim())
-				.filter(Boolean);
-			for (const id of newIds) favorites.add(id);
-		}}
-	/>
+	<FavoritesModal />
 </div>

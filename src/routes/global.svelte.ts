@@ -25,7 +25,7 @@ export type PageState = {
 	selectedAnswers: number[];
 	questionLocked: boolean;
 	isLoading: boolean;
-	moduleId: string;
+	moduleId: string; // Current module ID for the quiz
 };
 
 export const pageState = $state<PageState>({
